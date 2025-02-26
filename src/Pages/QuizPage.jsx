@@ -1,8 +1,8 @@
-import { useState ,useEffect} from "react";
+import { useState, useEffect } from "react";
 import { questions } from "../data/questions";
 import QuizCard from "../Components/QuizCard";
 import Results from "../Components/Results";
-import { Moon, Sun, Info } from "lucide-react";
+import { Moon, Sun, Info, Github } from "lucide-react"; // Import Github icon
 
 const QuizPage = () => {
   const [index, setIndex] = useState(0);
@@ -15,6 +15,7 @@ const QuizPage = () => {
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem("theme") === "dark"
   );
+
   const handleSelect = (selectedIndex) => {
     setSelected(selectedIndex);
   };
@@ -58,6 +59,7 @@ const QuizPage = () => {
   const attemptedCount = answers.filter((ans) => ans !== null).length;
   const progress = ((attemptedCount / questions.length) * 100).toFixed(2);
   const passProbability = ((score / questions.length) * 100).toFixed(2);
+
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");
@@ -72,15 +74,29 @@ const QuizPage = () => {
     setDarkMode(!darkMode);
   };
 
+  const handleGithubClick = () => {
+    window.open("https://github.com/hydi-official/advance-software-engineering.git", "_blank"); // Replace with your GitHub repo link
+  };
+
   return (
     <div className="min-h-screen flex bg-gray-50 dark:bg-black text-gray-900 dark:text-white relative">
-       {/* Dark Mode Toggle */}
-       <button
+      {/* Dark Mode Toggle */}
+      <button
         className="fixed top-4 right-4 px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white rounded-md"
         onClick={toggleDarkMode}
       >
-        {darkMode ? <Sun size={20} color="yellow" /> : <Moon size={20} />} 
-        </button>
+        {darkMode ? <Sun size={20} color="yellow" /> : <Moon size={20} />}
+      </button>
+
+      {/* Get Source Button */}
+      <button
+        className="fixed top-4 right-24 px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white rounded-md flex items-center"
+        onClick={handleGithubClick}
+      >
+        <Github size={20} className="mr-2" />
+        Get Source
+      </button>
+
       {/* Sidebar */}
       <div
         className={`fixed top-0 left-0 h-full w-64 md:w-80 sm:w-4/5 bg-white dark:bg-gray-800 shadow-lg transform ${
@@ -116,13 +132,14 @@ const QuizPage = () => {
           {sidebarOpen ? "Close" : "View Questions"}
         </button>
 
-  {/* Disclaimer */}
-  <div className="flex items-center bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-300 p-3 rounded-md mt-4 max-w-lg shadow-md">
-        <Info size={20} className="mr-2" />
-        <p className="text-sm">
-          These questions are gathered for practice purposes only and do not reflect actual exam questions.
-        </p>
-      </div>
+        {/* Disclaimer */}
+        <div className="flex items-center bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-300 p-3 rounded-md mt-4 max-w-lg shadow-md">
+          <Info size={20} className="mr-2" />
+          <p className="text-sm">
+            These questions are gathered for practice purposes only and do not reflect actual exam questions.
+          </p>
+        </div>
+
         {!showResults ? (
           <>
             <div className="w-full max-w-md sm:max-w-sm mb-4 text-center">
