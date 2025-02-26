@@ -4820,5 +4820,263 @@ export const questions = [
         ],
         answer: 1,
     },
-
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which principle relates to ensuring AI systems are used fairly and justly?",
+        options: ["Fairness", "Latency", "Redundancy", "Throughput"],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary ethical concern with algorithmic bias?",
+        options: [
+            "It improves system performance",
+            "It can lead to unfair or discriminatory outcomes",
+            "It reduces data storage requirements",
+            "It increases code efficiency"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which of the following is a key ethical principle in software development?",
+        options: [
+            "Transparency",
+            "Maximizing profit",
+            "Increasing system complexity",
+            "Reducing user accessibility"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary goal of ethical AI design?",
+        options: [
+            "To maximize computational speed",
+            "To ensure fairness, accountability, and transparency",
+            "To reduce data storage costs",
+            "To increase system complexity"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which of the following is an example of an ethical dilemma in software engineering?",
+        options: [
+            "Choosing between faster performance and user privacy",
+            "Optimizing code for better efficiency",
+            "Reducing system latency",
+            "Increasing data storage capacity"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary ethical concern with data mining?",
+        options: [
+            "Increased system performance",
+            "Potential violation of user privacy",
+            "Reduced data storage requirements",
+            "Improved code readability"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which principle ensures that AI systems are designed to avoid harm?",
+        options: [
+            "Non-maleficence",
+            "Scalability",
+            "Throughput",
+            "Redundancy"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary ethical concern with autonomous systems?",
+        options: [
+            "Increased system efficiency",
+            "Lack of human oversight and accountability",
+            "Reduced data storage requirements",
+            "Improved code performance"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which of the following is a key ethical consideration in software testing?",
+        options: [
+            "Ensuring tests do not harm users or systems",
+            "Maximizing test coverage at all costs",
+            "Reducing testing time regardless of quality",
+            "Ignoring user feedback during testing"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary ethical concern with predictive policing algorithms?",
+        options: [
+            "Improved crime prevention",
+            "Potential reinforcement of existing biases",
+            "Reduced data storage requirements",
+            "Increased system efficiency"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which principle ensures that AI systems are designed to respect user autonomy?",
+        options: [
+            "Autonomy",
+            "Scalability",
+            "Redundancy",
+            "Throughput"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary ethical concern with deepfake technology?",
+        options: [
+            "Improved video compression",
+            "Potential for misinformation and harm",
+            "Reduced data storage requirements",
+            "Increased system performance"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which of the following is a key ethical principle in data handling?",
+        options: [
+            "Data minimization",
+            "Maximizing data collection",
+            "Ignoring user consent",
+            "Increasing data storage"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary ethical concern with AI-powered hiring systems?",
+        options: [
+            "Improved hiring efficiency",
+            "Potential for biased decision-making",
+            "Reduced data storage requirements",
+            "Increased system performance"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which principle ensures that AI systems are designed to be inclusive?",
+        options: [
+            "Inclusivity",
+            "Scalability",
+            "Redundancy",
+            "Throughput"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary ethical concern with AI-powered surveillance systems?",
+        options: [
+            "Improved security",
+            "Potential violation of privacy and civil liberties",
+            "Reduced data storage requirements",
+            "Increased system efficiency"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which of the following is a key ethical consideration in open-source software development?",
+        options: [
+            "Ensuring proper attribution and licensing",
+            "Maximizing profit from the software",
+            "Reducing code readability",
+            "Ignoring user feedback"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary ethical concern with AI-powered recommendation systems?",
+        options: [
+            "Improved user experience",
+            "Potential for creating echo chambers and biases",
+            "Reduced data storage requirements",
+            "Increased system performance"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which principle ensures that AI systems are designed to be transparent and explainable?",
+        options: [
+            "Explainability",
+            "Scalability",
+            "Redundancy",
+            "Throughput"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary ethical concern with AI-powered decision-making in healthcare?",
+        options: [
+            "Improved diagnostic accuracy",
+            "Potential for errors and lack of accountability",
+            "Reduced data storage requirements",
+            "Increased system efficiency"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which of the following is a key ethical consideration in software deployment?",
+        options: [
+            "Ensuring the software does not harm users or systems",
+            "Maximizing deployment speed at all costs",
+            "Reducing testing time regardless of quality",
+            "Ignoring user feedback during deployment"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary ethical concern with AI-powered content moderation systems?",
+        options: [
+            "Improved content filtering",
+            "Potential for biased or unfair moderation",
+            "Reduced data storage requirements",
+            "Increased system performance"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "Which principle ensures that AI systems are designed to respect user privacy?",
+        options: [
+            "Privacy",
+            "Scalability",
+            "Redundancy",
+            "Throughput"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Ethics in Software Engineering",
+        question: "What is the primary ethical concern with AI-powered financial systems?",
+        options: [
+            "Improved financial efficiency",
+            "Potential for biased or unfair financial decisions",
+            "Reduced data storage requirements",
+            "Increased system performance"
+        ],
+        answer: 1,
+    },
 ];
