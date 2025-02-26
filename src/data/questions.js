@@ -1,6053 +1,4824 @@
 export const questions = [
-    // Section 1: Introduction to Software Engineering (30 questions)
+    // Section 1: Software Architecture Evolution (30 questions)
     {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following best defines software engineering?",
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a key characteristic of monolithic architecture?",
         options: [
-            "Writing code without planning",
-            "A systematic approach to software development",
-            "Debugging existing software",
-            "Designing hardware systems"
+            "Loosely coupled components",
+            "Single codebase for all functionalities",
+            "Independent deployment of services",
+            "Event-driven communication"
         ],
         answer: 1,
     },
     {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following best defines software engineering?",
+        section: "Software Architecture Evolution",
+        question: "What is the primary advantage of microservices over monolithic architecture?",
         options: [
-            "Writing code without planning",
-            "A systematic approach to software development",
-            "Debugging existing software",
-            "Designing hardware systems"
+            "Simpler debugging process",
+            "Improved scalability and maintainability",
+            "Reduced need for APIs",
+            "Lower initial development cost"
         ],
         answer: 1,
     },
-
-    // Section 2: DevOps and CI/CD (10 questions)
     {
-        section: "DevOps and CI/CD",
-        question: "Continuous Integration (CI) in DevOps focuses on:",
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a challenge of microservices architecture?",
         options: [
-            "Automatically merging code changes into a shared repository frequently",
-            "Deploying software directly to production without testing",
-            "Avoiding frequent code commits",
-            "Writing code without version control"
+            "Tight coupling of components",
+            "Difficulty in managing distributed systems",
+            "Limited scalability",
+            "Single point of failure"
         ],
-        answer: 0,
-    },
-    {
-        section: "DevOps and CI/CD",
-        question: "What is the main advantage of Continuous Deployment (CD)?",
-        options: [
-            "It allows automatic deployment of validated changes to production",
-            "It eliminates the need for automated testing",
-            "It prevents developers from making frequent changes",
-            "It requires manual approval for all code releases"
-        ],
-        answer: 0,
-    },
-    {
-        section: "DevOps and CI/CD",
-        question: "Which of the following is NOT a tool commonly used in Agile and DevOps?",
-        options: [
-            "JIRA",
-            "Jenkins",
-            "GitLab",
-            "Microsoft Excel"
-        ],
-        answer: 3,
-    },
-    {
-        section: "DevOps and CI/CD",
-        question: "What is JIRA primarily used for in Agile development?",
-        options: [
-            "Code deployment automation",
-            "Version control management",
-            "Project tracking and issue management",
-            "Database performance optimization"
-        ],
-        answer: 2,
-    },
-    {
-        section: "DevOps and CI/CD",
-        question: "How does Jenkins contribute to the CI/CD pipeline?",
-        options: [
-            "It helps automate build, test, and deployment processes",
-            "It replaces manual coding efforts",
-            "It is used for Agile sprint planning",
-            "It prevents automated testing"
-        ],
-        answer: 0,
-    },
-    {
-        section: "DevOps and CI/CD",
-        question: "Which of the following best describes GitLab’s role in DevOps?",
-        options: [
-            "A code collaboration and CI/CD platform",
-            "A database management tool",
-            "A manual testing framework",
-            "A network security tool"
-        ],
-        answer: 0,
-    },
-    {
-        section: "DevOps and CI/CD",
-        question: "One of the biggest benefits of DevOps in large-scale development is:",
-        options: [
-            "Increased silos between development and operations teams",
-            "Faster, more reliable software delivery through automation",
-            "Avoiding the use of Agile methodologies",
-            "Replacing all manual testing with human intervention"
-        ],
-        answer: 1,
-    },
-
-    // Section 3: Software Testing (10 questions)
-    {
-        section: "Software Testing",
-        question: "What is the primary goal of software testing?",
-        options: [
-            "To prove that the software is bug-free",
-            "To find and fix defects before deployment",
-            "To write code without any errors",
-            "To replace developers with automation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Testing",
-        question: "Which type of testing focuses on verifying individual components or functions of a program?",
-        options: [
-            "System Testing",
-            "Integration Testing",
-            "Unit Testing",
-            "Regression Testing"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Software Testing",
-        question: "What is the primary purpose of integration testing?",
-        options: [
-            "To check how different modules or components work together",
-            "To test only the UI components of an application",
-            "To find performance issues in production",
-            "To test the software after deployment"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Software Testing",
-        question: "Regression testing ensures that:",
-        options: [
-            "New code changes do not introduce new bugs in existing functionality",
-            "Only UI components are tested",
-            "The software is deployed without testing",
-            "The database is optimized for performance"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Software Testing",
-        question: "In Test-Driven Development (TDD), which step comes first?",
-        options: [
-            "Writing the actual implementation code",
-            "Writing a failing test case",
-            "Running performance testing",
-            "Conducting a manual review"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Testing",
-        question: "How does Behavior-Driven Development (BDD) differ from TDD?",
-        options: [
-            "BDD focuses on defining behavior using natural language, while TDD focuses on writing tests before implementation",
-            "BDD eliminates the need for testing",
-            "TDD is only for frontend development, while BDD is for backend development",
-            "BDD does not require collaboration between developers and stakeholders"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Software Testing",
-        question: "Which of the following is an automated testing tool used for web applications?",
-        options: [
-            "Selenium",
-            "JIRA",
-            "Jenkins",
-            "Git"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Software Testing",
-        question: "What is JUnit primarily used for?",
-        options: [
-            "Unit testing in Java applications",
-            "Automating UI tests",
-            "Code deployment",
-            "Managing Agile projects"
-        ],
-        answer: 0,
-    },
-
-    // Section 4: Project Management (10 questions)
-    {
-        section: "Project Management",
-        question: "Which project management methodology follows a sequential, phase-based approach?",
-        options: [
-            "Agile",
-            "Waterfall",
-            "Scrum",
-            "Kanban"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Project Management",
-        question: "Agile methodology is best suited for projects that require:",
-        options: [
-            "Strict, linear planning with no scope for changes",
-            "Rapid iterations, flexibility, and continuous feedback",
-            "No communication between stakeholders",
-            "A single release at the end of the project"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Project Management",
-        question: "A Hybrid project management approach combines elements of:",
-        options: [
-            "Only Agile methodologies",
-            "Only Waterfall methodologies",
-            "Both Waterfall and Agile methodologies",
-            "No predefined methodologies"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Project Management",
-        question: "What is the primary purpose of risk assessment in software project management?",
-        options: [
-            "To completely eliminate all project risks",
-            "To identify, analyze, and mitigate potential risks",
-            "To increase project complexity",
-            "To ignore low-priority issues"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Project Management",
-        question: "Which of the following is NOT a risk mitigation strategy?",
-        options: [
-            "Avoiding the risk",
-            "Ignoring the risk until it occurs",
-            "Transferring the risk (e.g., outsourcing)",
-            "Accepting the risk with a contingency plan"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Project Management",
-        question: "What is the main purpose of resource allocation in software projects?",
-        options: [
-            "To ensure that all resources are utilized effectively",
-            "To assign all resources to a single task",
-            "To ignore team capacity when planning tasks",
-            "To avoid using project management tools"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Project Management",
-        question: "A Gantt chart is used for:",
-        options: [
-            "Tracking project schedules and task dependencies",
-            "Writing code documentation",
-            "Conducting software testing",
-            "Managing code repositories"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Project Management",
-        question: "In a team-based project, effective communication ensures:",
-        options: [
-            "Fewer misunderstandings and better collaboration",
-            "More work done in isolation",
-            "Less need for project documentation",
-            "The elimination of Agile principles"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Project Management",
-        question: "Which of the following is a key document in project management that outlines project scope, objectives, and constraints?",
-        options: [
-            "Business Requirement Document (BRD)",
-            "Test Plan",
-            "Source Code Documentation",
-            "Database Schema"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Project Management",
-        question: "In Agile project management, daily stand-up meetings are held to:",
-        options: [
-            "Discuss progress, roadblocks, and next steps",
-            "Assign blame for project delays",
-            "Replace all written documentation",
-            "Conduct code reviews"
-        ],
-        answer: 0,
-    },
-
-    // Section 5: Security and Compliance (10 questions)
-    {
-        section: "Security and Compliance",
-        question: "Which of the following is NOT a principle of secure software design?",
-        options: [
-            "Least privilege",
-            "Security through obscurity",
-            "Defense in depth",
-            "Fail-safe defaults"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Security and Compliance",
-        question: "Threat modeling helps in:",
-        options: [
-            "Identifying and mitigating potential security threats",
-            "Replacing encryption with simpler security measures",
-            "Avoiding compliance with security regulations",
-            "Speeding up software development by skipping security testing"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Security and Compliance",
-        question: "Which of the following is an example of a software vulnerability?",
-        options: [
-            "Strong password policies",
-            "SQL injection",
-            "Multi-factor authentication",
-            "Secure API encryption"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Security and Compliance",
-        question: "What is the primary purpose of security testing in software development?",
-        options: [
-            "To detect and fix security vulnerabilities before deployment",
-            "To improve application performance",
-            "To reduce software development costs",
-            "To avoid testing functional aspects of the software"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Security and Compliance",
-        question: "Which of the following is a best practice for secure coding?",
-        options: [
-            "Hardcoding passwords in the source code",
-            "Validating and sanitizing user inputs",
-            "Storing user credentials in plain text",
-            "Disabling authentication for easier access"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Security and Compliance",
-        question: "What is the main goal of data privacy regulations like GDPR and CCPA?",
-        options: [
-            "To allow unrestricted data collection",
-            "To protect users' personal data and ensure transparency in data processing",
-            "To encourage companies to sell user data",
-            "To eliminate the need for user consent in data collection"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Security and Compliance",
-        question: "Which of the following security mechanisms helps prevent unauthorized access to sensitive data?",
-        options: [
-            "Encryption",
-            "Open access policies",
-            "Hardcoding credentials",
-            "Using weak passwords"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Security and Compliance",
-        question: "A vulnerability assessment helps organizations:",
-        options: [
-            "Identify and evaluate security weaknesses in their systems",
-            "Increase the complexity of their software",
-            "Eliminate the need for secure coding practices",
-            "Ignore compliance with security regulations"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Security and Compliance",
-        question: "What is the primary purpose of GDPR compliance?",
-        options: [
-            "To protect EU citizens' personal data and privacy rights",
-            "To regulate software development methodologies",
-            "To enforce strict coding standards",
-            "To limit cloud computing usage"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Security and Compliance",
-        question: "What is the role of penetration testing in security?",
-        options: [
-            "To simulate cyberattacks and identify system vulnerabilities",
-            "To speed up software development",
-            "To replace the need for security policies",
-            "To make software open-source"
-        ],
-        answer: 0,
-    },
-
-    // Section 6: Emerging Trends (10 questions)
-    {
-        section: "Emerging Trends",
-        question: "How is AI impacting software engineering?",
-        options: [
-            "Automating repetitive coding tasks and improving software quality",
-            "Eliminating the need for human developers",
-            "Making software development more complex without benefits",
-            "Replacing Agile methodologies"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Emerging Trends",
-        question: "Which of the following is a primary use case for machine learning in software development?",
-        options: [
-            "Writing all application code without human intervention",
-            "Enhancing predictive analytics and automation in applications",
-            "Eliminating the need for databases",
-            "Increasing manual testing efforts"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends",
-        question: "What is a key advantage of cloud computing?",
-        options: [
-            "Reduced reliance on physical hardware and increased scalability",
-            "Higher costs and complex maintenance requirements",
-            "No need for internet connectivity",
-            "Limited accessibility for remote teams"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Emerging Trends",
-        question: "Serverless architecture eliminates the need for:",
-        options: [
-            "Managing physical infrastructure and server provisioning",
-            "Writing code for applications",
-            "Software security measures",
-            "Cloud storage solutions"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Emerging Trends",
-        question: "Which of the following is a key characteristic of Internet of Things (IoT) software?",
-        options: [
-            "It connects and enables communication between smart devices",
-            "It only works with traditional desktop applications",
-            "It prevents data collection from sensors",
-            "It replaces cloud computing"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Emerging Trends",
-        question: "Blockchain technology is primarily used for:",
-        options: [
-            "Secure and transparent data transactions",
-            "Improving the speed of web applications",
-            "Replacing cloud storage",
-            "Writing AI algorithms"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Emerging Trends",
-        question: "Edge computing is designed to:",
-        options: [
-            "Process data closer to the source to reduce latency",
-            "Replace centralized cloud computing",
-            "Increase network congestion",
-            "Slow down data processing"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Emerging Trends",
-        question: "Which ethical concern is most relevant to AI in software development?",
-        options: [
-            "Bias in machine learning algorithms",
-            "Increasing manual coding efforts",
-            "Reducing software performance intentionally",
-            "Avoiding the use of open-source frameworks"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Emerging Trends",
-        question: "Sustainability in software development involves:",
-        options: [
-            "Optimizing code and infrastructure for energy efficiency",
-            "Using non-scalable solutions",
-            "Increasing hardware dependency unnecessarily",
-            "Avoiding security best practices"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Emerging Trends",
-        question: "How does cloud computing contribute to sustainability?",
-        options: [
-            "By optimizing resource usage and reducing energy consumption",
-            "By requiring dedicated physical servers for each user",
-            "By increasing software complexity without benefits",
-            "By making applications less scalable"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Emerging Trends",
-        question: "What is a key trend in modern software engineering related to AI and automation?",
-        options: [
-            "Reduced reliance on data",
-            "Increased use of AI for code generation and testing",
-            "Avoidance of automation in software development",
-            "Exclusively using manual coding practices"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends",
-        question: "Which of the following best describes the concept of DevOps in emerging software engineering trends?",
-        options: [
-            "A focus on completely isolating development and operations teams",
-            "A methodology that promotes collaboration and automation between development and operations",
-            "The replacement of Agile methodologies",
-            "A strategy to avoid continuous testing and integration"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends",
-        question: "Microservices architecture is becoming increasingly popular because it allows for:",
-        options: [
-            "A single, monolithic application that is difficult to scale",
-            "Independent, loosely coupled services that can be developed, deployed, and scaled separately",
-            "A reduction in the need for cloud infrastructure",
-            "Centralized management of all components in a single system"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends",
-        question: "Which of the following best describes 'low-code' and 'no-code' development platforms?",
-        options: [
-            "Platforms that require minimal coding and allow users to build applications quickly with little or no coding experience",
-            "Tools exclusively for testing code",
-            "Environments that require advanced programming skills",
-            "Development platforms that avoid integration with cloud services"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Emerging Trends",
-        question: "Serverless computing is gaining traction because it allows developers to:",
-        options: [
-            "Build applications without worrying about managing servers",
-            "Write applications without any coding",
-            "Use a single central server for all user requests",
-            "Focus exclusively on hardware management"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Emerging Trends",
-        question: "In terms of software security, the 'shift-left' trend means:",
-        options: [
-            "Focusing on security only after software deployment",
-            "Incorporating security measures early in the development lifecycle",
-            "Ignoring security during the development phase",
-            "Prioritizing the use of physical security over software security"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the main purpose of software architecture?",
-        options: [
-            "To write code faster",
-            "To define the structure and behavior of a system",
-            "To debug existing software",
-            "To design user interfaces"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "Which architectural style is known for its modularity and independence?",
-        options: ["Monolithic", "Microservices", "Event-Driven", "Layered Architecture"],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "Which design pattern ensures a class has only one instance?",
-        options: ["Factory", "Singleton", "Observer", "MVC"],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the Observer design pattern used for?",
-        options: [
-            "To create objects without specifying the exact class",
-            "To notify multiple objects about state changes",
-            "To encapsulate requests as objects",
-            "To define a family of algorithms"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "Which of the following is a benefit of using design patterns?",
-        options: [
-            "Increased code complexity",
-            "Reusable solutions to common problems",
-            "Tighter coupling between components",
-            "Reduced flexibility"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the purpose of the Factory design pattern?",
-        options: [
-            "To ensure a single instance of a class",
-            "To create objects without specifying the exact class",
-            "To notify objects about state changes",
-            "To encapsulate requests as objects"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the purpose of the Model-View-Controller (MVC) pattern?",
-        options: [
-            "To ensure a single instance of a class",
-            "To separate concerns in user interface design",
-            "To notify objects about state changes",
-            "To encapsulate requests as objects"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security",
-        question: "In terms of software security, the 'shift-left' trend means:",
-        options: [
-            "Focusing on security only after software deployment",
-            "Incorporating security measures early in the development lifecycle",
-            "Ignoring security during the development phase",
-            "Prioritizing the use of physical security over software security"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Technologies",
-        question: "The concept of 'Edge Computing' is primarily used to:",
-        options: [
-            "Centralize data processing in large cloud data centers",
-            "Process data closer to the source to reduce latency and improve performance",
-            "Store data on centralized servers",
-            "Process all data on mobile devices without network connectivity"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain",
-        question: "Which of the following is a key characteristic of Blockchain technology?",
-        options: [
-            "Centralized data storage for all transactions",
-            "A decentralized, distributed ledger that ensures transparency and security",
-            "Exclusive focus on financial transactions",
-            "Limited scalability for large applications"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile & DevOps Practices",
-        question: "In the context of emerging software engineering trends, 'Continuous Integration/Continuous Deployment' (CI/CD) is focused on:",
-        options: [
-            "Manually integrating software features one by one",
-            "Automating the process of integrating and deploying code to production continuously",
-            "Delaying the integration process until the final stages of development",
-            "Using physical hardware to test software changes"
-        ],
-        answer: 1,
-    },
-    {
-        section: "AI-Driven Software Engineering",
-        question: "What is the primary benefit of using AI-powered code review tools?",
-        options: [
-            "Reducing the need for manual code writing",
-            "Automating the review process to find errors and improve code quality",
-            "Completely replacing human developers",
-            "Writing the entire application code without input from developers"
-        ],
-        answer: 1,
-    },
-    // Add more questions up to 30
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the main purpose of software architecture?",
-        options: [
-            "To write code faster",
-            "To define the structure and behavior of a system",
-            "To debug existing software",
-            "To design user interfaces"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "Which architectural style is known for its modularity and independence?",
-        options: ["Monolithic", "Microservices", "Event-Driven", "Layered Architecture"],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "Which design pattern ensures a class has only one instance?",
-        options: ["Factory", "Singleton", "Observer", "MVC"],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the Observer design pattern used for?",
-        options: [
-            "To create objects without specifying the exact class",
-            "To notify multiple objects about state changes",
-            "To encapsulate requests as objects",
-            "To define a family of algorithms"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "Which of the following is a benefit of using design patterns?",
-        options: [
-            "Increased code complexity",
-            "Reusable solutions to common problems",
-            "Tighter coupling between components",
-            "Reduced flexibility"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the purpose of the Factory design pattern?",
-        options: [
-            "To ensure a single instance of a class",
-            "To create objects without specifying the exact class",
-            "To notify objects about state changes",
-            "To encapsulate requests as objects"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the purpose of the Model-View-Controller (MVC) pattern?",
-        options: [
-            "To ensure a single instance of a class",
-            "To separate concerns in user interface design",
-            "To notify objects about state changes",
-            "To encapsulate requests as objects"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security",
-        question: "In terms of software security, the 'shift-left' trend means:",
-        options: [
-            "Focusing on security only after software deployment",
-            "Incorporating security measures early in the development lifecycle",
-            "Ignoring security during the development phase",
-            "Prioritizing the use of physical security over software security"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Technologies",
-        question: "The concept of 'Edge Computing' is primarily used to:",
-        options: [
-            "Centralize data processing in large cloud data centers",
-            "Process data closer to the source to reduce latency and improve performance",
-            "Store data on centralized servers",
-            "Process all data on mobile devices without network connectivity"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain",
-        question: "Which of the following is a key characteristic of Blockchain technology?",
-        options: [
-            "Centralized data storage for all transactions",
-            "A decentralized, distributed ledger that ensures transparency and security",
-            "Exclusive focus on financial transactions",
-            "Limited scalability for large applications"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile & DevOps Practices",
-        question: "In the context of emerging software engineering trends, 'Continuous Integration/Continuous Deployment' (CI/CD) is focused on:",
-        options: [
-            "Manually integrating software features one by one",
-            "Automating the process of integrating and deploying code to production continuously",
-            "Delaying the integration process until the final stages of development",
-            "Using physical hardware to test software changes"
-        ],
-        answer: 1,
-    },
-    {
-        section: "AI-Driven Software Engineering",
-        question: "What is the primary benefit of using AI-powered code review tools?",
-        options: [
-            "Reducing the need for manual code writing",
-            "Automating the review process to find errors and improve code quality",
-            "Completely replacing human developers",
-            "Writing the entire application code without input from developers"
-        ],
-        answer: 1,
-    },
-    // Add more questions up to 30
-
-      // Section 1: Introduction to Software Engineering (30 questions)
-      {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is NOT a phase in the Software Development Life Cycle (SDLC)?",
-        options: [
-            "Requirement Analysis",
-            "Design",
-            "Marketing",
-            "Testing"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which SDLC model is best suited for projects with unclear requirements that evolve over time?",
-        options: [
-            "Waterfall Model",
-            "Agile Model",
-            "V-Model",
-            "Spiral Model"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the main purpose of requirements engineering?",
-        options: [
-            "To write program code",
-            "To define user needs and system requirements",
-            "To test the software after development",
-            "To deploy the software"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "In software design, which principle emphasizes breaking down a system into smaller, manageable modules?",
-        options: [
-            "Cohesion",
-            "Coupling",
-            "Modularity",
-            "Abstraction"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is a key advantage of Agile development over the Waterfall model?",
-        options: [
-            "It follows a strict sequence of phases",
-            "It does not require client feedback",
-            "It allows flexibility and iterative improvements",
-            "It eliminates the need for testing"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is an example of a functional requirement?",
-        options: [
-            "The system should be available 24/7",
-            "The system should allow users to log in using a username and password",
-            "The software should be user-friendly",
-            "The application should respond within 2 seconds"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which software engineering trend focuses on using AI to assist in code generation and debugging?",
-        options: [
-            "DevOps",
-            "Machine Learning Ops (MLOps)",
-            "Artificial Intelligence-assisted Development",
-            "Edge Computing"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the primary objective of software maintenance?",
-        options: [
-            "To completely rewrite the software",
-            "To add new features and fix bugs",
-            "To develop new software from scratch",
-            "To eliminate software development costs"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which SDLC model incorporates risk assessment at every phase of development?",
-        options: [
-            "Waterfall Model",
-            "Agile Model",
-            "Spiral Model",
-            "Incremental Model"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which software engineering trend involves automating the software deployment process to improve efficiency?",
-        options: [
-            "Agile Development",
-            "DevOps",
-            "Blockchain Development",
-            "Cloud Computing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Why is software architecture important in software development?",
-        options: [
-            "It helps in defining coding standards",
-            "It ensures scalability, maintainability, and performance",
-            "It eliminates the need for software testing",
-            "It only focuses on user interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following best describes a monolithic architecture?",
-        options: [
-            "A system composed of independent microservices",
-            "A single-tiered application where all components are interconnected",
-            "An architecture that relies entirely on cloud-based services",
-            "A decentralized system with no dependencies"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "In microservices architecture, how do services typically communicate with each other?",
-        options: [
-            "Direct function calls",
-            "Shared memory access",
-            "Lightweight protocols like REST or messaging queues",
-            "Hard-coded dependencies"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which architectural style is best suited for real-time applications like stock trading platforms?",
-        options: [
-            "Monolithic Architecture",
-            "Event-Driven Architecture",
-            "Layered Architecture",
-            "Microservices Architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following design patterns ensures that only one instance of a class is created and provides a global point of access?",
-        options: [
-            "Factory Pattern",
-            "Singleton Pattern",
-            "Observer Pattern",
-            "MVC Pattern"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "The Factory Design Pattern is used to:",
-        options: [
-            "Restrict object creation to a single instance",
-            "Allow a class to notify dependent objects of state changes",
-            "Create objects without specifying the exact class to be instantiated",
-            "Separate the data model from the user interface"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which design pattern is commonly used in GUI applications to separate concerns between the user interface and data logic?",
-        options: [
-            "Singleton Pattern",
-            "MVC (Model-View-Controller) Pattern",
-            "Observer Pattern",
-            "Factory Pattern"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "In the Observer Pattern, which component notifies observers when its state changes?",
-        options: [
-            "Observer",
-            "Subject",
-            "Factory",
-            "Singleton"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which software architecture style organizes components into hierarchical layers where each layer provides services to the layer above it?",
-        options: [
-            "Microservices Architecture",
-            "Layered Architecture",
-            "Event-Driven Architecture",
-            "Service-Oriented Architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "A practical application of the Factory Design Pattern is:",
-        options: [
-            "Ensuring a single database connection instance in an application",
-            "Managing object creation for different types of shapes in a graphics editor",
-            "Enforcing consistent updates across UI components",
-            "Separating an application’s business logic from its presentation layer"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is an enhancement over the traditional Waterfall model by allowing feedback between stages?",
-        options: [
-            "Agile Model",
-            "Spiral Model",
-            "V-Model",
-            "Prototype Model"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "The Spiral Model is best suited for:",
-        options: [
-            "Small-scale projects with well-defined requirements",
-            "High-risk projects requiring iterative risk assessment",
-            "Rapid application development without formal planning",
-            "Projects that follow a strict linear approach"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a best practice in SDLC planning?",
-        options: [
-            "Ignoring risk management until the testing phase",
-            "Defining clear milestones and deliverables",
-            "Developing software without stakeholder input",
-            "Avoiding documentation to speed up the process"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Requirements engineering primarily focuses on:",
-        options: [
-            "Writing source code",
-            "Identifying, documenting, and validating system requirements",
-            "Fixing bugs during testing",
-            "Deploying the final software"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which type of requirement specifies constraints like performance, security, and usability?",
-        options: [
-            "Functional Requirement",
-            "Non-Functional Requirement",
-            "Business Requirement",
-            "User Requirement"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "A well-documented software project should include:",
-        options: [
-            "Only source code with inline comments",
-            "No documentation if developers understand the system",
-            "System architecture diagrams, requirements, and user manuals",
-            "Only a final deployment guide"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the primary goal of feasibility analysis during the SDLC planning phase?",
-        options: [
-            "To determine whether the project is technically and financially viable",
-            "To directly start coding the project",
-            "To document software user guides",
-            "To conduct software testing"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which documentation is crucial for managing changes in complex projects?",
-        options: [
-            "Change Management Document",
-            "Final Deployment Report",
-            "Test Execution Summary",
-            "Marketing Strategy Document"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "A major challenge in requirements engineering is:",
-        options: [
-            "Implementing the latest programming languages",
-            "Ensuring all stakeholders agree on the requirements",
-            "Skipping the requirements phase to save time",
-            "Avoiding software testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following SDLC models emphasizes customer feedback and iterative development?",
-        options: [
-            "Waterfall Model",
-            "Agile Model",
-            "Big Bang Model",
-            "V-Model"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is NOT a common technique for eliciting software requirements?",
-        options: [
-            "Interviews",
-            "Prototyping",
-            "Debugging",
-            "Brainstorming"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the main goal of requirements elicitation?",
-        options: [
-            "To implement software code",
-            "To gather, analyze, and document user needs",
-            "To test the final software product",
-            "To deploy the software system"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a non-functional requirement?",
-        options: [
-            "The system should allow users to reset their passwords",
-            "The application should load within 2 seconds",
-            "A user should be able to create an account",
-            "The system should provide search functionality"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Scalability in software refers to:",
-        options: [
-            "The ability to add more users, transactions, or resources without performance issues",
-            "The security level of the system",
-            "The ability to work without any failures",
-            "The cost of maintaining the software"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which technique helps prioritize software requirements based on their importance and urgency?",
-        options: [
-            "MoSCoW Method",
-            "Black-box Testing",
-            "Waterfall Model",
-            "Version Control"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is NOT a non-functional requirement?",
-        options: [
-            "Reliability",
-            "Security",
-            "User login functionality",
-            "Performance"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "The primary purpose of requirements validation is to:",
-        options: [
-            "Ensure the system meets stakeholder expectations",
-            "Convert requirements into programming code",
-            "Eliminate the need for software documentation",
-            "Reduce the cost of testing"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Reliability in software systems refers to:",
-        options: [
-            "The software's ability to resist cyber-attacks",
-            "The probability of the system operating correctly over time",
-            "The ability to scale to handle more users",
-            "The visual appeal of the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a common method for validating requirements?",
-        options: [
-            "Code refactoring",
-            "Requirement reviews and prototyping",
-            "Database optimization",
-            "Continuous deployment"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Security as a non-functional requirement ensures that:",
-        options: [
-            "The system performs well under high traffic",
-            "The software prevents unauthorized access and data breaches",
-            "The software supports multiple languages",
-            "The software is compatible with different operating systems"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the main focus of user-centered design (UCD)?",
-        options: [
-            "Prioritizing business goals over user needs",
-            "Designing software solely based on developer preferences",
-            "Ensuring the system meets user needs, expectations, and behaviors",
-            "Eliminating the need for usability testing"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is NOT a principle of user-centered design?",
-        options: [
-            "Early focus on users and tasks",
-            "Iterative design and testing",
-            "Ignoring user feedback in later stages",
-            "Designing for user experience and usability"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is usability testing?",
-        options: [
-            "A process to evaluate how easily users can interact with a system",
-            "A method for testing software security",
-            "A programming technique to improve performance",
-            "A process of debugging code"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the primary goal of usability testing?",
-        options: [
-            "To test the system’s security vulnerabilities",
-            "To determine how efficiently users can complete tasks",
-            "To replace functional testing",
-            "To increase system complexity"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key metric in usability testing?",
-        options: [
-            "Lines of code written",
-            "Task completion rate",
-            "Number of database queries",
-            "Server uptime"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which usability testing method involves observing users as they perform tasks?",
-        options: [
-            "A/B Testing",
-            "Heuristic Evaluation",
-            "Think-Aloud Protocol",
-            "Load Testing"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "How does iterative development benefit from user feedback?",
-        options: [
-            "It allows continuous improvement based on real user interactions",
-            "It eliminates the need for usability testing",
-            "It prevents developers from making design changes",
-            "It speeds up development by avoiding user input"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is heuristic evaluation?",
-        options: [
-            "A usability testing method where experts review the interface based on predefined usability principles",
-            "A coding technique used to optimize performance",
-            "A method to test system security",
-            "A type of functional testing"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is an example of integrating user feedback in iterative development?",
-        options: [
-            "Conducting surveys and making UI adjustments based on responses",
-            "Releasing a product without user testing",
-            "Ignoring negative reviews from users",
-            "Avoiding design changes after the first version"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "A user-friendly system should be:",
-        options: [
-            "Complex and feature-rich, regardless of usability",
-            "Easy to learn, efficient, and error-free",
-            "Difficult to navigate but powerful",
-            "Focused only on aesthetics rather than functionality"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the primary goal of a Scaled Agile Framework (SAFe)?",
-        options: [
-            "To apply Agile principles to large enterprises",
-            "To replace Agile with Waterfall",
-            "To eliminate the need for team collaboration",
-            "To focus only on individual teams rather than scaling Agile"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key characteristic of Large-Scale Scrum (LeSS)?",
-        options: [
-            "Multiple Scrum teams working on independent projects",
-            "A single Scrum Master for all teams",
-            "A lightweight framework for scaling Scrum across multiple teams",
-            "A rigid hierarchical development approach"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the primary role of DevOps in modern software development?",
-        options: [
-            "To separate development and operations teams",
-            "To automate and streamline the software delivery process",
-            "To increase manual intervention in deployments",
-            "To replace Agile methodologies"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following best defines software engineering?",
-        options: [
-            "Writing code without planning",
-            "A systematic approach to software development",
-            "Debugging existing software",
-            "Designing hardware systems"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the primary goal of the Software Development Lifecycle (SDLC)?",
-        options: [
-            "To write code as quickly as possible",
-            "To ensure high-quality software through a structured process",
-            "To minimize the use of documentation",
-            "To focus only on the coding phase"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is NOT a common SDLC model?",
-        options: [
-            "Waterfall",
-            "Agile",
-            "Spiral",
-            "Random"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the purpose of requirements engineering in SDLC?",
-        options: [
-            "To write code faster",
-            "To gather and document stakeholder needs",
-            "To design the user interface",
-            "To test the software"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a current trend in software engineering?",
-        options: [
-            "Waterfall model",
-            "Agile methodologies",
-            "Manual testing only",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the role of a software engineer in the SDLC?",
-        options: [
-            "To manage the project budget",
-            "To design, develop, and maintain software systems",
-            "To handle marketing and sales",
-            "To focus only on hardware design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key principle of software engineering?",
-        options: [
-            "Writing code without testing",
-            "Modularity and separation of concerns",
-            "Ignoring user requirements",
-            "Avoiding documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the importance of documentation in software engineering?",
-        options: [
-            "It slows down development",
-            "It provides a reference for developers and stakeholders",
-            "It is unnecessary in modern development",
-            "It is only used for large projects"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a characteristic of the Waterfall model?",
-        options: [
-            "Iterative development",
-            "Linear and sequential phases",
-            "Flexible requirements",
-            "Continuous feedback"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the main advantage of the Agile model?",
-        options: [
-            "Rigid planning",
-            "Flexibility and adaptability to change",
-            "Minimal stakeholder involvement",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key activity in the planning phase of SDLC?",
-        options: [
-            "Writing code",
-            "Defining project scope and objectives",
-            "Testing the software",
-            "Designing the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the purpose of the design phase in SDLC?",
-        options: [
-            "To write code",
-            "To create a blueprint for the software system",
-            "To test the software",
-            "To gather requirements"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key deliverable of the requirements phase?",
-        options: [
-            "Source code",
-            "Software Requirements Specification (SRS)",
-            "Test cases",
-            "User interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the role of testing in SDLC?",
-        options: [
-            "To delay the project",
-            "To ensure the software meets requirements and is bug-free",
-            "To eliminate the need for documentation",
-            "To focus only on user interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a non-functional requirement?",
-        options: [
-            "User login functionality",
-            "System performance and scalability",
-            "Database schema design",
-            "Code commenting standards"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the purpose of the maintenance phase in SDLC?",
-        options: [
-            "To develop new features",
-            "To fix bugs and improve the software",
-            "To gather requirements",
-            "To design the system"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key challenge in software engineering?",
-        options: [
-            "Lack of programming languages",
-            "Managing changing requirements",
-            "Limited hardware resources",
-            "No need for testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the role of a software architect?",
-        options: [
-            "To write code",
-            "To design the overall structure of the software system",
-            "To test the software",
-            "To manage the project budget"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key principle of Agile development?",
-        options: [
-            "Comprehensive documentation",
-            "Customer collaboration over contract negotiation",
-            "Following a rigid plan",
-            "Minimizing stakeholder involvement"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the purpose of version control in software engineering?",
-        options: [
-            "To manage project budgets",
-            "To track changes and collaborate on code",
-            "To design user interfaces",
-            "To test software"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key benefit of using iterative development?",
-        options: [
-            "Faster delivery of the final product",
-            "Early and continuous feedback",
-            "Reduced need for testing",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the role of a product owner in Agile development?",
-        options: [
-            "To write code",
-            "To represent the stakeholders and prioritize the backlog",
-            "To test the software",
-            "To design the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key activity in the deployment phase of SDLC?",
-        options: [
-            "Writing code",
-            "Releasing the software to users",
-            "Gathering requirements",
-            "Designing the system"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the purpose of a feasibility study in SDLC?",
-        options: [
-            "To write code",
-            "To assess the practicality of the project",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key principle of software design?",
-        options: [
-            "Tight coupling between modules",
-            "Separation of concerns",
-            "Ignoring user requirements",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the role of a software tester in SDLC?",
-        options: [
-            "To write code",
-            "To ensure the software meets quality standards",
-            "To design the system architecture",
-            "To manage the project budget"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key benefit of using prototyping in SDLC?",
-        options: [
-            "Increased development time",
-            "Early validation of requirements",
-            "Reduced need for testing",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the purpose of risk management in software engineering?",
-        options: [
-            "To ignore potential issues",
-            "To identify and mitigate potential risks",
-            "To delay the project",
-            "To focus only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key characteristic of the Spiral model?",
-        options: [
-            "Linear and sequential phases",
-            "Iterative development with risk analysis",
-            "No documentation",
-            "Minimal stakeholder involvement"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the role of a scrum master in Agile development?",
-        options: [
-            "To write code",
-            "To facilitate the Scrum process and remove impediments",
-            "To test the software",
-            "To design the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the primary goal of the Software Development Life Cycle (SDLC)?",
-        options: [
-            "To reduce the cost of hardware",
-            "To ensure high-quality software delivery",
-            "To eliminate the need for testing",
-            "To automate all software processes"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is NOT a phase in the SDLC?",
-        options: [
-            "Requirements gathering",
-            "Deployment",
-            "Marketing",
-            "Maintenance"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "According to Sommerville, what are the four fundamental activities in software processes?",
-        options: [
-            "Design, coding, testing, and deployment",
-            "Specification, development, validation, and evolution",
-            "Planning, execution, monitoring, and closure",
-            "Analysis, design, implementation, and testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a current trend in software engineering?",
-        options: [
-            "Waterfall model",
-            "Monolithic architecture",
-            "DevOps",
-            "Manual testing"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the difference between software engineering and programming?",
-        options: [
-            "They are the same thing",
-            "Software engineering involves the entire development process while programming is just coding",
-            "Programming is more complex than software engineering",
-            "Software engineering is only concerned with design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a key challenge in software engineering according to Sommerville?",
-        options: [
-            "Declining need for software",
-            "Increasing system complexity",
-            "Decreasing hardware capabilities",
-            "Reducing team sizes"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What does the term 'software crisis' refer to?",
-        options: [
-            "The declining number of software developers",
-            "Problems with hardware compatibility",
-            "Difficulties in developing reliable, cost-effective software on time",
-            "The increasing cost of computer hardware"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is a software process?",
-        options: [
-            "The act of writing code",
-            "A set of activities and results that produce software",
-            "Testing software for bugs",
-            "The deployment of software to users"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the main purpose of requirements engineering?",
-        options: [
-            "To write code quickly",
-            "To identify and document what the software should do",
-            "To test software functionality",
-            "To deploy software to users"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the main benefit of iterative development?",
-        options: [
-            "It eliminates the need for planning",
-            "It allows for feedback and adjustment throughout the development process",
-            "It requires less documentation",
-            "It is always faster than other methods"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the primary purpose of software maintenance?",
-        options: [
-            "To fix bugs only",
-            "To modify software to adapt to changing requirements and environments",
-            "To completely rewrite the software",
-            "To document existing code"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which type of software is most critical for safety concerns?",
-        options: [
-            "Mobile games",
-            "Word processors",
-            "Flight control systems",
-            "Social media applications"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is software quality according to Sommerville?",
-        options: [
-            "The absence of bugs",
-            "A measure of how well the software conforms to requirements, standards, and expectations",
-            "The speed of execution",
-            "The amount of documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is NOT a software quality attribute?",
-        options: [
-            "Reliability",
-            "Maintainability",
-            "Profitability",
-            "Usability"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the role of a software architect?",
-        options: [
-            "Writing code",
-            "Testing software",
-            "Designing the overall structure of the software system",
-            "Managing the project budget"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is NOT a type of software requirement?",
-        options: [
-            "Functional",
-            "Non-functional",
-            "Domain",
-            "Financial"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the purpose of a software design document?",
-        options: [
-            "To describe the code in detail",
-            "To outline the architecture and components of the software",
-            "To list all the bugs found during testing",
-            "To calculate the cost of development"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is refactoring in software engineering?",
-        options: [
-            "Adding new features to existing software",
-            "Restructuring code without changing its behavior to improve quality",
-            "Finding and fixing bugs",
-            "Rewriting the entire application"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following best describes the 'Build-and-Fix' model?",
-        options: [
-            "A systematic approach with clear phases",
-            "An informal approach without explicit process, planning, or specification",
-            "A model that emphasizes testing above all else",
-            "A model that requires extensive documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the primary limitation of the Waterfall model?",
-        options: [
-            "It costs more than other models",
-            "It requires too many developers",
-            "It doesn't accommodate changing requirements well",
-            "It doesn't include a testing phase"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What does CMMI stand for in software engineering?",
-        options: [
-            "Computer Moderated Method Integration",
-            "Capability Maturity Model Integration",
-            "Complex Module Management Interface",
-            "Code Modification and Maintenance Interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "According to Sommerville, what is the difference between software engineering and system engineering?",
-        options: [
-            "They are the same thing",
-            "System engineering deals with hardware, while software engineering deals with code",
-            "System engineering concerns all aspects of computer-based systems development including hardware and process, while software engineering focuses on software aspects",
-            "System engineering is obsolete, while software engineering is modern"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is technical debt in software development?",
-        options: [
-            "The cost of hardware needed for development",
-            "The financial investment in developer training",
-            "The implied cost of additional work caused by choosing an easy solution now instead of a better approach that would take longer",
-            "The cost of buying software licenses"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is NOT a key stakeholder in software development?",
-        options: [
-            "End users",
-            "Development team",
-            "Project managers",
-            "Hardware manufacturers"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is meant by 'software evolution' according to Sommerville?",
-        options: [
-            "The process of developing software from scratch",
-            "The process of continuously modifying software after its initial release",
-            "The transition from one programming language to another",
-            "The replacement of old software with new software"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the primary goal of software verification?",
-        options: [
-            "To ensure the software is what the customer wants",
-            "To ensure the software conforms to its specification",
-            "To ensure the software runs quickly",
-            "To ensure the software is easy to maintain"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "Which of the following is a critical success factor for software projects according to Sommerville?",
-        options: [
-            "Having a large development team",
-            "Using the newest programming languages",
-            "Effective communication among team members",
-            "Developing software as quickly as possible"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What are legacy systems in software engineering?",
-        options: [
-            "Brand new systems using the latest technology",
-            "Older systems that are still in use but built with outdated technology",
-            "Systems that have completely failed",
-            "Systems that are in the early stages of development"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Introduction to Software Engineering",
-        question: "What is the primary purpose of a feasibility study in software engineering?",
-        options: [
-            "To write code quickly",
-            "To test software functionality",
-            "To determine if a proposed software project is viable",
-            "To document existing code"
-        ],
-        answer: 2,
-    },
-
-    // Section 2: Software Architecture and Design Patterns (30 questions)
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "Which of the following best defines software architecture?",
-        options: [
-            "Writing code for a specific module",
-            "The high-level structure of a software system",
-            "Debugging software errors",
-            "Creating user interfaces"
-        ],
         answer: 1,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the primary purpose of the Singleton design pattern?",
+        section: "Software Architecture Evolution",
+        question: "What is the role of an API gateway in microservices?",
         options: [
-            "To create multiple instances of a class",
-            "To ensure a class has only one instance",
             "To manage database connections",
-            "To improve code readability"
+            "To provide a single entry point for client requests",
+            "To handle serverless function execution",
+            "To enforce monolithic architecture"
         ],
         answer: 1,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "Which architectural style is characterized by dividing an application into smaller, independent services?",
+        section: "Software Architecture Evolution",
+        question: "Which architecture is best suited for real-time data processing?",
         options: [
             "Monolithic",
             "Microservices",
-            "Layered",
-            "Event-Driven"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the main advantage of using the Model-View-Controller (MVC) pattern?",
-        options: [
-            "It reduces the need for testing",
-            "It separates concerns into three components",
-            "It eliminates the need for documentation",
-            "It automates code generation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "According to Sommerville, what is the key benefit of using design patterns?",
-        options: [
-            "They eliminate the need for testing",
-            "They provide reusable solutions to common problems",
-            "They reduce the cost of hardware",
-            "They automate the deployment process"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the Factory design pattern used for?",
-        options: [
-            "Creating objects without specifying the exact class to create",
-            "Managing memory allocation",
-            "Connecting to databases",
-            "Handling user interface events"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "Which design pattern is used to add new functionality to an object without altering its structure?",
-        options: [
-            "Observer",
-            "Decorator",
-            "Singleton",
-            "Factory"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the primary purpose of the Observer design pattern?",
-        options: [
-            "To create multiple objects at once",
-            "To define a one-to-many dependency between objects",
-            "To restrict instantiation to one object",
-            "To simplify database access"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is a key characteristic of the layered architectural style?",
-        options: [
-            "Each layer provides services to the layer above and uses services of the layer below",
-            "All components communicate directly with each other",
-            "It uses a central database for all communication",
-            "It has no clear structure"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the main feature of an event-driven architecture?",
-        options: [
-            "It follows a strict sequence of operations",
-            "Components communicate through direct method calls",
-            "Components communicate by producing and consuming events",
-            "It requires a single centralized component to coordinate all activities"
+            "Event-driven",
+            "Serverless"
         ],
         answer: 2,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the key benefit of a microservices architecture?",
+        section: "Software Architecture Evolution",
+        question: "What is a key benefit of serverless architecture?",
         options: [
-            "Simplified deployment as a single unit",
-            "Services can be developed, deployed, and scaled independently",
-            "It requires less network communication",
-            "It is easier to maintain consistency across the system"
+            "Full control over server management",
+            "Automatic scaling and reduced operational overhead",
+            "Tight coupling of components",
+            "High upfront infrastructure costs"
         ],
         answer: 1,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the primary purpose of the Strategy design pattern?",
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a disadvantage of serverless architecture?",
         options: [
-            "To create multiple objects at once",
-            "To define a family of algorithms and make them interchangeable",
-            "To restrict instantiation to one object",
-            "To simplify database access"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the main advantage of using the Repository pattern?",
-        options: [
-            "It eliminates the need for a database",
-            "It abstracts the data layer and centralizes data access logic",
-            "It improves user interface design",
-            "It automates code generation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "Which architectural style is most suitable for applications with high scalability requirements?",
-        options: [
-            "Monolithic",
-            "Microservices",
-            "Pipe and Filter",
-            "Blackboard"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the Adapter design pattern used for?",
-        options: [
-            "Adapting databases to different operating systems",
-            "Allowing incompatible interfaces to work together",
-            "Creating user interfaces that adapt to screen sizes",
-            "Adapting code to run on different programming languages"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "According to Sommerville, what is an architectural pattern?",
-        options: [
-            "A low-level implementation detail",
-            "A reusable solution to a commonly occurring problem in software architecture",
-            "A programming language feature",
-            "A type of user interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the primary purpose of the Command design pattern?",
-        options: [
-            "To encapsulate a request as an object",
-            "To manage database commands",
-            "To create user interface command buttons",
-            "To execute operating system commands"
+            "Vendor lock-in",
+            "Complex deployment process",
+            "Limited scalability",
+            "High maintenance of servers"
         ],
         answer: 0,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "Which architectural style uses a central data structure with independent components that operate on it?",
+        section: "Software Architecture Evolution",
+        question: "What is the primary purpose of event-driven architecture?",
         options: [
-            "Client-Server",
-            "Pipe and Filter",
-            "Blackboard",
-            "Microservices"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the main characteristic of a Pipe and Filter architectural style?",
-        options: [
-            "It uses a central database",
-            "Components (filters) process data and pass it to the next component through pipes",
-            "All components communicate directly with each other",
-            "It requires a user interface for each component"
+            "To centralize all application logic",
+            "To enable asynchronous communication between services",
+            "To reduce the need for APIs",
+            "To simplify monolithic systems"
         ],
         answer: 1,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the primary purpose of the Composite design pattern?",
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a common use case for event-driven architecture?",
         options: [
-            "To compose objects into tree structures",
-            "To combine multiple databases",
-            "To merge code files together",
-            "To create composite user interfaces"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the key benefit of using the Dependency Injection pattern?",
-        options: [
-            "It eliminates all dependencies between classes",
-            "It reduces coupling by injecting dependencies rather than having a class create or find them",
-            "It automates the deployment process",
-            "It improves user interface design"
+            "Static websites",
+            "Real-time notifications and messaging systems",
+            "Monolithic legacy systems",
+            "Serverless batch processing"
         ],
         answer: 1,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "Which design pattern is used to provide a surrogate or placeholder for another object?",
+        section: "Software Architecture Evolution",
+        question: "What is the main challenge of migrating from monolithic to microservices?",
         options: [
-            "Factory",
-            "Proxy",
-            "Singleton",
-            "Observer"
+            "Increased development speed",
+            "Managing distributed data consistency",
+            "Reduced complexity",
+            "Easier debugging"
         ],
         answer: 1,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "What is a key characteristic of the Client-Server architectural style?",
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a key feature of microservices?",
         options: [
-            "It doesn't require a network",
-            "Servers provide services that are used by clients",
-            "All components have equal responsibilities",
-            "It uses a central data structure for all communication"
+            "Tightly coupled components",
+            "Independent deployment of services",
+            "Single database for all services",
+            "Centralized logging and monitoring"
         ],
         answer: 1,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "According to Sommerville, what are architectural views?",
+        section: "Software Architecture Evolution",
+        question: "What is the primary benefit of using containers in microservices?",
         options: [
-            "Different perspectives of the system architecture addressing different concerns",
-            "Visual diagrams of the system's appearance",
-            "User interface mockups",
-            "Screenshots of the completed application"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the Template Method design pattern used for?",
-        options: [
-            "Creating HTML templates",
-            "Defining the program skeleton of an algorithm in a method but letting subclasses override specific steps",
-            "Generating code templates",
-            "Designing user interface templates"
+            "Increased hardware dependency",
+            "Consistent environment across development and production",
+            "Tight coupling of services",
+            "Reduced need for APIs"
         ],
         answer: 1,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the main advantage of the Model-View-ViewModel (MVVM) pattern?",
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a disadvantage of monolithic architecture?",
         options: [
-            "It eliminates the need for a model",
-            "It separates the user interface from the business logic with a view model acting as a bridge",
-            "It requires less code than other patterns",
-            "It only works for web applications"
+            "Easy to scale horizontally",
+            "Single point of failure",
+            "Independent deployment of components",
+            "Loosely coupled services"
         ],
         answer: 1,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "Which of the following is NOT a category of design patterns according to the Gang of Four?",
+        section: "Software Architecture Evolution",
+        question: "What is the primary purpose of a service mesh in microservices?",
         options: [
-            "Creational",
-            "Structural",
-            "Behavioral",
-            "Functional"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the primary purpose of the Builder design pattern?",
-        options: [
-            "To build physical structures",
-            "To separate the construction of a complex object from its representation",
-            "To build user interfaces",
-            "To build database connections"
+            "To manage database connections",
+            "To handle service-to-service communication",
+            "To replace API gateways",
+            "To enforce monolithic architecture"
         ],
         answer: 1,
     },
     {
-        section: "Software Architecture and Design Patterns",
-        question: "Which architectural style is most suitable for real-time systems with strict performance requirements?",
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a key characteristic of serverless architecture?",
         options: [
-            "Microservices",
-            "Layered",
-            "Component-based",
-            "Client-server"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Software Architecture and Design Patterns",
-        question: "What is the primary purpose of the Chain of Responsibility pattern?",
-        options: [
-            "To chain multiple databases together",
-            "To pass a request along a chain of handlers until one handles it",
-            "To create linked lists in code",
-            "To connect servers in a network"
+            "Manual scaling of servers",
+            "Event-driven execution of functions",
+            "High upfront infrastructure costs",
+            "Tight coupling of components"
         ],
         answer: 1,
     },
-
-    // Section 3: Advanced Software Development Lifecycle (SDLC) (30 questions)
     {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "Which of the following is an enhanced SDLC model?",
+        section: "Software Architecture Evolution",
+        question: "What is the primary benefit of event-driven architecture?",
         options: [
-            "Waterfall",
-            "Spiral",
-            "Agile",
+            "Centralized control of all services",
+            "Asynchronous and decoupled communication",
+            "Reduced need for APIs",
+            "Simplified debugging"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a common tool for managing microservices?",
+        options: [
+            "Kubernetes",
+            "Apache Hadoop",
+            "Docker Compose",
             "All of the above"
         ],
         answer: 3,
     },
     {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the primary purpose of documentation in complex projects?",
+        section: "Software Architecture Evolution",
+        question: "What is the primary challenge of serverless architecture?",
         options: [
-            "To increase the cost of the project",
-            "To ensure clarity and traceability",
-            "To eliminate the need for testing",
-            "To automate code generation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the role of prototyping in SDLC?",
-        options: [
-            "To validate requirements and design",
-            "To replace the need for testing",
-            "To automate deployment",
-            "To reduce the cost of hardware"
+            "Vendor lock-in",
+            "High upfront infrastructure costs",
+            "Tight coupling of components",
+            "Limited scalability"
         ],
         answer: 0,
     },
     {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the difference between iterative and incremental development?",
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a key benefit of microservices?",
         options: [
-            "Iterative development refines the product through cycles, while incremental development adds features in stages",
-            "Iterative development is faster than incremental development",
-            "Incremental development eliminates the need for testing",
-            "There is no difference"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "According to Sommerville, what are the key challenges in software project management?",
-        options: [
-            "Changing requirements, time constraints, and resource allocation",
-            "Lack of tools and technologies",
-            "Over-reliance on documentation",
-            "Insufficient coding standards"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the main characteristic of the Spiral model?",
-        options: [
-            "It follows a strict sequential path",
-            "It combines iterative development with risk analysis",
-            "It requires no documentation",
-            "It is only suitable for small projects"
+            "Simplified debugging",
+            "Independent scaling of services",
+            "Reduced need for APIs",
+            "Centralized logging and monitoring"
         ],
         answer: 1,
     },
     {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the primary goal of the planning phase in SDLC?",
+        section: "Software Architecture Evolution",
+        question: "What is the primary purpose of a message broker in event-driven architecture?",
         options: [
-            "To write code quickly",
-            "To create a project plan that guides the development process",
-            "To eliminate the need for testing",
-            "To reduce the number of developers needed"
+            "To manage database connections",
+            "To facilitate communication between services",
+            "To replace API gateways",
+            "To enforce monolithic architecture"
         ],
         answer: 1,
     },
     {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the primary advantage of the V-Model over the Waterfall model?",
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a key characteristic of monolithic architecture?",
         options: [
-            "It eliminates the need for planning",
-            "It emphasizes verification and validation activities for each phase",
-            "It requires less documentation",
-            "It is always faster"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is a key characteristic of Extreme Programming (XP)?",
-        options: [
-            "It emphasizes extensive documentation",
-            "It advocates pair programming and continuous testing",
-            "It follows a strict sequential process",
-            "It requires minimal customer involvement"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the primary purpose of a sprint retrospective in Scrum?",
-        options: [
-            "To plan the next sprint",
-            "To demonstrate the completed work",
-            "To reflect on the past sprint and identify improvements",
-            "To write documentation"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the role of a product owner in Scrum?",
-        options: [
-            "To write code",
-            "To represent the stakeholders and prioritize the product backlog",
-            "To manage the development team",
-            "To test the software"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the primary purpose of Continuous Integration (CI) in SDLC?",
-        options: [
-            "To eliminate the need for testing",
-            "To integrate code changes frequently and detect problems early",
-            "To generate documentation automatically",
-            "To reduce the number of developers needed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "According to Sommerville, what is a key component of effective software configuration management?",
-        options: [
-            "Using only one programming language",
-            "Version control and change tracking",
-            "Avoiding all changes to requirements",
-            "Having a large development team"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the primary purpose of a burndown chart in Agile methodologies?",
-        options: [
-            "To track remaining work over time",
-            "To document code",
-            "To assign tasks to developers",
-            "To design user interfaces"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the primary advantage of Kanban over Scrum?",
-        options: [
-            "It requires more documentation",
-            "It provides continuous delivery without time-boxed iterations",
-            "It is more suitable for large teams",
-            "It eliminates the need for planning"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the primary purpose of a user story in Agile methodologies?",
-        options: [
-            "To document code",
-            "To describe a feature from the end user's perspective",
-            "To design the database",
-            "To assign tasks to developers"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the Definition of Done (DoD) in Scrum?",
-        options: [
-            "A list of tasks to complete",
-            "A set of criteria that must be met before a user story is considered complete",
-            "The project deadline",
-            "The end of a sprint"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the primary purpose of a product backlog in Scrum?",
-        options: [
-            "To document code",
-            "To prioritize features to be developed",
-            "To assign tasks to specific developers",
-            "To list completed tasks"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the role of a Scrum Master?",
-        options: [
-            "To write code",
-            "To facilitate the Scrum process and remove impediments",
-            "To represent stakeholders",
-            "To test the software"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "According to Sommerville, what is the primary advantage of iterative development?",
-        options: [
-            "It eliminates the need for testing",
-            "It allows for early feedback and risk reduction",
-            "It requires less documentation",
-            "It is always faster than other methods"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the primary purpose of a sprint review in Scrum?",
-        options: [
-            "To plan the next sprint",
-            "To demonstrate the completed work to stakeholders",
-            "To reflect on the past sprint",
-            "To write documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the purpose of a daily stand-up meeting in Agile methodologies?",
-        options: [
-            "To write documentation",
-            "To synchronize the team and identify impediments",
-            "To assign tasks to developers",
-            "To test the software"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is technical debt in the context of SDLC?",
-        options: [
-            "The cost of hardware",
-            "The implied cost of future rework caused by choosing an easy solution now",
-            "The salary of technical staff",
-            "The cost of training developers"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the primary purpose of velocity measurement in Agile?",
-        options: [
-            "To measure how fast developers type",
-            "To predict how much work can be completed in future sprints",
-            "To determine developer salaries",
-            "To measure the speed of the servers"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "What is the main principle behind the Lean development methodology?",
-        options: [
-            "Adding as many features as possible",
-            "Eliminating waste and optimizing efficiency",
-            "Working as many hours as possible",
-            "Creating extensive documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Software Development Lifecycle (SDLC)",
-        question: "According to Sommerville, what is a key aspect of software evolution?",
-        options: [
-            "Software systems must continually evolve to remain useful",
-            "Software should never be changed after release",
-            "Evolution is only necessary for faulty software",
-            "Evolution only applies to web applications"
-        ],
-        answer: 0,
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the main purpose of software architecture?",
-        "options": [
-            "To write code faster",
-            "To define the structure and behavior of a system",
-            "To debug existing software",
-            "To design user interfaces"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which architectural style is known for its modularity and independence?",
-        "options": [
-            "Monolithic",
-            "Microservices",
-            "Event-Driven",
-            "Layered Architecture"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which design pattern ensures a class has only one instance?",
-        "options": [
-            "Factory",
-            "Singleton",
-            "Observer",
-            "MVC"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the Observer design pattern used for?",
-        "options": [
-            "To create objects without specifying the exact class",
-            "To notify multiple objects about state changes",
-            "To encapsulate requests as objects",
-            "To define a family of algorithms"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following is a benefit of using design patterns?",
-        "options": [
-            "Increased code complexity",
-            "Reusable solutions to common problems",
-            "Tighter coupling between components",
-            "Reduced flexibility"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the purpose of the Factory design pattern?",
-        "options": [
-            "To ensure a single instance of a class",
-            "To create objects without specifying the exact class",
-            "To notify objects about state changes",
-            "To encapsulate requests as objects"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following is a characteristic of Microservices architecture?",
-        "options": [
-            "Tightly coupled components",
+            "Loosely coupled components",
+            "Single codebase for all functionalities",
             "Independent deployment of services",
-            "Shared database for all services",
-            "Monolithic structure"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the role of the Model-View-Controller (MVC) pattern?",
-        "options": [
-            "To ensure a single instance of a class",
-            "To separate concerns in user interface design",
-            "To notify objects about state changes",
-            "To encapsulate requests as objects"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following is a key principle of Layered Architecture?",
-        "options": [
-            "Tight coupling between layers",
-            "Separation of concerns",
-            "Shared database for all layers",
-            "Monolithic structure"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the purpose of the Event-Driven architecture?",
-        "options": [
-            "To ensure a single instance of a class",
-            "To handle asynchronous events and messages",
-            "To encapsulate requests as objects",
-            "To define a family of algorithms"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What are the key trade-offs when choosing a Monolithic architecture?",
-        "options": [
-            "Simplicity vs. scalability",
-            "Performance vs. reliability",
-            "Security vs. usability",
-            "Deployment vs. development speed"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which pattern is most appropriate when you need to convert one interface to another?",
-        "options": [
-            "Proxy",
-            "Adapter",
-            "Decorator",
-            "Facade"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is a key challenge of implementing Microservices architecture?",
-        "options": [
-            "Code duplication",
-            "Data consistency across services",
-            "User interface design",
-            "Programming language selection"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "In which scenario would the Decorator pattern be most appropriate?",
-        "options": [
-            "Adding responsibilities to objects dynamically",
-            "Creating families of related objects",
-            "Defining an algorithm structure with customizable parts",
-            "Notifying multiple objects about state changes"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which architecture style is best suited for systems with highly variable loads?",
-        "options": [
-            "Layered Architecture",
-            "Monolithic",
-            "Serverless Architecture",
-            "Pipe and Filter"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the primary purpose of the Command design pattern?",
-        "options": [
-            "To create objects without specifying the exact class",
-            "To add responsibilities to objects dynamically",
-            "To encapsulate a request as an object",
-            "To define a family of algorithms"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following is NOT a commonly recognized architectural quality attribute?",
-        "options": [
-            "Scalability",
-            "Maintainability",
-            "Programming language",
-            "Security"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the main benefit of implementing a Facade design pattern?",
-        "options": [
-            "Providing a simplified interface to a complex subsystem",
-            "Ensuring only one instance of a class exists",
-            "Creating objects without specifying their classes",
-            "Notifying multiple objects about state changes"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "In a Layered Architecture, what is the primary rule regarding dependencies?",
-        "options": [
-            "Higher layers can depend on lower layers but not vice versa",
-            "Lower layers can depend on higher layers but not vice versa",
-            "Layers can depend on any other layer",
-            "No dependencies are allowed between layers"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the Strategy design pattern used for?",
-        "options": [
-            "To encapsulate a request as an object",
-            "To define a family of algorithms and make them interchangeable",
-            "To ensure a class has only one instance",
-            "To notify multiple objects about state changes"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which architectural style is characterized by independent components that process data as it flows through the system?",
-        "options": [
-            "Event-Driven",
-            "Microservices",
-            "Pipe and Filter",
-            "Client-Server"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the primary concern when designing a system's architecture?",
-        "options": [
-            "Meeting functional requirements",
-            "Meeting non-functional requirements (quality attributes)",
-            "Keeping development costs low",
-            "Using the latest technologies"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which design pattern helps with breaking down complex objects creation?",
-        "options": [
-            "Builder",
-            "Prototype",
-            "Proxy",
-            "Mediator"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which architectural decision would most likely improve a system's scalability?",
-        "options": [
-            "Adding more features",
-            "Implementing stateless components",
-            "Creating tighter coupling between modules",
-            "Using a single database for all operations"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the primary purpose of the Proxy design pattern?",
-        "options": [
-            "To provide a surrogate or placeholder for another object",
-            "To define a family of algorithms",
-            "To notify objects about state changes",
-            "To ensure a class has only one instance"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following is a key characteristic of Event-Driven Architecture?",
-        "options": [
-            "Synchronous communication between components",
-            "Loose coupling between event producers and consumers",
-            "Centralized control flow",
-            "Single database for all components"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "In the context of practical case studies, which design pattern would be most suitable for implementing undo functionality in a text editor?",
-        "options": [
-            "Command",
-            "Memento",
-            "State",
-            "Iterator"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the primary advantage of Service-Oriented Architecture (SOA) compared to Monolithic Architecture?",
-        "options": [
-            "Easier to understand the entire system",
-            "Better reusability of services across different applications",
-            "Faster initial development",
-            "Simpler deployment process"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following design patterns is most appropriate for implementing a plugin architecture?",
-        "options": [
-            "Factory Method",
-            "Template Method",
-            "Abstract Factory",
-            "Bridge"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "In advanced software engineering, what is the main purpose of architectural documentation?",
-        "options": [
-            "To satisfy project management requirements",
-            "To communicate design decisions and their rationale",
-            "To provide detailed implementation instructions",
-            "To impress stakeholders with technical expertise"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the main purpose of software architecture?",
-        "options": [
-            "To write code faster",
-            "To define the structure and behavior of a system",
-            "To debug existing software",
-            "To design user interfaces"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which architectural style is known for its modularity and independence?",
-        "options": [
-            "Monolithic",
-            "Microservices",
-            "Event-Driven",
-            "Layered Architecture"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which design pattern ensures a class has only one instance?",
-        "options": [
-            "Factory",
-            "Singleton",
-            "Observer",
-            "MVC"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the Observer design pattern used for?",
-        "options": [
-            "To create objects without specifying the exact class",
-            "To notify multiple objects about state changes",
-            "To encapsulate requests as objects",
-            "To define a family of algorithms"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following is a benefit of using design patterns?",
-        "options": [
-            "Increased code complexity",
-            "Reusable solutions to common problems",
-            "Tighter coupling between components",
-            "Reduced flexibility"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the purpose of the Factory design pattern?",
-        "options": [
-            "To ensure a single instance of a class",
-            "To create objects without specifying the exact class",
-            "To notify objects about state changes",
-            "To encapsulate requests as objects"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following is a characteristic of Microservices architecture?",
-        "options": [
-            "Tightly coupled components",
-            "Independent deployment of services",
-            "Shared database for all services",
-            "Monolithic structure"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the role of the Model-View-Controller (MVC) pattern?",
-        "options": [
-            "To ensure a single instance of a class",
-            "To separate concerns in user interface design",
-            "To notify objects about state changes",
-            "To encapsulate requests as objects"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following is a key principle of Layered Architecture?",
-        "options": [
-            "Tight coupling between layers",
-            "Separation of concerns",
-            "Shared database for all layers",
-            "Monolithic structure"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the purpose of the Event-Driven architecture?",
-        "options": [
-            "To ensure a single instance of a class",
-            "To handle asynchronous events and messages",
-            "To encapsulate requests as objects",
-            "To define a family of algorithms"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What are the key trade-offs when choosing a Monolithic architecture?",
-        "options": [
-            "Simplicity vs. scalability",
-            "Performance vs. reliability",
-            "Security vs. usability",
-            "Deployment vs. development speed"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which pattern is most appropriate when you need to convert one interface to another?",
-        "options": [
-            "Proxy",
-            "Adapter",
-            "Decorator",
-            "Facade"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is a key challenge of implementing Microservices architecture?",
-        "options": [
-            "Code duplication",
-            "Data consistency across services",
-            "User interface design",
-            "Programming language selection"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "In which scenario would the Decorator pattern be most appropriate?",
-        "options": [
-            "Adding responsibilities to objects dynamically",
-            "Creating families of related objects",
-            "Defining an algorithm structure with customizable parts",
-            "Notifying multiple objects about state changes"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which architecture style is best suited for systems with highly variable loads?",
-        "options": [
-            "Layered Architecture",
-            "Monolithic",
-            "Serverless Architecture",
-            "Pipe and Filter"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the primary purpose of the Command design pattern?",
-        "options": [
-            "To create objects without specifying the exact class",
-            "To add responsibilities to objects dynamically",
-            "To encapsulate a request as an object",
-            "To define a family of algorithms"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following is NOT a commonly recognized architectural quality attribute?",
-        "options": [
-            "Scalability",
-            "Maintainability",
-            "Programming language",
-            "Security"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the main benefit of implementing a Facade design pattern?",
-        "options": [
-            "Providing a simplified interface to a complex subsystem",
-            "Ensuring only one instance of a class exists",
-            "Creating objects without specifying their classes",
-            "Notifying multiple objects about state changes"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "In a Layered Architecture, what is the primary rule regarding dependencies?",
-        "options": [
-            "Higher layers can depend on lower layers but not vice versa",
-            "Lower layers can depend on higher layers but not vice versa",
-            "Layers can depend on any other layer",
-            "No dependencies are allowed between layers"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the Strategy design pattern used for?",
-        "options": [
-            "To encapsulate a request as an object",
-            "To define a family of algorithms and make them interchangeable",
-            "To ensure a class has only one instance",
-            "To notify multiple objects about state changes"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which architectural style is characterized by independent components that process data as it flows through the system?",
-        "options": [
-            "Event-Driven",
-            "Microservices",
-            "Pipe and Filter",
-            "Client-Server"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the primary concern when designing a system's architecture?",
-        "options": [
-            "Meeting functional requirements",
-            "Meeting non-functional requirements (quality attributes)",
-            "Keeping development costs low",
-            "Using the latest technologies"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which design pattern helps with breaking down complex objects creation?",
-        "options": [
-            "Builder",
-            "Prototype",
-            "Proxy",
-            "Mediator"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which architectural decision would most likely improve a system's scalability?",
-        "options": [
-            "Adding more features",
-            "Implementing stateless components",
-            "Creating tighter coupling between modules",
-            "Using a single database for all operations"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the primary purpose of the Proxy design pattern?",
-        "options": [
-            "To provide a surrogate or placeholder for another object",
-            "To define a family of algorithms",
-            "To notify objects about state changes",
-            "To ensure a class has only one instance"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following is a key characteristic of Event-Driven Architecture?",
-        "options": [
-            "Synchronous communication between components",
-            "Loose coupling between event producers and consumers",
-            "Centralized control flow",
-            "Single database for all components"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "In the context of practical case studies, which design pattern would be most suitable for implementing undo functionality in a text editor?",
-        "options": [
-            "Command",
-            "Memento",
-            "State",
-            "Iterator"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "What is the primary advantage of Service-Oriented Architecture (SOA) compared to Monolithic Architecture?",
-        "options": [
-            "Easier to understand the entire system",
-            "Better reusability of services across different applications",
-            "Faster initial development",
-            "Simpler deployment process"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "Which of the following design patterns is most appropriate for implementing a plugin architecture?",
-        "options": [
-            "Factory Method",
-            "Template Method",
-            "Abstract Factory",
-            "Bridge"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Software Architecture and Design Patterns",
-        "question": "In advanced software engineering, what is the main purpose of architectural documentation?",
-        "options": [
-            "To satisfy project management requirements",
-            "To communicate design decisions and their rationale",
-            "To provide detailed implementation instructions",
-            "To impress stakeholders with technical expertise"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is a key benefit of using enhanced SDLC models?",
-        "options": [
-            "Reduced need for documentation",
-            "Improved project predictability and control",
-            "Faster coding without planning",
-            "Elimination of testing phases"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a best practice in requirements engineering?",
-        "options": [
-            "Ignoring non-functional requirements",
-            "Eliciting and documenting clear requirements",
-            "Avoiding stakeholder involvement",
-            "Prioritizing speed over quality"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of documentation in complex projects?",
-        "options": [
-            "To slow down development",
-            "To provide a clear roadmap and reference for stakeholders",
-            "To eliminate the need for testing",
-            "To focus only on coding"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a characteristic of Agile SDLC?",
-        "options": [
-            "Rigid planning",
-            "Iterative development",
-            "Minimal stakeholder involvement",
-            "No documentation"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the role of a project manager in SDLC?",
-        "options": [
-            "To write code",
-            "To oversee planning, execution, and delivery of the project",
-            "To test the software",
-            "To design the user interface"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a key activity in the planning phase of SDLC?",
-        "options": [
-            "Writing code",
-            "Defining project scope and objectives",
-            "Testing the software",
-            "Designing the user interface"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of the design phase in SDLC?",
-        "options": [
-            "To write code",
-            "To create a blueprint for the software system",
-            "To test the software",
-            "To gather requirements"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a key deliverable of the requirements phase?",
-        "options": [
-            "Source code",
-            "Software Requirements Specification (SRS)",
-            "Test cases",
-            "User interface design"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the role of testing in SDLC?",
-        "options": [
-            "To delay the project",
-            "To ensure the software meets requirements and is bug-free",
-            "To eliminate the need for documentation",
-            "To focus only on user interface design"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a non-functional requirement?",
-        "options": [
-            "User login functionality",
-            "System performance and scalability",
-            "Database schema design",
-            "Code commenting standards"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the main difference between Waterfall and Agile methodologies?",
-        "options": [
-            "Waterfall requires no documentation",
-            "Agile produces higher quality software",
-            "Waterfall is sequential while Agile is iterative",
-            "Agile doesn't involve testing"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of a sprint retrospective in Scrum?",
-        "options": [
-            "To plan the next sprint",
-            "To review and improve the team's process",
-            "To demonstrate completed work to stakeholders",
-            "To assign tasks to team members"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a key principle of DevOps?",
-        "options": [
-            "Separation of development and operations teams",
-            "Manual deployment processes",
-            "Continuous integration and delivery",
-            "Minimal testing and monitoring"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of continuous integration in modern SDLC?",
-        "options": [
-            "To eliminate the need for testing",
-            "To automatically merge and test code changes frequently",
-            "To reduce documentation requirements",
-            "To completely automate the coding process"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a benefit of test-driven development (TDD)?",
-        "options": [
-            "Elimination of all bugs",
-            "Reduced need for code reviews",
-            "Higher code quality and better design",
-            "Faster development without planning"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of a user story in Agile methodologies?",
-        "options": [
-            "To replace detailed technical documentation",
-            "To describe a feature from the end-user's perspective",
-            "To eliminate the need for requirements gathering",
-            "To assign tasks to specific developers"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a key component of a CI/CD pipeline?",
-        "options": [
-            "Manual code review process",
-            "Automated build and test processes",
-            "Elimination of version control",
-            "Reduced documentation requirements"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of a Kanban board in Agile project management?",
-        "options": [
-            "To eliminate the need for planning",
-            "To visualize work and limit work in progress",
-            "To replace the need for project managers",
-            "To document technical requirements"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a key practice in Extreme Programming (XP)?",
-        "options": [
-            "Minimal testing",
-            "Individual code ownership",
-            "Pair programming",
-            "Comprehensive documentation"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of a burn-down chart in Scrum?",
-        "options": [
-            "To track the addition of new features",
-            "To visualize the remaining work in a sprint",
-            "To document technical requirements",
-            "To assign tasks to team members"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a key benefit of code reviews?",
-        "options": [
-            "Elimination of the need for testing",
-            "Knowledge sharing and quality improvement",
-            "Reduced need for documentation",
-            "Faster development without planning"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of a Definition of Done (DoD) in Scrum?",
-        "options": [
-            "To replace detailed technical specifications",
-            "To establish clear criteria for when a task is complete",
-            "To eliminate the need for testing",
-            "To assign tasks to specific developers"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a characteristic of the Spiral development model?",
-        "options": [
-            "Linear sequential approach",
-            "No emphasis on risk analysis",
-            "Iterative process with risk assessment",
-            "No documentation requirements"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of a product backlog in Scrum?",
-        "options": [
-            "To document completed tasks",
-            "To prioritize features and requirements to be implemented",
-            "To assign tasks to specific developers",
-            "To manage team vacation schedules"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a key principle of Lean software development?",
-        "options": [
-            "Maximizing documentation",
-            "Eliminating waste",
-            "Reducing test coverage",
-            "Increasing work in progress"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of acceptance criteria in user stories?",
-        "options": [
-            "To replace detailed technical specifications",
-            "To define the conditions that must be met for a feature to be accepted",
-            "To eliminate the need for testing",
-            "To assign tasks to specific developers"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a key benefit of automated testing in SDLC?",
-        "options": [
-            "Elimination of the need for manual testing",
-            "Faster feedback and regression detection",
-            "Reduced need for documentation",
-            "Complete elimination of bugs"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of infrastructure as code (IaC) in modern SDLC?",
-        "options": [
-            "To eliminate the need for operations teams",
-            "To automate the provisioning and management of infrastructure",
-            "To replace software development with infrastructure management",
-            "To reduce the importance of testing"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a key responsibility of a product owner in Scrum?",
-        "options": [
-            "Writing code",
-            "Managing the product backlog and prioritizing items",
-            "Testing the software",
-            "Managing the development team"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of a daily stand-up meeting in Agile?",
-        "options": [
-            "To replace formal documentation",
-            "To synchronize team activities and identify impediments",
-            "To review code in detail",
-            "To plan the entire project"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a key component of behavior-driven development (BDD)?",
-        "options": [
-            "Focusing solely on technical implementation",
-            "Specifying behavior in a language that all stakeholders can understand",
-            "Eliminating the need for acceptance testing",
-            "Reducing collaboration with business stakeholders"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of a feature flag (toggle) in continuous delivery?",
-        "options": [
-            "To eliminate the need for version control",
-            "To control feature visibility and enable/disable features without redeployment",
-            "To replace automated testing",
-            "To minimize documentation requirements"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a practice in the Planning Poker estimation technique?",
-        "options": [
-            "Assigning tasks without estimation",
-            "Collaborative estimation using consensus",
-            "Letting the project manager define all estimates",
-            "Avoiding stakeholder involvement in estimation"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "What is the purpose of a sprint review in Scrum?",
-        "options": [
-            "To plan the next sprint",
-            "To demonstrate completed work to stakeholders and gather feedback",
-            "To improve the team's process",
-            "To assign tasks to team members"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Advanced Software Development Lifecycle (SDLC)",
-        "question": "Which of the following is a characteristic of the V-Model in SDLC?",
-        "options": [
-            "No emphasis on testing",
-            "Each development stage has a corresponding testing phase",
-            "No documentation requirements",
-            "Highly iterative approach"
-        ],
-        "answer": 1
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is the primary goal of requirements elicitation?",
-        options: [
-            "To write code quickly",
-            "To gather and understand stakeholder needs",
-            "To design the user interface",
-            "To test the software"
+            "Event-driven communication"
         ],
         answer: 1,
     },
     {
-        section: "Requirements Engineering",
-        question: "Which of the following is a non-functional requirement?",
+        section: "Software Architecture Evolution",
+        question: "What is the primary benefit of using serverless architecture?",
         options: [
-            "User login functionality",
-            "System scalability",
-            "Database schema design",
-            "Code commenting standards"
+            "Full control over server management",
+            "Automatic scaling and reduced operational overhead",
+            "Tight coupling of components",
+            "High upfront infrastructure costs"
         ],
         answer: 1,
     },
     {
-        section: "Requirements Engineering",
-        question: "What is the purpose of a Software Requirements Specification (SRS)?",
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a disadvantage of microservices?",
         options: [
-            "To write code",
-            "To document the requirements of the software system",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which of the following is a technique for prioritizing requirements?",
-        options: [
-            "Ignoring stakeholder input",
-            "MoSCoW method (Must, Should, Could, Won't)",
-            "Writing code first",
-            "Avoiding documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is the role of a requirements engineer?",
-        options: [
-            "To write code",
-            "To gather, analyze, and document requirements",
-            "To test the software",
-            "To design the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which of the following is a key challenge in requirements engineering?",
-        options: [
-            "Lack of programming languages",
-            "Changing stakeholder needs",
-            "Limited hardware resources",
-            "No need for testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is the purpose of requirements validation?",
-        options: [
-            "To write code",
-            "To ensure the requirements are correct and complete",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which of the following is a key activity in requirements analysis?",
-        options: [
-            "Writing code",
-            "Identifying and resolving conflicts in requirements",
-            "Testing the software",
-            "Designing the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is the purpose of a use case in requirements engineering?",
-        options: [
-            "To write code",
-            "To describe how users interact with the system",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which of the following is a key principle of requirements engineering?",
-        options: [
-            "Ignoring stakeholder input",
-            "Clear and unambiguous requirements",
-            "No documentation",
-            "Focusing only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What technique involves observing users in their natural work environment to gather requirements?",
-        options: [
-            "Brainstorming",
-            "Ethnography",
-            "Prototyping",
-            "Questionnaires"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which of the following is an example of a reliability requirement?",
-        options: [
-            "The system shall support 1000 concurrent users",
-            "The system shall have a mean time between failures of at least 200 hours",
-            "The system shall respond to user queries within 2 seconds",
-            "The system shall use role-based access control"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is requirements traceability?",
-        options: [
-            "The ability to follow the life of a requirement from origin to implementation",
-            "The process of writing requirements documentation",
-            "The technique for coding requirements",
-            "The method for testing requirements"
+            "Increased complexity of distributed systems",
+            "Tight coupling of components",
+            "Limited scalability",
+            "Single point of failure"
         ],
         answer: 0,
     },
     {
-        section: "Requirements Engineering",
-        question: "Which of the following best describes a security non-functional requirement?",
+        section: "Software Architecture Evolution",
+        question: "What is the primary purpose of an API gateway in microservices?",
         options: [
-            "The system shall allow users to reset their passwords",
-            "The system shall encrypt all stored passwords using SHA-256",
-            "The system shall have a login page",
-            "The system shall have user profiles"
+            "To manage database connections",
+            "To provide a single entry point for client requests",
+            "To handle serverless function execution",
+            "To enforce monolithic architecture"
         ],
         answer: 1,
     },
     {
-        section: "Requirements Engineering",
-        question: "What is the purpose of a requirements review meeting?",
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a key feature of event-driven architecture?",
         options: [
-            "To write code together",
-            "To identify defects, ambiguities, and inconsistencies in requirements",
-            "To test the software",
-            "To design the user interface"
+            "Centralized control of all services",
+            "Asynchronous and decoupled communication",
+            "Reduced need for APIs",
+            "Simplified debugging"
         ],
         answer: 1,
     },
     {
-        section: "Requirements Engineering",
-        question: "Which elicitation technique is most appropriate for gathering requirements from a large number of geographically distributed stakeholders?",
+        section: "Software Architecture Evolution",
+        question: "What is the primary challenge of monolithic architecture?",
         options: [
-            "Interviews",
-            "Workshops",
-            "Questionnaires",
-            "Observation"
+            "Easy to scale horizontally",
+            "Single point of failure",
+            "Independent deployment of components",
+            "Loosely coupled services"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a key benefit of serverless architecture?",
+        options: [
+            "Manual scaling of servers",
+            "Event-driven execution of functions",
+            "High upfront infrastructure costs",
+            "Tight coupling of components"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Software Architecture Evolution",
+        question: "What is the primary purpose of a service mesh in microservices?",
+        options: [
+            "To manage database connections",
+            "To handle service-to-service communication",
+            "To replace API gateways",
+            "To enforce monolithic architecture"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a common use case for serverless architecture?",
+        options: [
+            "Static websites",
+            "Real-time notifications and messaging systems",
+            "Monolithic legacy systems",
+            "Batch processing"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Command Query Responsibility Segregation (CQRS)",
+        question: "What is the primary purpose of CQRS pattern?",
+        options: [
+          "To unify read and write operations into a single model",
+          "To separate read and write operations into different models",
+          "To eliminate database queries entirely",
+          "To remove command functionality from applications"
+        ],
+        answer: 1,
+      },
+      {
+        section: "Command Query Responsibility Segregation (CQRS)",
+        question: "Which statement about CQRS is FALSE?",
+        options: [
+          "It allows for independent scaling of read and write workloads",
+          "It can reduce contention between read and write operations",
+          "It is mandatory to implement Event Sourcing alongside CQRS",
+          "It enables optimization of query and command models separately"
         ],
         answer: 2,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is the difference between functional and non-functional requirements?",
+      },
+      {
+        section: "Command Query Responsibility Segregation (CQRS)",
+        question: "In CQRS, what are 'commands'?",
         options: [
-            "Functional requirements are more important than non-functional requirements",
-            "Functional requirements describe what the system should do, while non-functional requirements describe how the system should behave",
-            "Functional requirements are easier to implement than non-functional requirements",
-            "Functional requirements are always written in user stories"
+          "Read-only operations that return data but don't modify state",
+          "Operations that modify state but don't return data",
+          "Both read and write operations combined",
+          "Database constraint checks"
         ],
         answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which of the following is an example of a scalability requirement?",
+      },
+      {
+        section: "Command Query Responsibility Segregation (CQRS)",
+        question: "Which is a common real-world application of CQRS?",
         options: [
-            "The system shall support adding new servers without downtime",
-            "The system shall be available 99.9% of the time",
-            "The system shall respond to user queries within 2 seconds",
-            "The system shall support multiple languages"
+          "Simple CRUD applications with minimal traffic",
+          "Single-user desktop applications",
+          "High-performance financial trading platforms",
+          "Static content websites"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Command Query Responsibility Segregation (CQRS)",
+        question: "What is a potential disadvantage of implementing CQRS?",
+        options: [
+          "Reduced system complexity",
+          "Increased data consistency",
+          "Increased system complexity",
+          "Reduced database size"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Command Query Responsibility Segregation (CQRS)",
+        question: "When is CQRS most beneficial?",
+        options: [
+          "In systems with equal read and write workloads",
+          "In systems where read operations significantly outnumber write operations",
+          "In systems with minimal domain complexity",
+          "In systems with single-table databases"
+        ],
+        answer: 1,
+      },
+      {
+        section: "Command Query Responsibility Segregation (CQRS)",
+        question: "How does CQRS typically handle data consistency between read and write models?",
+        options: [
+          "Immediate consistency is always guaranteed",
+          "Eventual consistency is often accepted as a trade-off",
+          "Consistency is not a concern in CQRS",
+          "Only the write model needs to be consistent"
+        ],
+        answer: 1,
+      },
+      {
+        section: "Command Query Responsibility Segregation (CQRS)",
+        question: "Which company is known for implementing CQRS in their e-commerce platform to handle high traffic during sales events?",
+        options: [
+          "Netflix",
+          "Amazon",
+          "Google",
+          "Microsoft"
+        ],
+        answer: 1,
+      },
+      {
+        section: "Command Query Responsibility Segregation (CQRS)",
+        question: "In a CQRS architecture, what typically happens after a command is processed?",
+        options: [
+          "The system immediately returns query results",
+          "The system enters a locked state",
+          "An event is often generated to update read models",
+          "The database is rolled back to its previous state"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Command Query Responsibility Segregation (CQRS)",
+        question: "What is a typical data storage strategy in a mature CQRS implementation?",
+        options: [
+          "Using the same database for both read and write models",
+          "Using different databases optimized for reads and writes respectively",
+          "Using only in-memory data structures",
+          "Avoiding databases entirely in favor of file storage"
+        ],
+        answer: 1,
+      },
+      
+      // Section 2: Event Sourcing
+      {
+        section: "Event Sourcing",
+        question: "What is the core concept of Event Sourcing?",
+        options: [
+          "Storing only the current state of an application",
+          "Storing application state as a sequence of events",
+          "Eliminating the need for databases",
+          "Combining multiple databases into one"
+        ],
+        answer: 1,
+      },
+      {
+        section: "Event Sourcing",
+        question: "Which is NOT a benefit of Event Sourcing?",
+        options: [
+          "Complete audit trail of all changes",
+          "Ability to reconstruct past states",
+          "Simplified database queries for complex reports",
+          "Reliable event history for debugging"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Event Sourcing",
+        question: "In Event Sourcing, how is the current state of the system typically determined?",
+        options: [
+          "By querying the latest snapshot directly",
+          "By calculating it on demand from all past events",
+          "By reverting to the initial state",
+          "By requesting it from external systems"
+        ],
+        answer: 1,
+      },
+      {
+        section: "Event Sourcing",
+        question: "Which system would benefit MOST from Event Sourcing?",
+        options: [
+          "A static content management system",
+          "A banking system requiring full audit trails of financial transactions",
+          "A simple blog with few updates",
+          "A read-only reporting application"
+        ],
+        answer: 1,
+      },
+      {
+        section: "Event Sourcing",
+        question: "What is an event store in the context of Event Sourcing?",
+        options: [
+          "A UI component that displays events",
+          "A temporary cache for recent events",
+          "A database optimized for storing immutable event records",
+          "A message queue for event processing"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Event Sourcing",
+        question: "What are snapshots used for in Event Sourcing?",
+        options: [
+          "To capture the current state periodically to improve reconstruction performance",
+          "To validate event integrity",
+          "To encrypt sensitive event data",
+          "To generate reports for management"
         ],
         answer: 0,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is a user story in requirements engineering?",
+      },
+      {
+        section: "Event Sourcing",
+        question: "Which real-world industry has widely adopted Event Sourcing?",
         options: [
-            "A long document describing system functionality",
-            "A short description of functionality from an end-user perspective",
-            "A technical specification for developers",
-            "A test case for quality assurance"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which of the following is a technique for validating requirements?",
-        options: [
-            "Writing code",
-            "Creating prototypes",
-            "Designing the system architecture",
-            "Deploying the software"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is requirements management?",
-        options: [
-            "The process of writing code",
-            "The process of controlling changes to requirements throughout the project lifecycle",
-            "The process of testing the software",
-            "The process of designing the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which of the following is NOT typically a stakeholder in requirements engineering?",
-        options: [
-            "End users",
-            "Development team",
-            "Competitors",
-            "Management"
+          "Fast food restaurants",
+          "Automotive manufacturing",
+          "Financial services and banking",
+          "Retail clothing stores"
         ],
         answer: 2,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is the purpose of requirements prioritization?",
+      },
+      {
+        section: "Event Sourcing",
+        question: "What challenge might you face when evolving an Event Sourced system over time?",
         options: [
-            "To determine which requirements are correct",
-            "To determine the order of implementation based on importance and constraints",
-            "To determine which requirements to ignore",
-            "To determine which developers will work on which requirements"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which of the following is an example of a maintainability requirement?",
-        options: [
-            "The system shall respond to user queries within 2 seconds",
-            "The system shall be available 99.9% of the time",
-            "The system shall be modular with well-defined interfaces",
-            "The system shall support 1000 concurrent users"
+          "Events are too transparent",
+          "Too few events are generated",
+          "Event schema evolution and versioning",
+          "Events process too quickly"
         ],
         answer: 2,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is a requirements baseline?",
+      },
+      {
+        section: "Event Sourcing",
+        question: "How does Event Sourcing typically handle data consistency?",
         options: [
-            "The initial set of requirements",
-            "A formally reviewed and agreed upon set of requirements that serves as the basis for further development",
-            "The minimum set of requirements",
-            "The requirements that can be implemented in the first sprint"
+          "By using two-phase commits across all systems",
+          "By treating the event log as the single source of truth",
+          "By disabling consistency checks",
+          "By running hourly consistency repair jobs"
         ],
         answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which technique is used to model the relationships between different requirements?",
+      },
+      {
+        section: "Event Sourcing",
+        question: "Which statement about the relationship between CQRS and Event Sourcing is correct?",
         options: [
-            "Requirements traceability matrix",
-            "Use case diagrams",
-            "Gantt charts",
-            "Code reviews"
+          "Event Sourcing requires CQRS",
+          "CQRS requires Event Sourcing",
+          "They are completely unrelated patterns",
+          "They are complementary but can be implemented independently"
+        ],
+        answer: 3,
+      },
+      
+      // Section 3: Dependency Injection
+      {
+        section: "Dependency Injection",
+        question: "What is Dependency Injection?",
+        options: [
+          "A technique where objects receive other objects they depend on",
+          "A method to avoid using external libraries",
+          "A way to inject new code into a running application",
+          "A technique to compile code faster"
         ],
         answer: 0,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is the primary benefit of using formal specification languages in requirements engineering?",
+      },
+      {
+        section: "Dependency Injection",
+        question: "Which principle of object-oriented design does Dependency Injection help to follow?",
         options: [
-            "They make requirements easier to understand for non-technical stakeholders",
-            "They eliminate the need for requirements validation",
-            "They reduce ambiguity and allow for mathematical verification",
-            "They make implementation faster"
+          "Inheritance over composition",
+          "Tight coupling between classes",
+          "Dependency inversion principle",
+          "Single responsibility violation"
         ],
         answer: 2,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which of the following is a common cause of requirements creep?",
+      },
+      {
+        section: "Dependency Injection",
+        question: "Which is NOT a common type of Dependency Injection?",
         options: [
-            "Too much documentation",
-            "Poor change management processes",
-            "Too many developers",
-            "Excessive testing"
+          "Constructor injection",
+          "Setter injection",
+          "Method injection",
+          "Direct injection"
         ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "What is the purpose of a requirements elicitation interview?",
+        answer: 3,
+      },
+      {
+        section: "Dependency Injection",
+        question: "What is a key benefit of using Dependency Injection in application development?",
         options: [
-            "To hire new team members",
-            "To gather detailed information about stakeholder needs and expectations",
-            "To test the software",
-            "To design the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Requirements Engineering",
-        question: "Which of the following is an example of a performance requirement?",
-        options: [
-            "The system shall encrypt all communications",
-            "The system shall be available 99.9% of the time",
-            "The system shall process transactions in less than 3 seconds",
-            "The system shall be compatible with all major browsers"
+          "It makes the code run faster",
+          "It reduces memory usage",
+          "It makes unit testing easier through better isolation",
+          "It eliminates the need for interfaces"
         ],
         answer: 2,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the main focus of user-centered design?",
+      },
+      {
+        section: "Dependency Injection",
+        question: "Which framework was one of the first to popularize Dependency Injection in enterprise applications?",
         options: [
-            "Maximizing code efficiency",
-            "Creating software that meets user needs and is easy to use",
-            "Minimizing development time",
-            "Focusing only on backend functionality"
+          "React",
+          "Spring",
+          "jQuery",
+          "Vue.js"
         ],
         answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "Which technique is commonly used in usability testing?",
+      },
+      {
+        section: "Dependency Injection",
+        question: "In Dependency Injection, what is an IoC container?",
         options: [
-            "Code reviews",
-            "User interviews and observations",
-            "Performance benchmarking",
-            "Security testing"
+          "A physical hardware device",
+          "A component that manages object creation and injection",
+          "A database connection pool",
+          "A type of HTTP request handler"
         ],
         answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the purpose of a persona in user-centered design?",
+      },
+      {
+        section: "Dependency Injection",
+        question: "How does Dependency Injection affect coupling in an application?",
         options: [
-            "To write code",
-            "To represent a typical user and their needs",
-            "To test the software",
-            "To design the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "Which of the following is a key principle of usability engineering?",
-        options: [
-            "Ignoring user feedback",
-            "Iterative design and testing",
-            "No documentation",
-            "Focusing only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the role of a usability engineer?",
-        options: [
-            "To write code",
-            "To ensure the software is easy to use and meets user needs",
-            "To test the software",
-            "To design the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "Which of the following is a key activity in usability testing?",
-        options: [
-            "Writing code",
-            "Observing users interacting with the software",
-            "Testing the software",
-            "Designing the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the purpose of a wireframe in user-centered design?",
-        options: [
-            "To write code",
-            "To create a visual representation of the user interface",
-            "To test the software",
-            "To design the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "Which of the following is a key benefit of iterative design?",
-        options: [
-            "Faster delivery of the final product",
-            "Early and continuous feedback from users",
-            "Reduced need for testing",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the role of user feedback in iterative development?",
-        options: [
-            "To ignore user needs",
-            "To improve the software based on user input",
-            "To test the software",
-            "To design the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "Which of the following is a key principle of accessibility in software design?",
-        options: [
-            "Ignoring user needs",
-            "Ensuring the software is usable by people with disabilities",
-            "No documentation",
-            "Focusing only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the purpose of a task analysis in user-centered design?",
-        options: [
-            "To analyze code efficiency",
-            "To understand how users accomplish their goals",
-            "To test system performance",
-            "To document system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "Which of Nielsen's heuristics addresses the need for system status visibility?",
-        options: [
-            "Match between system and the real world",
-            "Visibility of system status",
-            "User control and freedom",
-            "Consistency and standards"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the System Usability Scale (SUS)?",
-        options: [
-            "A programming framework",
-            "A standardized questionnaire for measuring perceived usability",
-            "A system architecture design tool",
-            "A coding standard"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is a key difference between low-fidelity and high-fidelity prototypes?",
-        options: [
-            "Low-fidelity prototypes are always digital",
-            "High-fidelity prototypes look and function more like the final product",
-            "Low-fidelity prototypes cannot be tested with users",
-            "High-fidelity prototypes are always faster to create"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the 'think-aloud' protocol in usability testing?",
-        options: [
-            "A technique where developers discuss code out loud",
-            "A method where users verbalize their thoughts as they interact with a system",
-            "A system architecture planning session",
-            "A formal requirements document"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What does the term 'cognitive load' refer to in user interface design?",
-        options: [
-            "The number of features in the interface",
-            "The mental effort required to use the interface",
-            "The time it takes to load the interface",
-            "The number of colors used in the interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "Which is NOT one of the five components of usability according to Jakob Nielsen?",
-        options: [
-            "Learnability",
-            "Efficiency",
-            "Programmability",
-            "Memorability"
+          "It increases coupling for better performance",
+          "It has no effect on coupling",
+          "It reduces coupling and increases flexibility",
+          "It only affects compile-time coupling, not runtime coupling"
         ],
         answer: 2,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is a heatmap in user experience research?",
+      },
+      {
+        section: "Dependency Injection",
+        question: "Which is a real-world benefit of Dependency Injection in large enterprise applications?",
         options: [
-            "A diagram showing system performance",
-            "A visual representation of where users look or click on a page",
-            "A color-coded system architecture diagram",
-            "A temperature monitoring system"
+          "Simplified deployment to production",
+          "Elimination of the need for documentation",
+          "Easier component replacement and application evolution",
+          "Reduced need for skilled developers"
         ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the purpose of an A/B test in user experience design?",
+        answer: 2,
+      },
+      {
+        section: "Dependency Injection",
+        question: "What design pattern is Dependency Injection closely related to?",
         options: [
-            "To test system performance",
-            "To compare two versions of a design to see which performs better",
-            "To verify code quality",
-            "To document system requirements"
+          "Observer Pattern",
+          "Strategy Pattern",
+          "Singleton Pattern",
+          "Factory Pattern"
         ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is a key principle of inclusive design?",
+        answer: 3,
+      },
+      {
+        section: "Dependency Injection",
+        question: "Which is NOT an advantage of using Dependency Injection?",
         options: [
-            "Designing for the average user",
-            "Designing for diverse users with varied abilities and needs",
-            "Maximizing feature count",
-            "Minimizing development costs"
+          "Improved testability",
+          "Reduced boilerplate code",
+          "Increased modularity",
+          "Enhanced application performance"
         ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the primary purpose of a contextual inquiry?",
-        options: [
-            "To review code quality",
-            "To understand users in their natural environment",
-            "To document system architecture",
-            "To test system performance"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What does 'information architecture' primarily concern in UX design?",
-        options: [
-            "Database structure",
-            "Organization and structure of content to facilitate usability",
-            "Network infrastructure",
-            "Server configuration"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is a card sorting exercise used for in UX design?",
-        options: [
-            "To organize development tasks",
-            "To understand how users would organize and categorize information",
-            "To prioritize system features",
-            "To test system performance"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "Which metric would best measure the effectiveness of a user interface?",
-        options: [
-            "Lines of code",
-            "Task completion rate",
-            "Development time",
-            "Number of features"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the concept of 'affordance' in user interface design?",
-        options: [
-            "The cost of developing an interface",
-            "The property that indicates how an object should be used",
-            "The number of features in an interface",
-            "The time it takes to load an interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is a primary goal of conducting user journey mapping?",
-        options: [
-            "To document system architecture",
-            "To visualize the end-to-end experience of users interacting with a product",
-            "To test system performance",
-            "To write efficient code"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What does the term 'dark pattern' refer to in UX design?",
-        options: [
-            "A color scheme using dark colors",
-            "A deceptive user interface designed to trick users",
-            "A night mode feature",
-            "A system architecture diagram"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is the purpose of accessibility guidelines like WCAG?",
-        options: [
-            "To restrict creative design",
-            "To ensure digital content is accessible to people with disabilities",
-            "To maximize development efficiency",
-            "To standardize programming languages"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "What is a key benefit of implementing responsive design?",
-        options: [
-            "Reduced development costs",
-            "Optimal user experience across different devices and screen sizes",
-            "Faster loading times",
-            "Simplified code structure"
-        ],
-        answer: 1,
-    },
-    {
-        section: "User-Centered Design and Usability Engineering",
-        question: "Which of the following best describes the concept of 'user flow'?",
-        options: [
-            "The speed at which users can navigate a website",
-            "The path users take to complete a task within a product",
-            "The number of users accessing a system simultaneously",
-            "The emotional response of users to a design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
+        answer: 3,
+      },
+      {
+        section: "DevOps Fundamentals",
         question: "What is the primary goal of DevOps?",
         options: [
-            "To separate development and operations teams",
-            "To improve collaboration and automation between development and operations",
-            "To eliminate the need for testing",
-            "To focus only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "Which tool is commonly used for Continuous Integration (CI)?",
-        options: [
-            "JIRA",
-            "Jenkins",
-            "GitLab",
-            "All of the above"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is the purpose of Continuous Deployment (CD)?",
-        options: [
-            "To delay the release of software",
-            "To automatically deploy code to production after testing",
-            "To eliminate the need for testing",
-            "To focus only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "Which of the following is a key principle of Agile development?",
-        options: [
-            "Comprehensive documentation",
-            "Customer collaboration over contract negotiation",
-            "Following a rigid plan",
-            "Minimizing stakeholder involvement"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is the role of a scrum master in Agile development?",
-        options: [
-            "To write code",
-            "To facilitate the Scrum process and remove impediments",
-            "To test the software",
-            "To design the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "Which of the following is a key benefit of using Agile methodologies?",
-        options: [
-            "Rigid planning",
-            "Flexibility and adaptability to change",
-            "Minimal stakeholder involvement",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is the purpose of a sprint in Scrum?",
-        options: [
-            "To delay the project",
-            "To complete a set of tasks within a fixed time frame",
-            "To eliminate the need for testing",
-            "To focus only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "Which of the following is a key activity in the Agile planning phase?",
-        options: [
-            "Writing code",
-            "Creating a product backlog and prioritizing tasks",
-            "Testing the software",
-            "Designing the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is the role of a product owner in Agile development?",
-        options: [
-            "To write code",
-            "To represent the stakeholders and prioritize the backlog",
-            "To test the software",
-            "To design the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "Which of the following is a key principle of DevOps?",
-        options: [
-            "Separating development and operations",
-            "Continuous integration and continuous delivery",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is Infrastructure as Code (IaC) in DevOps?",
-        options: [
-            "Writing code for mobile applications",
-            "Managing infrastructure through machine-readable definition files",
-            "Programming directly on production servers",
-            "Hiring more infrastructure engineers"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "Which of the following frameworks is designed specifically for scaling Agile across multiple teams?",
-        options: [
-            "Waterfall",
-            "SAFe (Scaled Agile Framework)",
-            "Six Sigma",
-            "ITIL"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is the purpose of a daily stand-up meeting in Scrum?",
-        options: [
-            "To write code together",
-            "To synchronize activities and identify impediments",
-            "To perform detailed planning",
-            "To conduct performance reviews"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "Which DevOps practice focuses on quickly detecting and addressing security vulnerabilities?",
-        options: [
-            "DevSecOps",
-            "NoOps",
-            "GitOps",
-            "WaterOps"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is a microservices architecture?",
-        options: [
-            "A monolithic application design",
-            "An approach that structures an application as a collection of loosely coupled services",
-            "A database optimization technique",
-            "A legacy system maintenance strategy"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is the purpose of containerization in DevOps?",
-        options: [
-            "To physically separate development teams",
-            "To package applications with their dependencies for consistent execution across environments",
-            "To increase hardware costs",
-            "To slow down deployment processes"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "Which of the following is NOT one of the four key metrics in DevOps Research and Assessment (DORA)?",
-        options: [
-            "Deployment frequency",
-            "Lead time for changes",
-            "Number of developers",
-            "Change failure rate"
+          "Eliminating the need for operations teams",
+          "Isolating development from operations",
+          "Breaking down silos between development and operations teams",
+          "Replacing manual testing with automated testing"
         ],
         answer: 2,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is the purpose of a retrospective meeting in Agile?",
+      },
+      {
+        section: "DevOps Fundamentals",
+        question: "Which of the following is NOT a key pillar of DevOps culture?",
         options: [
-            "To assign blame for failures",
-            "To reflect on the process and identify improvements",
-            "To plan the next release",
-            "To write documentation"
+          "Collaboration",
+          "Transparency",
+          "Strict role separation",
+          "Continuous improvement"
+        ],
+        answer: 2,
+      },
+      {
+        section: "DevOps Fundamentals",
+        question: "Which metric is MOST important to measure the effectiveness of DevOps practices?",
+        options: [
+          "Number of servers managed per engineer",
+          "Speed of delivery from code commit to production",
+          "Number of tools in the DevOps toolchain",
+          "Size of the DevOps team"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is the concept of 'shifting left' in DevOps?",
+      },
+      {
+        section: "DevOps Fundamentals",
+        question: "What is 'Infrastructure as Code' (IaC)?",
         options: [
-            "Moving team members to the left side of the office",
-            "Moving testing and security earlier in the development process",
-            "Focusing more on operations than development",
-            "Reducing the number of deployments"
+          "Writing code that automatically scales infrastructure",
+          "Managing and provisioning infrastructure through code and automation",
+          "Eliminating physical infrastructure in favor of cloud services",
+          "Converting infrastructure into microservices"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is a key challenge when implementing Agile at scale?",
+      },
+      {
+        section: "DevOps Fundamentals",
+        question: "Which company is credited with coining the term 'DevOps'?",
         options: [
-            "Having too few meetings",
-            "Coordinating dependencies between multiple teams",
-            "Writing too much code",
-            "Having too many testing resources"
+          "Google",
+          "Amazon",
+          "Flickr",
+          "Microsoft"
+        ],
+        answer: 2,
+      },
+      {
+        section: "DevOps Fundamentals",
+        question: "What does 'shift left' refer to in DevOps?",
+        options: [
+          "Moving testing and security earlier in the development process",
+          "Reorganizing team seating arrangements",
+          "Prioritizing left-side menu items in DevOps tools",
+          "Shifting responsibility away from operations teams"
+        ],
+        answer: 0,
+      },
+      {
+        section: "DevOps Fundamentals",
+        question: "Which is NOT a benefit of implementing DevOps practices?",
+        options: [
+          "Faster time to market",
+          "Improved collaboration",
+          "Elimination of all production failures",
+          "Increased deployment frequency"
+        ],
+        answer: 2,
+      },
+      {
+        section: "DevOps Fundamentals",
+        question: "What is a key characteristic of a DevOps-oriented team structure?",
+        options: [
+          "Clear separation between developers and operations staff",
+          "Cross-functional teams with shared responsibilities",
+          "Operations teams managing all deployment activities",
+          "Development teams handling only coding activities"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is meant by 'technical debt' in Agile development?",
+      },
+      {
+        section: "DevOps Fundamentals",
+        question: "Which practice is essential for effective incident management in DevOps?",
         options: [
-            "The cost of purchasing development tools",
-            "The implied cost of future rework caused by choosing quick solutions now",
-            "The salary paid to technical staff",
-            "The budget allocated for hardware"
+          "Blameless postmortems",
+          "Identifying individual responsibility for failures",
+          "Reducing documentation of incidents",
+          "Escalating all issues to management"
+        ],
+        answer: 0,
+      },
+      {
+        section: "DevOps Fundamentals",
+        question: "What is the concept of 'you build it, you run it' in DevOps?",
+        options: [
+          "QA teams should test their own code",
+          "Developers are responsible for the code they write in production",
+          "Operations teams build and run all systems",
+          "Product managers should help develop features they request"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "Which tool is commonly used for configuration management in DevOps?",
+      },
+      
+      // Section 2: CI/CD Pipeline Components
+      {
+        section: "CI/CD Pipeline Components",
+        question: "What does CI stand for in the context of software development?",
         options: [
-            "Microsoft Word",
-            "Ansible",
-            "Notepad",
-            "Paint"
+          "Code Integration",
+          "Continuous Implementation",
+          "Continuous Integration",
+          "Continuous Improvement"
+        ],
+        answer: 2,
+      },
+      {
+        section: "CI/CD Pipeline Components",
+        question: "What does CD commonly stand for in DevOps? (Select the TWO most common meanings)",
+        options: [
+          "Continuous Delivery and Continuous Deployment",
+          "Code Deployment and Continuous Development",
+          "Continuous Documentation and Code Delivery",
+          "Code Design and Continuous Debugging"
+        ],
+        answer: 0,
+      },
+      {
+        section: "CI/CD Pipeline Components",
+        question: "Which is NOT typically a stage in a CI/CD pipeline?",
+        options: [
+          "Build",
+          "Test",
+          "Customer Approval",
+          "Deploy"
+        ],
+        answer: 2,
+      },
+      {
+        section: "CI/CD Pipeline Components",
+        question: "What is the difference between Continuous Delivery and Continuous Deployment?",
+        options: [
+          "Continuous Delivery automatically deploys all changes to production, while Continuous Deployment requires manual approval",
+          "Continuous Delivery ensures code is always in a deployable state but may require manual approval for production, while Continuous Deployment automatically deploys all changes to production",
+          "They are different terms for the same concept",
+          "Continuous Delivery is for web applications, while Continuous Deployment is for mobile applications"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is feature toggling in continuous delivery?",
+      },
+      {
+        section: "CI/CD Pipeline Components",
+        question: "Which tool is NOT commonly used for CI/CD pipelines?",
         options: [
-            "Deciding which features to remove from the product",
-            "A technique that allows features to be deployed but not activated until ready",
-            "Rotating developers between different features",
-            "Testing features only in production"
+          "Jenkins",
+          "GitLab CI",
+          "Microsoft Word",
+          "GitHub Actions"
+        ],
+        answer: 2,
+      },
+      {
+        section: "CI/CD Pipeline Components",
+        question: "What is a 'pipeline as code'?",
+        options: [
+          "Writing code that creates other code automatically",
+          "Defining CI/CD pipeline configurations in version-controlled code rather than in a UI",
+          "A method to deploy pipelines directly to production",
+          "A technique for debugging pipelines"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is a key difference between Continuous Delivery and Continuous Deployment?",
+      },
+      {
+        section: "CI/CD Pipeline Components",
+        question: "What is the primary purpose of the 'build' stage in a CI pipeline?",
         options: [
-            "They are exactly the same",
-            "Continuous Delivery prepares for release but requires manual approval, while Continuous Deployment automatically deploys to production",
-            "Continuous Deployment is slower than Continuous Delivery",
-            "Continuous Delivery requires more documentation"
+          "To compile code and create artifacts",
+          "To design the application architecture",
+          "To deploy to production",
+          "To write new features"
+        ],
+        answer: 0,
+      },
+      {
+        section: "CI/CD Pipeline Components",
+        question: "Which testing type is MOST important to include in a CI pipeline?",
+        options: [
+          "Manual testing",
+          "Automated unit testing",
+          "User acceptance testing",
+          "Alpha testing"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is the role of monitoring and observability in DevOps?",
+      },
+      {
+        section: "CI/CD Pipeline Components",
+        question: "Which deployment strategy involves releasing to a small subset of users first?",
         options: [
-            "To spy on developers' work habits",
-            "To provide insights into application performance and detect issues",
-            "To generate unnecessary reports",
-            "To slow down the deployment pipeline"
+          "Blue-Green deployment",
+          "Canary deployment",
+          "Big bang deployment",
+          "Rolling deployment"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is a value stream in Scaled Agile Framework (SAFe)?",
+      },
+      {
+        section: "CI/CD Pipeline Components",
+        question: "What is a key benefit of having a CI/CD pipeline?",
         options: [
-            "A financial reporting tool",
-            "A series of steps that deliver a product or service to a customer",
-            "A technique for writing code faster",
-            "A method for reducing team size"
+          "Eliminating the need for developers",
+          "Ensuring code is always tested and in a deployable state",
+          "Removing the need for code reviews",
+          "Guaranteeing zero bugs in production"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "Which of the following is a key practice in site reliability engineering (SRE)?",
+      },
+      
+      // Section 3: Automation and Tooling
+      {
+        section: "Automation and Tooling",
+        question: "Which tool is typically used for containerization in a CI/CD pipeline?",
         options: [
-            "Avoiding automation",
-            "Using error budgets to balance reliability and innovation",
-            "Separating development and operations completely",
-            "Deploying as infrequently as possible"
+          "Jenkins",
+          "Docker",
+          "JUnit",
+          "Maven"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What does the acronym 'LeSS' stand for in scaled Agile approaches?",
+      },
+      {
+        section: "Automation and Tooling",
+        question: "What is Kubernetes primarily used for?",
         options: [
-            "Less Software Systems",
-            "Large-Scale Scrum",
-            "Limited Software Scope",
-            "Long Sprint Sessions"
+          "Automated testing",
+          "Source code management",
+          "Container orchestration",
+          "Database management"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Automation and Tooling",
+        question: "Which type of testing is LEAST likely to be fully automated in a CI/CD pipeline?",
+        options: [
+          "Unit testing",
+          "Integration testing",
+          "User experience testing",
+          "Security scanning"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Automation and Tooling",
+        question: "What is a webhook in the context of CI/CD?",
+        options: [
+          "A type of fishing tool used by DevOps engineers",
+          "An HTTP callback that triggers actions based on events",
+          "A website that hosts CI/CD documentation",
+          "A type of automated test"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is the purpose of chaos engineering in DevOps?",
+      },
+      {
+        section: "Automation and Tooling",
+        question: "Which tool would be MOST appropriate for Infrastructure as Code?",
         options: [
-            "To create confusion among team members",
-            "To deliberately introduce failures to test system resilience",
-            "To develop without any planning",
-            "To avoid testing altogether"
+          "JUnit",
+          "Selenium",
+          "Terraform",
+          "Postman"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Automation and Tooling",
+        question: "What is configuration drift?",
+        options: [
+          "The planned migration of configurations from one environment to another",
+          "The difference in configuration between developer machines",
+          "The unplanned deviation of environment configurations from their intended state",
+          "The speed at which configurations are updated"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Automation and Tooling",
+        question: "Which practice helps prevent configuration drift?",
+        options: [
+          "Manual updates to production servers",
+          "Immutable infrastructure",
+          "Reducing the frequency of deployments",
+          "Eliminating test environments"
         ],
         answer: 1,
-    },
-    {
-        section: "Agile and DevOps in Large Scale Development",
-        question: "What is the DevOps concept of 'everything as code'?",
+      },
+      {
+        section: "Automation and Tooling",
+        question: "What is a primary benefit of using feature flags in CI/CD?",
         options: [
-            "Writing documentation in programming languages",
-            "Managing all aspects of the system (infrastructure, configuration, etc.) as code that can be versioned and automated",
-            "Requiring all team members to learn programming",
-            "Converting all business requirements into code immediately"
+          "They automatically fix bugs in the code",
+          "They eliminate the need for testing",
+          "They allow features to be deployed but not activated until ready",
+          "They improve database performance"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Automation and Tooling",
+        question: "Which tool category is focused on monitoring and observability in a DevOps environment?",
+        options: [
+          "Version control systems",
+          "Compiler tools",
+          "APM (Application Performance Monitoring) tools",
+          "Code editors"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Automation and Tooling",
+        question: "What is the concept of 'ChatOps' in DevOps?",
+        options: [
+          "Using chat applications for casual team communication only",
+          "Integrating chat platforms with automation tools to execute operations tasks from chat",
+          "Replacing all documentation with chat logs",
+          "A technique for reducing meeting times"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the purpose of Test-Driven Development (TDD)?",
+      },
+      {
+        section: "Fundamental Concepts",
+        question: "What is the primary unit of composition in functional programming?",
         options: [
-            "To write tests after the code is completed",
-            "To write tests before writing the code",
-            "To eliminate the need for testing",
-            "To focus only on manual testing"
+          "Objects",
+          "Classes",
+          "Functions",
+          "Modules"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Fundamental Concepts",
+        question: "What is the primary unit of composition in object-oriented programming?",
+        options: [
+          "Functions",
+          "Objects",
+          "Methods",
+          "Procedures"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which tool is commonly used for automated testing?",
+      },
+      {
+        section: "Fundamental Concepts",
+        question: "Which of the following best describes immutability in functional programming?",
         options: [
-            "Selenium",
-            "JUnit",
-            "Cucumber",
-            "All of the above"
+          "Data can be modified after creation but only by authorized methods",
+          "Data can never be accessed directly",
+          "Data cannot be modified after creation; new data is created instead",
+          "Data can only be modified by the object that owns it"
         ],
-        answer: 3,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the purpose of regression testing?",
+        answer: 2,
+      },
+      {
+        section: "Fundamental Concepts",
+        question: "Which concept is NOT a core principle of object-oriented programming?",
         options: [
-            "To delay the project",
-            "To ensure new changes do not break existing functionality",
-            "To eliminate the need for testing",
-            "To focus only on development speed"
+          "Encapsulation",
+          "Inheritance",
+          "Immutability",
+          "Polymorphism"
         ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key principle of Behavior-Driven Development (BDD)?",
+        answer: 2,
+      },
+      {
+        section: "Fundamental Concepts",
+        question: "Which concept is NOT a core principle of functional programming?",
         options: [
-            "Writing code without testing",
-            "Collaborating with stakeholders to define tests",
-            "No documentation",
-            "Focusing only on manual testing"
+          "Pure functions",
+          "Immutable data",
+          "Inheritance",
+          "Higher-order functions"
         ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the role of a quality assurance engineer?",
+        answer: 2,
+      },
+      {
+        section: "Fundamental Concepts",
+        question: "What is a pure function?",
         options: [
-            "To write code",
-            "To ensure the software meets quality standards",
-            "To design the system architecture",
-            "To manage the project budget"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key activity in the testing phase?",
-        options: [
-            "Writing code",
-            "Executing test cases and reporting bugs",
-            "Designing the user interface",
-            "Gathering requirements"
+          "A function that only performs I/O operations",
+          "A function that returns the same output for the same input and has no side effects",
+          "A function that can modify global state",
+          "A function that is defined within a class"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the purpose of unit testing?",
+      },
+      {
+        section: "Fundamental Concepts",
+        question: "What is encapsulation in OOP?",
         options: [
-            "To test the entire system",
-            "To test individual components or units of code",
-            "To eliminate the need for testing",
-            "To focus only on development speed"
+          "The process of inheriting properties from a parent class",
+          "The bundling of data and methods that operate on that data within a single unit",
+          "The ability to use different types in the same way",
+          "The practice of keeping all variables immutable"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key benefit of automated testing?",
+      },
+      {
+        section: "Fundamental Concepts",
+        question: "How does functional programming typically handle state changes?",
         options: [
-            "Increased development time",
-            "Faster and more reliable test execution",
-            "No documentation",
-            "Focusing only on manual testing"
+          "By directly modifying variables",
+          "By creating new data structures that represent the new state",
+          "By using protected variables within objects",
+          "By using static methods to modify state"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the role of a test case in software testing?",
+      },
+      {
+        section: "Fundamental Concepts",
+        question: "In OOP, what is the relationship between a 'Car' class and a 'Vehicle' class if Car inherits from Vehicle?",
         options: [
-            "To write code",
-            "To define a set of conditions for testing a feature",
-            "To design the system architecture",
-            "To manage the project budget"
+          "Car is a subclass of Vehicle",
+          "Car has a Vehicle",
+          "Vehicle is a subclass of Car",
+          "Car and Vehicle are interfaces"
+        ],
+        answer: 0,
+      },
+      {
+        section: "Fundamental Concepts",
+        question: "What is referential transparency in functional programming?",
+        options: [
+          "The ability to reference any variable from any function",
+          "The property that a function can be replaced with its output value without changing program behavior",
+          "The ability to access an object's references",
+          "The transparency of memory references in the runtime"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key principle of quality assurance?",
+      },
+      
+      // Section 2: Language Features and Implementation
+      {
+        section: "Language Features and Implementation",
+        question: "Which programming language was designed specifically for functional programming?",
         options: [
-            "Ignoring bugs",
-            "Preventing defects rather than detecting them",
-            "No documentation",
-            "Focusing only on development speed"
+          "Java",
+          "C++",
+          "Haskell",
+          "Python"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Language Features and Implementation",
+        question: "Which programming language was designed primarily around object-oriented principles?",
+        options: [
+          "Haskell",
+          "Smalltalk",
+          "SQL",
+          "C"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the purpose of integration testing?",
+      },
+      {
+        section: "Language Features and Implementation",
+        question: "What is a higher-order function in functional programming?",
         options: [
-            "To test individual units of code",
-            "To test the interaction between different modules or components",
-            "To eliminate the need for testing",
-            "To focus only on development speed"
+          "A function with many parameters",
+          "A function that takes functions as arguments or returns functions",
+          "A function with high performance",
+          "A function that inherits from another function"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key benefit of using Selenium for automated testing?",
+      },
+      {
+        section: "Language Features and Implementation",
+        question: "Which feature is more commonly associated with functional programming?",
         options: [
-            "It is limited to unit testing",
-            "It supports cross-browser testing",
-            "It cannot be integrated with other tools",
-            "It requires manual intervention"
+          "Getters and setters",
+          "Method overriding",
+          "Pattern matching",
+          "Protected methods"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Language Features and Implementation",
+        question: "What is polymorphism in OOP?",
+        options: [
+          "The ability to create multiple objects",
+          "The ability to process objects differently based on their data type or class",
+          "The ability to hide implementation details",
+          "The ability to create immutable objects"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the role of a test plan in software testing?",
+      },
+      {
+        section: "Language Features and Implementation",
+        question: "What feature of functional programming helps with concurrent programming?",
         options: [
-            "To write code",
-            "To outline the scope, approach, and objectives of testing",
-            "To design the user interface",
-            "To manage the project budget"
+          "Dynamic typing",
+          "Inheritance",
+          "Immutability",
+          "Encapsulation"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Language Features and Implementation",
+        question: "In JavaScript, what method is used to create a new array by applying a function to each element without modifying the original array?",
+        options: [
+          "forEach()",
+          "map()",
+          "reduce()",
+          "splice()"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key principle of debugging?",
+      },
+      {
+        section: "Language Features and Implementation",
+        question: "Which of the following is a common pattern in functional programming but NOT in OOP?",
         options: [
-            "Ignoring errors",
-            "Systematically identifying and fixing defects",
-            "No documentation",
-            "Focusing only on development speed"
+          "Factory pattern",
+          "Observer pattern",
+          "Function composition",
+          "Strategy pattern"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Language Features and Implementation",
+        question: "What is the primary method of code reuse in OOP?",
+        options: [
+          "Function composition",
+          "Inheritance and composition",
+          "Currying",
+          "Monads"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the purpose of system testing?",
+      },
+      {
+        section: "Language Features and Implementation",
+        question: "What is a monad in functional programming?",
         options: [
-            "To test individual units of code",
-            "To test the entire system as a whole",
-            "To eliminate the need for testing",
-            "To focus only on development speed"
+          "A type of inheritance structure",
+          "A design pattern for encapsulating data",
+          "A way to structure computations with context, sequences, and side effects",
+          "A method to override parent class functionality"
+        ],
+        answer: 2,
+      },
+      
+      // Section 3: Practical Applications and Trade-offs
+      {
+        section: "Practical Applications and Trade-offs",
+        question: "Which paradigm is generally better suited for complex UI state management?",
+        options: [
+          "Only functional programming",
+          "Only object-oriented programming",
+          "Either paradigm, but functional programming often provides better predictability",
+          "Neither; UI state should be managed with procedural programming"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Practical Applications and Trade-offs",
+        question: "When might OOP be preferred over functional programming?",
+        options: [
+          "When working with highly concurrent systems",
+          "When modeling complex real-world entities with behavior",
+          "When mathematical precision is the highest priority",
+          "When avoiding side effects is critical"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key benefit of using Cucumber for BDD?",
+      },
+      {
+        section: "Practical Applications and Trade-offs",
+        question: "Which statement about testing is generally true?",
         options: [
-            "It is limited to unit testing",
-            "It allows collaboration between technical and non-technical stakeholders",
-            "It cannot be integrated with other tools",
-            "It requires manual intervention"
+          "OOP code is always easier to test than functional code",
+          "Functional code with pure functions is often easier to test in isolation",
+          "Testing is equally difficult in both paradigms",
+          "Neither paradigm can be effectively unit tested"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the role of pair programming in quality assurance?",
+      },
+      {
+        section: "Practical Applications and Trade-offs",
+        question: "Which is a common criticism of OOP?",
         options: [
-            "To write code independently",
-            "To collaborate and review code in real-time",
-            "To eliminate the need for testing",
-            "To focus only on development speed"
+          "It makes concurrency too simple",
+          "It's too mathematical",
+          "It can lead to complex inheritance hierarchies that are difficult to understand",
+          "It doesn't allow for code reuse"
+        ],
+        answer: 2,
+      },
+      {
+        section: "Practical Applications and Trade-offs",
+        question: "Which is a common criticism of functional programming?",
+        options: [
+          "It can be difficult for developers to adapt to its mathematical nature",
+          "It encourages too many side effects",
+          "It requires too much memory allocation",
+          "It doesn't allow for abstraction"
+        ],
+        answer: 0,
+      },
+      {
+        section: "Practical Applications and Trade-offs",
+        question: "What is a hybrid approach combining OOP and functional programming called?",
+        options: [
+          "Procedural programming",
+          "Multi-paradigm programming",
+          "Dynamic programming",
+          "Structured programming"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key principle of code reviews?",
+      },
+      {
+        section: "Practical Applications and Trade-offs",
+        question: "Which modern language supports both OOP and functional programming approaches?",
         options: [
-            "Ignoring feedback",
-            "Improving code quality through peer feedback",
-            "No documentation",
-            "Focusing only on development speed"
+          "C",
+          "Scala",
+          "COBOL",
+          "Assembly"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the purpose of performance testing?",
+      },
+      {
+        section: "Practical Applications and Trade-offs",
+        question: "In which scenario would you likely prefer functional programming?",
         options: [
-            "To test individual units of code",
-            "To evaluate the system's speed, responsiveness, and stability",
-            "To eliminate the need for testing",
-            "To focus only on development speed"
+          "Building a GUI application with complex user interactions",
+          "Implementing a data processing pipeline with transformations",
+          "Designing a system with complex inheritance relationships",
+          "Creating a simulation with mutable state"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key benefit of using JUnit for unit testing?",
+      },
+      {
+        section: "Practical Applications and Trade-offs",
+        question: "How do functional and OOP paradigms typically differ in handling errors?",
         options: [
-            "It is limited to integration testing",
-            "It provides a framework for writing and running repeatable tests",
-            "It cannot be integrated with other tools",
-            "It requires manual intervention"
+          "OOP uses return values, while functional programming uses exceptions",
+          "Functional programming often uses monadic types like Maybe/Option or Either/Result, while OOP typically uses exceptions",
+          "OOP doesn't have error handling, while functional programming does",
+          "Both handle errors identically"
         ],
         answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the role of a bug report in software testing?",
+      },
+      {
+        section: "Practical Applications and Trade-offs",
+        question: "Which statement best describes the current industry trend regarding functional and OOP paradigms?",
         options: [
-            "To write code",
-            "To document and track defects found during testing",
-            "To design the user interface",
-            "To manage the project budget"
+          "OOP is being completely abandoned in favor of functional programming",
+          "Functional programming is rarely used in production systems",
+          "There's a trend toward incorporating functional concepts even in traditionally OOP languages",
+          "The two paradigms are used in completely separate domains with no overlap"
         ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key principle of automated testing?",
+        answer: 2,
+      },
+      {
+        section: "Advanced Design Patterns",
+        question: "What does CQRS stand for?",
         options: [
-            "Ignoring test cases",
-            "Reducing manual effort and increasing test coverage",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the purpose of security testing?",
-        options: [
-            "To test individual units of code",
-            "To identify vulnerabilities and ensure the system is secure",
-            "To eliminate the need for testing",
-            "To focus only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key benefit of using TDD?",
-        options: [
-            "Increased development time",
-            "Improved code quality and reduced defects",
-            "No documentation",
-            "Focusing only on manual testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the role of a test harness in software testing?",
-        options: [
-            "To write code",
-            "To provide a framework for executing tests and reporting results",
-            "To design the user interface",
-            "To manage the project budget"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key principle of regression testing?",
-        options: [
-            "Ignoring new changes",
-            "Ensuring new changes do not break existing functionality",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the purpose of usability testing?",
-        options: [
-            "To test individual units of code",
-            "To evaluate how user-friendly the system is",
-            "To eliminate the need for testing",
-            "To focus only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key benefit of using BDD?",
-        options: [
-            "Increased development time",
-            "Improved collaboration between technical and non-technical stakeholders",
-            "No documentation",
-            "Focusing only on manual testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "What is the role of a test environment in software testing?",
-        options: [
-            "To write code",
-            "To provide a controlled setup for executing tests",
-            "To design the user interface",
-            "To manage the project budget"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Quality Assurance and Testing Strategies",
-        question: "Which of the following is a key principle of continuous testing?",
-        options: [
-            "Ignoring test automation",
-            "Integrating testing into the CI/CD pipeline",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is a key benefit of using Agile project management?",
-        options: [
-            "Rigid planning and documentation",
-            "Flexibility and adaptability to change",
-            "Minimizing stakeholder involvement",
-            "Focusing only on long-term planning"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a common risk in software projects?",
-        options: [
-            "Scope creep",
-            "Perfect code quality",
-            "Excessive stakeholder involvement",
-            "Lack of documentation"
+            "Command Query Responsibility Segregation",
+            "Command Query Request Separation",
+            "Centralized Query and Request System",
+            "Command Query Resource Segregation"
         ],
         answer: 0,
     },
     {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the purpose of a risk assessment in project management?",
-        options: [
-            "To ignore potential issues",
-            "To identify and mitigate potential risks",
-            "To delay the project",
-            "To focus only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key activity in project planning?",
-        options: [
-            "Writing code",
-            "Defining project scope, schedule, and resources",
-            "Testing the software",
-            "Designing the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the role of a project manager in software development?",
-        options: [
-            "To write code",
-            "To oversee planning, execution, and delivery of the project",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key principle of risk management?",
-        options: [
-            "Ignoring risks",
-            "Proactively identifying and addressing risks",
-            "No documentation",
-            "Focusing only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the purpose of a Gantt chart in project management?",
-        options: [
-            "To write code",
-            "To visualize the project schedule and track progress",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key benefit of using Agile methodologies in project management?",
-        options: [
-            "Rigid planning",
-            "Flexibility and adaptability to change",
-            "Minimal stakeholder involvement",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the role of a stakeholder in project management?",
-        options: [
-            "To write code",
-            "To provide input and feedback on the project",
-            "To test the software",
-            "To design the system architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key activity in risk mitigation?",
-        options: [
-            "Writing code",
-            "Developing strategies to reduce the impact of risks",
-            "Testing the software",
-            "Designing the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the purpose of a Work Breakdown Structure (WBS) in project management?",
-        options: [
-            "To write code",
-            "To break down the project into smaller, manageable tasks",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key characteristic of the Waterfall model?",
-        options: [
-            "Iterative development",
-            "Linear and sequential phases",
-            "Flexible requirements",
-            "Continuous feedback"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the role of a risk register in project management?",
-        options: [
-            "To write code",
-            "To document and track identified risks",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key benefit of using a hybrid project management approach?",
-        options: [
-            "Rigid adherence to a single methodology",
-            "Combining the strengths of Agile and Waterfall",
-            "Minimal stakeholder involvement",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the purpose of resource allocation in project management?",
-        options: [
-            "To write code",
-            "To assign tasks and resources effectively",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key principle of effective communication in team-based projects?",
-        options: [
-            "Ignoring team feedback",
-            "Ensuring clear and consistent communication",
-            "No documentation",
-            "Focusing only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the purpose of a project charter?",
-        options: [
-            "To write code",
-            "To formally authorize the project and define its objectives",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key benefit of using the Scrum framework?",
-        options: [
-            "Rigid planning",
-            "Iterative development and continuous improvement",
-            "Minimal stakeholder involvement",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the role of a product backlog in Agile project management?",
-        options: [
-            "To write code",
-            "To prioritize and track tasks to be completed",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key activity in task scheduling?",
-        options: [
-            "Writing code",
-            "Creating a timeline for task completion",
-            "Testing the software",
-            "Designing the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the purpose of a risk response plan?",
-        options: [
-            "To write code",
-            "To outline strategies for addressing identified risks",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key benefit of using Kanban in project management?",
-        options: [
-            "Rigid planning",
-            "Visualizing workflow and limiting work in progress",
-            "Minimal stakeholder involvement",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the role of a sprint review in Scrum?",
-        options: [
-            "To write code",
-            "To demonstrate completed work to stakeholders",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key principle of effective documentation in team-based projects?",
-        options: [
-            "Ignoring documentation",
-            "Ensuring documentation is clear, concise, and up-to-date",
-            "No documentation",
-            "Focusing only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the purpose of a burndown chart in Agile project management?",
-        options: [
-            "To write code",
-            "To track progress and remaining work in a sprint",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key benefit of using the Waterfall model?",
-        options: [
-            "Flexibility to change requirements",
-            "Clear and well-defined phases",
-            "Minimal stakeholder involvement",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the role of a project sponsor in project management?",
-        options: [
-            "To write code",
-            "To provide funding and support for the project",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key activity in risk monitoring?",
-        options: [
-            "Writing code",
-            "Tracking identified risks and evaluating mitigation strategies",
-            "Testing the software",
-            "Designing the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the purpose of a communication plan in project management?",
-        options: [
-            "To write code",
-            "To outline how information will be shared among stakeholders",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "Which of the following is a key benefit of using the Critical Path Method (CPM) in project management?",
-        options: [
-            "Ignoring task dependencies",
-            "Identifying the longest path of tasks to determine project duration",
-            "Minimal stakeholder involvement",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Project Management and Risk Assessment",
-        question: "What is the role of a project closure report?",
-        options: [
-            "To write code",
-            "To document lessons learned and project outcomes",
-            "To test the software",
-            "To design the user interface"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the primary goal of secure software design?",
-        options: [
-            "To maximize code efficiency",
-            "To protect against vulnerabilities and threats",
-            "To eliminate the need for testing",
-            "To focus only on user interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a common security testing technique?",
-        options: [
-            "Unit testing",
-            "Penetration testing",
-            "Usability testing",
-            "Performance testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the purpose of threat modeling in software security?",
-        options: [
-            "To ignore potential threats",
-            "To identify and mitigate potential security risks",
-            "To delay the project",
-            "To focus only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key principle of secure coding?",
-        options: [
-            "Ignoring input validation",
-            "Validating and sanitizing user input",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the role of encryption in software security?",
-        options: [
-            "To slow down the system",
-            "To protect data from unauthorized access",
-            "To eliminate the need for testing",
-            "To focus only on user interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key activity in security testing?",
-        options: [
-            "Writing code",
-            "Identifying and exploiting vulnerabilities",
-            "Designing the user interface",
-            "Gathering requirements"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the purpose of a security audit?",
-        options: [
-            "To ignore security issues",
-            "To assess and improve the security of a system",
-            "To delay the project",
-            "To focus only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key principle of data privacy?",
-        options: [
-            "Ignoring user data",
-            "Protecting user data and ensuring compliance with regulations",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the role of a security engineer in software development?",
-        options: [
-            "To write code",
-            "To ensure the software is secure and free from vulnerabilities",
-            "To design the system architecture",
-            "To manage the project budget"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key benefit of using secure coding practices?",
-        options: [
-            "Increased development time",
-            "Reduced risk of security breaches",
-            "No documentation",
-            "Focusing only on manual testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the purpose of a vulnerability assessment?",
-        options: [
-            "To ignore vulnerabilities",
-            "To identify and prioritize security weaknesses",
-            "To delay the project",
-            "To focus only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key principle of the Principle of Least Privilege (PoLP)?",
-        options: [
-            "Granting users unlimited access",
-            "Restricting access to only what is necessary",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the role of a firewall in software security?",
-        options: [
-            "To slow down the system",
-            "To monitor and control incoming and outgoing network traffic",
-            "To eliminate the need for testing",
-            "To focus only on user interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key activity in secure software design?",
-        options: [
-            "Writing code without planning",
-            "Incorporating security measures from the start",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the purpose of a security policy in software development?",
-        options: [
-            "To ignore security issues",
-            "To define rules and procedures for protecting systems and data",
-            "To delay the project",
-            "To focus only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key principle of the GDPR (General Data Protection Regulation)?",
-        options: [
-            "Ignoring user data",
-            "Ensuring transparency and user consent for data processing",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the role of multi-factor authentication (MFA) in software security?",
-        options: [
-            "To slow down the system",
-            "To add an extra layer of security for user authentication",
-            "To eliminate the need for testing",
-            "To focus only on user interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key benefit of using threat modeling?",
-        options: [
-            "Increased development time",
-            "Proactively identifying and mitigating security risks",
-            "No documentation",
-            "Focusing only on manual testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the purpose of a security incident response plan?",
-        options: [
-            "To ignore security incidents",
-            "To outline steps for responding to and recovering from security breaches",
-            "To delay the project",
-            "To focus only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key principle of the CCPA (California Consumer Privacy Act)?",
-        options: [
-            "Ignoring user data",
-            "Giving consumers control over their personal data",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the role of a security token in software security?",
-        options: [
-            "To slow down the system",
-            "To provide secure authentication and authorization",
-            "To eliminate the need for testing",
-            "To focus only on user interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key activity in secure coding practices?",
-        options: [
-            "Ignoring input validation",
-            "Regularly reviewing and updating code for security vulnerabilities",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the purpose of a data breach notification policy?",
-        options: [
-            "To ignore data breaches",
-            "To inform affected users and authorities in case of a breach",
-            "To delay the project",
-            "To focus only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key principle of secure software architecture?",
-        options: [
-            "Ignoring security requirements",
-            "Designing systems with security as a core component",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the role of a security patch in software development?",
-        options: [
-            "To slow down the system",
-            "To fix known vulnerabilities in software",
-            "To eliminate the need for testing",
-            "To focus only on user interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key benefit of using encryption?",
-        options: [
-            "Increased development time",
-            "Protecting sensitive data from unauthorized access",
-            "No documentation",
-            "Focusing only on manual testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the purpose of a security awareness training program?",
-        options: [
-            "To ignore security issues",
-            "To educate employees about security best practices",
-            "To delay the project",
-            "To focus only on coding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key principle of secure software deployment?",
-        options: [
-            "Ignoring security configurations",
-            "Ensuring secure configurations and updates during deployment",
-            "No documentation",
-            "Focusing only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "What is the role of a security information and event management (SIEM) system?",
-        options: [
-            "To slow down the system",
-            "To monitor and analyze security events in real-time",
-            "To eliminate the need for testing",
-            "To focus only on user interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Security and Privacy",
-        question: "Which of the following is a key benefit of using a secure development lifecycle (SDL)?",
-        options: [
-            "Increased development time",
-            "Integrating security into every phase of software development",
-            "No documentation",
-            "Focusing only on manual testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is a key trend in modern software development?",
-        options: [
-            "Increased reliance on manual processes",
-            "Adoption of AI and automation",
-            "Focusing only on hardware",
-            "Ignoring user feedback"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key benefit of microservices architecture?",
-        options: [
-            "Increased complexity",
-            "Improved scalability and flexibility",
-            "Tight coupling of services",
-            "No need for cloud integration"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the role of 5G in IoT software development?",
-        options: [
-            "To reduce connectivity",
-            "To enable faster and more reliable communication",
-            "To eliminate the need for edge computing",
-            "To increase latency"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key consideration for ethical AI?",
-        options: [
-            "Ignoring user privacy",
-            "Ensuring transparency and fairness",
-            "Focusing only on profitability",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the primary purpose of DevOps in modern software engineering?",
-        options: [
-            "To separate development and operations teams",
-            "To improve collaboration and automation between teams",
-            "To eliminate testing",
-            "To focus only on development speed"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key trend in cloud-native development?",
-        options: [
-            "Increased dependency on on-premise infrastructure",
-            "Use of containers and Kubernetes",
-            "Focusing only on manual scaling",
-            "Ignoring scalability"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the role of AI in software testing?",
-        options: [
-            "To eliminate the need for testing",
-            "To automate test case generation and execution",
-            "To focus only on manual testing",
-            "To ignore bug detection"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key benefit of serverless computing?",
-        options: [
-            "Increased operational complexity",
-            "Reduced infrastructure management",
-            "Higher costs",
-            "Manual scaling"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the primary advantage of using containers in software development?",
-        options: [
-            "Increased dependency on specific environments",
-            "Consistency across development and production environments",
-            "Higher costs",
-            "Manual configuration"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key trend in cybersecurity for software engineering?",
-        options: [
-            "Ignoring security vulnerabilities",
-            "Adoption of zero-trust architecture",
-            "Focusing only on development speed",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the role of edge computing in modern software systems?",
-        options: [
-            "To centralize data processing",
-            "To reduce latency by processing data closer to the source",
-            "To eliminate the need for IoT devices",
-            "To increase dependency on cloud servers"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key trend in API development?",
-        options: [
-            "Ignoring API security",
-            "Adoption of GraphQL for flexible data querying",
-            "Focusing only on monolithic architectures",
-            "No documentation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the primary benefit of using Kubernetes in software development?",
-        options: [
-            "Increased manual intervention",
-            "Automated container orchestration and scaling",
-            "Higher costs",
-            "No need for cloud integration"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key trend in user experience (UX) design?",
-        options: [
-            "Ignoring user feedback",
-            "Focusing on personalized and adaptive interfaces",
-            "No documentation",
-            "Focusing only on backend development"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the role of blockchain in modern software systems?",
-        options: [
-            "To increase centralization",
-            "To provide secure and transparent transaction recording",
+        section: "Advanced Design Patterns",
+        question: "What is the primary purpose of CQRS?",
+        options: [
+            "To combine read and write operations into a single model",
+            "To separate read and write operations into different models",
             "To eliminate the need for databases",
-            "To focus only on hardware"
+            "To simplify monolithic architectures"
         ],
         answer: 1,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key trend in data engineering?",
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a benefit of CQRS?",
         options: [
-            "Ignoring data quality",
-            "Adoption of real-time data processing and analytics",
-            "Focusing only on manual data entry",
-            "No documentation"
+            "Simplified data consistency",
+            "Improved scalability for read and write operations",
+            "Reduced need for event sourcing",
+            "Tight coupling of components"
         ],
         answer: 1,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the primary benefit of using AI in software maintenance?",
+        section: "Advanced Design Patterns",
+        question: "What is Event Sourcing?",
         options: [
-            "Increased manual effort",
-            "Automated bug detection and resolution",
-            "Higher costs",
-            "No need for testing"
+            "Storing only the current state of an application",
+            "Storing a sequence of events that represent state changes",
+            "Eliminating the need for databases",
+            "Using a single model for read and write operations"
         ],
         answer: 1,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key trend in software project management?",
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a key benefit of Event Sourcing?",
         options: [
-            "Ignoring agile methodologies",
-            "Adoption of DevOps and continuous delivery",
-            "Focusing only on waterfall models",
-            "No documentation"
+            "Simplified debugging and auditing",
+            "Reduced need for CQRS",
+            "Tight coupling of components",
+            "Limited scalability"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "What is the primary challenge of implementing Event Sourcing?",
+        options: [
+            "Increased complexity of event storage and replay",
+            "Reduced scalability",
+            "Tight coupling of components",
+            "Simplified debugging"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "What is Dependency Injection (DI)?",
+        options: [
+            "A design pattern that promotes tight coupling",
+            "A technique for passing dependencies to a class rather than creating them internally",
+            "A method for combining read and write operations",
+            "A way to eliminate the need for databases"
         ],
         answer: 1,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the role of machine learning in software analytics?",
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a benefit of Dependency Injection?",
         options: [
-            "To ignore data insights",
-            "To analyze and predict software performance and issues",
-            "To focus only on manual testing",
-            "To eliminate the need for data"
+            "Tight coupling of components",
+            "Improved testability and maintainability",
+            "Reduced need for CQRS",
+            "Simplified event sourcing"
         ],
         answer: 1,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key trend in software security?",
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a real-world application of CQRS?",
         options: [
-            "Ignoring vulnerabilities",
-            "Adoption of automated security testing tools",
-            "Focusing only on development speed",
-            "No documentation"
+            "E-commerce platforms with separate read and write models",
+            "Static websites",
+            "Monolithic legacy systems",
+            "Batch processing systems"
         ],
-        answer: 1,
+        answer: 0,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the primary benefit of using low-code/no-code platforms?",
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a real-world application of Event Sourcing?",
         options: [
-            "Increased complexity",
-            "Faster development and reduced dependency on coding expertise",
-            "Higher costs",
-            "Manual configuration"
+            "Financial systems for auditing and transaction history",
+            "Static websites",
+            "Monolithic legacy systems",
+            "Batch processing systems"
         ],
-        answer: 1,
+        answer: 0,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key trend in software testing?",
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a real-world application of Dependency Injection?",
         options: [
-            "Ignoring automation",
-            "Adoption of AI-driven testing tools",
-            "Focusing only on manual testing",
-            "No documentation"
+            "Enterprise applications with modular and testable components",
+            "Static websites",
+            "Monolithic legacy systems",
+            "Batch processing systems"
         ],
-        answer: 1,
+        answer: 0,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the role of big data in software engineering?",
+        section: "Advanced Design Patterns",
+        question: "What is the primary purpose of a Command in CQRS?",
         options: [
-            "To ignore data insights",
-            "To enable data-driven decision-making and innovation",
-            "To focus only on manual data entry",
+            "To query data",
+            "To perform write operations",
+            "To store events",
             "To eliminate the need for databases"
         ],
         answer: 1,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key trend in software architecture?",
+        section: "Advanced Design Patterns",
+        question: "What is the primary purpose of a Query in CQRS?",
         options: [
-            "Ignoring scalability",
-            "Adoption of modular and distributed architectures",
-            "Focusing only on monolithic designs",
-            "No documentation"
+            "To perform write operations",
+            "To retrieve data",
+            "To store events",
+            "To eliminate the need for databases"
         ],
         answer: 1,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the primary benefit of using AI in software deployment?",
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a key challenge of CQRS?",
         options: [
-            "Increased manual effort",
-            "Automated deployment and rollback processes",
-            "Higher costs",
-            "No need for testing"
+            "Increased complexity of managing separate models",
+            "Reduced scalability",
+            "Tight coupling of components",
+            "Simplified debugging"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "What is the primary benefit of using Event Sourcing with CQRS?",
+        options: [
+            "Improved scalability for read operations",
+            "Simplified data consistency",
+            "Tight coupling of components",
+            "Reduced need for Dependency Injection"
         ],
         answer: 1,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key trend in software documentation?",
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a common use case for Dependency Injection?",
         options: [
-            "Ignoring documentation",
-            "Adoption of automated documentation tools",
-            "Focusing only on manual documentation",
-            "No need for version control"
+            "Enterprise applications with modular components",
+            "Static websites",
+            "Monolithic legacy systems",
+            "Batch processing systems"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "What is the primary purpose of an Event Store in Event Sourcing?",
+        options: [
+            "To store only the current state of an application",
+            "To store a sequence of events representing state changes",
+            "To eliminate the need for databases",
+            "To combine read and write operations"
         ],
         answer: 1,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the role of IoT in modern software systems?",
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a key benefit of using Dependency Injection in testing?",
         options: [
-            "To ignore connectivity",
-            "To enable smart and connected devices",
-            "To eliminate the need for cloud computing",
-            "To focus only on hardware"
+            "Tight coupling of components",
+            "Improved testability through mock dependencies",
+            "Reduced need for CQRS",
+            "Simplified event sourcing"
         ],
         answer: 1,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "Which of the following is a key trend in software sustainability?",
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a key characteristic of CQRS?",
         options: [
-            "Ignoring environmental impact",
-            "Adoption of energy-efficient coding practices",
-            "Focusing only on profitability",
-            "No documentation"
+            "Combining read and write operations into a single model",
+            "Separating read and write operations into different models",
+            "Eliminating the need for databases",
+            "Simplifying monolithic architectures"
         ],
         answer: 1,
     },
     {
-        section: "Emerging Trends in Software Engineering",
-        question: "What is the primary benefit of using AI in software requirements analysis?",
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a key characteristic of Event Sourcing?",
         options: [
-            "Increased manual effort",
-            "Automated requirement gathering and validation",
-            "Higher costs",
-            "No need for user feedback"
+            "Storing only the current state of an application",
+            "Storing a sequence of events representing state changes",
+            "Eliminating the need for databases",
+            "Using a single model for read and write operations"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a key characteristic of Dependency Injection?",
+        options: [
+            "Tight coupling of components",
+            "Passing dependencies to a class rather than creating them internally",
+            "Combining read and write operations",
+            "Eliminating the need for databases"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a common tool for implementing Dependency Injection?",
+        options: [
+            "Spring Framework",
+            "Apache Kafka",
+            "Docker",
+            "Kubernetes"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a common tool for implementing Event Sourcing?",
+        options: [
+            "Apache Kafka",
+            "Spring Framework",
+            "Docker",
+            "Kubernetes"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a common tool for implementing CQRS?",
+        options: [
+            "Axon Framework",
+            "Spring Framework",
+            "Docker",
+            "Kubernetes"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "What is the primary purpose of a Command Handler in CQRS?",
+        options: [
+            "To query data",
+            "To handle write operations",
+            "To store events",
+            "To eliminate the need for databases"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "What is the primary purpose of a Query Handler in CQRS?",
+        options: [
+            "To perform write operations",
+            "To retrieve data",
+            "To store events",
+            "To eliminate the need for databases"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a key benefit of using CQRS with Event Sourcing?",
+        options: [
+            "Improved scalability for read operations",
+            "Simplified data consistency",
+            "Tight coupling of components",
+            "Reduced need for Dependency Injection"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a key challenge of Dependency Injection?",
+        options: [
+            "Increased complexity of managing dependencies",
+            "Reduced scalability",
+            "Tight coupling of components",
+            "Simplified debugging"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Advanced Design Patterns",
+        question: "Which of the following is a key benefit of using Event Sourcing in financial systems?",
+        options: [
+            "Improved auditing and transaction history",
+            "Reduced need for CQRS",
+            "Tight coupling of components",
+            "Simplified debugging"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "Which of the following is a key benefit of using AI in software development?",
+        options: [
+            "Increased manual debugging efforts",
+            "Automated code generation and optimization",
+            "Higher development costs",
+            "Slower software deployment"
+        ],
+        answer: 1,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "Which AI-driven tool is widely used for automated code generation?",
+        options: [
+            "GitHub Copilot",
+            "Docker",
+            "Postman",
+            "Kubernetes"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "How does AI assist in debugging code?",
+        options: [
+            "By manually reviewing every line of code",
+            "By analyzing error logs and suggesting fixes",
+            "By requiring developers to debug manually",
+            "By removing all errors automatically"
+        ],
+        answer: 1,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "Which of the following is an example of an AI-powered bug detection tool?",
+        options: [
+            "SonarQube",
+            "TensorFlow",
+            "PostgreSQL",
+            "React"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "Which machine learning technique is commonly used for anomaly detection in software logs?",
+        options: [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "Deep Learning"
+        ],
+        answer: 1,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "What is the role of Natural Language Processing (NLP) in AI-powered coding assistants?",
+        options: [
+            "Recognizing programming patterns and improving suggestions",
+            "Translating spoken language into machine code",
+            "Optimizing network latency",
+            "Managing cloud infrastructure"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "Which AI model is commonly used in AI-powered code generation tools?",
+        options: [
+            "GPT (Generative Pre-trained Transformer)",
+            "RNN (Recurrent Neural Network)",
+            "CNN (Convolutional Neural Network)",
+            "Naïve Bayes"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "How does AI improve software performance optimization?",
+        options: [
+            "By analyzing runtime behavior and suggesting optimizations",
+            "By increasing CPU load",
+            "By removing functions from the code",
+            "By slowing down execution to detect errors"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "Which AI technique is used for predictive software maintenance?",
+        options: [
+            "Regression Analysis",
+            "Clustering",
+            "Genetic Algorithms",
+            "Bayesian Networks"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "What is the main function of AI-driven test automation?",
+        options: [
+            "Generating and executing test cases automatically",
+            "Manually reviewing test cases",
+            "Replacing all manual testing efforts",
+            "Writing code for developers"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "Which of these is NOT an AI-powered coding assistant?",
+        options: [
+            "GitHub Copilot",
+            "Tabnine",
+            "Jira",
+            "Amazon CodeWhisperer"
+        ],
+        answer: 2,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "What is an advantage of using AI for software documentation?",
+        options: [
+            "It generates documentation automatically",
+            "It replaces human developers",
+            "It requires no input from developers",
+            "It slows down software development"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "Which AI-powered tool helps with automatic code refactoring?",
+        options: [
+            "Refact.ai",
+            "ChatGPT",
+            "AWS Lambda",
+            "Docker"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "What type of learning is used in AI-driven software testing?",
+        options: [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Reinforcement Learning",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "Which of the following best describes AI’s role in software performance monitoring?",
+        options: [
+            "Predicting potential system failures",
+            "Increasing execution time",
+            "Slowing down data processing",
+            "Removing functions from code"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "What is a key benefit of AI in continuous integration and deployment (CI/CD)?",
+        options: [
+            "Automated quality checks and faster releases",
+            "Manual code review",
+            "Delaying software delivery",
+            "Replacing DevOps engineers"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "Which of the following describes 'AI-driven pair programming'?",
+        options: [
+            "An AI system assists a developer by suggesting and completing code",
+            "Developers work in pairs without AI assistance",
+            "An AI that writes full applications independently",
+            "A method where developers write code on different files"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "How does AI improve code review processes?",
+        options: [
+            "By automatically identifying security vulnerabilities and bugs",
+            "By requiring only manual review",
+            "By replacing human developers",
+            "By skipping security analysis"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "Which AI-based tool can be used for automated API testing?",
+        options: [
+            "Postman AI",
+            "GraphQL",
+            "Selenium",
+            "JMeter AI"
+        ],
+        answer: 0,
+    },
+    {
+        section: "AI & Machine Learning in Development",
+        question: "What is one risk associated with AI-generated code?",
+        options: [
+            "AI can introduce security vulnerabilities",
+            "AI eliminates the need for software developers",
+            "AI makes all code perfect",
+            "AI cannot write any code"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "What is the primary goal of Secure Software Development Lifecycle (SSDLC)?",
+        options: [
+            "To embed security at every stage of software development",
+            "To reduce development costs",
+            "To focus only on penetration testing",
+            "To delay software releases for security audits"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which phase of SSDLC involves identifying security requirements?",
+        options: [
+            "Design phase",
+            "Requirement analysis phase",
+            "Testing phase",
+            "Deployment phase"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Threat modeling is typically performed during which phase of SSDLC?",
+        options: [
+            "Requirement analysis phase",
+            "Design phase",
+            "Implementation phase",
+            "Maintenance phase"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "What does STRIDE stand for in threat modeling?",
+        options: [
+            "Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege",
+            "Security, Tampering, Recovery, Integrity, Data Protection, Execution",
+            "Structure, Testing, Redundancy, Information Security, Detection, Encryption",
+            "Software, Tracking, Risk, Implementation, Detection, Evaluation"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which phase of SSDLC focuses on secure coding practices?",
+        options: [
+            "Implementation phase",
+            "Testing phase",
+            "Deployment phase",
+            "Requirement analysis phase"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "What is a key security best practice during the implementation phase?",
+        options: [
+            "Using strong authentication and authorization mechanisms",
+            "Ignoring security vulnerabilities",
+            "Delaying security reviews",
+            "Skipping peer code reviews"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which of the following helps prevent SQL injection attacks?",
+        options: [
+            "Using prepared statements and parameterized queries",
+            "Allowing direct SQL input from users",
+            "Using complex database queries",
+            "Disabling database logging"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Static Application Security Testing (SAST) is typically performed during which SSDLC phase?",
+        options: [
+            "Implementation phase",
+            "Design phase",
+            "Testing phase",
+            "Deployment phase"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "What is the purpose of Dynamic Application Security Testing (DAST)?",
+        options: [
+            "To test security vulnerabilities while the application is running",
+            "To analyze code without executing it",
+            "To scan only backend services",
+            "To enforce stricter firewall rules"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which tool is commonly used for DAST?",
+        options: [
+            "Burp Suite",
+            "SonarQube",
+            "GitHub Copilot",
+            "Docker"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Why is security testing essential in SSDLC?",
+        options: [
+            "To identify vulnerabilities before deployment",
+            "To increase development costs",
+            "To replace manual testing",
+            "To eliminate the need for developers"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which phase of SSDLC ensures secure deployment of applications?",
+        options: [
+            "Deployment phase",
+            "Testing phase",
+            "Design phase",
+            "Requirement analysis phase"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "What is a key security practice in the deployment phase?",
+        options: [
+            "Using automated security monitoring",
+            "Disabling firewalls",
+            "Allowing unrestricted admin access",
+            "Ignoring security updates"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which security principle suggests granting users only the permissions they need?",
+        options: [
+            "Principle of Least Privilege",
+            "Principle of Maximum Access",
+            "Open Access Policy",
+            "Full Administrator Control"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "What is a major advantage of integrating SSDLC into development?",
+        options: [
+            "Identifying and fixing security flaws early",
+            "Delaying security testing until production",
+            "Ignoring security policies",
+            "Removing security teams from the process"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "What is the role of penetration testing in SSDLC?",
+        options: [
+            "Simulating real-world attacks to identify vulnerabilities",
+            "Replacing the need for code reviews",
+            "Automatically fixing all security issues",
+            "Eliminating the need for encryption"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which security standard is commonly used for web application security?",
+        options: [
+            "OWASP Top 10",
+            "ISO 9001",
+            "TCP/IP",
+            "GDPR"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which of the following is a major cause of security vulnerabilities?",
+        options: [
+            "Poor coding practices",
+            "Strict authentication policies",
+            "Frequent security audits",
+            "Secure password storage"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Why is continuous monitoring important in SSDLC?",
+        options: [
+            "To detect security threats in real time",
+            "To slow down software development",
+            "To ignore compliance requirements",
+            "To allow unrestricted access to users"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which phase of SSDLC involves regular security updates and patches?",
+        options: [
+            "Maintenance phase",
+            "Requirement analysis phase",
+            "Testing phase",
+            "Design phase"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "What is a key security measure in the requirement analysis phase?",
+        options: [
+            "Defining security requirements early",
+            "Skipping security assessments",
+            "Focusing only on performance optimization",
+            "Avoiding documentation"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which of the following security practices is essential in the design phase?",
+        options: [
+            "Threat modeling",
+            "Skipping architecture reviews",
+            "Delaying security decisions",
+            "Avoiding documentation"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which of the following is an example of an insecure coding practice?",
+        options: [
+            "Hardcoding sensitive credentials",
+            "Using secure authentication mechanisms",
+            "Applying input validation",
+            "Implementing strong encryption"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which principle focuses on ensuring that security mechanisms are simple and small?",
+        options: [
+            "Economy of Mechanism",
+            "Fail-Secure",
+            "Defense in Depth",
+            "Open Design"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "What is a security best practice when handling user passwords?",
+        options: [
+            "Hashing and salting passwords",
+            "Storing passwords in plain text",
+            "Using weak passwords for convenience",
+            "Allowing unlimited login attempts"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which security concept ensures that even if one security control fails, additional layers of security exist?",
+        options: [
+            "Defense in Depth",
+            "Zero Trust",
+            "Single Point of Failure",
+            "Implicit Trust"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which of the following security threats does input validation help prevent?",
+        options: [
+            "Cross-Site Scripting (XSS)",
+            "Phishing",
+            "Denial of Service (DoS)",
+            "Social Engineering"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Why is logging and monitoring important in secure development?",
+        options: [
+            "To detect and respond to security incidents",
+            "To replace security testing",
+            "To slow down performance",
+            "To remove the need for audits"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "What is the best approach for managing third-party dependencies securely?",
+        options: [
+            "Regularly updating and auditing dependencies",
+            "Using outdated versions",
+            "Ignoring security advisories",
+            "Allowing unrestricted access to third-party components"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Secure Software Development Lifecycle (SSDLC)",
+        question: "Which security framework provides guidelines for secure software development?",
+        options: [
+            "NIST Secure Software Development Framework (SSDF)",
+            "ISO 9001",
+            "GDPR",
+            "IEEE 802.11"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is technical debt in software development?",
+        options: [
+            "The cost of additional rework caused by choosing a quick but limited solution",
+            "A financial loan taken for software development",
+            "The cost of software licenses",
+            "The time taken to develop software"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of the following is NOT a common cause of technical debt?",
+        options: [
+            "Rushed development timelines",
+            "Poor code quality",
+            "Refactoring old code",
+            "Lack of documentation"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of the following best describes the impact of technical debt?",
+        options: [
+            "Increases future maintenance costs",
+            "Improves code readability",
+            "Speeds up long-term development",
+            "Reduces system complexity"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is the best strategy to reduce technical debt?",
+        options: [
+            "Refactoring code regularly",
+            "Ignoring old code",
+            "Avoiding writing tests",
+            "Continuously adding new features"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of the following tools can help identify technical debt in a codebase?",
+        options: [
+            "SonarQube",
+            "Photoshop",
+            "Excel",
+            "Trello"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is the role of automated testing in technical debt management?",
+        options: [
+            "Prevents new defects and ensures stability",
+            "Makes development slower",
+            "Replaces the need for developers",
+            "Eliminates all bugs"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is a common consequence of ignoring technical debt?",
+        options: [
+            "Increased software complexity and maintenance cost",
+            "Improved system performance",
+            "Faster feature development",
+            "Better user experience"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of these is a best practice for managing technical debt?",
+        options: [
+            "Prioritizing debt repayment in the development cycle",
+            "Completely stopping feature development",
+            "Ignoring legacy code",
+            "Only addressing debt during major releases"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of the following is NOT an example of technical debt?",
+        options: [
+            "Code that lacks proper documentation",
+            "Unoptimized database queries",
+            "A well-structured and tested software module",
+            "Outdated dependencies in a project"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which refactoring technique involves breaking down a large function into smaller, more manageable pieces?",
+        options: [
+            "Extract Method",
+            "Big Bang Rewriting",
+            "Feature Creep",
+            "Code Duplication"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What does 'code smell' refer to?",
+        options: [
+            "A sign of deeper problems in the code",
+            "A feature request from users",
+            "A well-optimized code segment",
+            "An external library"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "How can continuous integration (CI) help manage technical debt?",
+        options: [
+            "By catching code issues early through automated testing",
+            "By preventing developers from writing new code",
+            "By reducing documentation efforts",
+            "By eliminating all runtime errors"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of the following is an example of intentional technical debt?",
+        options: [
+            "Choosing a temporary quick fix to meet a deadline",
+            "Accidentally introducing security vulnerabilities",
+            "Using outdated technology due to lack of awareness",
+            "Ignoring performance issues"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of the following is NOT a common symptom of high technical debt?",
+        options: [
+            "Frequent system crashes",
+            "Difficult code maintenance",
+            "Fast development with no issues",
+            "Inconsistent code quality"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is the main purpose of refactoring?",
+        options: [
+            "To improve code readability and maintainability",
+            "To delete unnecessary files",
+            "To rewrite the entire software from scratch",
+            "To add new features quickly"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which strategy helps track and manage technical debt over time?",
+        options: [
+            "Maintaining a technical debt backlog",
+            "Ignoring technical debt issues",
+            "Delaying refactoring indefinitely",
+            "Only reviewing code before product launch"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which type of technical debt arises due to poorly understood requirements?",
+        options: [
+            "Requirement debt",
+            "Code debt",
+            "Design debt",
+            "Architecture debt"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is the 'big bang rewrite' approach?",
+        options: [
+            "Rewriting the entire system from scratch",
+            "Gradually refactoring code in small steps",
+            "Ignoring technical debt",
+            "Only fixing visible bugs"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of the following is NOT a recommended approach to managing technical debt?",
+        options: [
+            "Proactively addressing technical debt",
+            "Regular code reviews",
+            "Ignoring debt until it becomes critical",
+            "Automated testing"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of these tools helps track code quality and technical debt?",
+        options: [
+            "SonarQube",
+            "PowerPoint",
+            "Google Docs",
+            "Slack"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is the risk of excessive technical debt?",
+        options: [
+            "Reduced development speed and increased maintenance costs",
+            "Faster project completion",
+            "Easier code maintenance",
+            "Improved software security"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which process focuses on continuously improving code without altering functionality?",
+        options: [
+            "Refactoring",
+            "Feature development",
+            "Version control",
+            "Debugging"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is technical debt in software development?",
+        options: [
+            "The cost of additional rework caused by choosing a quick but limited solution",
+            "A financial loan taken for software development",
+            "The cost of software licenses",
+            "The time taken to develop software"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of the following is NOT a common cause of technical debt?",
+        options: [
+            "Rushed development timelines",
+            "Poor code quality",
+            "Refactoring old code",
+            "Lack of documentation"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is a primary impact of technical debt?",
+        options: [
+            "Increased future maintenance costs",
+            "Improved code readability",
+            "Speeds up long-term development",
+            "Reduces system complexity"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of these is an effective strategy to reduce technical debt?",
+        options: [
+            "Refactoring code regularly",
+            "Ignoring old code",
+            "Avoiding writing tests",
+            "Continuously adding new features"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which tool helps identify technical debt in a codebase?",
+        options: [
+            "SonarQube",
+            "Photoshop",
+            "Excel",
+            "Trello"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "How does automated testing help in managing technical debt?",
+        options: [
+            "Prevents new defects and ensures stability",
+            "Makes development slower",
+            "Replaces the need for developers",
+            "Eliminates all bugs"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What happens if technical debt is ignored?",
+        options: [
+            "Increased software complexity and maintenance cost",
+            "Improved system performance",
+            "Faster feature development",
+            "Better user experience"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which approach is best for managing technical debt?",
+        options: [
+            "Prioritizing debt repayment in the development cycle",
+            "Completely stopping feature development",
+            "Ignoring legacy code",
+            "Only addressing debt during major releases"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of these is NOT an example of technical debt?",
+        options: [
+            "Code that lacks proper documentation",
+            "Unoptimized database queries",
+            "A well-structured and tested software module",
+            "Outdated dependencies in a project"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is the purpose of refactoring?",
+        options: [
+            "To improve code readability and maintainability",
+            "To delete unnecessary files",
+            "To rewrite the entire software from scratch",
+            "To add new features quickly"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What does 'code smell' indicate?",
+        options: [
+            "A sign of deeper problems in the code",
+            "A feature request from users",
+            "A well-optimized code segment",
+            "An external library"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "How does continuous integration (CI) help with technical debt?",
+        options: [
+            "By catching code issues early through automated testing",
+            "By preventing developers from writing new code",
+            "By reducing documentation efforts",
+            "By eliminating all runtime errors"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of these is an example of intentional technical debt?",
+        options: [
+            "Choosing a temporary quick fix to meet a deadline",
+            "Accidentally introducing security vulnerabilities",
+            "Using outdated technology due to lack of awareness",
+            "Ignoring performance issues"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is a common symptom of high technical debt?",
+        options: [
+            "Frequent system crashes",
+            "Difficult code maintenance",
+            "Inconsistent code quality",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What does 'big bang rewrite' mean?",
+        options: [
+            "Rewriting the entire system from scratch",
+            "Gradually refactoring code in small steps",
+            "Ignoring technical debt",
+            "Only fixing visible bugs"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which approach is NOT recommended for managing technical debt?",
+        options: [
+            "Proactively addressing technical debt",
+            "Regular code reviews",
+            "Ignoring debt until it becomes critical",
+            "Automated testing"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which tool can track technical debt over time?",
+        options: [
+            "SonarQube",
+            "PowerPoint",
+            "Google Docs",
+            "Slack"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "How does technical debt affect software maintainability?",
+        options: [
+            "Makes it harder to modify and update the software",
+            "Improves system flexibility",
+            "Reduces debugging time",
+            "Enhances overall software performance"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which practice helps track and manage technical debt?",
+        options: [
+            "Maintaining a technical debt backlog",
+            "Ignoring technical debt issues",
+            "Delaying refactoring indefinitely",
+            "Only reviewing code before product launch"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is the role of documentation in technical debt management?",
+        options: [
+            "Helps developers understand code structure and decisions",
+            "Slows down development",
+            "Increases the complexity of the codebase",
+            "Replaces the need for refactoring"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of these is a sign that technical debt is out of control?",
+        options: [
+            "Developers avoid modifying certain parts of the code",
+            "Code changes require extensive debugging",
+            "New features take longer to implement",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "What is a major consequence of high technical debt?",
+        options: [
+            "Increased software complexity and maintenance cost",
+            "Faster software updates",
+            "Simpler debugging",
+            "Reduced need for code reviews"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technical Debt Management",
+        question: "Which of these best describes refactoring?",
+        options: [
+            "Improving code without changing its functionality",
+            "Adding new features to software",
+            "Fixing all software bugs",
+            "Eliminating unit tests"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is a cloud-native application?",
+        options: ["An app built specifically to run in cloud environments", "Any app that uses the internet", "An app that runs only on-premises", "An application that doesn’t require cloud services"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which technology is commonly used for container orchestration?",
+        options: ["Kubernetes", "Docker", "Terraform", "Ansible"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is the primary role of Docker in cloud-native applications?",
+        options: ["Containerization", "Networking", "Load balancing", "Authentication"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which of the following is a key benefit of cloud-native applications?",
+        options: ["Scalability", "High latency", "Tightly coupled architecture", "Single point of failure"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is Kubernetes used for?",
+        options: ["Managing containerized applications", "Creating virtual machines", "Developing mobile apps", "Monitoring hardware components"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which cloud-native principle ensures an application remains available despite failures?",
+        options: ["Resilience", "Monolithic architecture", "Single server dependency", "Manual scaling"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which of the following is NOT a cloud-native design pattern?",
+        options: ["Monolithic application", "Microservices", "Service Mesh", "Sidecar pattern"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is a microservices architecture?",
+        options: ["An approach where applications are composed of small, independent services", "A single large codebase", "A method of designing desktop applications", "A system where services depend on a central database"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which component of Kubernetes is responsible for scheduling workloads?",
+        options: ["Kube-scheduler", "Kubelet", "Pod", "Service"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What does a Kubernetes pod represent?",
+        options: ["A group of one or more containers", "A physical server", "A virtual machine", "A cloud storage bucket"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is a key advantage of using containers?",
+        options: ["Portability", "Slower deployment", "Tied to a specific cloud provider", "Requires a dedicated physical server"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which service in Kubernetes exposes applications to external traffic?",
+        options: ["Ingress", "ConfigMap", "Persistent Volume", "ClusterRole"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is a common cloud-native monitoring tool?",
+        options: ["Prometheus", "Microsoft Word", "Photoshop", "Excel"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which cloud model provides the highest level of user control?",
+        options: ["Infrastructure as a Service (IaaS)", "Platform as a Service (PaaS)", "Software as a Service (SaaS)", "Function as a Service (FaaS)"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is a major benefit of using cloud-native applications?",
+        options: ["Automatic scalability", "Higher operational costs", "Fixed hardware requirements", "Complex deployment process"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which Kubernetes component maintains cluster state?",
+        options: ["etcd", "Kubelet", "Pod", "Deployment"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is a service mesh used for in cloud-native applications?",
+        options: ["Managing service-to-service communication", "Building mobile apps", "Storing large files", "Creating virtual machines"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which cloud-native pattern handles failures automatically?",
+        options: ["Circuit Breaker", "Singleton", "Observer", "Monolithic"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What does a Kubernetes deployment do?",
+        options: ["Manages replica sets and rolling updates", "Controls network traffic", "Creates storage volumes", "Encrypts application data"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which tool is used for infrastructure as code in cloud-native environments?",
+        options: ["Terraform", "Docker", "MongoDB", "Kubernetes"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which type of cloud-native service executes code without managing infrastructure?",
+        options: ["Serverless computing", "Virtual Machines", "Dedicated servers", "Bare-metal hosting"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is the primary benefit of using a container registry?",
+        options: ["Stores and distributes container images", "Creates virtual networks", "Hosts web applications", "Manages user authentication"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which of the following is NOT a cloud-native storage solution?",
+        options: ["Hard disk drives", "Object storage", "Persistent volumes", "Cloud databases"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which cloud-native component ensures traffic is routed dynamically?",
+        options: ["Service mesh", "Cron job", "Volume claim", "ConfigMap"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which platform provides managed Kubernetes services?",
+        options: ["Google Kubernetes Engine (GKE)", "Microsoft Word", "Facebook", "Adobe Photoshop"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is a key challenge of cloud-native applications?",
+        options: ["Managing distributed systems", "Limited scalability", "Inflexibility", "Slower deployment"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "Which practice helps ensure high availability in cloud-native applications?",
+        options: ["Load balancing", "Running all services on a single server", "Hardcoding configurations", "Ignoring system monitoring"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is horizontal scaling?",
+        options: ["Adding more instances of a service", "Increasing CPU on a single server", "Using one large monolithic service", "Reducing network capacity"],
+        answer: 0,
+    },
+    {
+        section: "Cloud-Native Applications",
+        question: "What is the main function of a Kubernetes namespace?",
+        options: ["Organizing resources within a cluster", "Exposing services to external traffic", "Handling authentication", "Managing service discovery"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "What is Hadoop primarily used for?",
+        options: ["Distributed data processing", "Cloud storage", "Relational database management", "Virtual machine hosting"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which component of Hadoop is responsible for distributed storage?",
+        options: ["HDFS", "MapReduce", "YARN", "Hive"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which of the following is a real-time data processing framework?",
+        options: ["Apache Flink", "Hadoop MapReduce", "Cassandra", "MongoDB"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which programming languages are commonly used with Apache Spark?",
+        options: ["Scala, Python, Java", "C, C++, PHP", "Ruby, Perl, Go", "Swift, Kotlin, R"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "What is the main function of YARN in Hadoop?",
+        options: ["Resource management", "Data storage", "Batch processing", "Real-time analytics"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which component in Spark is responsible for fault tolerance and scheduling?",
+        options: ["Spark Driver", "RDD", "YARN", "HDFS"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "What is the main advantage of Apache Flink over Apache Spark?",
+        options: ["True real-time stream processing", "Better batch processing", "Higher latency", "Tightly coupled architecture"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which big data framework is best suited for batch processing?",
+        options: ["Hadoop MapReduce", "Apache Flink", "Kafka Streams", "Flink CEP"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "What is the purpose of Apache Hive in the Hadoop ecosystem?",
+        options: ["SQL-like querying of big data", "Data visualization", "Container orchestration", "Machine learning model deployment"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which component of Spark is responsible for storing intermediate data?",
+        options: ["RDD", "DataFrame", "Kafka", "HDFS"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which tool is used for real-time data streaming in Apache Spark?",
+        options: ["Spark Streaming", "MapReduce", "Pig", "HDFS"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which of the following is an example of a NoSQL database used in big data?",
+        options: ["Cassandra", "MySQL", "PostgreSQL", "SQLite"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which framework is commonly used for distributed machine learning on big data?",
+        options: ["Apache Mahout", "Flask", "React", "Pandas"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which big data framework allows processing of both batch and stream data?",
+        options: ["Apache Spark", "Hadoop MapReduce", "PostgreSQL", "MongoDB"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "What does RDD stand for in Spark?",
+        options: ["Resilient Distributed Dataset", "Random Data Distribution", "Real-time Data Driver", "Remote Data Dump"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which framework is best suited for low-latency streaming data processing?",
+        options: ["Apache Flink", "Hadoop", "Apache Spark (Batch)", "Hive"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which storage format is optimized for analytical queries in big data?",
+        options: ["Parquet", "CSV", "JSON", "TXT"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which component of Hadoop is responsible for parallel computation?",
+        options: ["MapReduce", "Hive", "HDFS", "Pig"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which framework is used for event-driven stream processing?",
+        options: ["Kafka Streams", "Hadoop", "Hive", "HBase"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which of the following is NOT a big data processing framework?",
+        options: ["Docker", "Apache Spark", "Apache Flink", "Hadoop"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "What is the role of Apache Kafka in big data processing?",
+        options: ["Messaging and event streaming", "Batch processing", "Data visualization", "SQL query execution"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which data format is best suited for big data storage?",
+        options: ["ORC", "PDF", "DOCX", "EXCEL"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which big data technology is often used with Hadoop to run SQL queries?",
+        options: ["Hive", "Spark MLlib", "Kafka", "Flink"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which of the following frameworks is designed for iterative machine learning workflows?",
+        options: ["Apache Mahout", "HDFS", "Kafka", "Apache Storm"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "What is the purpose of Apache Pig in the Hadoop ecosystem?",
+        options: ["High-level scripting for data transformation", "Distributed messaging", "File system management", "Cluster monitoring"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which feature makes Apache Flink ideal for real-time analytics?",
+        options: ["Low latency and event time processing", "Batch processing only", "Fixed storage model", "Single-node deployment"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "What type of architecture does Apache Spark use for data processing?",
+        options: ["Master-Slave", "Client-Server", "Monolithic", "Peer-to-Peer"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "What is Apache HBase primarily used for?",
+        options: ["NoSQL database storage", "Graph processing", "Batch processing", "Data visualization"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "What is the purpose of DataFrames in Spark?",
+        options: ["Efficient structured data processing", "Only used for streaming", "A replacement for HDFS", "Encrypting sensitive data"],
+        answer: 0,
+    },
+    {
+        section: "Big Data Frameworks",
+        question: "Which big data tool is best suited for ETL (Extract, Transform, Load) processes?",
+        options: ["Apache NiFi", "Kafka", "Flink", "Pig"],
+        answer: 0,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of a blockchain?",
+        options: [
+            "To centralize data storage",
+            "To provide a decentralized and immutable ledger",
+            "To replace traditional databases",
+            "To eliminate the need for cryptography"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key feature of blockchain technology?",
+        options: [
+            "Centralized control",
+            "Immutability of data",
+            "Single point of failure",
+            "High dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is a decentralized application (DApp)?",
+        options: [
+            "An application that runs on a single server",
+            "An application that runs on a decentralized network like blockchain",
+            "An application that relies on centralized databases",
+            "An application that eliminates the need for cryptography"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key benefit of blockchain technology?",
+        options: [
+            "Increased reliance on intermediaries",
+            "Trustless and secure transactions",
+            "Centralized control of data",
+            "Single point of failure"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the role of consensus mechanisms in blockchain?",
+        options: [
+            "To centralize decision-making",
+            "To ensure agreement among nodes on the state of the ledger",
+            "To eliminate the need for cryptography",
+            "To increase dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a common consensus mechanism in blockchain?",
+        options: [
+            "Proof of Work (PoW)",
+            "Centralized Authority",
+            "Single Point of Failure",
+            "Traditional Database Replication"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of smart contracts in blockchain?",
+        options: [
+            "To replace traditional databases",
+            "To automate and enforce agreements without intermediaries",
+            "To centralize control of transactions",
+            "To eliminate the need for cryptography"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key benefit of decentralized applications (DApps)?",
+        options: [
+            "Increased reliance on intermediaries",
+            "Censorship resistance and transparency",
+            "Centralized control of data",
+            "Single point of failure"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary challenge of blockchain scalability?",
+        options: [
+            "High transaction throughput",
+            "Limited ability to handle large numbers of transactions",
+            "Centralized control of data",
+            "Elimination of cryptography"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a real-world application of blockchain beyond cryptocurrencies?",
+        options: [
+            "Supply chain transparency",
+            "Centralized banking systems",
+            "Traditional databases",
+            "Single point of failure systems"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of cryptography in blockchain?",
+        options: [
+            "To centralize control of data",
+            "To ensure data security and integrity",
+            "To eliminate the need for consensus mechanisms",
+            "To increase dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key characteristic of a public blockchain?",
+        options: [
+            "Centralized control",
+            "Permissionless access",
+            "Single point of failure",
+            "High dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of a private blockchain?",
+        options: [
+            "To allow anyone to join the network",
+            "To restrict access to a specific group of participants",
+            "To eliminate the need for cryptography",
+            "To increase dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key benefit of blockchain in supply chain management?",
+        options: [
+            "Increased reliance on intermediaries",
+            "Improved transparency and traceability",
+            "Centralized control of data",
+            "Single point of failure"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of a token in blockchain?",
+        options: [
+            "To replace traditional databases",
+            "To represent digital assets or utility within a blockchain ecosystem",
+            "To centralize control of transactions",
+            "To eliminate the need for cryptography"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key challenge of blockchain adoption?",
+        options: [
+            "High transaction throughput",
+            "Regulatory and legal uncertainties",
+            "Centralized control of data",
+            "Elimination of cryptography"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of a decentralized identity system in blockchain?",
+        options: [
+            "To centralize control of user data",
+            "To provide users with control over their own identity information",
+            "To eliminate the need for cryptography",
+            "To increase dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key benefit of blockchain in healthcare?",
+        options: [
+            "Increased reliance on intermediaries",
+            "Improved data security and patient privacy",
+            "Centralized control of data",
+            "Single point of failure"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of a permissioned blockchain?",
+        options: [
+            "To allow anyone to join the network",
+            "To restrict access to a specific group of participants",
+            "To eliminate the need for cryptography",
+            "To increase dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key benefit of blockchain in voting systems?",
+        options: [
+            "Increased reliance on intermediaries",
+            "Improved transparency and tamper resistance",
+            "Centralized control of data",
+            "Single point of failure"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of a hash function in blockchain?",
+        options: [
+            "To centralize control of data",
+            "To ensure data integrity and security",
+            "To eliminate the need for consensus mechanisms",
+            "To increase dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key characteristic of a decentralized application (DApp)?",
+        options: [
+            "Centralized control of data",
+            "Open-source and transparent code",
+            "Single point of failure",
+            "High dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of a blockchain node?",
+        options: [
+            "To centralize control of data",
+            "To maintain a copy of the blockchain and validate transactions",
+            "To eliminate the need for cryptography",
+            "To increase dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key benefit of blockchain in real estate?",
+        options: [
+            "Increased reliance on intermediaries",
+            "Improved transparency and reduced fraud",
+            "Centralized control of data",
+            "Single point of failure"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of a blockchain explorer?",
+        options: [
+            "To centralize control of data",
+            "To view and analyze transactions on the blockchain",
+            "To eliminate the need for cryptography",
+            "To increase dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key challenge of blockchain interoperability?",
+        options: [
+            "High transaction throughput",
+            "Difficulty in enabling communication between different blockchains",
+            "Centralized control of data",
+            "Elimination of cryptography"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of a decentralized finance (DeFi) application?",
+        options: [
+            "To centralize control of financial transactions",
+            "To provide financial services without intermediaries",
+            "To eliminate the need for cryptography",
+            "To increase dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key benefit of blockchain in intellectual property management?",
+        options: [
+            "Increased reliance on intermediaries",
+            "Improved transparency and proof of ownership",
+            "Centralized control of data",
+            "Single point of failure"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "What is the primary purpose of a blockchain wallet?",
+        options: [
+            "To centralize control of data",
+            "To store and manage digital assets",
+            "To eliminate the need for cryptography",
+            "To increase dependency on intermediaries"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Blockchain & Decentralized Apps",
+        question: "Which of the following is a key benefit of blockchain in energy trading?",
+        options: [
+            "Increased reliance on intermediaries",
+            "Improved transparency and peer-to-peer trading",
+            "Centralized control of data",
+            "Single point of failure"
         ],
         answer: 1,
     },
 
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is a primary goal of formal methods in software engineering?",
+        options: ["To increase software maintainability", "To ensure software is free from bugs", "To enhance user experience", "To reduce development time"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which of the following is a formal method used in software engineering?",
+        options: ["Agile methodology", "Waterfall model", "Z notation", "Scrum"],
+        answer: 2,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is the main advantage of using formal methods in software engineering?",
+        options: ["Faster development cycles", "Improved accuracy and correctness", "Better team collaboration", "Lower costs"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which mathematical concept is often used in formal methods for software verification?",
+        options: ["Probability theory", "Number theory", "Set theory", "Game theory"],
+        answer: 2,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is the purpose of model checking in formal methods?",
+        options: ["To verify that software meets requirements", "To simulate user interactions", "To manage project timelines", "To improve code readability"],
+        answer: 0,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which of the following is an example of a formal specification language?",
+        options: ["UML", "Java", "HTML", "Alloy"],
+        answer: 3,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What does the acronym 'LTL' stand for in formal methods?",
+        options: ["Last Time Logic", "Linear Temporal Logic", "Loop Termination Logic", "Logical Temporal Language"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is a common use of formal methods in software engineering?",
+        options: ["To design user interfaces", "To verify hardware designs", "To optimize databases", "To create marketing strategies"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which formal method tool is used for theorem proving?",
+        options: ["JIRA", "Coq", "Git", "Eclipse"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is the main challenge of using formal methods in software engineering?",
+        options: ["Lack of documentation", "High computational costs", "Steep learning curve", "Incompatibility with agile practices"],
+        answer: 2,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which of the following is a benefit of using formal verification?",
+        options: ["Faster debugging process", "Ensuring safety-critical systems function correctly", "Reducing memory usage", "Improving user interface design"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is the B method used for?",
+        options: ["Database optimization", "Formal specification and development", "Frontend development", "Cloud computing"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which of the following is a drawback of formal methods?",
+        options: ["Increased risk of bugs", "Complexity in large systems", "Lack of scalability", "High maintenance costs"],
+        answer: 2,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is the main purpose of model-based testing?",
+        options: ["To create user stories", "To verify models against requirements", "To design graphical interfaces", "To manage software releases"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which of the following formal methods is known for its use in verifying concurrent systems?",
+        options: ["Petri nets", "Waterfall model", "Agile methodology", "Scrum"],
+        answer: 0,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which tool is commonly used for formal verification of cryptographic protocols?",
+        options: ["Promela", "SPIN", "Tamarin", "Coq"],
+        answer: 2,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which formal method approach uses state machines for modeling systems?",
+        options: ["Model checking", "Process algebra", "State transition diagrams", "Petri nets"],
+        answer: 2,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is the role of a proof assistant in formal methods?",
+        options: ["To generate test cases", "To assist in constructing mathematical proofs", "To monitor system performance", "To analyze user behavior"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which type of logic is often used in temporal logic for specifying system behaviors?",
+        options: ["Propositional logic", "First-order logic", "Temporal logic", "Predicate logic"],
+        answer: 2,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is a significant advantage of using formal methods in safety-critical systems?",
+        options: ["Increased user engagement", "Reduced development time", "Guaranteed correctness", "Better aesthetics"],
+        answer: 2,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which formal verification technique checks whether a system model satisfies given properties?",
+        options: ["Code review", "Unit testing", "Model checking", "Integration testing"],
+        answer: 2,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is the main focus of formal specification languages?",
+        options: ["Graphical design", "System verification", "Specification of system properties", "Code optimization"],
+        answer: 2,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which of the following is an example of a formal method tool for model checking?",
+        options: ["SPIN", "Git", "JIRA", "Selenium"],
+        answer: 0,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is a primary benefit of using formal methods in software engineering?",
+        options: ["Better marketing strategies", "Ensuring software reliability", "Improved graphic design", "Reduced user training time"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which formal method is used for proving the correctness of algorithms?",
+        options: ["Static analysis", "Regression testing", "Theorem proving", "Performance testing"],
+        answer: 2,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What does the acronym 'CTL' stand for in formal methods?",
+        options: ["Cyclic Temporal Logic", "Computational Tree Logic", "Cumulative Temporal Logic", "Continuous Time Logic"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which formal verification method involves exhaustively exploring all possible states of a system?",
+        options: ["Model checking", "Unit testing", "Integration testing", "Performance testing"],
+        answer: 0,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is an abstract state machine used for in formal methods?",
+        options: ["Defining software architecture", "Modelling system behavior", "Managing project tasks", "Designing user interfaces"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "Which of the following is a disadvantage of using formal methods?",
+        options: ["Lower software quality", "Higher training costs", "Limited tool availability", "Less user-friendly interfaces"],
+        answer: 1,
+    },
+    {
+        section: "Formal Methods in Software Engineering",
+        question: "What is the purpose of a formal specification in software engineering?",
+        options: ["To create marketing content", "To specify system behavior precisely", "To generate graphical designs", "To optimize database queries"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is a fundamental difference between quantum computing and classical computing?",
+        options: ["Quantum computers use transistors", "Quantum computers use qubits", "Classical computers use qubits", "Quantum computers use classical bits"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is a qubit?",
+        options: ["A binary digit", "A quantum bit that can exist in multiple states simultaneously", "A classical bit with enhanced speed", "A software algorithm"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "Which principle allows qubits to exist in multiple states at once?",
+        options: ["Superposition", "Binary logic", "Bit manipulation", "Transistor switching"],
+        answer: 0,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is quantum entanglement?",
+        options: ["A state where particles are independent", "A state where particles are interconnected and instantaneously affect each other", "A classical computing algorithm", "A method of error correction"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "How does quantum parallelism contribute to quantum computing?",
+        options: ["It slows down computations", "It allows simultaneous processing of multiple inputs", "It increases power consumption", "It limits the number of qubits"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is the primary advantage of quantum computing over classical computing?",
+        options: ["Larger data storage capacity", "Faster processing speeds for specific problems", "Simpler programming languages", "Increased electrical efficiency"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "Which of the following is a notable quantum algorithm?",
+        options: ["Dijkstra's algorithm", "SHA-256", "Shor's algorithm", "A* algorithm"],
+        answer: 2,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is the purpose of Grover's algorithm in quantum computing?",
+        options: ["To perform integer factorization", "To solve linear equations", "To search unsorted databases faster than classical algorithms", "To encrypt data"],
+        answer: 2,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "In quantum computing, what is meant by decoherence?",
+        options: ["The isolation of qubits from their environment", "The loss of quantum information due to interaction with the environment", "The amplification of quantum states", "The stabilization of qubits"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "Which area can significantly benefit from quantum computing applications?",
+        options: ["Graphic design", "Cryptography", "Office administration", "Social media management"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is the significance of the no-cloning theorem in quantum computing?",
+        options: ["It allows duplication of quantum states", "It prevents the exact copying of arbitrary quantum states", "It enhances error correction", "It simplifies quantum computations"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is a quantum gate?",
+        options: ["A classical circuit component", "A fundamental building block for quantum circuits", "A software library for classical computers", "A tool for managing cloud services"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "Which quantum technology company developed the D-Wave system?",
+        options: ["IBM", "Microsoft", "D-Wave Systems", "Google"],
+        answer: 2,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is the role of a quantum annealer?",
+        options: ["To simulate annealing processes", "To solve optimization problems", "To control electrical circuits", "To process image data"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "Which concept is unique to quantum computing?",
+        options: ["Binary code", "Classical logic", "Quantum supremacy", "Object-oriented programming"],
+        answer: 2,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is the significance of the Bloch sphere in quantum computing?",
+        options: ["To represent classical bits", "To visualize quantum states", "To design software interfaces", "To optimize performance"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "Which of the following is a quantum programming language?",
+        options: ["C++", "Python", "Q#", "JavaScript"],
+        answer: 2,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "How does quantum tunneling benefit quantum computing?",
+        options: ["It increases hardware size", "It allows particles to pass through potential barriers", "It slows down computations", "It increases energy consumption"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is a significant challenge in building quantum computers?",
+        options: ["Lack of classical bits", "Maintaining quantum coherence", "Limited software availability", "High electrical power consumption"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "Which field can benefit from quantum simulations?",
+        options: ["Finance", "Environmental science", "Social media", "Marketing"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is quantum error correction?",
+        options: ["A method to correct errors in classical bits", "A technique to protect quantum information from errors", "A software debugging tool", "A system monitoring tool"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is the use of quantum cryptography?",
+        options: ["To design user interfaces", "To securely transmit information using quantum mechanics", "To analyze social media data", "To optimize databases"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "Which principle is used in quantum key distribution (QKD)?",
+        options: ["Binary encoding", "Classical encryption", "Quantum entanglement", "Software virtualization"],
+        answer: 2,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is quantum superposition?",
+        options: ["The unique quantum state where a particle can be in multiple states at once", "A classical computing process", "A method for software testing", "A way to increase data storage"],
+        answer: 0,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "How do quantum circuits differ from classical circuits?",
+        options: ["Quantum circuits use classical gates", "Quantum circuits use quantum gates and qubits", "Quantum circuits have no transistors", "Quantum circuits are larger"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "Which quantum computing concept is used for solving optimization problems?",
+        options: ["Binary logic", "Quantum annealing", "Classical algorithms", "Image processing"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "Which property of quantum mechanics is exploited in quantum computing?",
+        options: ["Determinism", "Uncertainty", "Classical behavior", "Software abstraction"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is the advantage of quantum supremacy?",
+        options: ["Achieving computations that are impossible for classical computers", "Increased software portability", "Enhanced user interfaces", "Better internet connectivity"],
+        answer: 0,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "How does quantum Fourier transform (QFT) aid in quantum algorithms?",
+        options: ["By increasing computing speed", "By providing a method for factorization", "By encrypting data", "By improving data visualization"],
+        answer: 1,
+    },
+    {
+        section: "Quantum Computing in Software",
+        question: "What is the significance of quantum phase estimation?",
+        options: ["It measures quantum error rates", "It provides a method for estimating eigenvalues of unitary operators", "It optimizes software code", "It enhances graphic design"],
+        answer: 1,
+    },
+      {
+        section: "Software Maintenance & Refactoring",
+        question: "What is the primary goal of software maintenance?",
+        options: ["To introduce new bugs", "To keep software up-to-date and functional", "To rewrite the entire codebase", "To reduce user engagement"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which of the following is a type of software maintenance?",
+        options: ["Adaptive", "Destructive", "Deprecative", "Aggressive"],
+        answer: 0,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "What is refactoring in the context of software engineering?",
+        options: ["Redesigning the user interface", "Restructuring existing code without changing its behavior", "Writing new code from scratch", "Removing all comments from the codebase"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Why is code readability important in software maintenance?",
+        options: ["It makes the code more visually appealing", "It facilitates easier understanding and modification of code", "It increases the file size", "It reduces execution speed"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which of the following best practices is essential for effective software maintenance?",
+        options: ["Ignoring user feedback", "Using version control systems", "Avoiding documentation", "Frequent use of global variables"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "What is technical debt in software engineering?",
+        options: ["A financial liability", "The accumulation of shortcuts and suboptimal solutions in the codebase", "A measure of user satisfaction", "A type of malware"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "What is the purpose of regression testing during maintenance?",
+        options: ["To create new features", "To ensure that changes haven't introduced new bugs", "To remove old features", "To optimize performance"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which refactoring technique involves breaking a large method into smaller, more manageable methods?",
+        options: ["Method Extraction", "Code Obfuscation", "Inversion of Control", "Circular Dependency"],
+        answer: 0,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "What is the role of continuous integration in software maintenance?",
+        options: ["To reduce code readability", "To automate the merging and testing of code changes", "To create manual test cases", "To eliminate the need for code reviews"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which of the following is an example of preventive maintenance?",
+        options: ["Fixing a bug reported by a user", "Updating the code to support new hardware", "Refactoring code to improve its structure", "Adding a new feature"],
+        answer: 2,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Why is code modularity important in software maintenance?",
+        options: ["It increases code redundancy", "It makes it easier to manage and update individual components", "It complicates debugging", "It slows down development"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "What is the purpose of a code review in the context of software maintenance?",
+        options: ["To delete old code", "To identify and fix potential issues in code", "To reduce code quality", "To increase technical debt"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which metric is commonly used to measure the maintainability of software?",
+        options: ["Lines of code (LOC)", "Cyclomatic complexity", "Page views", "Download count"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "What does the term 'refactoring' mean?",
+        options: ["Adding new features to the software", "Changing the structure of the code to improve readability and maintainability", "Deleting old code", "Compiling the code"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which type of maintenance focuses on fixing bugs and errors in the software?",
+        options: ["Perfective maintenance", "Corrective maintenance", "Adaptive maintenance", "Preventive maintenance"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "What is a 'code smell' in the context of software engineering?",
+        options: ["An indicator of poor code quality that may lead to maintenance issues", "A pleasant fragrance associated with clean code", "A type of malware", "A method of code optimization"],
+        answer: 0,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Why is documentation important in software maintenance?",
+        options: ["It increases code complexity", "It helps developers understand and maintain the codebase", "It reduces software performance", "It creates more bugs"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which refactoring technique aims to improve the performance of a software system?",
+        options: ["Extract Method", "Remove Dead Code", "Reorder Code", "Optimize Algorithm"],
+        answer: 3,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "What is the benefit of using design patterns in software maintenance?",
+        options: ["They increase code redundancy", "They provide reusable solutions to common problems", "They complicate debugging", "They reduce software reliability"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which of the following practices can help reduce technical debt?",
+        options: ["Skipping code reviews", "Frequent refactoring", "Using outdated libraries", "Avoiding testing"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Why is it important to use version control systems during software maintenance?",
+        options: ["To track changes and collaborate with other developers", "To increase code size", "To eliminate the need for testing", "To reduce software performance"],
+        answer: 0,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which technique is used to identify areas of the code that need refactoring?",
+        options: ["Code Obfuscation", "Code Smell Detection", "Code Formatting", "Code Redundancy"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "What is the purpose of test-driven development (TDD) in software maintenance?",
+        options: ["To create software without testing", "To write tests before writing the actual code", "To increase technical debt", "To remove old features"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which of the following is an example of perfective maintenance?",
+        options: ["Fixing a critical bug", "Enhancing the user interface", "Updating the software for new regulations", "Removing dead code"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Why is it important to remove dead code during maintenance?",
+        options: ["To increase code complexity", "To simplify the codebase and improve readability", "To reduce testing efforts", "To introduce new bugs"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which practice involves continuously integrating code changes into a shared repository?",
+        options: ["Manual Testing", "Continuous Integration", "Code Reviewing", "Bug Reporting"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "What is the main goal of software refactoring?",
+        options: ["To introduce new features", "To restructure existing code for better readability and maintainability", "To increase software size", "To avoid testing"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Which type of maintenance focuses on adapting software to new environments or requirements?",
+        options: ["Corrective Maintenance", "Perfective Maintenance", "Adaptive Maintenance", "Preventive Maintenance"],
+        answer: 2,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "What is the benefit of using modular design in software maintenance?",
+        options: ["It increases code redundancy", "It simplifies maintenance by isolating changes to specific modules", "It complicates debugging", "It reduces code quality"],
+        answer: 1,
+    },
+    {
+        section: "Software Maintenance & Refactoring",
+        question: "Why is regression testing important after making code changes?",
+        options: ["To ensure that new bugs are introduced", "To verify that existing functionality is not broken", "To increase code complexity", "To skip documentation"],
+        answer: 1,
+    },
 
-]
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What is the primary goal of improving team collaboration in software engineering?",
+        options: ["To reduce the number of team members", "To enhance communication and productivity", "To increase project costs", "To slow down development"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which practice can improve team collaboration in software projects?",
+        options: ["Siloed working", "Regular team meetings and stand-ups", "Ignoring team feedback", "Micromanaging team members"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What does UX stand for in the context of software engineering?",
+        options: ["User Experience", "Ultimate Execution", "User Exchange", "Unified Extension"],
+        answer: 0,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Why is user experience (UX) important in software development?",
+        options: ["It enhances system performance", "It ensures software is user-friendly and meets user needs", "It increases technical debt", "It reduces software functionality"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which method can be used to gather user feedback during the development process?",
+        options: ["Code reviews", "User interviews and surveys", "Automated testing", "Ignoring user input"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What is the purpose of documentation in software engineering?",
+        options: ["To confuse developers", "To provide clear information and instructions", "To increase code complexity", "To reduce development speed"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which of the following is a benefit of good documentation?",
+        options: ["Decreased collaboration", "Improved understanding and maintenance", "Increased project costs", "Reduced code quality"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What is a persona in the context of UX design?",
+        options: ["A fictional representation of a user", "A type of software bug", "A project management tool", "A programming language"],
+        answer: 0,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Why is empathy important in UX design?",
+        options: ["It increases technical complexity", "It helps designers understand and address user needs", "It reduces system performance", "It complicates the development process"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which technique can be used to improve user experience (UX)?",
+        options: ["Ignoring user feedback", "Conducting usability testing", "Adding more features without considering usability", "Increasing technical debt"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What is the role of a UX designer in a software development team?",
+        options: ["To write backend code", "To design user interfaces and improve user experience", "To manage project budgets", "To perform hardware testing"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which practice can help improve team communication?",
+        options: ["Isolating team members", "Using collaborative tools and platforms", "Ignoring team feedback", "Reducing team meetings"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Why is it important to consider human factors in software engineering?",
+        options: ["To increase system errors", "To create user-friendly and efficient software", "To complicate the development process", "To reduce software quality"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which of the following is an example of good documentation practice?",
+        options: ["Using jargon and complex terms", "Writing clear and concise instructions", "Leaving out important details", "Skipping documentation"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What is the benefit of conducting regular code reviews?",
+        options: ["Increased code complexity", "Improved code quality and team collaboration", "Reduced development speed", "Higher project costs"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which method can be used to assess the usability of software?",
+        options: ["Unit testing", "Usability testing", "Performance testing", "Load testing"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What is a common challenge in team collaboration?",
+        options: ["Effective communication", "Project isolation", "Individual contributions", "Meeting deadlines"],
+        answer: 0,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Why is user-centered design important in software development?",
+        options: ["It reduces user satisfaction", "It ensures the software meets user needs and preferences", "It increases development costs", "It complicates the code"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What is the purpose of creating wireframes in UX design?",
+        options: ["To write code", "To create a visual representation of the user interface layout", "To manage project tasks", "To conduct performance testing"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which practice can help improve the readability of code?",
+        options: ["Using meaningful variable names", "Avoiding comments", "Writing long, complex functions", "Ignoring code standards"],
+        answer: 0,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What is the role of documentation in onboarding new team members?",
+        options: ["To confuse new members", "To provide necessary information and guidance", "To increase technical debt", "To reduce code quality"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which of the following tools can be used to improve team collaboration?",
+        options: ["Slack", "Notepad", "WordPad", "Paint"],
+        answer: 0,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What is the benefit of using user personas in UX design?",
+        options: ["To increase project costs", "To better understand and design for different user types", "To complicate the design process", "To reduce software performance"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What is the purpose of conducting user surveys during software development?",
+        options: ["To collect user feedback and preferences", "To reduce code quality", "To ignore user needs", "To increase development speed"],
+        answer: 0,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which factor can negatively impact team collaboration?",
+        options: ["Effective communication", "Clear project goals", "Lack of trust among team members", "Regular meetings"],
+        answer: 2,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Why is it important to have a diverse software development team?",
+        options: ["To increase code complexity", "To bring different perspectives and ideas to the project", "To reduce productivity", "To create uniform solutions"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which practice can help improve user experience (UX) in software?",
+        options: ["Ignoring accessibility", "Conducting user research and usability testing", "Adding unnecessary features", "Reducing system performance"],
+        answer: 1,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "What is the significance of empathy mapping in UX design?",
+        options: ["To visualize and understand user emotions and experiences", "To increase technical debt", "To complicate the design process", "To reduce user satisfaction"],
+        answer: 0,
+    },
+    {
+        section: "Human Factors in Software Engineering",
+        question: "Which factor can contribute to effective team collaboration?",
+        options: ["Clear communication channels", "Ignoring team feedback", "Working in isolation", "Inconsistent goals"],
+        answer: 0,
+    },
+
+ {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary goal of edge computing in IoT?",
+        options: [
+            "To centralize data processing in the cloud",
+            "To process data closer to the source of data generation",
+            "To eliminate the need for real-time processing",
+            "To increase latency in data processing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a key benefit of edge computing?",
+        options: [
+            "Increased latency",
+            "Reduced bandwidth usage",
+            "Centralized data storage",
+            "Higher dependency on cloud servers"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary challenge of real-time data processing in IoT?",
+        options: [
+            "High latency",
+            "Low data volume",
+            "Centralized processing",
+            "Limited scalability"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a common use case for edge computing in IoT?",
+        options: [
+            "Batch processing of historical data",
+            "Real-time monitoring of industrial equipment",
+            "Centralized data storage",
+            "High-latency applications"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary purpose of an IoT gateway?",
+        options: [
+            "To centralize data processing in the cloud",
+            "To connect IoT devices and facilitate communication with the cloud",
+            "To eliminate the need for edge computing",
+            "To increase latency in data processing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a key challenge in IoT software development?",
+        options: [
+            "Low device heterogeneity",
+            "Handling large volumes of real-time data",
+            "Centralized data processing",
+            "Limited scalability"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary benefit of using edge computing for IoT applications?",
+        options: [
+            "Increased latency",
+            "Improved real-time processing and reduced bandwidth usage",
+            "Centralized data storage",
+            "Higher dependency on cloud servers"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a key characteristic of edge computing?",
+        options: [
+            "Centralized data processing",
+            "Distributed data processing closer to the data source",
+            "High latency",
+            "Limited scalability"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary purpose of real-time data processing in IoT?",
+        options: [
+            "To delay decision-making processes",
+            "To enable immediate insights and actions based on data",
+            "To centralize data storage",
+            "To increase latency"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a common challenge in IoT device communication?",
+        options: [
+            "Low device heterogeneity",
+            "Interoperability between different protocols",
+            "Centralized data processing",
+            "Limited scalability"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary purpose of fog computing in IoT?",
+        options: [
+            "To centralize data processing in the cloud",
+            "To extend edge computing capabilities closer to the data source",
+            "To eliminate the need for real-time processing",
+            "To increase latency in data processing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a key benefit of fog computing?",
+        options: [
+            "Increased latency",
+            "Improved scalability and reduced bandwidth usage",
+            "Centralized data storage",
+            "Higher dependency on cloud servers"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary challenge of data security in IoT?",
+        options: [
+            "Low device heterogeneity",
+            "Protecting data across distributed devices and networks",
+            "Centralized data processing",
+            "Limited scalability"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a common protocol used in IoT communication?",
+        options: [
+            "HTTP",
+            "MQTT",
+            "FTP",
+            "SMTP"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary purpose of MQTT in IoT?",
+        options: [
+            "To centralize data processing in the cloud",
+            "To enable lightweight and efficient communication between devices",
+            "To eliminate the need for edge computing",
+            "To increase latency in data processing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a key challenge of IoT device management?",
+        options: [
+            "Low device heterogeneity",
+            "Managing and updating a large number of distributed devices",
+            "Centralized data processing",
+            "Limited scalability"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary purpose of edge analytics in IoT?",
+        options: [
+            "To centralize data processing in the cloud",
+            "To perform data analysis closer to the data source",
+            "To eliminate the need for real-time processing",
+            "To increase latency in data processing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a key benefit of edge analytics?",
+        options: [
+            "Increased latency",
+            "Faster insights and reduced bandwidth usage",
+            "Centralized data storage",
+            "Higher dependency on cloud servers"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary challenge of power management in IoT devices?",
+        options: [
+            "High power consumption in centralized systems",
+            "Ensuring energy efficiency in distributed devices",
+            "Centralized data processing",
+            "Limited scalability"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a common use case for IoT in smart cities?",
+        options: [
+            "Batch processing of historical data",
+            "Real-time traffic monitoring and management",
+            "Centralized data storage",
+            "High-latency applications"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary purpose of a time-series database in IoT?",
+        options: [
+            "To centralize data processing in the cloud",
+            "To store and analyze time-stamped data from IoT devices",
+            "To eliminate the need for edge computing",
+            "To increase latency in data processing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a key challenge of IoT data storage?",
+        options: [
+            "Low data volume",
+            "Handling large volumes of time-series data",
+            "Centralized data processing",
+            "Limited scalability"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary purpose of a digital twin in IoT?",
+        options: [
+            "To centralize data processing in the cloud",
+            "To create a virtual representation of a physical device or system",
+            "To eliminate the need for edge computing",
+            "To increase latency in data processing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a key benefit of using digital twins in IoT?",
+        options: [
+            "Increased latency",
+            "Improved monitoring and predictive maintenance",
+            "Centralized data storage",
+            "Higher dependency on cloud servers"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary challenge of IoT device interoperability?",
+        options: [
+            "Low device heterogeneity",
+            "Ensuring seamless communication between devices from different manufacturers",
+            "Centralized data processing",
+            "Limited scalability"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a common use case for IoT in healthcare?",
+        options: [
+            "Batch processing of historical data",
+            "Remote patient monitoring and real-time health tracking",
+            "Centralized data storage",
+            "High-latency applications"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary purpose of edge AI in IoT?",
+        options: [
+            "To centralize data processing in the cloud",
+            "To enable AI-based decision-making at the edge",
+            "To eliminate the need for real-time processing",
+            "To increase latency in data processing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a key benefit of edge AI in IoT?",
+        options: [
+            "Increased latency",
+            "Faster decision-making and reduced bandwidth usage",
+            "Centralized data storage",
+            "Higher dependency on cloud servers"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "What is the primary challenge of IoT data privacy?",
+        options: [
+            "Low device heterogeneity",
+            "Protecting sensitive data collected by IoT devices",
+            "Centralized data processing",
+            "Limited scalability"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Edge & IoT Software Development",
+        question: "Which of the following is a common use case for IoT in agriculture?",
+        options: [
+            "Batch processing of historical data",
+            "Real-time monitoring of soil and crop conditions",
+            "Centralized data storage",
+            "High-latency applications"
+        ],
+        answer: 1,
+    },
+  
+        {
+            section: "Future of Programming Languages",
+            question: "What is AI-powered coding?",
+            options: ["Coding done by artificial intelligence", "A type of machine learning", "Coding that uses AI to assist developers", "A programming language"],
+            answer: 2,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "What is the primary advantage of using AI-powered coding tools?",
+            options: ["Slower development speed", "Increased software errors", "Enhanced developer productivity", "Higher costs"],
+            answer: 2,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "Which of the following is an example of a domain-specific language (DSL)?",
+            options: ["Java", "HTML", "Python", "JavaScript"],
+            answer: 1,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "What is the main purpose of a domain-specific language (DSL)?",
+            options: ["To replace general-purpose languages", "To optimize system performance", "To provide specialized capabilities for a specific domain", "To create graphical user interfaces"],
+            answer: 2,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "What is a low-code/no-code platform?",
+            options: ["A platform with minimal coding required", "A platform that requires extensive coding", "A type of hardware", "A programming language"],
+            answer: 0,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "Which benefit is associated with low-code/no-code platforms?",
+            options: ["Increased development time", "Higher costs", "Faster application development", "Complex coding requirements"],
+            answer: 2,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "What is the role of natural language processing (NLP) in AI-powered coding?",
+            options: ["To analyze data", "To process human language and generate code", "To manage databases", "To design user interfaces"],
+            answer: 1,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "Which trend involves using AI to assist with code completion and error detection?",
+            options: ["Cloud computing", "Machine learning", "AI-powered coding", "Internet of Things (IoT)"],
+            answer: 2,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "What is the benefit of using domain-specific languages (DSLs) in software development?",
+            options: ["General-purpose capabilities", "Reduced customization", "Specialized functionality for specific tasks", "Higher learning curve"],
+            answer: 2,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "Which of the following is a key feature of low-code/no-code platforms?",
+            options: ["Command-line interfaces", "Visual development environments", "High coding complexity", "Manual code integration"],
+            answer: 1,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "What is the significance of AI-powered code generation?",
+            options: ["It increases code errors", "It automates repetitive coding tasks", "It complicates development", "It reduces code quality"],
+            answer: 1,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "Which of the following is an example of an AI-powered coding tool?",
+            options: ["Microsoft Word", "GitHub Copilot", "Adobe Photoshop", "Google Sheets"],
+            answer: 1,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "What is the main goal of using low-code platforms in software development?",
+            options: ["To increase technical debt", "To streamline development processes", "To reduce software functionality", "To complicate coding"],
+            answer: 1,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "Which trend involves creating software applications with minimal hand-coding?",
+            options: ["Agile methodology", "Low-code/no-code platforms", "Waterfall model", "Microservices architecture"],
+            answer: 1,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "Why are domain-specific languages (DSLs) beneficial for specific industries?",
+            options: ["They reduce code readability", "They provide tailored solutions for specific needs", "They increase coding complexity", "They reduce software performance"],
+            answer: 1,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "What is the purpose of AI-powered code review tools?",
+            options: ["To create new features", "To automatically detect and fix code issues", "To manage project timelines", "To design user interfaces"],
+            answer: 2,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "Which technology trend aims to make coding accessible to non-developers?",
+            options: ["Machine learning", "Cloud computing", "Low-code/no-code platforms", "Big data"],
+            answer: 2,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "What is the advantage of using visual development environments in low-code platforms?",
+            options: ["Increased code errors", "Enhanced user-friendly interface for development", "Reduced development speed", "Higher costs"],
+            answer: 1,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "Which trend is likely to influence the future of programming languages by automating repetitive coding tasks?",
+            options: ["Agile methodology", "Waterfall model", "AI-powered coding", "Microservices architecture"],
+            answer: 2,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "What is the role of AI in enhancing code quality and reliability?",
+            options: ["It reduces code quality", "It introduces more bugs", "It helps detect and fix issues automatically", "It increases development time"],
+            answer: 2,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "Which of the following best describes domain-specific languages (DSLs)?",
+            options: ["Languages designed for broad applications", "Languages focused on specific tasks within a domain", "Languages used for graphic design", "Languages limited to web development"],
+            answer: 1,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "How do low-code platforms impact the software development lifecycle?",
+            options: ["They complicate coding processes", "They streamline and accelerate development", "They reduce code quality", "They increase project costs"],
+            answer: 1,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "What is the benefit of using AI-powered coding assistants?",
+            options: ["Slower development", "Increased manual coding", "Faster code completion and fewer errors", "Reduced code maintainability"],
+            answer: 2,
+        },
+        {
+            section: "Future of Programming Languages",
+            question: "Which trend involves providing specialized programming languages for specific industries?",
+            options: ["AI-powered coding", "Low-code/no-code platforms", "Domain-specific languages (DSLs)", "Agile methodology"],
+            answer: 2,
+        },
+      
+    {
+        section: "Future of Programming Languages",
+        question: "What is the main focus of low-code/no-code platforms?",
+        options: ["Simplifying coding", "Enhancing code complexity", "Maintaining legacy systems", "Increasing software errors"],
+        answer: 0,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "How do AI-powered coding tools improve collaboration among developers?",
+        options: ["By creating more conflicts", "By generating errors", "By providing real-time suggestions and feedback", "By slowing down development"],
+        answer: 2,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is the impact of AI on the future of software testing?",
+        options: ["It reduces test coverage", "It slows down testing processes", "It automates and enhances testing accuracy", "It increases manual intervention"],
+        answer: 2,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "Which AI-powered tool can assist with identifying security vulnerabilities in code?",
+        options: ["Slack", "AI-powered code review tools", "Trello", "Microsoft Excel"],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is a potential challenge of using AI-powered coding tools?",
+        options: ["Decreased productivity", "Bias in training data", "Reduced code readability", "Increased manual coding"],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "Which trend involves using natural language processing to translate human language into code?",
+        options: ["Cloud computing", "Low-code platforms", "NLP-powered coding", "IoT development"],
+        answer: 2,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "How can domain-specific languages (DSLs) improve developer efficiency?",
+        options: ["By offering general-purpose features", "By focusing on specific tasks and reducing complexity", "By increasing coding requirements", "By complicating development"],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is a common use case for low-code/no-code platforms in businesses?",
+        options: ["Creating complex algorithms", "Developing enterprise applications", "Designing hardware components", "Managing cloud infrastructure"],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What benefit do AI-powered code completion tools provide?",
+        options: ["Decreased coding speed", "Enhanced development speed and accuracy", "Increased code errors", "Reduced code quality"],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "How do low-code platforms assist non-technical users?",
+        options: ["By requiring extensive coding knowledge", "By simplifying the development process with visual tools", "By increasing technical complexity", "By limiting functionality"],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is the main focus of low-code/no-code platforms?",
+        options: [
+            "To increase the complexity of coding",
+            "To enable rapid application development with minimal coding",
+            "To replace all traditional programming languages",
+            "To focus solely on backend development"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "Which of the following is a key benefit of AI-powered coding tools?",
+        options: [
+            "Increased manual effort in coding",
+            "Reduced development time and improved efficiency",
+            "Higher dependency on traditional programming languages",
+            "Limited functionality for complex applications"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is the primary purpose of natural language processing (NLP) in AI-powered coding?",
+        options: [
+            "To design user interfaces",
+            "To translate human language into executable code",
+            "To manage databases",
+            "To optimize system performance"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "Which of the following is a common use case for low-code/no-code platforms?",
+        options: [
+            "Developing complex operating systems",
+            "Building business applications quickly",
+            "Creating advanced machine learning models",
+            "Designing hardware systems"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is the primary advantage of domain-specific languages (DSLs)?",
+        options: [
+            "They are suitable for all types of software development",
+            "They provide specialized solutions for specific industries or tasks",
+            "They are easier to learn than general-purpose languages",
+            "They eliminate the need for programming expertise"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "Which of the following is a key challenge of low-code/no-code platforms?",
+        options: [
+            "Limited customization for complex applications",
+            "Increased development time",
+            "Higher costs compared to traditional coding",
+            "Requiring extensive programming knowledge"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is the role of AI in automating code reviews?",
+        options: [
+            "To introduce more errors into the code",
+            "To manually review code line by line",
+            "To detect and fix issues automatically",
+            "To increase the time required for code reviews"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "Which of the following is a key trend in the future of programming languages?",
+        options: [
+            "Increased reliance on manual coding",
+            "The rise of AI-powered coding and low-code/no-code platforms",
+            "The decline of domain-specific languages (DSLs)",
+            "A shift away from visual development environments"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is the primary benefit of using AI-powered code generation tools?",
+        options: [
+            "Increased manual effort in coding",
+            "Automation of repetitive coding tasks",
+            "Higher dependency on traditional programming languages",
+            "Reduced code quality"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "Which of the following is a key feature of domain-specific languages (DSLs)?",
+        options: [
+            "They are designed for general-purpose programming",
+            "They provide specialized syntax and semantics for specific tasks",
+            "They are difficult to learn and use",
+            "They are primarily used for hardware programming"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is the primary purpose of low-code/no-code platforms in enterprise environments?",
+        options: [
+            "To increase the complexity of software development",
+            "To enable non-developers to build applications quickly",
+            "To replace all traditional programming languages",
+            "To focus solely on backend development"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "Which of the following is a key benefit of AI-powered coding assistants like GitHub Copilot?",
+        options: [
+            "Increased manual effort in coding",
+            "Faster code completion and reduced errors",
+            "Higher dependency on traditional programming languages",
+            "Limited functionality for complex applications"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is the primary challenge of using domain-specific languages (DSLs)?",
+        options: [
+            "They are too general-purpose for specific tasks",
+            "They require specialized knowledge and may have limited applicability",
+            "They are easier to learn than general-purpose languages",
+            "They eliminate the need for programming expertise"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "Which of the following is a key trend in the evolution of programming languages?",
+        options: [
+            "A shift towards more complex and verbose syntax",
+            "The integration of AI and machine learning into coding tools",
+            "A decline in the use of visual development environments",
+            "Increased reliance on manual coding practices"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is the primary advantage of using low-code/no-code platforms for prototyping?",
+        options: [
+            "Increased development time",
+            "Rapid creation and iteration of application prototypes",
+            "Higher costs compared to traditional coding",
+            "Requiring extensive programming knowledge"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "Which of the following is a key benefit of AI-powered debugging tools?",
+        options: [
+            "Increased manual effort in debugging",
+            "Automated detection and resolution of code issues",
+            "Higher dependency on traditional debugging methods",
+            "Reduced code quality"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "What is the primary purpose of visual development environments in low-code platforms?",
+        options: [
+            "To increase the complexity of coding",
+            "To provide a user-friendly interface for building applications",
+            "To replace all traditional programming languages",
+            "To focus solely on backend development"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Future of Programming Languages",
+        question: "Which of the following is a key trend in the future of programming languages?",
+        options: [
+            "Increased reliance on manual coding practices",
+            "The rise of AI-powered coding and low-code/no-code platforms",
+            "The decline of domain-specific languages (DSLs)",
+            "A shift away from visual development environments"
+        ],
+        answer: 1,
+    },
+
+];
