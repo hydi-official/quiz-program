@@ -174,7 +174,7 @@ export const questions = [
             "A teacher using a computer program to teach students",
             "A mother giving her son a PDA to help him stay organized"
         ],
-        answer: 1,
+        answer: 0,
     },
     {
         section: "Captology and Persuasive Technologies",
@@ -4436,5 +4436,1123 @@ export const questions = [
             "Technology for communication purposes."
         ],
         answer: 2,
+    },
+    {
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a key characteristic of monolithic architecture?",
+        options: [
+            "Loosely coupled components",
+            "Single codebase for all functionalities",
+            "Independent deployment of services",
+            "Event-driven communication"
+        ],
+        answer: 1,
+    },
+
+    // Section 2: Persuasive Systems Design (100 questions)
+    {
+        section: "Persuasive Systems Design",
+        question: "What is 'shaping' in persuasive technology?",
+        options: [
+            "The process of forming user preferences.",
+            "The development of three-dimensional shapes in user interfaces.",
+            "A method of error correction in programming.",
+            "Reinforcing successive approximations of a desired behavior until the desired behavior is reached."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the primary goal of persuasive technology?",
+        options: [
+            "Enhancing user experience.",
+            "Changing attitudes or behaviors.",
+            "Informing users.",
+            "Entertaining users."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can we ensure that behavior change support systems are used to promote social justice and equity?",
+        options: [
+            "By developing culturally sensitive and accessible interventions.",
+            "By involving diverse communities in the design and development process.",
+            "By addressing systemic barriers and inequalities in access to technology.",
+            "All of the above."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the potential impact of persuasive technology on our understanding of free will and individual autonomy?",
+        options: [
+            "It can provide us with greater access to information and resources.",
+            "It can challenge our perception of ourselves as independent and self-governing beings.",
+            "It can enhance our ability to make informed and rational decisions.",
+            "It can foster a sense of community and belonging."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the role of artificial intelligence and machine learning in the development of future behavior change support systems?",
+        options: [
+            "To identify patterns and predict individual behavior change trajectories.",
+            "To develop chatbots and virtual assistants for providing support and guidance.",
+            "To analyze user data and personalize interventions in real-time.",
+            "All of the above."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the impact of computers using emotions to motivate and persuade?",
+        options: [
+            "It has no significant impact on human behavior.",
+            "It can be a powerful tool for changing user behavior.",
+            "It leads to increased skepticism and distrust.",
+            "It results in decreased user engagement and satisfaction."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which ethical principle is violated when persuasive technology exploits users' vulnerabilities?",
+        options: [
+            "Beneficence",
+            "Justice",
+            "Autonomy",
+            "Fidelity"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "The concept of value can be prioritized.",
+        options: [
+            "True",
+            "False"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are the challenges in using the 3D-RAB model for designing persuasive applications?",
+        options: [
+            "Collecting user feedback.",
+            "Identifying user states.",
+            "Analyzing cognitive dissonance.",
+            "Tailoring persuasive approaches."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the purpose of persuasive technology?",
+        options: [
+            "To deceive users into believing false information",
+            "To influence users without coercion, deception, or manipulation",
+            "To control users' actions and thoughts",
+            "To manipulate users into adopting certain healthy behaviors"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What challenges arise when designing persuasive systems that influence political or ideological beliefs, and how can these challenges be addressed ethically?",
+        options: [
+            "Acknowledge the influence and strive for transparency, user control, and respect for diverse perspectives",
+            "Ignore political beliefs for simplicity",
+            "Manipulate political beliefs for better persuasion",
+            "Political beliefs have no impact on persuasive design"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the primary role of feedback in persuasive technology?",
+        options: [
+            "Providing information about user preferences.",
+            "Enhancing user engagement.",
+            "Customizing the user interface.",
+            "Guiding behavior through real-time information and cues."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What term is used to describe the automatic and natural social responses triggered in humans by computing products?",
+        options: [
+            "Social automation.",
+            "Social engineering.",
+            "Social cognition.",
+            "Social presence."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology be used to promote social justice and combat discrimination?",
+        options: [
+            "By facilitating online protests and movements for social change.",
+            "By creating echo chambers that reinforce existing social divisions.",
+            "By amplifying marginalized voices and raising awareness of social injustices.",
+            "By identifying and challenging biased algorithms and discriminatory practices."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What term refers to the process of encouraging individuals to adopt and maintain a behavior over time?",
+        options: [
+            "Behavior sustainability",
+            "Behavior initiation.",
+            "Behavior cessation.",
+            "Behavior modification."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the role of empathy in ethical persuasive design?",
+        options: [
+            "Empathy enhances user manipulation",
+            "Empathy is unnecessary",
+            "Empathy hinders persuasion",
+            "Empathy fosters understanding and user well-being"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does the 'Personalization' principle contribute to the effectiveness of persuasive systems in PSD?",
+        options: [
+            "Provide standardized interventions for all users",
+            "Customize persuasive strategies based on individual characteristics and needs",
+            "Personalization has no impact on persuasion",
+            "Ignore user preferences for simplicity"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What type of information does the Milky Way application provide, and how is its persuasive power enhanced as discussed in the 'Ethical evaluation of a value sensitive persuasive system: Case Milky Way'?",
+        options: [
+            "It provides trustworthy, evidence-based breastfeeding information, and its persuasive power is enhanced by providing sources to scientific literature",
+            "It provides reminders to users, and its persuasive power is enhanced by providing feedback on their behavior",
+            "It provides feedback on users' progress, and its persuasive power is enhanced by providing social support",
+            "It provides motivational messages, and its persuasive power is enhanced by using common language"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How many dimensions are included in the 3D-RAB model?",
+        options: [
+            "2.",
+            "3.",
+            "4.",
+            "5."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are the effects of computers that flatter?",
+        options: [
+            "They have no significant impact on human behavior",
+            "They can create more likable and persuasive interactive technologies.",
+            "They result in decreased user engagement and satisfaction",
+            "They lead to increased skepticism and distrust."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does the ethical design of persuasive technology account for individual differences in cognitive abilities and decision-making processes?",
+        options: [
+            "Individual differences are irrelevant in persuasive design",
+            "Tailor interventions to accommodate diverse cognitive abilities and decision-making styles",
+            "Provide standardized interventions for all users",
+            "Ignore individual differences for consistency"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the term for the persuasive technique that involves presenting information in a way that emphasizes potential gains rather than losses?",
+        options: [
+            "Positive framing",
+            "Gain framing.",
+            "Loss aversion",
+            "Risk communication."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does the 'Self-Monitoring' principle in PSD contribute to persuasive systems?",
+        options: [
+            "Self-monitoring has no impact on behavior change",
+            "Force users to rely solely on external monitoring",
+            "Facilitate user self-monitoring to enhance awareness and reflection",
+            "Discourage users from monitoring their behavior"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What does the future hold for the ethical development and use of persuasive technology?",
+        options: [
+            "A growing awareness of the ethical implications and potential harms",
+            "Increasingly sophisticated techniques for manipulating user behavior.",
+            "A shift towards user-centered design and ethical AI principles.",
+            "Unregulated and unchecked growth of the persuasive technology industry."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What ethical considerations should be taken into account when designing persuasive systems for children or adolescents?",
+        options: [
+            "Ensuring age-appropriate content and protecting privacy.",
+            "Encouraging excessive screen time for better engagement.",
+            "Ignoring ethical concerns for simplicity.",
+            "Manipulating children's behavior for better outcomes."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can social networking services collect user feedback to tailor persuasive approaches using the 3D-RAB model?",
+        options: [
+            "Through behavioral analysis.",
+            "Through demographic surveys.",
+            "Through direct messaging.",
+            "Through daily status updates or tweets."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the role of 'Suggestion' in PSD?",
+        options: [
+            "Provide intrusive suggestions for better outcomes",
+            "Suggestions are irrelevant in persuasive design",
+            "Offer subtle suggestions to guide behavior change",
+            "Discourage suggestions for autonomy"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does persuasive technology often exploit users' desire for social approval and belonging?",
+        options: [
+            "By encouraging users to express their individuality and unique perspectives",
+            "By promoting social comparison and highlighting differences between users.",
+            "By creating exclusive communities and offering limited access to certain features.",
+            "By providing anonymous platforms for communication and self-expression."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "In PSD, what is the purpose of the 'Personalization' principle?",
+        options: [
+            "Customize persuasive strategies based on individual characteristics and needs",
+            "Personalization has no impact on persuasion",
+            "Ignore user preferences for simplicity",
+            "Provide standardized interventions for all users"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are some potential ways to mitigate the negative impacts of persuasive technology on children and adolescents?",
+        options: [
+            "Encouraging open communication and setting clear boundaries around technology use.",
+            "Providing age-appropriate educational resources about online safety and privacy.",
+            "Limiting children's access to technology altogether.",
+            "Implementing stricter parental controls and internet filters."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What does the term 'captology' refer to in the context of persuasive technology?",
+        options: [
+            "The use of social media for persuasion.",
+            "The study of persuasive communication.",
+            "The psychology of online shopping.",
+            "The study of computers as persuasive technologies."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the Persuasive Systems Design (PSD) model?",
+        options: [
+            "A model for evaluating the ethical implications of a system",
+            "A model for analyzing the value of a system",
+            "None of the above",
+            "A framework for designing persuasive systems"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "A flying simulator to help flight pilots practice for severe weather conditions. This is an example implementation of?",
+        options: [
+            "Simulation",
+            "Self-monitoring",
+            "Reduction",
+            "Rehearsal"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the main focus of the Value Sensitive Analysis?",
+        options: [
+            "The ethical evaluation of a persuasive system",
+            "The implementation of a persuasive system",
+            "The design of a persuasive system",
+            "The evaluation of a persuasive system"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Mobile application is updated regularly and there are no dangling links or out-of-date information. This is an example implementation of?",
+        options: [
+            "Expertise",
+            "Authority",
+            "Real-world feel",
+            "Surface credibility"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology respect user autonomy when providing personalized recommendations?",
+        options: [
+            "Provide personalization without user consent",
+            "Personalization and user autonomy are unrelated",
+            "Ignore user autonomy for more effective personalization",
+            "Allow users to have control over their preferences and the personalization process"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "In the context of PSD, what role does the 'Primary Task Support' principle play?",
+        options: [
+            "Primary tasks are irrelevant",
+            "Manipulate primary tasks for better persuasion",
+            "Enhance and facilitate primary tasks",
+            "Discourage primary tasks"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Application for healthier eating habits provides an option for coaching messages. This is an example implementation of?",
+        options: [
+            "Reminders",
+            "Praise",
+            "Liking",
+            "Suggestion"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology address potential negative psychological impacts on users?",
+        options: [
+            "Ignore psychological impacts",
+            "Encourage negative psychological impacts for behavioral change",
+            "Acknowledge and address negative psychological impacts to prioritize user well-being",
+            "Negative impacts are irrelevant"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the purpose of the 'Trustworthiness' principle in PSD?",
+        options: [
+            "Encourage distrust for better outcomes",
+            "Establish and maintain user trust through transparent communication and reliable information",
+            "Manipulate user trust for sustained engagement",
+            "Trustworthiness is irrelevant in persuasive design"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Personal stories of the people who have succeeded in their goal behavior are published on a smoking cessation Website. This is an example implementation of?",
+        options: [
+            "Social Facilitation",
+            "Cooperation",
+            "Competition",
+            "Recognition"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can we hold developers and designers accountable for the ethical implications of their work?",
+        options: [
+            "Boycotting the products and services of companies that use unethical persuasive techniques.",
+            "Encouraging whistleblowing within the tech industry.",
+            "Relying solely on the self-regulation of the tech industry",
+            "Supporting legislation that establishes ethical guidelines for persuasive technology development."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology ethically address issues related to user trust, and why is trust crucial in persuasive design?",
+        options: [
+            "Establish and maintain trust through transparent communication and consistent ethical behavior",
+            "Manipulate user trust for better outcomes",
+            "Ignore trust for simplicity",
+            "Trust is irrelevant in persuasive design"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the difference between positive and negative persuasion?",
+        options: [
+            "Positive persuasion is aimed at improving user experience, while negative persuasion is manipulative.",
+            "There is no significant difference between positive and negative persuasion",
+            "Positive persuasion is transparent and ethical, while negative persuasion is deceptive and unethical.",
+            "Positive persuasion uses positive reinforcement, while negative persuasion uses punishment."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the primary goal of persuasive technology?",
+        options: [
+            "To facilitate communication",
+            "To entertain users",
+            "To collect user data",
+            "To influence users' behavior"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the norm of reciprocity?",
+        options: [
+            "A psychological principle related to emotional reciprocity",
+            "A social phenomenon where individuals feel compelled to return favors",
+            "A measure of social influence in online interactions.",
+            "A concept in human-computer interaction theory."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does persuasive technology contribute to the concept of informed consent?",
+        options: [
+            "Ignores consent",
+            "Consent is irrelevant",
+            "Facilitates informed and voluntary consent",
+            "Manipulates consent"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "A shared fitness journal in a mobile application for encouraging physical activity. This is an example implementation of?",
+        options: [
+            "Normative influence",
+            "Social comparison",
+            "Social facilitation",
+            "Social learning"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What role does cognitive dissonance play in the 3D-RAB model?",
+        options: [
+            "It identifies patterns of persuasion in social networks",
+            "It creates psychological tension for behavior change",
+            "It categorizes users based on their behavior.",
+            "It collects user feedback for persuasive approaches."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of a persuasive technology application for environmental conservation?",
+        options: [
+            "Online shopping websites.",
+            "Energy-saving apps.",
+            "Social media platforms.",
+            "Video streaming services"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "E-health application has a virtual specialist to support communication between users and health specialists. This is an example implementation of?",
+        options: [
+            "Reminders",
+            "Social role",
+            "Liking",
+            "Similarity"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which psychological principle involves making a small initial commitment to increase the likelihood of a larger commitment later?",
+        options: [
+            "Authority.",
+            "Social proof.",
+            "Scarcity.",
+            "Consistency"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "According to PSD, what is the significance of the 'Trustworthiness' principle?",
+        options: [
+            "Encourage distrust for better outcomes",
+            "Manipulate user trust for sustained engagement",
+            "Trustworthiness is irrelevant in persuasive design",
+            "Establish and maintain user trust through transparent communication and reliable information"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which design principle suggests that persuasive technology should match the user's beliefs and values, actions, etc.?",
+        options: [
+            "Homophily.",
+            "Credibility.",
+            "Similarity.",
+            "Consistency."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are some potential negative consequences of using persuasive design elements to promote physical fitness and healthy habits?",
+        options: [
+            "Improved self-esteem and body image perceptions.",
+            "Increased motivation and adherence to exercise routines.",
+            "Obsession with tracking and quantifying every aspect of health behavior.",
+            "Development of unhealthy and unsustainable fitness goals."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the Persuasive Systems Design model?",
+        options: [
+            "A model for designing and developing medical devices.",
+            "A conceptualization for designing and developing BCSSs.",
+            "A model for designing and developing educational programs.",
+            "A model for designing and developing social media platforms."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What does the term 'gamification' refer to in the context of persuasive technology?",
+        options: [
+            "Designing games for entertainment.",
+            "Creating persuasive narratives.",
+            "Incorporating game elements into non-game contexts to influence behavior.",
+            "Enhancing user motivation."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are some potential risks associated with using persuasive technology to promote healthy behaviors?",
+        options: [
+            "Technology may exacerbate existing inequalities in health outcomes.",
+            "Technology may not be able to effectively address the underlying causes of unhealthy behaviors.",
+            "Users may become overly reliant on technology and neglect self-motivation.",
+            "Persuasive techniques used for health promotion may be misappropriated for other purposes."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Who is most vulnerable to the persuasive effects of technology?",
+        options: [
+            "Adults with high incomes",
+            "People with disabilities",
+            "People with low levels of education",
+            "Children and adolescents"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the term for the persuasive technique that involves presenting offers at lower requests to users for their commitment, then suddenly increasing the request?",
+        options: [
+            "Scarcity principle.",
+            "Door-in-the-face technique.",
+            "Foot-in-the-door technique.",
+            "Low-ball technique."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the role of the 'Feedback' principle in PSD?",
+        options: [
+            "Feedback is irrelevant in persuasive design",
+            "Discourage feedback for simplicity",
+            "Provide occasional feedback to users on their progress and performance",
+            "Manipulate feedback for better outcomes"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the significance of iterative testing and feedback in the design of persuasive systems?",
+        options: [
+            "Collect feedback but ignore it in subsequent iterations",
+            "Iterative testing is unnecessary",
+            "Use iterative testing and feedback to improve system effectiveness and address ethical concerns",
+            "Testing and feedback are irrelevant in persuasive design"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are some ways to protect yourself from the persuasive effects of technology?",
+        options: [
+            "Limit your screen time",
+            "All of the above",
+            "Be aware of persuasive design elements",
+            "Use privacy-focused settings"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of a persuasive technology application for health promotion?",
+        options: [
+            "Fitness tracking apps.",
+            "Social media influencers.",
+            "Online shopping platforms.",
+            "Video streaming services."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are the potential risks of using behavior change support systems to manipulate or exploit individuals?",
+        options: [
+            "Privacy violations and data misuse.",
+            "Unintended consequences and negative side effects.",
+            "Loss of autonomy and control over personal choices.",
+            "All of the above."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the role of accessibility in ethical persuasive design, and why is it important?",
+        options: [
+            "Ignore accessibility for better design simplicity",
+            "Accessibility is crucial for ensuring inclusivity and fairness in persuasion",
+            "Accessibility is unnecessary",
+            "Accessibility has no impact on persuasive technology"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the difference between normative influence and social learning?",
+        options: [
+            "Normative influence and social learning are not important in persuasive systems.",
+            "Normative influence involves working together with others to motivate behavior change, while social learning involves comparing oneself to others to motivate behavior change.",
+            "Normative influence and social learning are the same thing.",
+            "Normative influence involves using social norms to motivate behavior change, while social learning involves observing others to learn and motivate behavior change."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "According to ethical guidelines, what should designers prioritize when faced with conflicting interests between stakeholders and end-users?",
+        options: [
+            "Balance conflicting interests without a priority",
+            "Prioritize end-users' well-being and values",
+            "Ignore conflicting interests",
+            "Prioritize stakeholders' interests"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Website quotes an authority, such as a statement by government health office. This is an example implementation of?",
+        options: [
+            "Third-party endorsement",
+            "None of the above",
+            "Authority",
+            "Real-world feel"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does persuasive technology consider the potential for addiction without sacrificing its effectiveness?",
+        options: [
+            "Encourage addiction for sustained engagement",
+            "Prioritize addiction for better outcomes",
+            "Addiction is irrelevant in persuasive design",
+            "Implement features to prevent and address addiction while promoting positive behavior change"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which design principle involves creating a sense of scarcity to increase the perceived value of a product or service?",
+        options: [
+            "Scarcity",
+            "Urgency.",
+            "Authority.",
+            "Social proof."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of a persuasive technology application in the field of social activism?",
+        options: [
+            "Fitness tracking apps.",
+            "Social media platforms.",
+            "Online shopping websites.",
+            "Petition signing apps."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the difference between C-, B-, and A-Change?",
+        options: [
+            "C-Change is a change in an act of complying, B-Change is a behavior change, and A-Change is an attitude change.",
+            "C-Change is an attitude change, B-Change is a change in an act of complying, and A-Change is a behavior change.",
+            "C-Change is a behavior change, B-Change is an attitude change, and A-Change is a change in an act of complying.",
+            "C-Change is a change in an act of complying, B-Change is an attitude change, and A-Change is a behavior change."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the term for the persuasive technique that involves presenting information in a way that emphasizes potential losses rather than gains?",
+        options: [
+            "Loss aversion.",
+            "Gain framing.",
+            "Risk communication.",
+            "Positive framing."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the difference between direct and indirect persuasion?",
+        options: [
+            "Direct persuasion aims at convincing the user by appealing to reason and intelligence, while indirect persuasion uses simple cues or stereotypes for evaluating the information",
+            "Direct persuasion uses social influence to motivate behavior change, while indirect persuasion focuses on the system's credibility.",
+            "Direct persuasion is more effective than indirect persuasion.",
+            "Direct persuasion focuses on the user's emotions, while indirect persuasion focuses on the user's cognitive processes."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Pick the odd one out",
+        options: [
+            "Reduction",
+            "Praise",
+            "Tunneling",
+            "Personalization"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the role of accessibility in ethical persuasive design, and why is it important?",
+        options: [
+            "Ignore accessibility for better design simplicity",
+            "Accessibility is crucial for ensuring inclusivity and fairness in persuasion",
+            "Accessibility is unnecessary",
+            "Accessibility has no impact on persuasive technology"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does the 'Liking' principle in PSD influence user engagement?",
+        options: [
+            "Manipulate user preferences for sustained engagement",
+            "Liking has no impact on persuasive systems",
+            "Enhance user liking through aesthetic design and positive interactions",
+            "Encourage dislike for better outcomes"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology ethically leverage data analytics for user profiling while addressing privacy concerns?",
+        options: [
+            "Privacy concerns are irrelevant in persuasive design",
+            "Collect data without user consent for more accurate profiling",
+            "Ignore privacy concerns for better profiling",
+            "Implement transparent data collection practices and user-controlled profiling"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which type of persuasive design element leverages social proof to influence user behavior?",
+        options: [
+            "Testimonials",
+            "Progress bars",
+            "Gamification elements",
+            "Social media notifications"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Caloric balance monitoring application sends text messages to its users as daily reminders. This is an example implementation of?",
+        options: [
+            "Self-monitoring",
+            "Reminder",
+            "Similarity",
+            "Liking"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Who is responsible for ensuring the ethical use of persuasive technology?",
+        options: [
+            "Government regulators",
+            "A combination of all of the above",
+            "Developers and designers alone",
+            "Users alone"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which design element refers to the ability of a system to provide timely and relevant information?",
+        options: [
+            "Urgency.",
+            "Relevance.",
+            "Timeliness.",
+            "Salience."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What term refers to the psychological phenomenon where individuals are more likely to be persuaded by someone they like or admire?",
+        options: [
+            "Attractiveness principle.",
+            "Liking principle.",
+            "Similarity principle.",
+            "Authority principle."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "According to PSD, what is the significance of the 'Reduction' principle?",
+        options: [
+            "Simplify the system to reduce resistance",
+            "Increase cognitive load",
+            "Ignore the principle for better outcomes",
+            "Reduction has no impact on persuasive design"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are the external factors considered in the 3D-RAB model for designing persuasive applications?",
+        options: [
+            "Social media engagement.",
+            "User demographics.",
+            "Environmental influences.",
+            "Cognitive dissonance."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "In PSD, how does the 'Reward' principle contribute to the design of persuasive systems?",
+        options: [
+            "Manipulate rewards for better outcomes",
+            "Rewards have no impact on persuasive design",
+            "Provide extrinsic rewards to encourage positive behavior change",
+            "Punish users for undesired behavior"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "In the context of persuasive technology, what does 'priming' involve?",
+        options: [
+            "Alerting users through notifications.",
+            "Customizing the user interface.",
+            "Displaying persuasive messages prominently.",
+            "Presenting information subtly to influence subsequent behavior."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "According to value-sensitive design, what is the role of inclusivity in addressing ethical concerns?",
+        options: [
+            "Inclusivity addresses ethical concerns related to diverse user needs",
+            "Inclusivity hinders persuasion effectiveness",
+            "Inclusivity simplifies the design process",
+            "Inclusivity is irrelevant"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the potential impact of persuasive technology on the privacy and security of individuals?",
+        options: [
+            "Greater vulnerability to data breaches and privacy violations.",
+            "Improved ability for individuals to remain anonymous online.",
+            "Increased transparency and control over personal data.",
+            "Enhanced security measures to protect against online threats."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which psychological principle involves the tendency to follow the actions of others in uncertain situations?",
+        options: [
+            "Conformity bias.",
+            "Herd mentality.",
+            "Obedience.",
+            "Social influence."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Pick the odd one out",
+        options: [
+            "Social Support",
+            "System Credibility",
+            "Primary Task Support",
+            "Social Proof"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the 3D-RAB model?",
+        options: [
+            "A model for social media engagement.",
+            "A model for behavior change analysis in social networking.",
+            "A model for data analytics in social networking.",
+            "A model for cognitive dissonance analysis."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does persuasive technology impact long-term user well-being?",
+        options: [
+            "No impact on well-being",
+            "Positively influences well-being",
+            "Negatively influences well-being",
+            "Well-being is irrelevant"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "In persuasive technology, what does the term 'consistency' refer to?",
+        options: [
+            "Aligning with user habits and routines.",
+            "Presenting information in a consistent manner.",
+            "Creating a sense of similarity.",
+            "Adapting to user preferences."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is persuasive technology?",
+        options: [
+            "Technology designed to change attitudes or behaviors.",
+            "Technology for surveillance.",
+            "Information technology for entertainment.",
+            "Technology for communication purposes."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the difference between real-world feel and authority?",
+        options: [
+            "Real-world feel involves providing information about the local culture and customs of the destination, while authority involves quoting a statement from a government health office to support its recommendations.",
+            "Real-world feel and authority are the same thing.",
+            "Real-world feel involves quoting a statement from a government health office to support its recommendations, while authority involves providing information about the local culture and customs of the destination.",
+            "Real-world feel and authority are not important in persuasive systems."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Stakeholder analysis takes the values of different interest groups into account in purpose to ensure that the system is ethical from all points of views.",
+        options: [
+            "False",
+            "True"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Three boundary issues are used to identify stakeholders in the Value Sensitive Analysis.",
+        options: [
+            "True",
+            "False"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the relationship between attitude and behavior in the 3D-RAB model?",
+        options: [
+            "Behavior influences attitude.",
+            "They have no impact on persuasive strategies",
+            "They are independent of each other.",
+            "Attitude influences behavior."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the difference between social facilitation and social comparison?",
+        options: [
+            "Social facilitation and social comparison are the same thing.",
+            "Social facilitation involves comparing oneself to others to motivate behavior change, while social comparison involves using the presence of others to motivate behavior change.",
+            "Social facilitation and social comparison are not important in persuasive systems.",
+            "Social comparison involves comparing oneself to others to motivate behavior change, while social facilitation involves using the presence of others to motivate behavior change."
+        ],
+        answer: 3,
     },
 ];
