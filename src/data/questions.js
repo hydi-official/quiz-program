@@ -1,5082 +1,4440 @@
 export const questions = [
-    // Section 1: Software Architecture Evolution (30 questions)
+    // Section 1: Captology and Persuasive Technologies (20 questions)
     {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a key characteristic of monolithic architecture?",
+        section: "Captology and Persuasive Technologies",
+        question: "What is the primary focus of captology?",
         options: [
-            "Loosely coupled components",
-            "Single codebase for all functionalities",
-            "Independent deployment of services",
-            "Event-driven communication"
+            "The study of computer hardware",
+            "The study of computers as persuasive technologies",
+            "The study of computer programming languages",
+            "The study of computer networks"
         ],
         answer: 1,
     },
     {
-        section: "Software Architecture Evolution",
-        question: "What is the primary advantage of microservices over monolithic architecture?",
+        section: "Captology and Persuasive Technologies",
+        question: "Which of the following is NOT one of the three types of intent proposed for persuasive computers?",
         options: [
-            "Simpler debugging process",
-            "Improved scalability and maintainability",
-            "Reduced need for APIs",
-            "Lower initial development cost"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a challenge of microservices architecture?",
-        options: [
-            "Tight coupling of components",
-            "Difficulty in managing distributed systems",
-            "Limited scalability",
-            "Single point of failure"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "What is the role of an API gateway in microservices?",
-        options: [
-            "To manage database connections",
-            "To provide a single entry point for client requests",
-            "To handle serverless function execution",
-            "To enforce monolithic architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which architecture is best suited for real-time data processing?",
-        options: [
-            "Monolithic",
-            "Microservices",
-            "Event-driven",
-            "Serverless"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "What is a key benefit of serverless architecture?",
-        options: [
-            "Full control over server management",
-            "Automatic scaling and reduced operational overhead",
-            "Tight coupling of components",
-            "High upfront infrastructure costs"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a disadvantage of serverless architecture?",
-        options: [
-            "Vendor lock-in",
-            "Complex deployment process",
-            "Limited scalability",
-            "High maintenance of servers"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "What is the primary purpose of event-driven architecture?",
-        options: [
-            "To centralize all application logic",
-            "To enable asynchronous communication between services",
-            "To reduce the need for APIs",
-            "To simplify monolithic systems"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a common use case for event-driven architecture?",
-        options: [
-            "Static websites",
-            "Real-time notifications and messaging systems",
-            "Monolithic legacy systems",
-            "Serverless batch processing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "What is the main challenge of migrating from monolithic to microservices?",
-        options: [
-            "Increased development speed",
-            "Managing distributed data consistency",
-            "Reduced complexity",
-            "Easier debugging"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a key feature of microservices?",
-        options: [
-            "Tightly coupled components",
-            "Independent deployment of services",
-            "Single database for all services",
-            "Centralized logging and monitoring"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "What is the primary benefit of using containers in microservices?",
-        options: [
-            "Increased hardware dependency",
-            "Consistent environment across development and production",
-            "Tight coupling of services",
-            "Reduced need for APIs"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a disadvantage of monolithic architecture?",
-        options: [
-            "Easy to scale horizontally",
-            "Single point of failure",
-            "Independent deployment of components",
-            "Loosely coupled services"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "What is the primary purpose of a service mesh in microservices?",
-        options: [
-            "To manage database connections",
-            "To handle service-to-service communication",
-            "To replace API gateways",
-            "To enforce monolithic architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a key characteristic of serverless architecture?",
-        options: [
-            "Manual scaling of servers",
-            "Event-driven execution of functions",
-            "High upfront infrastructure costs",
-            "Tight coupling of components"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "What is the primary benefit of event-driven architecture?",
-        options: [
-            "Centralized control of all services",
-            "Asynchronous and decoupled communication",
-            "Reduced need for APIs",
-            "Simplified debugging"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a common tool for managing microservices?",
-        options: [
-            "Kubernetes",
-            "Apache Hadoop",
-            "Docker Compose",
-            "All of the above"
+            "Endogenous",
+            "Exogenous",
+            "Autogenous",
+            "Extrinsic"
         ],
         answer: 3,
     },
     {
-        section: "Software Architecture Evolution",
-        question: "What is the primary challenge of serverless architecture?",
+        section: "Captology and Persuasive Technologies",
+        question: "According to the paper, what is the definition of a persuasive computer?",
         options: [
-            "Vendor lock-in",
-            "High upfront infrastructure costs",
-            "Tight coupling of components",
-            "Limited scalability"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a key benefit of microservices?",
-        options: [
-            "Simplified debugging",
-            "Independent scaling of services",
-            "Reduced need for APIs",
-            "Centralized logging and monitoring"
+            "A computer that performs complex calculations",
+            "An interactive technology that changes a person’s attitudes or behaviors",
+            "A computer that enhances productivity",
+            "A computer that simulates real-world environments"
         ],
         answer: 1,
     },
     {
-        section: "Software Architecture Evolution",
-        question: "What is the primary purpose of a message broker in event-driven architecture?",
+        section: "Captology and Persuasive Technologies",
+        question: "Which of the following is an example of a computer functioning as a social actor?",
         options: [
-            "To manage database connections",
-            "To facilitate communication between services",
-            "To replace API gateways",
-            "To enforce monolithic architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a key characteristic of monolithic architecture?",
-        options: [
-            "Loosely coupled components",
-            "Single codebase for all functionalities",
-            "Independent deployment of services",
-            "Event-driven communication"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "What is the primary benefit of using serverless architecture?",
-        options: [
-            "Full control over server management",
-            "Automatic scaling and reduced operational overhead",
-            "Tight coupling of components",
-            "High upfront infrastructure costs"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a disadvantage of microservices?",
-        options: [
-            "Increased complexity of distributed systems",
-            "Tight coupling of components",
-            "Limited scalability",
-            "Single point of failure"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "What is the primary purpose of an API gateway in microservices?",
-        options: [
-            "To manage database connections",
-            "To provide a single entry point for client requests",
-            "To handle serverless function execution",
-            "To enforce monolithic architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a key feature of event-driven architecture?",
-        options: [
-            "Centralized control of all services",
-            "Asynchronous and decoupled communication",
-            "Reduced need for APIs",
-            "Simplified debugging"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "What is the primary challenge of monolithic architecture?",
-        options: [
-            "Easy to scale horizontally",
-            "Single point of failure",
-            "Independent deployment of components",
-            "Loosely coupled services"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a key benefit of serverless architecture?",
-        options: [
-            "Manual scaling of servers",
-            "Event-driven execution of functions",
-            "High upfront infrastructure costs",
-            "Tight coupling of components"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "What is the primary purpose of a service mesh in microservices?",
-        options: [
-            "To manage database connections",
-            "To handle service-to-service communication",
-            "To replace API gateways",
-            "To enforce monolithic architecture"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a common use case for serverless architecture?",
-        options: [
-            "Static websites",
-            "Real-time notifications and messaging systems",
-            "Monolithic legacy systems",
-            "Batch processing"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Command Query Responsibility Segregation (CQRS)",
-        question: "What is the primary purpose of CQRS pattern?",
-        options: [
-          "To unify read and write operations into a single model",
-          "To separate read and write operations into different models",
-          "To eliminate database queries entirely",
-          "To remove command functionality from applications"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Command Query Responsibility Segregation (CQRS)",
-        question: "Which statement about CQRS is FALSE?",
-        options: [
-          "It allows for independent scaling of read and write workloads",
-          "It can reduce contention between read and write operations",
-          "It is mandatory to implement Event Sourcing alongside CQRS",
-          "It enables optimization of query and command models separately"
+            "A pocket calculator",
+            "A virtual reality system",
+            "A character in a CD-ROM that encourages healthy eating",
+            "A web browser"
         ],
         answer: 2,
-      },
-      {
-        section: "Command Query Responsibility Segregation (CQRS)",
-        question: "In CQRS, what are 'commands'?",
+    },
+    {
+        section: "Captology and Persuasive Technologies",
+        question: "What does the 'Functional Triad' framework describe?",
         options: [
-          "Read-only operations that return data but don't modify state",
-          "Operations that modify state but don't return data",
-          "Both read and write operations combined",
-          "Database constraint checks"
+            "Three types of computer hardware",
+            "Three ways computers function: as tools, media, and social actors",
+            "Three levels of computer programming",
+            "Three types of computer networks"
         ],
         answer: 1,
-      },
-      {
-        section: "Command Query Responsibility Segregation (CQRS)",
-        question: "Which is a common real-world application of CQRS?",
+    },
+    {
+        section: "Captology and Persuasive Technologies",
+        question: "Which of the following is an example of a computer as a persuasive tool?",
         options: [
-          "Simple CRUD applications with minimal traffic",
-          "Single-user desktop applications",
-          "High-performance financial trading platforms",
-          "Static content websites"
+            "A video game that teaches health habits",
+            "A Polar Heart Rate Monitor that motivates exercise",
+            "A virtual reality simulation of HIV risks",
+            "A CD-ROM character that praises users"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Captology and Persuasive Technologies",
+        question: "What is the primary ethical concern for designers of persuasive technologies?",
+        options: [
+            "Increasing computational power",
+            "Avoiding deception and respecting privacy",
+            "Reducing production costs",
+            "Enhancing user interface design"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Captology and Persuasive Technologies",
+        question: "Which level of analysis focuses on groups or organizations in captology?",
+        options: [
+            "Intraindividual",
+            "Interindividual",
+            "Organizational",
+            "Societal"
         ],
         answer: 2,
-      },
-      {
-        section: "Command Query Responsibility Segregation (CQRS)",
-        question: "What is a potential disadvantage of implementing CQRS?",
+    },
+    {
+        section: "Captology and Persuasive Technologies",
+        question: "What is the main reason behavior change is considered a more compelling metric than attitude change in captology?",
         options: [
-          "Reduced system complexity",
-          "Increased data consistency",
-          "Increased system complexity",
-          "Reduced database size"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Command Query Responsibility Segregation (CQRS)",
-        question: "When is CQRS most beneficial?",
-        options: [
-          "In systems with equal read and write workloads",
-          "In systems where read operations significantly outnumber write operations",
-          "In systems with minimal domain complexity",
-          "In systems with single-table databases"
+            "Behavior change is easier to measure",
+            "Behavior change is more difficult to achieve and more useful for real-world outcomes",
+            "Attitude change is irrelevant in persuasive technologies",
+            "Behavior change is less important than attitude change"
         ],
         answer: 1,
-      },
-      {
-        section: "Command Query Responsibility Segregation (CQRS)",
-        question: "How does CQRS typically handle data consistency between read and write models?",
+    },
+    {
+        section: "Captology and Persuasive Technologies",
+        question: "Which of the following is an example of an autogenously persuasive technology?",
         options: [
-          "Immediate consistency is always guaranteed",
-          "Eventual consistency is often accepted as a trade-off",
-          "Consistency is not a concern in CQRS",
-          "Only the write model needs to be consistent"
+            "A mother giving her son a PDA to help him stay organized",
+            "A person using a calorie-counting device to change their eating habits",
+            "A company designing a health app to persuade users to exercise",
+            "A teacher using a computer program to teach students"
         ],
         answer: 1,
-      },
-      {
-        section: "Command Query Responsibility Segregation (CQRS)",
-        question: "Which company is known for implementing CQRS in their e-commerce platform to handle high traffic during sales events?",
+    },
+    {
+        section: "Captology and Persuasive Technologies",
+        question: "What is the primary purpose of the 'Functional Triad' framework?",
         options: [
-          "Netflix",
-          "Amazon",
-          "Google",
-          "Microsoft"
+            "To categorize computer hardware",
+            "To understand how computers function as tools, media, and social actors",
+            "To measure the computational power of computers",
+            "To design computer networks"
         ],
         answer: 1,
-      },
-      {
-        section: "Command Query Responsibility Segregation (CQRS)",
-        question: "In a CQRS architecture, what typically happens after a command is processed?",
+    },
+    {
+        section: "Captology and Persuasive Technologies",
+        question: "Which of the following is an example of a computer as a persuasive medium?",
         options: [
-          "The system immediately returns query results",
-          "The system enters a locked state",
-          "An event is often generated to update read models",
-          "The database is rolled back to its previous state"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Command Query Responsibility Segregation (CQRS)",
-        question: "What is a typical data storage strategy in a mature CQRS implementation?",
-        options: [
-          "Using the same database for both read and write models",
-          "Using different databases optimized for reads and writes respectively",
-          "Using only in-memory data structures",
-          "Avoiding databases entirely in favor of file storage"
+            "A Polar Heart Rate Monitor",
+            "A virtual reality simulation of HIV risks",
+            "A CD-ROM character that praises users",
+            "A pocket calculator"
         ],
         answer: 1,
-      },
-      
-      // Section 2: Event Sourcing
-      {
-        section: "Event Sourcing",
-        question: "What is the core concept of Event Sourcing?",
+    },
+    {
+        section: "Captology and Persuasive Technologies",
+        question: "What is the main ethical responsibility of researchers studying persuasive computers?",
         options: [
-          "Storing only the current state of an application",
-          "Storing application state as a sequence of events",
-          "Eliminating the need for databases",
-          "Combining multiple databases into one"
+            "To design new persuasive technologies",
+            "To act as watchdogs and disclose findings about persuasive technologies",
+            "To promote the use of persuasive technologies in all domains",
+            "To focus solely on the technical aspects of persuasive technologies"
         ],
         answer: 1,
-      },
-      {
-        section: "Event Sourcing",
-        question: "Which is NOT a benefit of Event Sourcing?",
+    },
+    {
+        section: "Captology and Persuasive Technologies",
+        question: "Which of the following is NOT a level of analysis in captology?",
         options: [
-          "Complete audit trail of all changes",
-          "Ability to reconstruct past states",
-          "Simplified database queries for complex reports",
-          "Reliable event history for debugging"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Event Sourcing",
-        question: "In Event Sourcing, how is the current state of the system typically determined?",
-        options: [
-          "By querying the latest snapshot directly",
-          "By calculating it on demand from all past events",
-          "By reverting to the initial state",
-          "By requesting it from external systems"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Event Sourcing",
-        question: "Which system would benefit MOST from Event Sourcing?",
-        options: [
-          "A static content management system",
-          "A banking system requiring full audit trails of financial transactions",
-          "A simple blog with few updates",
-          "A read-only reporting application"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Event Sourcing",
-        question: "What is an event store in the context of Event Sourcing?",
-        options: [
-          "A UI component that displays events",
-          "A temporary cache for recent events",
-          "A database optimized for storing immutable event records",
-          "A message queue for event processing"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Event Sourcing",
-        question: "What are snapshots used for in Event Sourcing?",
-        options: [
-          "To capture the current state periodically to improve reconstruction performance",
-          "To validate event integrity",
-          "To encrypt sensitive event data",
-          "To generate reports for management"
-        ],
-        answer: 0,
-      },
-      {
-        section: "Event Sourcing",
-        question: "Which real-world industry has widely adopted Event Sourcing?",
-        options: [
-          "Fast food restaurants",
-          "Automotive manufacturing",
-          "Financial services and banking",
-          "Retail clothing stores"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Event Sourcing",
-        question: "What challenge might you face when evolving an Event Sourced system over time?",
-        options: [
-          "Events are too transparent",
-          "Too few events are generated",
-          "Event schema evolution and versioning",
-          "Events process too quickly"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Event Sourcing",
-        question: "How does Event Sourcing typically handle data consistency?",
-        options: [
-          "By using two-phase commits across all systems",
-          "By treating the event log as the single source of truth",
-          "By disabling consistency checks",
-          "By running hourly consistency repair jobs"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Event Sourcing",
-        question: "Which statement about the relationship between CQRS and Event Sourcing is correct?",
-        options: [
-          "Event Sourcing requires CQRS",
-          "CQRS requires Event Sourcing",
-          "They are completely unrelated patterns",
-          "They are complementary but can be implemented independently"
+            "Intraindividual",
+            "Interindividual",
+            "Organizational",
+            "Computational"
         ],
         answer: 3,
-      },
-      
-      // Section 3: Dependency Injection
-      {
-        section: "Dependency Injection",
-        question: "What is Dependency Injection?",
-        options: [
-          "A technique where objects receive other objects they depend on",
-          "A method to avoid using external libraries",
-          "A way to inject new code into a running application",
-          "A technique to compile code faster"
-        ],
-        answer: 0,
-      },
-      {
-        section: "Dependency Injection",
-        question: "Which principle of object-oriented design does Dependency Injection help to follow?",
-        options: [
-          "Inheritance over composition",
-          "Tight coupling between classes",
-          "Dependency inversion principle",
-          "Single responsibility violation"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Dependency Injection",
-        question: "Which is NOT a common type of Dependency Injection?",
-        options: [
-          "Constructor injection",
-          "Setter injection",
-          "Method injection",
-          "Direct injection"
-        ],
-        answer: 3,
-      },
-      {
-        section: "Dependency Injection",
-        question: "What is a key benefit of using Dependency Injection in application development?",
-        options: [
-          "It makes the code run faster",
-          "It reduces memory usage",
-          "It makes unit testing easier through better isolation",
-          "It eliminates the need for interfaces"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Dependency Injection",
-        question: "Which framework was one of the first to popularize Dependency Injection in enterprise applications?",
-        options: [
-          "React",
-          "Spring",
-          "jQuery",
-          "Vue.js"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Dependency Injection",
-        question: "In Dependency Injection, what is an IoC container?",
-        options: [
-          "A physical hardware device",
-          "A component that manages object creation and injection",
-          "A database connection pool",
-          "A type of HTTP request handler"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Dependency Injection",
-        question: "How does Dependency Injection affect coupling in an application?",
-        options: [
-          "It increases coupling for better performance",
-          "It has no effect on coupling",
-          "It reduces coupling and increases flexibility",
-          "It only affects compile-time coupling, not runtime coupling"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Dependency Injection",
-        question: "Which is a real-world benefit of Dependency Injection in large enterprise applications?",
-        options: [
-          "Simplified deployment to production",
-          "Elimination of the need for documentation",
-          "Easier component replacement and application evolution",
-          "Reduced need for skilled developers"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Dependency Injection",
-        question: "What design pattern is Dependency Injection closely related to?",
-        options: [
-          "Observer Pattern",
-          "Strategy Pattern",
-          "Singleton Pattern",
-          "Factory Pattern"
-        ],
-        answer: 3,
-      },
-      {
-        section: "Dependency Injection",
-        question: "Which is NOT an advantage of using Dependency Injection?",
-        options: [
-          "Improved testability",
-          "Reduced boilerplate code",
-          "Increased modularity",
-          "Enhanced application performance"
-        ],
-        answer: 3,
-      },
-      {
-        section: "DevOps Fundamentals",
-        question: "What is the primary goal of DevOps?",
-        options: [
-          "Eliminating the need for operations teams",
-          "Isolating development from operations",
-          "Breaking down silos between development and operations teams",
-          "Replacing manual testing with automated testing"
-        ],
-        answer: 2,
-      },
-      {
-        section: "DevOps Fundamentals",
-        question: "Which of the following is NOT a key pillar of DevOps culture?",
-        options: [
-          "Collaboration",
-          "Transparency",
-          "Strict role separation",
-          "Continuous improvement"
-        ],
-        answer: 2,
-      },
-      {
-        section: "DevOps Fundamentals",
-        question: "Which metric is MOST important to measure the effectiveness of DevOps practices?",
-        options: [
-          "Number of servers managed per engineer",
-          "Speed of delivery from code commit to production",
-          "Number of tools in the DevOps toolchain",
-          "Size of the DevOps team"
-        ],
-        answer: 1,
-      },
-      {
-        section: "DevOps Fundamentals",
-        question: "What is 'Infrastructure as Code' (IaC)?",
-        options: [
-          "Writing code that automatically scales infrastructure",
-          "Managing and provisioning infrastructure through code and automation",
-          "Eliminating physical infrastructure in favor of cloud services",
-          "Converting infrastructure into microservices"
-        ],
-        answer: 1,
-      },
-      {
-        section: "DevOps Fundamentals",
-        question: "Which company is credited with coining the term 'DevOps'?",
-        options: [
-          "Google",
-          "Amazon",
-          "Flickr",
-          "Microsoft"
-        ],
-        answer: 2,
-      },
-      {
-        section: "DevOps Fundamentals",
-        question: "What does 'shift left' refer to in DevOps?",
-        options: [
-          "Moving testing and security earlier in the development process",
-          "Reorganizing team seating arrangements",
-          "Prioritizing left-side menu items in DevOps tools",
-          "Shifting responsibility away from operations teams"
-        ],
-        answer: 0,
-      },
-      {
-        section: "DevOps Fundamentals",
-        question: "Which is NOT a benefit of implementing DevOps practices?",
-        options: [
-          "Faster time to market",
-          "Improved collaboration",
-          "Elimination of all production failures",
-          "Increased deployment frequency"
-        ],
-        answer: 2,
-      },
-      {
-        section: "DevOps Fundamentals",
-        question: "What is a key characteristic of a DevOps-oriented team structure?",
-        options: [
-          "Clear separation between developers and operations staff",
-          "Cross-functional teams with shared responsibilities",
-          "Operations teams managing all deployment activities",
-          "Development teams handling only coding activities"
-        ],
-        answer: 1,
-      },
-      {
-        section: "DevOps Fundamentals",
-        question: "Which practice is essential for effective incident management in DevOps?",
-        options: [
-          "Blameless postmortems",
-          "Identifying individual responsibility for failures",
-          "Reducing documentation of incidents",
-          "Escalating all issues to management"
-        ],
-        answer: 0,
-      },
-      {
-        section: "DevOps Fundamentals",
-        question: "What is the concept of 'you build it, you run it' in DevOps?",
-        options: [
-          "QA teams should test their own code",
-          "Developers are responsible for the code they write in production",
-          "Operations teams build and run all systems",
-          "Product managers should help develop features they request"
-        ],
-        answer: 1,
-      },
-      
-      // Section 2: CI/CD Pipeline Components
-      {
-        section: "CI/CD Pipeline Components",
-        question: "What does CI stand for in the context of software development?",
-        options: [
-          "Code Integration",
-          "Continuous Implementation",
-          "Continuous Integration",
-          "Continuous Improvement"
-        ],
-        answer: 2,
-      },
-      {
-        section: "CI/CD Pipeline Components",
-        question: "What does CD commonly stand for in DevOps? (Select the TWO most common meanings)",
-        options: [
-          "Continuous Delivery and Continuous Deployment",
-          "Code Deployment and Continuous Development",
-          "Continuous Documentation and Code Delivery",
-          "Code Design and Continuous Debugging"
-        ],
-        answer: 0,
-      },
-      {
-        section: "CI/CD Pipeline Components",
-        question: "Which is NOT typically a stage in a CI/CD pipeline?",
-        options: [
-          "Build",
-          "Test",
-          "Customer Approval",
-          "Deploy"
-        ],
-        answer: 2,
-      },
-      {
-        section: "CI/CD Pipeline Components",
-        question: "What is the difference between Continuous Delivery and Continuous Deployment?",
-        options: [
-          "Continuous Delivery automatically deploys all changes to production, while Continuous Deployment requires manual approval",
-          "Continuous Delivery ensures code is always in a deployable state but may require manual approval for production, while Continuous Deployment automatically deploys all changes to production",
-          "They are different terms for the same concept",
-          "Continuous Delivery is for web applications, while Continuous Deployment is for mobile applications"
-        ],
-        answer: 1,
-      },
-      {
-        section: "CI/CD Pipeline Components",
-        question: "Which tool is NOT commonly used for CI/CD pipelines?",
-        options: [
-          "Jenkins",
-          "GitLab CI",
-          "Microsoft Word",
-          "GitHub Actions"
-        ],
-        answer: 2,
-      },
-      {
-        section: "CI/CD Pipeline Components",
-        question: "What is a 'pipeline as code'?",
-        options: [
-          "Writing code that creates other code automatically",
-          "Defining CI/CD pipeline configurations in version-controlled code rather than in a UI",
-          "A method to deploy pipelines directly to production",
-          "A technique for debugging pipelines"
-        ],
-        answer: 1,
-      },
-      {
-        section: "CI/CD Pipeline Components",
-        question: "What is the primary purpose of the 'build' stage in a CI pipeline?",
-        options: [
-          "To compile code and create artifacts",
-          "To design the application architecture",
-          "To deploy to production",
-          "To write new features"
-        ],
-        answer: 0,
-      },
-      {
-        section: "CI/CD Pipeline Components",
-        question: "Which testing type is MOST important to include in a CI pipeline?",
-        options: [
-          "Manual testing",
-          "Automated unit testing",
-          "User acceptance testing",
-          "Alpha testing"
-        ],
-        answer: 1,
-      },
-      {
-        section: "CI/CD Pipeline Components",
-        question: "Which deployment strategy involves releasing to a small subset of users first?",
-        options: [
-          "Blue-Green deployment",
-          "Canary deployment",
-          "Big bang deployment",
-          "Rolling deployment"
-        ],
-        answer: 1,
-      },
-      {
-        section: "CI/CD Pipeline Components",
-        question: "What is a key benefit of having a CI/CD pipeline?",
-        options: [
-          "Eliminating the need for developers",
-          "Ensuring code is always tested and in a deployable state",
-          "Removing the need for code reviews",
-          "Guaranteeing zero bugs in production"
-        ],
-        answer: 1,
-      },
-      
-      // Section 3: Automation and Tooling
-      {
-        section: "Automation and Tooling",
-        question: "Which tool is typically used for containerization in a CI/CD pipeline?",
-        options: [
-          "Jenkins",
-          "Docker",
-          "JUnit",
-          "Maven"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Automation and Tooling",
-        question: "What is Kubernetes primarily used for?",
-        options: [
-          "Automated testing",
-          "Source code management",
-          "Container orchestration",
-          "Database management"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Automation and Tooling",
-        question: "Which type of testing is LEAST likely to be fully automated in a CI/CD pipeline?",
-        options: [
-          "Unit testing",
-          "Integration testing",
-          "User experience testing",
-          "Security scanning"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Automation and Tooling",
-        question: "What is a webhook in the context of CI/CD?",
-        options: [
-          "A type of fishing tool used by DevOps engineers",
-          "An HTTP callback that triggers actions based on events",
-          "A website that hosts CI/CD documentation",
-          "A type of automated test"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Automation and Tooling",
-        question: "Which tool would be MOST appropriate for Infrastructure as Code?",
-        options: [
-          "JUnit",
-          "Selenium",
-          "Terraform",
-          "Postman"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Automation and Tooling",
-        question: "What is configuration drift?",
-        options: [
-          "The planned migration of configurations from one environment to another",
-          "The difference in configuration between developer machines",
-          "The unplanned deviation of environment configurations from their intended state",
-          "The speed at which configurations are updated"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Automation and Tooling",
-        question: "Which practice helps prevent configuration drift?",
-        options: [
-          "Manual updates to production servers",
-          "Immutable infrastructure",
-          "Reducing the frequency of deployments",
-          "Eliminating test environments"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Automation and Tooling",
-        question: "What is a primary benefit of using feature flags in CI/CD?",
-        options: [
-          "They automatically fix bugs in the code",
-          "They eliminate the need for testing",
-          "They allow features to be deployed but not activated until ready",
-          "They improve database performance"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Automation and Tooling",
-        question: "Which tool category is focused on monitoring and observability in a DevOps environment?",
-        options: [
-          "Version control systems",
-          "Compiler tools",
-          "APM (Application Performance Monitoring) tools",
-          "Code editors"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Automation and Tooling",
-        question: "What is the concept of 'ChatOps' in DevOps?",
-        options: [
-          "Using chat applications for casual team communication only",
-          "Integrating chat platforms with automation tools to execute operations tasks from chat",
-          "Replacing all documentation with chat logs",
-          "A technique for reducing meeting times"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Fundamental Concepts",
-        question: "What is the primary unit of composition in functional programming?",
-        options: [
-          "Objects",
-          "Classes",
-          "Functions",
-          "Modules"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Fundamental Concepts",
-        question: "What is the primary unit of composition in object-oriented programming?",
-        options: [
-          "Functions",
-          "Objects",
-          "Methods",
-          "Procedures"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Fundamental Concepts",
-        question: "Which of the following best describes immutability in functional programming?",
-        options: [
-          "Data can be modified after creation but only by authorized methods",
-          "Data can never be accessed directly",
-          "Data cannot be modified after creation; new data is created instead",
-          "Data can only be modified by the object that owns it"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Fundamental Concepts",
-        question: "Which concept is NOT a core principle of object-oriented programming?",
-        options: [
-          "Encapsulation",
-          "Inheritance",
-          "Immutability",
-          "Polymorphism"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Fundamental Concepts",
-        question: "Which concept is NOT a core principle of functional programming?",
-        options: [
-          "Pure functions",
-          "Immutable data",
-          "Inheritance",
-          "Higher-order functions"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Fundamental Concepts",
-        question: "What is a pure function?",
-        options: [
-          "A function that only performs I/O operations",
-          "A function that returns the same output for the same input and has no side effects",
-          "A function that can modify global state",
-          "A function that is defined within a class"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Fundamental Concepts",
-        question: "What is encapsulation in OOP?",
-        options: [
-          "The process of inheriting properties from a parent class",
-          "The bundling of data and methods that operate on that data within a single unit",
-          "The ability to use different types in the same way",
-          "The practice of keeping all variables immutable"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Fundamental Concepts",
-        question: "How does functional programming typically handle state changes?",
-        options: [
-          "By directly modifying variables",
-          "By creating new data structures that represent the new state",
-          "By using protected variables within objects",
-          "By using static methods to modify state"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Fundamental Concepts",
-        question: "In OOP, what is the relationship between a 'Car' class and a 'Vehicle' class if Car inherits from Vehicle?",
-        options: [
-          "Car is a subclass of Vehicle",
-          "Car has a Vehicle",
-          "Vehicle is a subclass of Car",
-          "Car and Vehicle are interfaces"
-        ],
-        answer: 0,
-      },
-      {
-        section: "Fundamental Concepts",
-        question: "What is referential transparency in functional programming?",
-        options: [
-          "The ability to reference any variable from any function",
-          "The property that a function can be replaced with its output value without changing program behavior",
-          "The ability to access an object's references",
-          "The transparency of memory references in the runtime"
-        ],
-        answer: 1,
-      },
-      
-      // Section 2: Language Features and Implementation
-      {
-        section: "Language Features and Implementation",
-        question: "Which programming language was designed specifically for functional programming?",
-        options: [
-          "Java",
-          "C++",
-          "Haskell",
-          "Python"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Language Features and Implementation",
-        question: "Which programming language was designed primarily around object-oriented principles?",
-        options: [
-          "Haskell",
-          "Smalltalk",
-          "SQL",
-          "C"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Language Features and Implementation",
-        question: "What is a higher-order function in functional programming?",
-        options: [
-          "A function with many parameters",
-          "A function that takes functions as arguments or returns functions",
-          "A function with high performance",
-          "A function that inherits from another function"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Language Features and Implementation",
-        question: "Which feature is more commonly associated with functional programming?",
-        options: [
-          "Getters and setters",
-          "Method overriding",
-          "Pattern matching",
-          "Protected methods"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Language Features and Implementation",
-        question: "What is polymorphism in OOP?",
-        options: [
-          "The ability to create multiple objects",
-          "The ability to process objects differently based on their data type or class",
-          "The ability to hide implementation details",
-          "The ability to create immutable objects"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Language Features and Implementation",
-        question: "What feature of functional programming helps with concurrent programming?",
-        options: [
-          "Dynamic typing",
-          "Inheritance",
-          "Immutability",
-          "Encapsulation"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Language Features and Implementation",
-        question: "In JavaScript, what method is used to create a new array by applying a function to each element without modifying the original array?",
-        options: [
-          "forEach()",
-          "map()",
-          "reduce()",
-          "splice()"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Language Features and Implementation",
-        question: "Which of the following is a common pattern in functional programming but NOT in OOP?",
-        options: [
-          "Factory pattern",
-          "Observer pattern",
-          "Function composition",
-          "Strategy pattern"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Language Features and Implementation",
-        question: "What is the primary method of code reuse in OOP?",
-        options: [
-          "Function composition",
-          "Inheritance and composition",
-          "Currying",
-          "Monads"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Language Features and Implementation",
-        question: "What is a monad in functional programming?",
-        options: [
-          "A type of inheritance structure",
-          "A design pattern for encapsulating data",
-          "A way to structure computations with context, sequences, and side effects",
-          "A method to override parent class functionality"
-        ],
-        answer: 2,
-      },
-      
-      // Section 3: Practical Applications and Trade-offs
-      {
-        section: "Practical Applications and Trade-offs",
-        question: "Which paradigm is generally better suited for complex UI state management?",
-        options: [
-          "Only functional programming",
-          "Only object-oriented programming",
-          "Either paradigm, but functional programming often provides better predictability",
-          "Neither; UI state should be managed with procedural programming"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Practical Applications and Trade-offs",
-        question: "When might OOP be preferred over functional programming?",
-        options: [
-          "When working with highly concurrent systems",
-          "When modeling complex real-world entities with behavior",
-          "When mathematical precision is the highest priority",
-          "When avoiding side effects is critical"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Practical Applications and Trade-offs",
-        question: "Which statement about testing is generally true?",
-        options: [
-          "OOP code is always easier to test than functional code",
-          "Functional code with pure functions is often easier to test in isolation",
-          "Testing is equally difficult in both paradigms",
-          "Neither paradigm can be effectively unit tested"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Practical Applications and Trade-offs",
-        question: "Which is a common criticism of OOP?",
-        options: [
-          "It makes concurrency too simple",
-          "It's too mathematical",
-          "It can lead to complex inheritance hierarchies that are difficult to understand",
-          "It doesn't allow for code reuse"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Practical Applications and Trade-offs",
-        question: "Which is a common criticism of functional programming?",
-        options: [
-          "It can be difficult for developers to adapt to its mathematical nature",
-          "It encourages too many side effects",
-          "It requires too much memory allocation",
-          "It doesn't allow for abstraction"
-        ],
-        answer: 0,
-      },
-      {
-        section: "Practical Applications and Trade-offs",
-        question: "What is a hybrid approach combining OOP and functional programming called?",
-        options: [
-          "Procedural programming",
-          "Multi-paradigm programming",
-          "Dynamic programming",
-          "Structured programming"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Practical Applications and Trade-offs",
-        question: "Which modern language supports both OOP and functional programming approaches?",
-        options: [
-          "C",
-          "Scala",
-          "COBOL",
-          "Assembly"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Practical Applications and Trade-offs",
-        question: "In which scenario would you likely prefer functional programming?",
-        options: [
-          "Building a GUI application with complex user interactions",
-          "Implementing a data processing pipeline with transformations",
-          "Designing a system with complex inheritance relationships",
-          "Creating a simulation with mutable state"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Practical Applications and Trade-offs",
-        question: "How do functional and OOP paradigms typically differ in handling errors?",
-        options: [
-          "OOP uses return values, while functional programming uses exceptions",
-          "Functional programming often uses monadic types like Maybe/Option or Either/Result, while OOP typically uses exceptions",
-          "OOP doesn't have error handling, while functional programming does",
-          "Both handle errors identically"
-        ],
-        answer: 1,
-      },
-      {
-        section: "Practical Applications and Trade-offs",
-        question: "Which statement best describes the current industry trend regarding functional and OOP paradigms?",
-        options: [
-          "OOP is being completely abandoned in favor of functional programming",
-          "Functional programming is rarely used in production systems",
-          "There's a trend toward incorporating functional concepts even in traditionally OOP languages",
-          "The two paradigms are used in completely separate domains with no overlap"
-        ],
-        answer: 2,
-      },
-      {
-        section: "Advanced Design Patterns",
-        question: "What does CQRS stand for?",
-        options: [
-            "Command Query Responsibility Segregation",
-            "Command Query Request Separation",
-            "Centralized Query and Request System",
-            "Command Query Resource Segregation"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "What is the primary purpose of CQRS?",
-        options: [
-            "To combine read and write operations into a single model",
-            "To separate read and write operations into different models",
-            "To eliminate the need for databases",
-            "To simplify monolithic architectures"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a benefit of CQRS?",
-        options: [
-            "Simplified data consistency",
-            "Improved scalability for read and write operations",
-            "Reduced need for event sourcing",
-            "Tight coupling of components"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "What is Event Sourcing?",
-        options: [
-            "Storing only the current state of an application",
-            "Storing a sequence of events that represent state changes",
-            "Eliminating the need for databases",
-            "Using a single model for read and write operations"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a key benefit of Event Sourcing?",
-        options: [
-            "Simplified debugging and auditing",
-            "Reduced need for CQRS",
-            "Tight coupling of components",
-            "Limited scalability"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "What is the primary challenge of implementing Event Sourcing?",
-        options: [
-            "Increased complexity of event storage and replay",
-            "Reduced scalability",
-            "Tight coupling of components",
-            "Simplified debugging"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "What is Dependency Injection (DI)?",
-        options: [
-            "A design pattern that promotes tight coupling",
-            "A technique for passing dependencies to a class rather than creating them internally",
-            "A method for combining read and write operations",
-            "A way to eliminate the need for databases"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a benefit of Dependency Injection?",
-        options: [
-            "Tight coupling of components",
-            "Improved testability and maintainability",
-            "Reduced need for CQRS",
-            "Simplified event sourcing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a real-world application of CQRS?",
-        options: [
-            "E-commerce platforms with separate read and write models",
-            "Static websites",
-            "Monolithic legacy systems",
-            "Batch processing systems"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a real-world application of Event Sourcing?",
-        options: [
-            "Financial systems for auditing and transaction history",
-            "Static websites",
-            "Monolithic legacy systems",
-            "Batch processing systems"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a real-world application of Dependency Injection?",
-        options: [
-            "Enterprise applications with modular and testable components",
-            "Static websites",
-            "Monolithic legacy systems",
-            "Batch processing systems"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "What is the primary purpose of a Command in CQRS?",
-        options: [
-            "To query data",
-            "To perform write operations",
-            "To store events",
-            "To eliminate the need for databases"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "What is the primary purpose of a Query in CQRS?",
-        options: [
-            "To perform write operations",
-            "To retrieve data",
-            "To store events",
-            "To eliminate the need for databases"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a key challenge of CQRS?",
-        options: [
-            "Increased complexity of managing separate models",
-            "Reduced scalability",
-            "Tight coupling of components",
-            "Simplified debugging"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "What is the primary benefit of using Event Sourcing with CQRS?",
-        options: [
-            "Improved scalability for read operations",
-            "Simplified data consistency",
-            "Tight coupling of components",
-            "Reduced need for Dependency Injection"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a common use case for Dependency Injection?",
-        options: [
-            "Enterprise applications with modular components",
-            "Static websites",
-            "Monolithic legacy systems",
-            "Batch processing systems"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "What is the primary purpose of an Event Store in Event Sourcing?",
-        options: [
-            "To store only the current state of an application",
-            "To store a sequence of events representing state changes",
-            "To eliminate the need for databases",
-            "To combine read and write operations"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a key benefit of using Dependency Injection in testing?",
-        options: [
-            "Tight coupling of components",
-            "Improved testability through mock dependencies",
-            "Reduced need for CQRS",
-            "Simplified event sourcing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a key characteristic of CQRS?",
-        options: [
-            "Combining read and write operations into a single model",
-            "Separating read and write operations into different models",
-            "Eliminating the need for databases",
-            "Simplifying monolithic architectures"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a key characteristic of Event Sourcing?",
-        options: [
-            "Storing only the current state of an application",
-            "Storing a sequence of events representing state changes",
-            "Eliminating the need for databases",
-            "Using a single model for read and write operations"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a key characteristic of Dependency Injection?",
-        options: [
-            "Tight coupling of components",
-            "Passing dependencies to a class rather than creating them internally",
-            "Combining read and write operations",
-            "Eliminating the need for databases"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a common tool for implementing Dependency Injection?",
-        options: [
-            "Spring Framework",
-            "Apache Kafka",
-            "Docker",
-            "Kubernetes"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a common tool for implementing Event Sourcing?",
-        options: [
-            "Apache Kafka",
-            "Spring Framework",
-            "Docker",
-            "Kubernetes"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a common tool for implementing CQRS?",
-        options: [
-            "Axon Framework",
-            "Spring Framework",
-            "Docker",
-            "Kubernetes"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "What is the primary purpose of a Command Handler in CQRS?",
-        options: [
-            "To query data",
-            "To handle write operations",
-            "To store events",
-            "To eliminate the need for databases"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "What is the primary purpose of a Query Handler in CQRS?",
-        options: [
-            "To perform write operations",
-            "To retrieve data",
-            "To store events",
-            "To eliminate the need for databases"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a key benefit of using CQRS with Event Sourcing?",
-        options: [
-            "Improved scalability for read operations",
-            "Simplified data consistency",
-            "Tight coupling of components",
-            "Reduced need for Dependency Injection"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a key challenge of Dependency Injection?",
-        options: [
-            "Increased complexity of managing dependencies",
-            "Reduced scalability",
-            "Tight coupling of components",
-            "Simplified debugging"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Advanced Design Patterns",
-        question: "Which of the following is a key benefit of using Event Sourcing in financial systems?",
-        options: [
-            "Improved auditing and transaction history",
-            "Reduced need for CQRS",
-            "Tight coupling of components",
-            "Simplified debugging"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "Which of the following is a key benefit of using AI in software development?",
-        options: [
-            "Increased manual debugging efforts",
-            "Automated code generation and optimization",
-            "Higher development costs",
-            "Slower software deployment"
-        ],
-        answer: 1,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "Which AI-driven tool is widely used for automated code generation?",
-        options: [
-            "GitHub Copilot",
-            "Docker",
-            "Postman",
-            "Kubernetes"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "How does AI assist in debugging code?",
-        options: [
-            "By manually reviewing every line of code",
-            "By analyzing error logs and suggesting fixes",
-            "By requiring developers to debug manually",
-            "By removing all errors automatically"
-        ],
-        answer: 1,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "Which of the following is an example of an AI-powered bug detection tool?",
-        options: [
-            "SonarQube",
-            "TensorFlow",
-            "PostgreSQL",
-            "React"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "Which machine learning technique is commonly used for anomaly detection in software logs?",
-        options: [
-            "Supervised Learning",
-            "Unsupervised Learning",
-            "Reinforcement Learning",
-            "Deep Learning"
-        ],
-        answer: 1,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "What is the role of Natural Language Processing (NLP) in AI-powered coding assistants?",
-        options: [
-            "Recognizing programming patterns and improving suggestions",
-            "Translating spoken language into machine code",
-            "Optimizing network latency",
-            "Managing cloud infrastructure"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "Which AI model is commonly used in AI-powered code generation tools?",
-        options: [
-            "GPT (Generative Pre-trained Transformer)",
-            "RNN (Recurrent Neural Network)",
-            "CNN (Convolutional Neural Network)",
-            "Naïve Bayes"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "How does AI improve software performance optimization?",
-        options: [
-            "By analyzing runtime behavior and suggesting optimizations",
-            "By increasing CPU load",
-            "By removing functions from the code",
-            "By slowing down execution to detect errors"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "Which AI technique is used for predictive software maintenance?",
-        options: [
-            "Regression Analysis",
-            "Clustering",
-            "Genetic Algorithms",
-            "Bayesian Networks"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "What is the main function of AI-driven test automation?",
-        options: [
-            "Generating and executing test cases automatically",
-            "Manually reviewing test cases",
-            "Replacing all manual testing efforts",
-            "Writing code for developers"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "Which of these is NOT an AI-powered coding assistant?",
-        options: [
-            "GitHub Copilot",
-            "Tabnine",
-            "Jira",
-            "Amazon CodeWhisperer"
-        ],
-        answer: 2,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "What is an advantage of using AI for software documentation?",
-        options: [
-            "It generates documentation automatically",
-            "It replaces human developers",
-            "It requires no input from developers",
-            "It slows down software development"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "Which AI-powered tool helps with automatic code refactoring?",
-        options: [
-            "Refact.ai",
-            "ChatGPT",
-            "AWS Lambda",
-            "Docker"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "What type of learning is used in AI-driven software testing?",
-        options: [
-            "Supervised Learning",
-            "Unsupervised Learning",
-            "Reinforcement Learning",
-            "All of the above"
-        ],
-        answer: 3,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "Which of the following best describes AI’s role in software performance monitoring?",
-        options: [
-            "Predicting potential system failures",
-            "Increasing execution time",
-            "Slowing down data processing",
-            "Removing functions from code"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "What is a key benefit of AI in continuous integration and deployment (CI/CD)?",
-        options: [
-            "Automated quality checks and faster releases",
-            "Manual code review",
-            "Delaying software delivery",
-            "Replacing DevOps engineers"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "Which of the following describes 'AI-driven pair programming'?",
-        options: [
-            "An AI system assists a developer by suggesting and completing code",
-            "Developers work in pairs without AI assistance",
-            "An AI that writes full applications independently",
-            "A method where developers write code on different files"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "How does AI improve code review processes?",
-        options: [
-            "By automatically identifying security vulnerabilities and bugs",
-            "By requiring only manual review",
-            "By replacing human developers",
-            "By skipping security analysis"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "Which AI-based tool can be used for automated API testing?",
-        options: [
-            "Postman AI",
-            "GraphQL",
-            "Selenium",
-            "JMeter AI"
-        ],
-        answer: 0,
-    },
-    {
-        section: "AI & Machine Learning in Development",
-        question: "What is one risk associated with AI-generated code?",
-        options: [
-            "AI can introduce security vulnerabilities",
-            "AI eliminates the need for software developers",
-            "AI makes all code perfect",
-            "AI cannot write any code"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "What is the primary goal of Secure Software Development Lifecycle (SSDLC)?",
-        options: [
-            "To embed security at every stage of software development",
-            "To reduce development costs",
-            "To focus only on penetration testing",
-            "To delay software releases for security audits"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which phase of SSDLC involves identifying security requirements?",
-        options: [
-            "Design phase",
-            "Requirement analysis phase",
-            "Testing phase",
-            "Deployment phase"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Threat modeling is typically performed during which phase of SSDLC?",
-        options: [
-            "Requirement analysis phase",
-            "Design phase",
-            "Implementation phase",
-            "Maintenance phase"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "What does STRIDE stand for in threat modeling?",
-        options: [
-            "Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege",
-            "Security, Tampering, Recovery, Integrity, Data Protection, Execution",
-            "Structure, Testing, Redundancy, Information Security, Detection, Encryption",
-            "Software, Tracking, Risk, Implementation, Detection, Evaluation"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which phase of SSDLC focuses on secure coding practices?",
-        options: [
-            "Implementation phase",
-            "Testing phase",
-            "Deployment phase",
-            "Requirement analysis phase"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "What is a key security best practice during the implementation phase?",
-        options: [
-            "Using strong authentication and authorization mechanisms",
-            "Ignoring security vulnerabilities",
-            "Delaying security reviews",
-            "Skipping peer code reviews"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which of the following helps prevent SQL injection attacks?",
-        options: [
-            "Using prepared statements and parameterized queries",
-            "Allowing direct SQL input from users",
-            "Using complex database queries",
-            "Disabling database logging"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Static Application Security Testing (SAST) is typically performed during which SSDLC phase?",
-        options: [
-            "Implementation phase",
-            "Design phase",
-            "Testing phase",
-            "Deployment phase"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "What is the purpose of Dynamic Application Security Testing (DAST)?",
-        options: [
-            "To test security vulnerabilities while the application is running",
-            "To analyze code without executing it",
-            "To scan only backend services",
-            "To enforce stricter firewall rules"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which tool is commonly used for DAST?",
-        options: [
-            "Burp Suite",
-            "SonarQube",
-            "GitHub Copilot",
-            "Docker"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Why is security testing essential in SSDLC?",
-        options: [
-            "To identify vulnerabilities before deployment",
-            "To increase development costs",
-            "To replace manual testing",
-            "To eliminate the need for developers"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which phase of SSDLC ensures secure deployment of applications?",
-        options: [
-            "Deployment phase",
-            "Testing phase",
-            "Design phase",
-            "Requirement analysis phase"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "What is a key security practice in the deployment phase?",
-        options: [
-            "Using automated security monitoring",
-            "Disabling firewalls",
-            "Allowing unrestricted admin access",
-            "Ignoring security updates"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which security principle suggests granting users only the permissions they need?",
-        options: [
-            "Principle of Least Privilege",
-            "Principle of Maximum Access",
-            "Open Access Policy",
-            "Full Administrator Control"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "What is a major advantage of integrating SSDLC into development?",
-        options: [
-            "Identifying and fixing security flaws early",
-            "Delaying security testing until production",
-            "Ignoring security policies",
-            "Removing security teams from the process"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "What is the role of penetration testing in SSDLC?",
-        options: [
-            "Simulating real-world attacks to identify vulnerabilities",
-            "Replacing the need for code reviews",
-            "Automatically fixing all security issues",
-            "Eliminating the need for encryption"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which security standard is commonly used for web application security?",
-        options: [
-            "OWASP Top 10",
-            "ISO 9001",
-            "TCP/IP",
-            "GDPR"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which of the following is a major cause of security vulnerabilities?",
-        options: [
-            "Poor coding practices",
-            "Strict authentication policies",
-            "Frequent security audits",
-            "Secure password storage"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Why is continuous monitoring important in SSDLC?",
-        options: [
-            "To detect security threats in real time",
-            "To slow down software development",
-            "To ignore compliance requirements",
-            "To allow unrestricted access to users"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which phase of SSDLC involves regular security updates and patches?",
-        options: [
-            "Maintenance phase",
-            "Requirement analysis phase",
-            "Testing phase",
-            "Design phase"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "What is a key security measure in the requirement analysis phase?",
-        options: [
-            "Defining security requirements early",
-            "Skipping security assessments",
-            "Focusing only on performance optimization",
-            "Avoiding documentation"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which of the following security practices is essential in the design phase?",
-        options: [
-            "Threat modeling",
-            "Skipping architecture reviews",
-            "Delaying security decisions",
-            "Avoiding documentation"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which of the following is an example of an insecure coding practice?",
-        options: [
-            "Hardcoding sensitive credentials",
-            "Using secure authentication mechanisms",
-            "Applying input validation",
-            "Implementing strong encryption"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which principle focuses on ensuring that security mechanisms are simple and small?",
-        options: [
-            "Economy of Mechanism",
-            "Fail-Secure",
-            "Defense in Depth",
-            "Open Design"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "What is a security best practice when handling user passwords?",
-        options: [
-            "Hashing and salting passwords",
-            "Storing passwords in plain text",
-            "Using weak passwords for convenience",
-            "Allowing unlimited login attempts"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which security concept ensures that even if one security control fails, additional layers of security exist?",
-        options: [
-            "Defense in Depth",
-            "Zero Trust",
-            "Single Point of Failure",
-            "Implicit Trust"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which of the following security threats does input validation help prevent?",
-        options: [
-            "Cross-Site Scripting (XSS)",
-            "Phishing",
-            "Denial of Service (DoS)",
-            "Social Engineering"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Why is logging and monitoring important in secure development?",
-        options: [
-            "To detect and respond to security incidents",
-            "To replace security testing",
-            "To slow down performance",
-            "To remove the need for audits"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "What is the best approach for managing third-party dependencies securely?",
-        options: [
-            "Regularly updating and auditing dependencies",
-            "Using outdated versions",
-            "Ignoring security advisories",
-            "Allowing unrestricted access to third-party components"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Secure Software Development Lifecycle (SSDLC)",
-        question: "Which security framework provides guidelines for secure software development?",
-        options: [
-            "NIST Secure Software Development Framework (SSDF)",
-            "ISO 9001",
-            "GDPR",
-            "IEEE 802.11"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is technical debt in software development?",
-        options: [
-            "The cost of additional rework caused by choosing a quick but limited solution",
-            "A financial loan taken for software development",
-            "The cost of software licenses",
-            "The time taken to develop software"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of the following is NOT a common cause of technical debt?",
-        options: [
-            "Rushed development timelines",
-            "Poor code quality",
-            "Refactoring old code",
-            "Lack of documentation"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of the following best describes the impact of technical debt?",
-        options: [
-            "Increases future maintenance costs",
-            "Improves code readability",
-            "Speeds up long-term development",
-            "Reduces system complexity"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is the best strategy to reduce technical debt?",
-        options: [
-            "Refactoring code regularly",
-            "Ignoring old code",
-            "Avoiding writing tests",
-            "Continuously adding new features"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of the following tools can help identify technical debt in a codebase?",
-        options: [
-            "SonarQube",
-            "Photoshop",
-            "Excel",
-            "Trello"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is the role of automated testing in technical debt management?",
-        options: [
-            "Prevents new defects and ensures stability",
-            "Makes development slower",
-            "Replaces the need for developers",
-            "Eliminates all bugs"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is a common consequence of ignoring technical debt?",
-        options: [
-            "Increased software complexity and maintenance cost",
-            "Improved system performance",
-            "Faster feature development",
-            "Better user experience"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of these is a best practice for managing technical debt?",
-        options: [
-            "Prioritizing debt repayment in the development cycle",
-            "Completely stopping feature development",
-            "Ignoring legacy code",
-            "Only addressing debt during major releases"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of the following is NOT an example of technical debt?",
-        options: [
-            "Code that lacks proper documentation",
-            "Unoptimized database queries",
-            "A well-structured and tested software module",
-            "Outdated dependencies in a project"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which refactoring technique involves breaking down a large function into smaller, more manageable pieces?",
-        options: [
-            "Extract Method",
-            "Big Bang Rewriting",
-            "Feature Creep",
-            "Code Duplication"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What does 'code smell' refer to?",
-        options: [
-            "A sign of deeper problems in the code",
-            "A feature request from users",
-            "A well-optimized code segment",
-            "An external library"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "How can continuous integration (CI) help manage technical debt?",
-        options: [
-            "By catching code issues early through automated testing",
-            "By preventing developers from writing new code",
-            "By reducing documentation efforts",
-            "By eliminating all runtime errors"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of the following is an example of intentional technical debt?",
-        options: [
-            "Choosing a temporary quick fix to meet a deadline",
-            "Accidentally introducing security vulnerabilities",
-            "Using outdated technology due to lack of awareness",
-            "Ignoring performance issues"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of the following is NOT a common symptom of high technical debt?",
-        options: [
-            "Frequent system crashes",
-            "Difficult code maintenance",
-            "Fast development with no issues",
-            "Inconsistent code quality"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is the main purpose of refactoring?",
-        options: [
-            "To improve code readability and maintainability",
-            "To delete unnecessary files",
-            "To rewrite the entire software from scratch",
-            "To add new features quickly"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which strategy helps track and manage technical debt over time?",
-        options: [
-            "Maintaining a technical debt backlog",
-            "Ignoring technical debt issues",
-            "Delaying refactoring indefinitely",
-            "Only reviewing code before product launch"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which type of technical debt arises due to poorly understood requirements?",
-        options: [
-            "Requirement debt",
-            "Code debt",
-            "Design debt",
-            "Architecture debt"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is the 'big bang rewrite' approach?",
-        options: [
-            "Rewriting the entire system from scratch",
-            "Gradually refactoring code in small steps",
-            "Ignoring technical debt",
-            "Only fixing visible bugs"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of the following is NOT a recommended approach to managing technical debt?",
-        options: [
-            "Proactively addressing technical debt",
-            "Regular code reviews",
-            "Ignoring debt until it becomes critical",
-            "Automated testing"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of these tools helps track code quality and technical debt?",
-        options: [
-            "SonarQube",
-            "PowerPoint",
-            "Google Docs",
-            "Slack"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is the risk of excessive technical debt?",
-        options: [
-            "Reduced development speed and increased maintenance costs",
-            "Faster project completion",
-            "Easier code maintenance",
-            "Improved software security"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which process focuses on continuously improving code without altering functionality?",
-        options: [
-            "Refactoring",
-            "Feature development",
-            "Version control",
-            "Debugging"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is technical debt in software development?",
-        options: [
-            "The cost of additional rework caused by choosing a quick but limited solution",
-            "A financial loan taken for software development",
-            "The cost of software licenses",
-            "The time taken to develop software"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of the following is NOT a common cause of technical debt?",
-        options: [
-            "Rushed development timelines",
-            "Poor code quality",
-            "Refactoring old code",
-            "Lack of documentation"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is a primary impact of technical debt?",
-        options: [
-            "Increased future maintenance costs",
-            "Improved code readability",
-            "Speeds up long-term development",
-            "Reduces system complexity"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of these is an effective strategy to reduce technical debt?",
-        options: [
-            "Refactoring code regularly",
-            "Ignoring old code",
-            "Avoiding writing tests",
-            "Continuously adding new features"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which tool helps identify technical debt in a codebase?",
-        options: [
-            "SonarQube",
-            "Photoshop",
-            "Excel",
-            "Trello"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "How does automated testing help in managing technical debt?",
-        options: [
-            "Prevents new defects and ensures stability",
-            "Makes development slower",
-            "Replaces the need for developers",
-            "Eliminates all bugs"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What happens if technical debt is ignored?",
-        options: [
-            "Increased software complexity and maintenance cost",
-            "Improved system performance",
-            "Faster feature development",
-            "Better user experience"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which approach is best for managing technical debt?",
-        options: [
-            "Prioritizing debt repayment in the development cycle",
-            "Completely stopping feature development",
-            "Ignoring legacy code",
-            "Only addressing debt during major releases"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of these is NOT an example of technical debt?",
-        options: [
-            "Code that lacks proper documentation",
-            "Unoptimized database queries",
-            "A well-structured and tested software module",
-            "Outdated dependencies in a project"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is the purpose of refactoring?",
-        options: [
-            "To improve code readability and maintainability",
-            "To delete unnecessary files",
-            "To rewrite the entire software from scratch",
-            "To add new features quickly"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What does 'code smell' indicate?",
-        options: [
-            "A sign of deeper problems in the code",
-            "A feature request from users",
-            "A well-optimized code segment",
-            "An external library"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "How does continuous integration (CI) help with technical debt?",
-        options: [
-            "By catching code issues early through automated testing",
-            "By preventing developers from writing new code",
-            "By reducing documentation efforts",
-            "By eliminating all runtime errors"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of these is an example of intentional technical debt?",
-        options: [
-            "Choosing a temporary quick fix to meet a deadline",
-            "Accidentally introducing security vulnerabilities",
-            "Using outdated technology due to lack of awareness",
-            "Ignoring performance issues"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is a common symptom of high technical debt?",
-        options: [
-            "Frequent system crashes",
-            "Difficult code maintenance",
-            "Inconsistent code quality",
-            "All of the above"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What does 'big bang rewrite' mean?",
-        options: [
-            "Rewriting the entire system from scratch",
-            "Gradually refactoring code in small steps",
-            "Ignoring technical debt",
-            "Only fixing visible bugs"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which approach is NOT recommended for managing technical debt?",
-        options: [
-            "Proactively addressing technical debt",
-            "Regular code reviews",
-            "Ignoring debt until it becomes critical",
-            "Automated testing"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which tool can track technical debt over time?",
-        options: [
-            "SonarQube",
-            "PowerPoint",
-            "Google Docs",
-            "Slack"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "How does technical debt affect software maintainability?",
-        options: [
-            "Makes it harder to modify and update the software",
-            "Improves system flexibility",
-            "Reduces debugging time",
-            "Enhances overall software performance"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which practice helps track and manage technical debt?",
-        options: [
-            "Maintaining a technical debt backlog",
-            "Ignoring technical debt issues",
-            "Delaying refactoring indefinitely",
-            "Only reviewing code before product launch"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is the role of documentation in technical debt management?",
-        options: [
-            "Helps developers understand code structure and decisions",
-            "Slows down development",
-            "Increases the complexity of the codebase",
-            "Replaces the need for refactoring"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of these is a sign that technical debt is out of control?",
-        options: [
-            "Developers avoid modifying certain parts of the code",
-            "Code changes require extensive debugging",
-            "New features take longer to implement",
-            "All of the above"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "What is a major consequence of high technical debt?",
-        options: [
-            "Increased software complexity and maintenance cost",
-            "Faster software updates",
-            "Simpler debugging",
-            "Reduced need for code reviews"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technical Debt Management",
-        question: "Which of these best describes refactoring?",
-        options: [
-            "Improving code without changing its functionality",
-            "Adding new features to software",
-            "Fixing all software bugs",
-            "Eliminating unit tests"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is a cloud-native application?",
-        options: ["An app built specifically to run in cloud environments", "Any app that uses the internet", "An app that runs only on-premises", "An application that doesn’t require cloud services"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which technology is commonly used for container orchestration?",
-        options: ["Kubernetes", "Docker", "Terraform", "Ansible"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is the primary role of Docker in cloud-native applications?",
-        options: ["Containerization", "Networking", "Load balancing", "Authentication"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which of the following is a key benefit of cloud-native applications?",
-        options: ["Scalability", "High latency", "Tightly coupled architecture", "Single point of failure"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is Kubernetes used for?",
-        options: ["Managing containerized applications", "Creating virtual machines", "Developing mobile apps", "Monitoring hardware components"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which cloud-native principle ensures an application remains available despite failures?",
-        options: ["Resilience", "Monolithic architecture", "Single server dependency", "Manual scaling"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which of the following is NOT a cloud-native design pattern?",
-        options: ["Monolithic application", "Microservices", "Service Mesh", "Sidecar pattern"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is a microservices architecture?",
-        options: ["An approach where applications are composed of small, independent services", "A single large codebase", "A method of designing desktop applications", "A system where services depend on a central database"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which component of Kubernetes is responsible for scheduling workloads?",
-        options: ["Kube-scheduler", "Kubelet", "Pod", "Service"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What does a Kubernetes pod represent?",
-        options: ["A group of one or more containers", "A physical server", "A virtual machine", "A cloud storage bucket"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is a key advantage of using containers?",
-        options: ["Portability", "Slower deployment", "Tied to a specific cloud provider", "Requires a dedicated physical server"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which service in Kubernetes exposes applications to external traffic?",
-        options: ["Ingress", "ConfigMap", "Persistent Volume", "ClusterRole"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is a common cloud-native monitoring tool?",
-        options: ["Prometheus", "Microsoft Word", "Photoshop", "Excel"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which cloud model provides the highest level of user control?",
-        options: ["Infrastructure as a Service (IaaS)", "Platform as a Service (PaaS)", "Software as a Service (SaaS)", "Function as a Service (FaaS)"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is a major benefit of using cloud-native applications?",
-        options: ["Automatic scalability", "Higher operational costs", "Fixed hardware requirements", "Complex deployment process"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which Kubernetes component maintains cluster state?",
-        options: ["etcd", "Kubelet", "Pod", "Deployment"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is a service mesh used for in cloud-native applications?",
-        options: ["Managing service-to-service communication", "Building mobile apps", "Storing large files", "Creating virtual machines"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which cloud-native pattern handles failures automatically?",
-        options: ["Circuit Breaker", "Singleton", "Observer", "Monolithic"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What does a Kubernetes deployment do?",
-        options: ["Manages replica sets and rolling updates", "Controls network traffic", "Creates storage volumes", "Encrypts application data"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which tool is used for infrastructure as code in cloud-native environments?",
-        options: ["Terraform", "Docker", "MongoDB", "Kubernetes"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which type of cloud-native service executes code without managing infrastructure?",
-        options: ["Serverless computing", "Virtual Machines", "Dedicated servers", "Bare-metal hosting"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is the primary benefit of using a container registry?",
-        options: ["Stores and distributes container images", "Creates virtual networks", "Hosts web applications", "Manages user authentication"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which of the following is NOT a cloud-native storage solution?",
-        options: ["Hard disk drives", "Object storage", "Persistent volumes", "Cloud databases"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which cloud-native component ensures traffic is routed dynamically?",
-        options: ["Service mesh", "Cron job", "Volume claim", "ConfigMap"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which platform provides managed Kubernetes services?",
-        options: ["Google Kubernetes Engine (GKE)", "Microsoft Word", "Facebook", "Adobe Photoshop"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is a key challenge of cloud-native applications?",
-        options: ["Managing distributed systems", "Limited scalability", "Inflexibility", "Slower deployment"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "Which practice helps ensure high availability in cloud-native applications?",
-        options: ["Load balancing", "Running all services on a single server", "Hardcoding configurations", "Ignoring system monitoring"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is horizontal scaling?",
-        options: ["Adding more instances of a service", "Increasing CPU on a single server", "Using one large monolithic service", "Reducing network capacity"],
-        answer: 0,
-    },
-    {
-        section: "Cloud-Native Applications",
-        question: "What is the main function of a Kubernetes namespace?",
-        options: ["Organizing resources within a cluster", "Exposing services to external traffic", "Handling authentication", "Managing service discovery"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "What is Hadoop primarily used for?",
-        options: ["Distributed data processing", "Cloud storage", "Relational database management", "Virtual machine hosting"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which component of Hadoop is responsible for distributed storage?",
-        options: ["HDFS", "MapReduce", "YARN", "Hive"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which of the following is a real-time data processing framework?",
-        options: ["Apache Flink", "Hadoop MapReduce", "Cassandra", "MongoDB"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which programming languages are commonly used with Apache Spark?",
-        options: ["Scala, Python, Java", "C, C++, PHP", "Ruby, Perl, Go", "Swift, Kotlin, R"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "What is the main function of YARN in Hadoop?",
-        options: ["Resource management", "Data storage", "Batch processing", "Real-time analytics"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which component in Spark is responsible for fault tolerance and scheduling?",
-        options: ["Spark Driver", "RDD", "YARN", "HDFS"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "What is the main advantage of Apache Flink over Apache Spark?",
-        options: ["True real-time stream processing", "Better batch processing", "Higher latency", "Tightly coupled architecture"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which big data framework is best suited for batch processing?",
-        options: ["Hadoop MapReduce", "Apache Flink", "Kafka Streams", "Flink CEP"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "What is the purpose of Apache Hive in the Hadoop ecosystem?",
-        options: ["SQL-like querying of big data", "Data visualization", "Container orchestration", "Machine learning model deployment"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which component of Spark is responsible for storing intermediate data?",
-        options: ["RDD", "DataFrame", "Kafka", "HDFS"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which tool is used for real-time data streaming in Apache Spark?",
-        options: ["Spark Streaming", "MapReduce", "Pig", "HDFS"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which of the following is an example of a NoSQL database used in big data?",
-        options: ["Cassandra", "MySQL", "PostgreSQL", "SQLite"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which framework is commonly used for distributed machine learning on big data?",
-        options: ["Apache Mahout", "Flask", "React", "Pandas"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which big data framework allows processing of both batch and stream data?",
-        options: ["Apache Spark", "Hadoop MapReduce", "PostgreSQL", "MongoDB"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "What does RDD stand for in Spark?",
-        options: ["Resilient Distributed Dataset", "Random Data Distribution", "Real-time Data Driver", "Remote Data Dump"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which framework is best suited for low-latency streaming data processing?",
-        options: ["Apache Flink", "Hadoop", "Apache Spark (Batch)", "Hive"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which storage format is optimized for analytical queries in big data?",
-        options: ["Parquet", "CSV", "JSON", "TXT"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which component of Hadoop is responsible for parallel computation?",
-        options: ["MapReduce", "Hive", "HDFS", "Pig"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which framework is used for event-driven stream processing?",
-        options: ["Kafka Streams", "Hadoop", "Hive", "HBase"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which of the following is NOT a big data processing framework?",
-        options: ["Docker", "Apache Spark", "Apache Flink", "Hadoop"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "What is the role of Apache Kafka in big data processing?",
-        options: ["Messaging and event streaming", "Batch processing", "Data visualization", "SQL query execution"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which data format is best suited for big data storage?",
-        options: ["ORC", "PDF", "DOCX", "EXCEL"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which big data technology is often used with Hadoop to run SQL queries?",
-        options: ["Hive", "Spark MLlib", "Kafka", "Flink"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which of the following frameworks is designed for iterative machine learning workflows?",
-        options: ["Apache Mahout", "HDFS", "Kafka", "Apache Storm"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "What is the purpose of Apache Pig in the Hadoop ecosystem?",
-        options: ["High-level scripting for data transformation", "Distributed messaging", "File system management", "Cluster monitoring"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which feature makes Apache Flink ideal for real-time analytics?",
-        options: ["Low latency and event time processing", "Batch processing only", "Fixed storage model", "Single-node deployment"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "What type of architecture does Apache Spark use for data processing?",
-        options: ["Master-Slave", "Client-Server", "Monolithic", "Peer-to-Peer"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "What is Apache HBase primarily used for?",
-        options: ["NoSQL database storage", "Graph processing", "Batch processing", "Data visualization"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "What is the purpose of DataFrames in Spark?",
-        options: ["Efficient structured data processing", "Only used for streaming", "A replacement for HDFS", "Encrypting sensitive data"],
-        answer: 0,
-    },
-    {
-        section: "Big Data Frameworks",
-        question: "Which big data tool is best suited for ETL (Extract, Transform, Load) processes?",
-        options: ["Apache NiFi", "Kafka", "Flink", "Pig"],
-        answer: 0,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of a blockchain?",
-        options: [
-            "To centralize data storage",
-            "To provide a decentralized and immutable ledger",
-            "To replace traditional databases",
-            "To eliminate the need for cryptography"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key feature of blockchain technology?",
-        options: [
-            "Centralized control",
-            "Immutability of data",
-            "Single point of failure",
-            "High dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is a decentralized application (DApp)?",
-        options: [
-            "An application that runs on a single server",
-            "An application that runs on a decentralized network like blockchain",
-            "An application that relies on centralized databases",
-            "An application that eliminates the need for cryptography"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key benefit of blockchain technology?",
-        options: [
-            "Increased reliance on intermediaries",
-            "Trustless and secure transactions",
-            "Centralized control of data",
-            "Single point of failure"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the role of consensus mechanisms in blockchain?",
-        options: [
-            "To centralize decision-making",
-            "To ensure agreement among nodes on the state of the ledger",
-            "To eliminate the need for cryptography",
-            "To increase dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a common consensus mechanism in blockchain?",
-        options: [
-            "Proof of Work (PoW)",
-            "Centralized Authority",
-            "Single Point of Failure",
-            "Traditional Database Replication"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of smart contracts in blockchain?",
-        options: [
-            "To replace traditional databases",
-            "To automate and enforce agreements without intermediaries",
-            "To centralize control of transactions",
-            "To eliminate the need for cryptography"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key benefit of decentralized applications (DApps)?",
-        options: [
-            "Increased reliance on intermediaries",
-            "Censorship resistance and transparency",
-            "Centralized control of data",
-            "Single point of failure"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary challenge of blockchain scalability?",
-        options: [
-            "High transaction throughput",
-            "Limited ability to handle large numbers of transactions",
-            "Centralized control of data",
-            "Elimination of cryptography"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a real-world application of blockchain beyond cryptocurrencies?",
-        options: [
-            "Supply chain transparency",
-            "Centralized banking systems",
-            "Traditional databases",
-            "Single point of failure systems"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of cryptography in blockchain?",
-        options: [
-            "To centralize control of data",
-            "To ensure data security and integrity",
-            "To eliminate the need for consensus mechanisms",
-            "To increase dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key characteristic of a public blockchain?",
-        options: [
-            "Centralized control",
-            "Permissionless access",
-            "Single point of failure",
-            "High dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of a private blockchain?",
-        options: [
-            "To allow anyone to join the network",
-            "To restrict access to a specific group of participants",
-            "To eliminate the need for cryptography",
-            "To increase dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key benefit of blockchain in supply chain management?",
-        options: [
-            "Increased reliance on intermediaries",
-            "Improved transparency and traceability",
-            "Centralized control of data",
-            "Single point of failure"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of a token in blockchain?",
-        options: [
-            "To replace traditional databases",
-            "To represent digital assets or utility within a blockchain ecosystem",
-            "To centralize control of transactions",
-            "To eliminate the need for cryptography"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key challenge of blockchain adoption?",
-        options: [
-            "High transaction throughput",
-            "Regulatory and legal uncertainties",
-            "Centralized control of data",
-            "Elimination of cryptography"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of a decentralized identity system in blockchain?",
-        options: [
-            "To centralize control of user data",
-            "To provide users with control over their own identity information",
-            "To eliminate the need for cryptography",
-            "To increase dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key benefit of blockchain in healthcare?",
-        options: [
-            "Increased reliance on intermediaries",
-            "Improved data security and patient privacy",
-            "Centralized control of data",
-            "Single point of failure"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of a permissioned blockchain?",
-        options: [
-            "To allow anyone to join the network",
-            "To restrict access to a specific group of participants",
-            "To eliminate the need for cryptography",
-            "To increase dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key benefit of blockchain in voting systems?",
-        options: [
-            "Increased reliance on intermediaries",
-            "Improved transparency and tamper resistance",
-            "Centralized control of data",
-            "Single point of failure"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of a hash function in blockchain?",
-        options: [
-            "To centralize control of data",
-            "To ensure data integrity and security",
-            "To eliminate the need for consensus mechanisms",
-            "To increase dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key characteristic of a decentralized application (DApp)?",
-        options: [
-            "Centralized control of data",
-            "Open-source and transparent code",
-            "Single point of failure",
-            "High dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of a blockchain node?",
-        options: [
-            "To centralize control of data",
-            "To maintain a copy of the blockchain and validate transactions",
-            "To eliminate the need for cryptography",
-            "To increase dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key benefit of blockchain in real estate?",
-        options: [
-            "Increased reliance on intermediaries",
-            "Improved transparency and reduced fraud",
-            "Centralized control of data",
-            "Single point of failure"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of a blockchain explorer?",
-        options: [
-            "To centralize control of data",
-            "To view and analyze transactions on the blockchain",
-            "To eliminate the need for cryptography",
-            "To increase dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key challenge of blockchain interoperability?",
-        options: [
-            "High transaction throughput",
-            "Difficulty in enabling communication between different blockchains",
-            "Centralized control of data",
-            "Elimination of cryptography"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of a decentralized finance (DeFi) application?",
-        options: [
-            "To centralize control of financial transactions",
-            "To provide financial services without intermediaries",
-            "To eliminate the need for cryptography",
-            "To increase dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key benefit of blockchain in intellectual property management?",
-        options: [
-            "Increased reliance on intermediaries",
-            "Improved transparency and proof of ownership",
-            "Centralized control of data",
-            "Single point of failure"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "What is the primary purpose of a blockchain wallet?",
-        options: [
-            "To centralize control of data",
-            "To store and manage digital assets",
-            "To eliminate the need for cryptography",
-            "To increase dependency on intermediaries"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Blockchain & Decentralized Apps",
-        question: "Which of the following is a key benefit of blockchain in energy trading?",
-        options: [
-            "Increased reliance on intermediaries",
-            "Improved transparency and peer-to-peer trading",
-            "Centralized control of data",
-            "Single point of failure"
-        ],
-        answer: 1,
-    },
-
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is a primary goal of formal methods in software engineering?",
-        options: ["To increase software maintainability", "To ensure software is free from bugs", "To enhance user experience", "To reduce development time"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which of the following is a formal method used in software engineering?",
-        options: ["Agile methodology", "Waterfall model", "Z notation", "Scrum"],
-        answer: 2,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is the main advantage of using formal methods in software engineering?",
-        options: ["Faster development cycles", "Improved accuracy and correctness", "Better team collaboration", "Lower costs"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which mathematical concept is often used in formal methods for software verification?",
-        options: ["Probability theory", "Number theory", "Set theory", "Game theory"],
-        answer: 2,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is the purpose of model checking in formal methods?",
-        options: ["To verify that software meets requirements", "To simulate user interactions", "To manage project timelines", "To improve code readability"],
-        answer: 0,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which of the following is an example of a formal specification language?",
-        options: ["UML", "Java", "HTML", "Alloy"],
-        answer: 3,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What does the acronym 'LTL' stand for in formal methods?",
-        options: ["Last Time Logic", "Linear Temporal Logic", "Loop Termination Logic", "Logical Temporal Language"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is a common use of formal methods in software engineering?",
-        options: ["To design user interfaces", "To verify hardware designs", "To optimize databases", "To create marketing strategies"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which formal method tool is used for theorem proving?",
-        options: ["JIRA", "Coq", "Git", "Eclipse"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is the main challenge of using formal methods in software engineering?",
-        options: ["Lack of documentation", "High computational costs", "Steep learning curve", "Incompatibility with agile practices"],
-        answer: 2,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which of the following is a benefit of using formal verification?",
-        options: ["Faster debugging process", "Ensuring safety-critical systems function correctly", "Reducing memory usage", "Improving user interface design"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is the B method used for?",
-        options: ["Database optimization", "Formal specification and development", "Frontend development", "Cloud computing"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which of the following is a drawback of formal methods?",
-        options: ["Increased risk of bugs", "Complexity in large systems", "Lack of scalability", "High maintenance costs"],
-        answer: 2,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is the main purpose of model-based testing?",
-        options: ["To create user stories", "To verify models against requirements", "To design graphical interfaces", "To manage software releases"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which of the following formal methods is known for its use in verifying concurrent systems?",
-        options: ["Petri nets", "Waterfall model", "Agile methodology", "Scrum"],
-        answer: 0,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which tool is commonly used for formal verification of cryptographic protocols?",
-        options: ["Promela", "SPIN", "Tamarin", "Coq"],
-        answer: 2,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which formal method approach uses state machines for modeling systems?",
-        options: ["Model checking", "Process algebra", "State transition diagrams", "Petri nets"],
-        answer: 2,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is the role of a proof assistant in formal methods?",
-        options: ["To generate test cases", "To assist in constructing mathematical proofs", "To monitor system performance", "To analyze user behavior"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which type of logic is often used in temporal logic for specifying system behaviors?",
-        options: ["Propositional logic", "First-order logic", "Temporal logic", "Predicate logic"],
-        answer: 2,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is a significant advantage of using formal methods in safety-critical systems?",
-        options: ["Increased user engagement", "Reduced development time", "Guaranteed correctness", "Better aesthetics"],
-        answer: 2,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which formal verification technique checks whether a system model satisfies given properties?",
-        options: ["Code review", "Unit testing", "Model checking", "Integration testing"],
-        answer: 2,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is the main focus of formal specification languages?",
-        options: ["Graphical design", "System verification", "Specification of system properties", "Code optimization"],
-        answer: 2,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which of the following is an example of a formal method tool for model checking?",
-        options: ["SPIN", "Git", "JIRA", "Selenium"],
-        answer: 0,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is a primary benefit of using formal methods in software engineering?",
-        options: ["Better marketing strategies", "Ensuring software reliability", "Improved graphic design", "Reduced user training time"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which formal method is used for proving the correctness of algorithms?",
-        options: ["Static analysis", "Regression testing", "Theorem proving", "Performance testing"],
-        answer: 2,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What does the acronym 'CTL' stand for in formal methods?",
-        options: ["Cyclic Temporal Logic", "Computational Tree Logic", "Cumulative Temporal Logic", "Continuous Time Logic"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which formal verification method involves exhaustively exploring all possible states of a system?",
-        options: ["Model checking", "Unit testing", "Integration testing", "Performance testing"],
-        answer: 0,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is an abstract state machine used for in formal methods?",
-        options: ["Defining software architecture", "Modelling system behavior", "Managing project tasks", "Designing user interfaces"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "Which of the following is a disadvantage of using formal methods?",
-        options: ["Lower software quality", "Higher training costs", "Limited tool availability", "Less user-friendly interfaces"],
-        answer: 1,
-    },
-    {
-        section: "Formal Methods in Software Engineering",
-        question: "What is the purpose of a formal specification in software engineering?",
-        options: ["To create marketing content", "To specify system behavior precisely", "To generate graphical designs", "To optimize database queries"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is a fundamental difference between quantum computing and classical computing?",
-        options: ["Quantum computers use transistors", "Quantum computers use qubits", "Classical computers use qubits", "Quantum computers use classical bits"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is a qubit?",
-        options: ["A binary digit", "A quantum bit that can exist in multiple states simultaneously", "A classical bit with enhanced speed", "A software algorithm"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "Which principle allows qubits to exist in multiple states at once?",
-        options: ["Superposition", "Binary logic", "Bit manipulation", "Transistor switching"],
-        answer: 0,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is quantum entanglement?",
-        options: ["A state where particles are independent", "A state where particles are interconnected and instantaneously affect each other", "A classical computing algorithm", "A method of error correction"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "How does quantum parallelism contribute to quantum computing?",
-        options: ["It slows down computations", "It allows simultaneous processing of multiple inputs", "It increases power consumption", "It limits the number of qubits"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is the primary advantage of quantum computing over classical computing?",
-        options: ["Larger data storage capacity", "Faster processing speeds for specific problems", "Simpler programming languages", "Increased electrical efficiency"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "Which of the following is a notable quantum algorithm?",
-        options: ["Dijkstra's algorithm", "SHA-256", "Shor's algorithm", "A* algorithm"],
-        answer: 2,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is the purpose of Grover's algorithm in quantum computing?",
-        options: ["To perform integer factorization", "To solve linear equations", "To search unsorted databases faster than classical algorithms", "To encrypt data"],
-        answer: 2,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "In quantum computing, what is meant by decoherence?",
-        options: ["The isolation of qubits from their environment", "The loss of quantum information due to interaction with the environment", "The amplification of quantum states", "The stabilization of qubits"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "Which area can significantly benefit from quantum computing applications?",
-        options: ["Graphic design", "Cryptography", "Office administration", "Social media management"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is the significance of the no-cloning theorem in quantum computing?",
-        options: ["It allows duplication of quantum states", "It prevents the exact copying of arbitrary quantum states", "It enhances error correction", "It simplifies quantum computations"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is a quantum gate?",
-        options: ["A classical circuit component", "A fundamental building block for quantum circuits", "A software library for classical computers", "A tool for managing cloud services"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "Which quantum technology company developed the D-Wave system?",
-        options: ["IBM", "Microsoft", "D-Wave Systems", "Google"],
-        answer: 2,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is the role of a quantum annealer?",
-        options: ["To simulate annealing processes", "To solve optimization problems", "To control electrical circuits", "To process image data"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "Which concept is unique to quantum computing?",
-        options: ["Binary code", "Classical logic", "Quantum supremacy", "Object-oriented programming"],
-        answer: 2,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is the significance of the Bloch sphere in quantum computing?",
-        options: ["To represent classical bits", "To visualize quantum states", "To design software interfaces", "To optimize performance"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "Which of the following is a quantum programming language?",
-        options: ["C++", "Python", "Q#", "JavaScript"],
-        answer: 2,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "How does quantum tunneling benefit quantum computing?",
-        options: ["It increases hardware size", "It allows particles to pass through potential barriers", "It slows down computations", "It increases energy consumption"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is a significant challenge in building quantum computers?",
-        options: ["Lack of classical bits", "Maintaining quantum coherence", "Limited software availability", "High electrical power consumption"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "Which field can benefit from quantum simulations?",
-        options: ["Finance", "Environmental science", "Social media", "Marketing"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is quantum error correction?",
-        options: ["A method to correct errors in classical bits", "A technique to protect quantum information from errors", "A software debugging tool", "A system monitoring tool"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is the use of quantum cryptography?",
-        options: ["To design user interfaces", "To securely transmit information using quantum mechanics", "To analyze social media data", "To optimize databases"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "Which principle is used in quantum key distribution (QKD)?",
-        options: ["Binary encoding", "Classical encryption", "Quantum entanglement", "Software virtualization"],
-        answer: 2,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is quantum superposition?",
-        options: ["The unique quantum state where a particle can be in multiple states at once", "A classical computing process", "A method for software testing", "A way to increase data storage"],
-        answer: 0,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "How do quantum circuits differ from classical circuits?",
-        options: ["Quantum circuits use classical gates", "Quantum circuits use quantum gates and qubits", "Quantum circuits have no transistors", "Quantum circuits are larger"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "Which quantum computing concept is used for solving optimization problems?",
-        options: ["Binary logic", "Quantum annealing", "Classical algorithms", "Image processing"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "Which property of quantum mechanics is exploited in quantum computing?",
-        options: ["Determinism", "Uncertainty", "Classical behavior", "Software abstraction"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is the advantage of quantum supremacy?",
-        options: ["Achieving computations that are impossible for classical computers", "Increased software portability", "Enhanced user interfaces", "Better internet connectivity"],
-        answer: 0,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "How does quantum Fourier transform (QFT) aid in quantum algorithms?",
-        options: ["By increasing computing speed", "By providing a method for factorization", "By encrypting data", "By improving data visualization"],
-        answer: 1,
-    },
-    {
-        section: "Quantum Computing in Software",
-        question: "What is the significance of quantum phase estimation?",
-        options: ["It measures quantum error rates", "It provides a method for estimating eigenvalues of unitary operators", "It optimizes software code", "It enhances graphic design"],
-        answer: 1,
-    },
-      {
-        section: "Software Maintenance & Refactoring",
-        question: "What is the primary goal of software maintenance?",
-        options: ["To introduce new bugs", "To keep software up-to-date and functional", "To rewrite the entire codebase", "To reduce user engagement"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which of the following is a type of software maintenance?",
-        options: ["Adaptive", "Destructive", "Deprecative", "Aggressive"],
-        answer: 0,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "What is refactoring in the context of software engineering?",
-        options: ["Redesigning the user interface", "Restructuring existing code without changing its behavior", "Writing new code from scratch", "Removing all comments from the codebase"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Why is code readability important in software maintenance?",
-        options: ["It makes the code more visually appealing", "It facilitates easier understanding and modification of code", "It increases the file size", "It reduces execution speed"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which of the following best practices is essential for effective software maintenance?",
-        options: ["Ignoring user feedback", "Using version control systems", "Avoiding documentation", "Frequent use of global variables"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "What is technical debt in software engineering?",
-        options: ["A financial liability", "The accumulation of shortcuts and suboptimal solutions in the codebase", "A measure of user satisfaction", "A type of malware"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "What is the purpose of regression testing during maintenance?",
-        options: ["To create new features", "To ensure that changes haven't introduced new bugs", "To remove old features", "To optimize performance"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which refactoring technique involves breaking a large method into smaller, more manageable methods?",
-        options: ["Method Extraction", "Code Obfuscation", "Inversion of Control", "Circular Dependency"],
-        answer: 0,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "What is the role of continuous integration in software maintenance?",
-        options: ["To reduce code readability", "To automate the merging and testing of code changes", "To create manual test cases", "To eliminate the need for code reviews"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which of the following is an example of preventive maintenance?",
-        options: ["Fixing a bug reported by a user", "Updating the code to support new hardware", "Refactoring code to improve its structure", "Adding a new feature"],
-        answer: 2,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Why is code modularity important in software maintenance?",
-        options: ["It increases code redundancy", "It makes it easier to manage and update individual components", "It complicates debugging", "It slows down development"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "What is the purpose of a code review in the context of software maintenance?",
-        options: ["To delete old code", "To identify and fix potential issues in code", "To reduce code quality", "To increase technical debt"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which metric is commonly used to measure the maintainability of software?",
-        options: ["Lines of code (LOC)", "Cyclomatic complexity", "Page views", "Download count"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "What does the term 'refactoring' mean?",
-        options: ["Adding new features to the software", "Changing the structure of the code to improve readability and maintainability", "Deleting old code", "Compiling the code"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which type of maintenance focuses on fixing bugs and errors in the software?",
-        options: ["Perfective maintenance", "Corrective maintenance", "Adaptive maintenance", "Preventive maintenance"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "What is a 'code smell' in the context of software engineering?",
-        options: ["An indicator of poor code quality that may lead to maintenance issues", "A pleasant fragrance associated with clean code", "A type of malware", "A method of code optimization"],
-        answer: 0,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Why is documentation important in software maintenance?",
-        options: ["It increases code complexity", "It helps developers understand and maintain the codebase", "It reduces software performance", "It creates more bugs"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which refactoring technique aims to improve the performance of a software system?",
-        options: ["Extract Method", "Remove Dead Code", "Reorder Code", "Optimize Algorithm"],
-        answer: 3,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "What is the benefit of using design patterns in software maintenance?",
-        options: ["They increase code redundancy", "They provide reusable solutions to common problems", "They complicate debugging", "They reduce software reliability"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which of the following practices can help reduce technical debt?",
-        options: ["Skipping code reviews", "Frequent refactoring", "Using outdated libraries", "Avoiding testing"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Why is it important to use version control systems during software maintenance?",
-        options: ["To track changes and collaborate with other developers", "To increase code size", "To eliminate the need for testing", "To reduce software performance"],
-        answer: 0,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which technique is used to identify areas of the code that need refactoring?",
-        options: ["Code Obfuscation", "Code Smell Detection", "Code Formatting", "Code Redundancy"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "What is the purpose of test-driven development (TDD) in software maintenance?",
-        options: ["To create software without testing", "To write tests before writing the actual code", "To increase technical debt", "To remove old features"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which of the following is an example of perfective maintenance?",
-        options: ["Fixing a critical bug", "Enhancing the user interface", "Updating the software for new regulations", "Removing dead code"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Why is it important to remove dead code during maintenance?",
-        options: ["To increase code complexity", "To simplify the codebase and improve readability", "To reduce testing efforts", "To introduce new bugs"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which practice involves continuously integrating code changes into a shared repository?",
-        options: ["Manual Testing", "Continuous Integration", "Code Reviewing", "Bug Reporting"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "What is the main goal of software refactoring?",
-        options: ["To introduce new features", "To restructure existing code for better readability and maintainability", "To increase software size", "To avoid testing"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Which type of maintenance focuses on adapting software to new environments or requirements?",
-        options: ["Corrective Maintenance", "Perfective Maintenance", "Adaptive Maintenance", "Preventive Maintenance"],
-        answer: 2,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "What is the benefit of using modular design in software maintenance?",
-        options: ["It increases code redundancy", "It simplifies maintenance by isolating changes to specific modules", "It complicates debugging", "It reduces code quality"],
-        answer: 1,
-    },
-    {
-        section: "Software Maintenance & Refactoring",
-        question: "Why is regression testing important after making code changes?",
-        options: ["To ensure that new bugs are introduced", "To verify that existing functionality is not broken", "To increase code complexity", "To skip documentation"],
-        answer: 1,
-    },
-
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What is the primary goal of improving team collaboration in software engineering?",
-        options: ["To reduce the number of team members", "To enhance communication and productivity", "To increase project costs", "To slow down development"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Which practice can improve team collaboration in software projects?",
-        options: ["Siloed working", "Regular team meetings and stand-ups", "Ignoring team feedback", "Micromanaging team members"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What does UX stand for in the context of software engineering?",
-        options: ["User Experience", "Ultimate Execution", "User Exchange", "Unified Extension"],
-        answer: 0,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Why is user experience (UX) important in software development?",
-        options: ["It enhances system performance", "It ensures software is user-friendly and meets user needs", "It increases technical debt", "It reduces software functionality"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Which method can be used to gather user feedback during the development process?",
-        options: ["Code reviews", "User interviews and surveys", "Automated testing", "Ignoring user input"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What is the purpose of documentation in software engineering?",
-        options: ["To confuse developers", "To provide clear information and instructions", "To increase code complexity", "To reduce development speed"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Which of the following is a benefit of good documentation?",
-        options: ["Decreased collaboration", "Improved understanding and maintenance", "Increased project costs", "Reduced code quality"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What is a persona in the context of UX design?",
-        options: ["A fictional representation of a user", "A type of software bug", "A project management tool", "A programming language"],
-        answer: 0,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Why is empathy important in UX design?",
-        options: ["It increases technical complexity", "It helps designers understand and address user needs", "It reduces system performance", "It complicates the development process"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Which technique can be used to improve user experience (UX)?",
-        options: ["Ignoring user feedback", "Conducting usability testing", "Adding more features without considering usability", "Increasing technical debt"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What is the role of a UX designer in a software development team?",
-        options: ["To write backend code", "To design user interfaces and improve user experience", "To manage project budgets", "To perform hardware testing"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Which practice can help improve team communication?",
-        options: ["Isolating team members", "Using collaborative tools and platforms", "Ignoring team feedback", "Reducing team meetings"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Why is it important to consider human factors in software engineering?",
-        options: ["To increase system errors", "To create user-friendly and efficient software", "To complicate the development process", "To reduce software quality"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Which of the following is an example of good documentation practice?",
-        options: ["Using jargon and complex terms", "Writing clear and concise instructions", "Leaving out important details", "Skipping documentation"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What is the benefit of conducting regular code reviews?",
-        options: ["Increased code complexity", "Improved code quality and team collaboration", "Reduced development speed", "Higher project costs"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Which method can be used to assess the usability of software?",
-        options: ["Unit testing", "Usability testing", "Performance testing", "Load testing"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What is a common challenge in team collaboration?",
-        options: ["Effective communication", "Project isolation", "Individual contributions", "Meeting deadlines"],
-        answer: 0,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Why is user-centered design important in software development?",
-        options: ["It reduces user satisfaction", "It ensures the software meets user needs and preferences", "It increases development costs", "It complicates the code"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What is the purpose of creating wireframes in UX design?",
-        options: ["To write code", "To create a visual representation of the user interface layout", "To manage project tasks", "To conduct performance testing"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Which practice can help improve the readability of code?",
-        options: ["Using meaningful variable names", "Avoiding comments", "Writing long, complex functions", "Ignoring code standards"],
-        answer: 0,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What is the role of documentation in onboarding new team members?",
-        options: ["To confuse new members", "To provide necessary information and guidance", "To increase technical debt", "To reduce code quality"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Which of the following tools can be used to improve team collaboration?",
-        options: ["Slack", "Notepad", "WordPad", "Paint"],
-        answer: 0,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What is the benefit of using user personas in UX design?",
-        options: ["To increase project costs", "To better understand and design for different user types", "To complicate the design process", "To reduce software performance"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What is the purpose of conducting user surveys during software development?",
-        options: ["To collect user feedback and preferences", "To reduce code quality", "To ignore user needs", "To increase development speed"],
-        answer: 0,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Which factor can negatively impact team collaboration?",
-        options: ["Effective communication", "Clear project goals", "Lack of trust among team members", "Regular meetings"],
-        answer: 2,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Why is it important to have a diverse software development team?",
-        options: ["To increase code complexity", "To bring different perspectives and ideas to the project", "To reduce productivity", "To create uniform solutions"],
-        answer: 1,
     },
     {
-        section: "Human Factors in Software Engineering",
-        question: "Which practice can help improve user experience (UX) in software?",
-        options: ["Ignoring accessibility", "Conducting user research and usability testing", "Adding unnecessary features", "Reducing system performance"],
-        answer: 1,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "What is the significance of empathy mapping in UX design?",
-        options: ["To visualize and understand user emotions and experiences", "To increase technical debt", "To complicate the design process", "To reduce user satisfaction"],
-        answer: 0,
-    },
-    {
-        section: "Human Factors in Software Engineering",
-        question: "Which factor can contribute to effective team collaboration?",
-        options: ["Clear communication channels", "Ignoring team feedback", "Working in isolation", "Inconsistent goals"],
-        answer: 0,
-    },
-
- {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary goal of edge computing in IoT?",
-        options: [
-            "To centralize data processing in the cloud",
-            "To process data closer to the source of data generation",
-            "To eliminate the need for real-time processing",
-            "To increase latency in data processing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a key benefit of edge computing?",
-        options: [
-            "Increased latency",
-            "Reduced bandwidth usage",
-            "Centralized data storage",
-            "Higher dependency on cloud servers"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary challenge of real-time data processing in IoT?",
-        options: [
-            "High latency",
-            "Low data volume",
-            "Centralized processing",
-            "Limited scalability"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a common use case for edge computing in IoT?",
-        options: [
-            "Batch processing of historical data",
-            "Real-time monitoring of industrial equipment",
-            "Centralized data storage",
-            "High-latency applications"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary purpose of an IoT gateway?",
-        options: [
-            "To centralize data processing in the cloud",
-            "To connect IoT devices and facilitate communication with the cloud",
-            "To eliminate the need for edge computing",
-            "To increase latency in data processing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a key challenge in IoT software development?",
-        options: [
-            "Low device heterogeneity",
-            "Handling large volumes of real-time data",
-            "Centralized data processing",
-            "Limited scalability"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary benefit of using edge computing for IoT applications?",
-        options: [
-            "Increased latency",
-            "Improved real-time processing and reduced bandwidth usage",
-            "Centralized data storage",
-            "Higher dependency on cloud servers"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a key characteristic of edge computing?",
-        options: [
-            "Centralized data processing",
-            "Distributed data processing closer to the data source",
-            "High latency",
-            "Limited scalability"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary purpose of real-time data processing in IoT?",
-        options: [
-            "To delay decision-making processes",
-            "To enable immediate insights and actions based on data",
-            "To centralize data storage",
-            "To increase latency"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a common challenge in IoT device communication?",
-        options: [
-            "Low device heterogeneity",
-            "Interoperability between different protocols",
-            "Centralized data processing",
-            "Limited scalability"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary purpose of fog computing in IoT?",
-        options: [
-            "To centralize data processing in the cloud",
-            "To extend edge computing capabilities closer to the data source",
-            "To eliminate the need for real-time processing",
-            "To increase latency in data processing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a key benefit of fog computing?",
-        options: [
-            "Increased latency",
-            "Improved scalability and reduced bandwidth usage",
-            "Centralized data storage",
-            "Higher dependency on cloud servers"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary challenge of data security in IoT?",
-        options: [
-            "Low device heterogeneity",
-            "Protecting data across distributed devices and networks",
-            "Centralized data processing",
-            "Limited scalability"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a common protocol used in IoT communication?",
-        options: [
-            "HTTP",
-            "MQTT",
-            "FTP",
-            "SMTP"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary purpose of MQTT in IoT?",
-        options: [
-            "To centralize data processing in the cloud",
-            "To enable lightweight and efficient communication between devices",
-            "To eliminate the need for edge computing",
-            "To increase latency in data processing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a key challenge of IoT device management?",
-        options: [
-            "Low device heterogeneity",
-            "Managing and updating a large number of distributed devices",
-            "Centralized data processing",
-            "Limited scalability"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary purpose of edge analytics in IoT?",
-        options: [
-            "To centralize data processing in the cloud",
-            "To perform data analysis closer to the data source",
-            "To eliminate the need for real-time processing",
-            "To increase latency in data processing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a key benefit of edge analytics?",
-        options: [
-            "Increased latency",
-            "Faster insights and reduced bandwidth usage",
-            "Centralized data storage",
-            "Higher dependency on cloud servers"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary challenge of power management in IoT devices?",
-        options: [
-            "High power consumption in centralized systems",
-            "Ensuring energy efficiency in distributed devices",
-            "Centralized data processing",
-            "Limited scalability"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a common use case for IoT in smart cities?",
-        options: [
-            "Batch processing of historical data",
-            "Real-time traffic monitoring and management",
-            "Centralized data storage",
-            "High-latency applications"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary purpose of a time-series database in IoT?",
-        options: [
-            "To centralize data processing in the cloud",
-            "To store and analyze time-stamped data from IoT devices",
-            "To eliminate the need for edge computing",
-            "To increase latency in data processing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a key challenge of IoT data storage?",
-        options: [
-            "Low data volume",
-            "Handling large volumes of time-series data",
-            "Centralized data processing",
-            "Limited scalability"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary purpose of a digital twin in IoT?",
-        options: [
-            "To centralize data processing in the cloud",
-            "To create a virtual representation of a physical device or system",
-            "To eliminate the need for edge computing",
-            "To increase latency in data processing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a key benefit of using digital twins in IoT?",
-        options: [
-            "Increased latency",
-            "Improved monitoring and predictive maintenance",
-            "Centralized data storage",
-            "Higher dependency on cloud servers"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary challenge of IoT device interoperability?",
+        section: "Captology and Persuasive Technologies",
+        question: "What is the primary focus of Direction A in the research directions for captology?",
         options: [
-            "Low device heterogeneity",
-            "Ensuring seamless communication between devices from different manufacturers",
-            "Centralized data processing",
-            "Limited scalability"
+            "To study attitude change",
+            "To focus on interactive technologies that change behaviors",
+            "To compare computers with other media",
+            "To design desktop applications"
         ],
         answer: 1,
     },
     {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a common use case for IoT in healthcare?",
+        section: "Captology and Persuasive Technologies",
+        question: "Which of the following is an example of an endogenously persuasive technology?",
         options: [
-            "Batch processing of historical data",
-            "Remote patient monitoring and real-time health tracking",
-            "Centralized data storage",
-            "High-latency applications"
+            "A person using a fitness app to track their exercise",
+            "A company designing a game to teach children about health",
+            "A teacher using a computer program to teach students",
+            "A mother giving her son a PDA to help him stay organized"
         ],
         answer: 1,
     },
     {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary purpose of edge AI in IoT?",
+        section: "Captology and Persuasive Technologies",
+        question: "What is the primary reason cross-media comparisons are considered problematic in captology?",
         options: [
-            "To centralize data processing in the cloud",
-            "To enable AI-based decision-making at the edge",
-            "To eliminate the need for real-time processing",
-            "To increase latency in data processing"
+            "They are too easy to conduct",
+            "They involve too many variables and lack useful theoretical insights",
+            "They focus only on desktop computers",
+            "They ignore ethical considerations"
         ],
         answer: 1,
     },
     {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a key benefit of edge AI in IoT?",
+        section: "Captology and Persuasive Technologies",
+        question: "Which of the following is an example of a persuasive technology that raises ethical concerns?",
         options: [
-            "Increased latency",
-            "Faster decision-making and reduced bandwidth usage",
-            "Centralized data storage",
-            "Higher dependency on cloud servers"
+            "A computer system that monitors employees’ hand-washing behavior",
+            "A CD-ROM that encourages healthy eating",
+            "A virtual reality simulation of HIV risks",
+            "A Polar Heart Rate Monitor"
         ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "What is the primary challenge of IoT data privacy?",
-        options: [
-            "Low device heterogeneity",
-            "Protecting sensitive data collected by IoT devices",
-            "Centralized data processing",
-            "Limited scalability"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Edge & IoT Software Development",
-        question: "Which of the following is a common use case for IoT in agriculture?",
-        options: [
-            "Batch processing of historical data",
-            "Real-time monitoring of soil and crop conditions",
-            "Centralized data storage",
-            "High-latency applications"
-        ],
-        answer: 1,
-    },
-  
-        {
-            section: "Future of Programming Languages",
-            question: "What is AI-powered coding?",
-            options: ["Coding done by artificial intelligence", "A type of machine learning", "Coding that uses AI to assist developers", "A programming language"],
-            answer: 2,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "What is the primary advantage of using AI-powered coding tools?",
-            options: ["Slower development speed", "Increased software errors", "Enhanced developer productivity", "Higher costs"],
-            answer: 2,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "Which of the following is an example of a domain-specific language (DSL)?",
-            options: ["Java", "HTML", "Python", "JavaScript"],
-            answer: 1,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "What is the main purpose of a domain-specific language (DSL)?",
-            options: ["To replace general-purpose languages", "To optimize system performance", "To provide specialized capabilities for a specific domain", "To create graphical user interfaces"],
-            answer: 2,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "What is a low-code/no-code platform?",
-            options: ["A platform with minimal coding required", "A platform that requires extensive coding", "A type of hardware", "A programming language"],
-            answer: 0,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "Which benefit is associated with low-code/no-code platforms?",
-            options: ["Increased development time", "Higher costs", "Faster application development", "Complex coding requirements"],
-            answer: 2,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "What is the role of natural language processing (NLP) in AI-powered coding?",
-            options: ["To analyze data", "To process human language and generate code", "To manage databases", "To design user interfaces"],
-            answer: 1,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "Which trend involves using AI to assist with code completion and error detection?",
-            options: ["Cloud computing", "Machine learning", "AI-powered coding", "Internet of Things (IoT)"],
-            answer: 2,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "What is the benefit of using domain-specific languages (DSLs) in software development?",
-            options: ["General-purpose capabilities", "Reduced customization", "Specialized functionality for specific tasks", "Higher learning curve"],
-            answer: 2,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "Which of the following is a key feature of low-code/no-code platforms?",
-            options: ["Command-line interfaces", "Visual development environments", "High coding complexity", "Manual code integration"],
-            answer: 1,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "What is the significance of AI-powered code generation?",
-            options: ["It increases code errors", "It automates repetitive coding tasks", "It complicates development", "It reduces code quality"],
-            answer: 1,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "Which of the following is an example of an AI-powered coding tool?",
-            options: ["Microsoft Word", "GitHub Copilot", "Adobe Photoshop", "Google Sheets"],
-            answer: 1,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "What is the main goal of using low-code platforms in software development?",
-            options: ["To increase technical debt", "To streamline development processes", "To reduce software functionality", "To complicate coding"],
-            answer: 1,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "Which trend involves creating software applications with minimal hand-coding?",
-            options: ["Agile methodology", "Low-code/no-code platforms", "Waterfall model", "Microservices architecture"],
-            answer: 1,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "Why are domain-specific languages (DSLs) beneficial for specific industries?",
-            options: ["They reduce code readability", "They provide tailored solutions for specific needs", "They increase coding complexity", "They reduce software performance"],
-            answer: 1,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "What is the purpose of AI-powered code review tools?",
-            options: ["To create new features", "To automatically detect and fix code issues", "To manage project timelines", "To design user interfaces"],
-            answer: 2,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "Which technology trend aims to make coding accessible to non-developers?",
-            options: ["Machine learning", "Cloud computing", "Low-code/no-code platforms", "Big data"],
-            answer: 2,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "What is the advantage of using visual development environments in low-code platforms?",
-            options: ["Increased code errors", "Enhanced user-friendly interface for development", "Reduced development speed", "Higher costs"],
-            answer: 1,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "Which trend is likely to influence the future of programming languages by automating repetitive coding tasks?",
-            options: ["Agile methodology", "Waterfall model", "AI-powered coding", "Microservices architecture"],
-            answer: 2,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "What is the role of AI in enhancing code quality and reliability?",
-            options: ["It reduces code quality", "It introduces more bugs", "It helps detect and fix issues automatically", "It increases development time"],
-            answer: 2,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "Which of the following best describes domain-specific languages (DSLs)?",
-            options: ["Languages designed for broad applications", "Languages focused on specific tasks within a domain", "Languages used for graphic design", "Languages limited to web development"],
-            answer: 1,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "How do low-code platforms impact the software development lifecycle?",
-            options: ["They complicate coding processes", "They streamline and accelerate development", "They reduce code quality", "They increase project costs"],
-            answer: 1,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "What is the benefit of using AI-powered coding assistants?",
-            options: ["Slower development", "Increased manual coding", "Faster code completion and fewer errors", "Reduced code maintainability"],
-            answer: 2,
-        },
-        {
-            section: "Future of Programming Languages",
-            question: "Which trend involves providing specialized programming languages for specific industries?",
-            options: ["AI-powered coding", "Low-code/no-code platforms", "Domain-specific languages (DSLs)", "Agile methodology"],
-            answer: 2,
-        },
-      
-    {
-        section: "Future of Programming Languages",
-        question: "What is the main focus of low-code/no-code platforms?",
-        options: ["Simplifying coding", "Enhancing code complexity", "Maintaining legacy systems", "Increasing software errors"],
-        answer: 0,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "How do AI-powered coding tools improve collaboration among developers?",
-        options: ["By creating more conflicts", "By generating errors", "By providing real-time suggestions and feedback", "By slowing down development"],
-        answer: 2,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is the impact of AI on the future of software testing?",
-        options: ["It reduces test coverage", "It slows down testing processes", "It automates and enhances testing accuracy", "It increases manual intervention"],
-        answer: 2,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "Which AI-powered tool can assist with identifying security vulnerabilities in code?",
-        options: ["Slack", "AI-powered code review tools", "Trello", "Microsoft Excel"],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is a potential challenge of using AI-powered coding tools?",
-        options: ["Decreased productivity", "Bias in training data", "Reduced code readability", "Increased manual coding"],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "Which trend involves using natural language processing to translate human language into code?",
-        options: ["Cloud computing", "Low-code platforms", "NLP-powered coding", "IoT development"],
-        answer: 2,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "How can domain-specific languages (DSLs) improve developer efficiency?",
-        options: ["By offering general-purpose features", "By focusing on specific tasks and reducing complexity", "By increasing coding requirements", "By complicating development"],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is a common use case for low-code/no-code platforms in businesses?",
-        options: ["Creating complex algorithms", "Developing enterprise applications", "Designing hardware components", "Managing cloud infrastructure"],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What benefit do AI-powered code completion tools provide?",
-        options: ["Decreased coding speed", "Enhanced development speed and accuracy", "Increased code errors", "Reduced code quality"],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "How do low-code platforms assist non-technical users?",
-        options: ["By requiring extensive coding knowledge", "By simplifying the development process with visual tools", "By increasing technical complexity", "By limiting functionality"],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is the main focus of low-code/no-code platforms?",
-        options: [
-            "To increase the complexity of coding",
-            "To enable rapid application development with minimal coding",
-            "To replace all traditional programming languages",
-            "To focus solely on backend development"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "Which of the following is a key benefit of AI-powered coding tools?",
-        options: [
-            "Increased manual effort in coding",
-            "Reduced development time and improved efficiency",
-            "Higher dependency on traditional programming languages",
-            "Limited functionality for complex applications"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is the primary purpose of natural language processing (NLP) in AI-powered coding?",
-        options: [
-            "To design user interfaces",
-            "To translate human language into executable code",
-            "To manage databases",
-            "To optimize system performance"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "Which of the following is a common use case for low-code/no-code platforms?",
-        options: [
-            "Developing complex operating systems",
-            "Building business applications quickly",
-            "Creating advanced machine learning models",
-            "Designing hardware systems"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is the primary advantage of domain-specific languages (DSLs)?",
-        options: [
-            "They are suitable for all types of software development",
-            "They provide specialized solutions for specific industries or tasks",
-            "They are easier to learn than general-purpose languages",
-            "They eliminate the need for programming expertise"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "Which of the following is a key challenge of low-code/no-code platforms?",
-        options: [
-            "Limited customization for complex applications",
-            "Increased development time",
-            "Higher costs compared to traditional coding",
-            "Requiring extensive programming knowledge"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is the role of AI in automating code reviews?",
-        options: [
-            "To introduce more errors into the code",
-            "To manually review code line by line",
-            "To detect and fix issues automatically",
-            "To increase the time required for code reviews"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "Which of the following is a key trend in the future of programming languages?",
-        options: [
-            "Increased reliance on manual coding",
-            "The rise of AI-powered coding and low-code/no-code platforms",
-            "The decline of domain-specific languages (DSLs)",
-            "A shift away from visual development environments"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is the primary benefit of using AI-powered code generation tools?",
-        options: [
-            "Increased manual effort in coding",
-            "Automation of repetitive coding tasks",
-            "Higher dependency on traditional programming languages",
-            "Reduced code quality"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "Which of the following is a key feature of domain-specific languages (DSLs)?",
-        options: [
-            "They are designed for general-purpose programming",
-            "They provide specialized syntax and semantics for specific tasks",
-            "They are difficult to learn and use",
-            "They are primarily used for hardware programming"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is the primary purpose of low-code/no-code platforms in enterprise environments?",
-        options: [
-            "To increase the complexity of software development",
-            "To enable non-developers to build applications quickly",
-            "To replace all traditional programming languages",
-            "To focus solely on backend development"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "Which of the following is a key benefit of AI-powered coding assistants like GitHub Copilot?",
-        options: [
-            "Increased manual effort in coding",
-            "Faster code completion and reduced errors",
-            "Higher dependency on traditional programming languages",
-            "Limited functionality for complex applications"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is the primary challenge of using domain-specific languages (DSLs)?",
-        options: [
-            "They are too general-purpose for specific tasks",
-            "They require specialized knowledge and may have limited applicability",
-            "They are easier to learn than general-purpose languages",
-            "They eliminate the need for programming expertise"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "Which of the following is a key trend in the evolution of programming languages?",
-        options: [
-            "A shift towards more complex and verbose syntax",
-            "The integration of AI and machine learning into coding tools",
-            "A decline in the use of visual development environments",
-            "Increased reliance on manual coding practices"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is the primary advantage of using low-code/no-code platforms for prototyping?",
-        options: [
-            "Increased development time",
-            "Rapid creation and iteration of application prototypes",
-            "Higher costs compared to traditional coding",
-            "Requiring extensive programming knowledge"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "Which of the following is a key benefit of AI-powered debugging tools?",
-        options: [
-            "Increased manual effort in debugging",
-            "Automated detection and resolution of code issues",
-            "Higher dependency on traditional debugging methods",
-            "Reduced code quality"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "What is the primary purpose of visual development environments in low-code platforms?",
-        options: [
-            "To increase the complexity of coding",
-            "To provide a user-friendly interface for building applications",
-            "To replace all traditional programming languages",
-            "To focus solely on backend development"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Future of Programming Languages",
-        question: "Which of the following is a key trend in the future of programming languages?",
-        options: [
-            "Increased reliance on manual coding practices",
-            "The rise of AI-powered coding and low-code/no-code platforms",
-            "The decline of domain-specific languages (DSLs)",
-            "A shift away from visual development environments"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Ethics in Software Engineering",
-        question: "Which principle relates to ensuring AI systems are used fairly and justly?",
-        options: ["Fairness", "Latency", "Redundancy", "Throughput"],
         answer: 0,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary ethical concern with algorithmic bias?",
+        section: "Captology and Persuasive Technologies",
+        question: "What is the primary goal of educating people about captology?",
         options: [
-            "It improves system performance",
-            "It can lead to unfair or discriminatory outcomes",
-            "It reduces data storage requirements",
-            "It increases code efficiency"
+            "To increase the use of persuasive technologies in all domains",
+            "To help people recognize when technologies are using persuasive tactics",
+            "To promote the development of new computer hardware",
+            "To focus solely on the technical aspects of persuasive technologies"
         ],
         answer: 1,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "Which of the following is a key ethical principle in software development?",
+        section: "Captology and Persuasive Technologies",
+        question: "Which of the following is a key ethical value for designers of persuasive technologies?",
         options: [
-            "Transparency",
             "Maximizing profit",
-            "Increasing system complexity",
-            "Reducing user accessibility"
+            "Avoiding deception and respecting privacy",
+            "Increasing computational power",
+            "Reducing production costs"
         ],
-        answer: 0,
+        answer: 1,
     },
+
+    // Section 2: Persuasive Social Actors (20 questions)
     {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary goal of ethical AI design?",
+        section: "Persuasive Social Actors",
+        question: "What is the primary focus of computers as persuasive social actors?",
         options: [
-            "To maximize computational speed",
-            "To ensure fairness, accountability, and transparency",
-            "To reduce data storage costs",
-            "To increase system complexity"
+            "To increase computational power",
+            "To trigger social responses in humans through social cues",
+            "To improve hardware performance",
+            "To reduce software errors"
         ],
         answer: 1,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "Which of the following is an example of an ethical dilemma in software engineering?",
+        section: "Persuasive Social Actors",
+        question: "Which of the following is an example of a computing product functioning as a persuasive social actor?",
         options: [
-            "Choosing between faster performance and user privacy",
-            "Optimizing code for better efficiency",
-            "Reducing system latency",
-            "Increasing data storage capacity"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary ethical concern with data mining?",
-        options: [
-            "Increased system performance",
-            "Potential violation of user privacy",
-            "Reduced data storage requirements",
-            "Improved code readability"
+            "A pocket calculator",
+            "Nintendo’s Pocket Pikachu",
+            "A web browser",
+            "A spreadsheet program"
         ],
         answer: 1,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "Which principle ensures that AI systems are designed to avoid harm?",
+        section: "Persuasive Social Actors",
+        question: "What are the five primary types of social cues that cause people to infer social presence in a computing product?",
         options: [
-            "Non-maleficence",
-            "Scalability",
-            "Throughput",
-            "Redundancy"
+            "Physical, psychological, language, social dynamics, and social roles",
+            "Visual, auditory, tactile, olfactory, and gustatory",
+            "Cognitive, emotional, behavioral, social, and cultural",
+            "Technical, functional, aesthetic, ethical, and practical"
         ],
         answer: 0,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary ethical concern with autonomous systems?",
+        section: "Persuasive Social Actors",
+        question: "Which of the following is an example of a physical cue in a computing product?",
         options: [
-            "Increased system efficiency",
-            "Lack of human oversight and accountability",
-            "Reduced data storage requirements",
-            "Improved code performance"
+            "A text message saying 'I’m sorry'",
+            "A cartoon orangutan on a slot machine",
+            "A dialogue box asking for user input",
+            "A computer program that praises the user"
         ],
         answer: 1,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "Which of the following is a key ethical consideration in software testing?",
+        section: "Persuasive Social Actors",
+        question: "What is the 'halo effect' in the context of persuasive computing?",
         options: [
-            "Ensuring tests do not harm users or systems",
-            "Maximizing test coverage at all costs",
-            "Reducing testing time regardless of quality",
-            "Ignoring user feedback during testing"
+            "The tendency for users to ignore unattractive interfaces",
+            "The assumption that attractive products are also intelligent and credible",
+            "The belief that all computing products are inherently persuasive",
+            "The tendency for users to prefer products with complex features"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Actors",
+        question: "Which principle suggests that people are more readily persuaded by computing products that are similar to themselves?",
+        options: [
+            "Principle of Authority",
+            "Principle of Similarity",
+            "Principle of Reciprocity",
+            "Principle of Praise"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Actors",
+        question: "In the Stanford Personality Study, what was the key finding regarding user preferences?",
+        options: [
+            "Users preferred computers with opposite personalities",
+            "Users preferred computers with similar personalities",
+            "Users preferred computers with no personality",
+            "Users preferred computers with random personalities"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Actors",
+        question: "What was the main finding of the Stanford Affiliation Study?",
+        options: [
+            "Users preferred working with computers labeled as teammates",
+            "Users preferred working with computers labeled as opponents",
+            "Users preferred working with computers labeled as teachers",
+            "Users preferred working with computers labeled as pets"
         ],
         answer: 0,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary ethical concern with predictive policing algorithms?",
+        section: "Persuasive Social Actors",
+        question: "Which of the following is an example of a computing product using language to convey social presence?",
         options: [
-            "Improved crime prevention",
-            "Potential reinforcement of existing biases",
-            "Reduced data storage requirements",
-            "Increased system efficiency"
+            "A spreadsheet program",
+            "Amazon.com’s personalized recommendations",
+            "A calculator app",
+            "A database management system"
         ],
         answer: 1,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "Which principle ensures that AI systems are designed to respect user autonomy?",
+        section: "Persuasive Social Actors",
+        question: "What is the primary purpose of praise in persuasive computing?",
         options: [
-            "Autonomy",
-            "Scalability",
-            "Redundancy",
-            "Throughput"
+            "To increase the computational speed of the system",
+            "To make users feel better about themselves and more open to persuasion",
+            "To reduce the number of errors in the system",
+            "To improve the hardware performance of the device"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Actors",
+        question: "What is the 'rule of reciprocity' in the context of persuasive computing?",
+        options: [
+            "Users will feel the need to reciprocate when a computer does them a favor",
+            "Users will ignore the computer if it does not perform well",
+            "Users will always prefer computers with similar personalities",
+            "Users will only use computers that are visually attractive"
         ],
         answer: 0,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary ethical concern with deepfake technology?",
+        section: "Persuasive Social Actors",
+        question: "In the Stanford Reciprocity Study, what was the key finding?",
         options: [
-            "Improved video compression",
-            "Potential for misinformation and harm",
-            "Reduced data storage requirements",
-            "Increased system performance"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Ethics in Software Engineering",
-        question: "Which of the following is a key ethical principle in data handling?",
-        options: [
-            "Data minimization",
-            "Maximizing data collection",
-            "Ignoring user consent",
-            "Increasing data storage"
+            "Users performed more work for a computer that had previously helped them",
+            "Users ignored the computer that had previously helped them",
+            "Users preferred working with computers that had no social cues",
+            "Users performed less work for a computer that had previously helped them"
         ],
         answer: 0,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary ethical concern with AI-powered hiring systems?",
+        section: "Persuasive Social Actors",
+        question: "Which of the following is an example of a computing product adopting a social role to persuade users?",
         options: [
-            "Improved hiring efficiency",
-            "Potential for biased decision-making",
-            "Reduced data storage requirements",
-            "Increased system performance"
+            "A spreadsheet program",
+            "Mavis Beacon Teaches Typing",
+            "A database management system",
+            "A calculator app"
         ],
         answer: 1,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "Which principle ensures that AI systems are designed to be inclusive?",
+        section: "Persuasive Social Actors",
+        question: "What is the Principle of Authority in persuasive computing?",
         options: [
-            "Inclusivity",
-            "Scalability",
-            "Redundancy",
-            "Throughput"
+            "Computing technology that assumes roles of authority will have enhanced powers of persuasion",
+            "Users will always prefer computers with similar personalities",
+            "Users will ignore computers that adopt authority roles",
+            "Computing technology should avoid adopting authority roles"
         ],
         answer: 0,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary ethical concern with AI-powered surveillance systems?",
+        section: "Persuasive Social Actors",
+        question: "Which of the following is an example of a computing product using social dynamics to persuade users?",
         options: [
-            "Improved security",
-            "Potential violation of privacy and civil liberties",
-            "Reduced data storage requirements",
-            "Increased system efficiency"
+            "A spreadsheet program",
+            "Eudora’s registration dialogue box",
+            "A database management system",
+            "A calculator app"
         ],
         answer: 1,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "Which of the following is a key ethical consideration in open-source software development?",
+        section: "Persuasive Social Actors",
+        question: "What is the primary ethical concern when designing psychological cues into computing products?",
         options: [
-            "Ensuring proper attribution and licensing",
-            "Maximizing profit from the software",
-            "Reducing code readability",
-            "Ignoring user feedback"
+            "Users may become too dependent on the technology",
+            "Users may infer a psychology to the technology, whether intended or not",
+            "Users may ignore the technology if it has too many social cues",
+            "Users may prefer technology with no social cues"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Actors",
+        question: "In the Oscilloscope Study, what was the key finding regarding error messages?",
+        options: [
+            "Users preferred harsh error messages",
+            "Users preferred friendly and helpful error messages",
+            "Users ignored error messages regardless of their tone",
+            "Users preferred error messages with no social cues"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Actors",
+        question: "Which of the following is an example of a computing product using social roles to persuade users?",
+        options: [
+            "A spreadsheet program",
+            "Ask Jeeves search engine",
+            "A database management system",
+            "A calculator app"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Actors",
+        question: "What is the primary reason for using social cues in leisure and entertainment products?",
+        options: [
+            "To improve computational efficiency",
+            "To enhance the social experience and make the product more engaging",
+            "To reduce the number of errors in the system",
+            "To improve hardware performance"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Actors",
+        question: "Which of the following is an example of a computing product using praise to persuade users?",
+        options: [
+            "A spreadsheet program",
+            "A dialogue box praising the user’s contribution",
+            "A database management system",
+            "A calculator app"
+        ],
+        answer: 1,
+    },
+
+    // Section 3: Persuasive Systems and Value Sensitive Design (20 questions)
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "What is the primary goal of persuasive systems?",
+        options: [
+            "To increase computational efficiency",
+            "To change a person’s attitude or behavior without coercion or deception",
+            "To improve hardware performance",
+            "To reduce software errors"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "Which of the following is an example of a persuasive system?",
+        options: [
+            "A spreadsheet program",
+            "Amazon.com",
+            "A database management system",
+            "A calculator app"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "What is the main focus of value-based practical reasoning in persuasive systems?",
+        options: [
+            "To assess the truth of propositions",
+            "To evaluate the desirability or value of actions",
+            "To improve computational speed",
+            "To reduce hardware costs"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "According to Habermas, which of the following is NOT a type of practical discourse?",
+        options: [
+            "Pragmatic discourse",
+            "Ethical discourse",
+            "Moral discourse",
+            "Theoretical discourse"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "What is the primary concern of pragmatic discourse in persuasive systems?",
+        options: [
+            "To reflect on the self-understanding of a person or community",
+            "To seek justice for all through generalization across conflicting interests",
+            "To assess the rational choice of means in light of fixed goals",
+            "To evaluate the truth of propositions"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "Which of the following is a critical question in pragmatic discourse?",
+        options: [
+            "Is the value proposed indeed a legitimate value?",
+            "How is value V understood/defined?",
+            "Has a norm/regulation negative consequences for my value orientation?",
+            "Are there alternative ways of regulation that could be good for all?"
         ],
         answer: 0,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary ethical concern with AI-powered recommendation systems?",
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "What is the primary concern of ethical discourse in persuasive systems?",
         options: [
-            "Improved user experience",
-            "Potential for creating echo chambers and biases",
-            "Reduced data storage requirements",
-            "Increased system performance"
+            "To assess the rational choice of means in light of fixed goals",
+            "To reflect on and rationally choose value preferences",
+            "To seek justice for all through generalization across conflicting interests",
+            "To evaluate the truth of propositions"
         ],
         answer: 1,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "Which principle ensures that AI systems are designed to be transparent and explainable?",
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "Which of the following is a critical question in ethical discourse?",
         options: [
-            "Explainability",
-            "Scalability",
-            "Redundancy",
-            "Throughput"
+            "Is it possible to do action A?",
+            "How is value V understood/defined?",
+            "Are the values promoted in accord with norms?",
+            "Are there alternative ways of regulation that could be good for all?"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "What is the primary concern of moral discourse in persuasive systems?",
+        options: [
+            "To assess the rational choice of means in light of fixed goals",
+            "To reflect on and rationally choose value preferences",
+            "To seek justice for all through generalization across conflicting interests",
+            "To evaluate the truth of propositions"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "Which of the following is a critical question in moral discourse?",
+        options: [
+            "Is the value proposed indeed a legitimate value?",
+            "How is value V understood/defined?",
+            "Has a norm/regulation negative consequences for my value orientation?",
+            "Are there alternative ways of realizing the same goal?"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "What is the purpose of the critical questions proposed in the paper?",
+        options: [
+            "To improve computational efficiency",
+            "To guide reflections on persuasive systems in design and use time",
+            "To reduce hardware costs",
+            "To evaluate the truth of propositions"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "Which of the following is a key issue in the design of persuasive systems?",
+        options: [
+            "Improving computational speed",
+            "Addressing ethical implications and involving stakeholders",
+            "Reducing hardware costs",
+            "Evaluating the truth of propositions"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "What is the role of discourse ethics in the design of persuasive systems?",
+        options: [
+            "To improve computational efficiency",
+            "To involve all stakeholders in the design process and address ethical issues",
+            "To reduce hardware costs",
+            "To evaluate the truth of propositions"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "Which of the following is an example of a commercial web-based persuasive system analyzed in the paper?",
+        options: [
+            "Amazon.com",
+            "Nike+ system",
+            "Classmates.com",
+            "Google"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "What is the primary purpose of the feedback mechanism in the Nike+ system?",
+        options: [
+            "To improve computational efficiency",
+            "To allow users to provide feedback on what they value or do not value",
+            "To reduce hardware costs",
+            "To evaluate the truth of propositions"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "Which of the following is a critical question related to the action-value relationship in pragmatic discourse?",
+        options: [
+            "Is it possible to do action A?",
+            "Does doing action A have a side effect which demotes the value intended?",
+            "How is value V understood/defined?",
+            "Has a norm/regulation negative consequences for my value orientation?"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "What is the primary purpose of the forum in the Nike+ system?",
+        options: [
+            "To improve computational efficiency",
+            "To allow users to discuss and articulate their values and consequences of actions",
+            "To reduce hardware costs",
+            "To evaluate the truth of propositions"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "Which of the following is a critical question related to the goal-value relationship in pragmatic discourse?",
+        options: [
+            "Is the value proposed indeed a legitimate value?",
+            "How is value V understood/defined?",
+            "Has a norm/regulation negative consequences for my value orientation?",
+            "Are there alternative ways of realizing the same goal?"
         ],
         answer: 0,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary ethical concern with AI-powered decision-making in healthcare?",
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "What is the primary purpose of the ethical discourse in persuasive systems?",
         options: [
-            "Improved diagnostic accuracy",
-            "Potential for errors and lack of accountability",
-            "Reduced data storage requirements",
-            "Increased system efficiency"
+            "To assess the rational choice of means in light of fixed goals",
+            "To reflect on and rationally choose value preferences",
+            "To seek justice for all through generalization across conflicting interests",
+            "To evaluate the truth of propositions"
         ],
         answer: 1,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "Which of the following is a key ethical consideration in software deployment?",
+        section: "Persuasive Systems and Value Sensitive Design",
+        question: "Which of the following is a critical question related to the action-goal relationship in pragmatic discourse?",
         options: [
-            "Ensuring the software does not harm users or systems",
-            "Maximizing deployment speed at all costs",
-            "Reducing testing time regardless of quality",
-            "Ignoring user feedback during deployment"
+            "Is it possible to do action A?",
+            "Does doing action A have a side effect which demotes the value intended?",
+            "How is value V understood/defined?",
+            "Has a norm/regulation negative consequences for my value orientation?"
+        ],
+        answer: 0,
+    },
+
+    // Section 4: Value Sensitive Design (20 questions)
+    {
+        section: "Value Sensitive Design",
+        question: "What is the primary focus of Value Sensitive Design (VSD)?",
+        options: [
+            "Maximizing profit in technology development",
+            "Incorporating human values into the design process",
+            "Reducing the cost of technology production",
+            "Enhancing the aesthetic appeal of technology"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "Which of the following is NOT a type of investigation in VSD?",
+        options: [
+            "Conceptual",
+            "Empirical",
+            "Technical",
+            "Financial"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "According to Habermas, which principle is central to discourse ethics?",
+        options: [
+            "The principle of utility",
+            "The discourse principle",
+            "The principle of least effort",
+            "The principle of authority"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "What does the discourse principle state?",
+        options: [
+            "Only norms that meet with the approval of all affected can claim validity.",
+            "Norms should be decided by experts only.",
+            "Norms should be based on economic efficiency.",
+            "Norms should be enforced by authority."
         ],
         answer: 0,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary ethical concern with AI-powered content moderation systems?",
+        section: "Value Sensitive Design",
+        question: "Which of the following is a critique of the VSD methodology by Le Dantec et al. (2009)?",
         options: [
-            "Improved content filtering",
-            "Potential for biased or unfair moderation",
-            "Reduced data storage requirements",
-            "Increased system performance"
+            "It provides too much guidance on empirical instruments.",
+            "It focuses on discovering new values rather than refining known values.",
+            "It lacks guidance on which empirical instruments are effective.",
+            "It ignores the role of stakeholders in the design process."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "What is the purpose of 'value dams and flows' in VSD?",
+        options: [
+            "To identify technical features that are strongly opposed or liked by stakeholders.",
+            "To reduce the cost of design.",
+            "To eliminate all value conflicts.",
+            "To prioritize aesthetic design elements."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "Which of the following is a key value in the UrbanSim case study?",
+        options: [
+            "Profit maximization",
+            "Legitimation",
+            "Speed of development",
+            "Cost reduction"
         ],
         answer: 1,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "Which principle ensures that AI systems are designed to respect user privacy?",
+        section: "Value Sensitive Design",
+        question: "What is the main challenge in applying discourse ethics to VSD?",
+        options: [
+            "The lack of interest in ethical issues.",
+            "The difficulty of involving all affected stakeholders in the discourse.",
+            "The focus on economic efficiency.",
+            "The lack of technological tools."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "What is the role of boundary critique in VSD?",
+        options: [
+            "To identify and challenge the assumptions about who should be involved in the design process.",
+            "To eliminate all stakeholders from the design process.",
+            "To focus only on technical aspects of design.",
+            "To reduce the time required for design."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "Which of the following is a key feature of the 'ideal speech situation' in discourse ethics?",
+        options: [
+            "Coercion is allowed to speed up decision-making.",
+            "All relevant information is available to participants.",
+            "Only experts are allowed to participate.",
+            "Time is limited to ensure quick decisions."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "What is the primary goal of ethical discourse in VSD?",
+        options: [
+            "To resolve conflicts over technical design choices.",
+            "To clarify which values are good for the stakeholders.",
+            "To maximize profit.",
+            "To reduce the cost of design."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "Which of the following is a limitation of the 'value dams and flows' technique?",
+        options: [
+            "It does not promote dialogical reflections among stakeholders.",
+            "It is too expensive to implement.",
+            "It focuses only on aesthetic design elements.",
+            "It eliminates all value conflicts."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "What is the main purpose of meta-communication in VSD?",
+        options: [
+            "To facilitate reflection on communication structures and norms.",
+            "To reduce the cost of communication.",
+            "To eliminate all forms of communication.",
+            "To focus only on technical communication."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "Which of the following is a key value in the design of the Cookie Manager Tool?",
+        options: [
+            "Informed consent",
+            "Profit maximization",
+            "Speed of development",
+            "Cost reduction"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "What is the main challenge in applying discourse ethics to VSD in a global context?",
+        options: [
+            "The lack of interest in ethical issues.",
+            "The difficulty of involving all affected stakeholders in the discourse.",
+            "The focus on economic efficiency.",
+            "The lack of technological tools."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "What is the primary focus of pragmatic discourse in VSD?",
+        options: [
+            "To resolve conflicts over technical design choices.",
+            "To clarify which values are good for the stakeholders.",
+            "To maximize profit.",
+            "To reduce the cost of design."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "Which of the following is a key feature of the 'ideal speech situation' in discourse ethics?",
+        options: [
+            "Coercion is allowed to speed up decision-making.",
+            "All relevant information is available to participants.",
+            "Only experts are allowed to participate.",
+            "Time is limited to ensure quick decisions."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "What is the main purpose of meta-communication in VSD?",
+        options: [
+            "To facilitate reflection on communication structures and norms.",
+            "To reduce the cost of communication.",
+            "To eliminate all forms of communication.",
+            "To focus only on technical communication."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "Which of the following is a key value in the design of the Cookie Manager Tool?",
+        options: [
+            "Informed consent",
+            "Profit maximization",
+            "Speed of development",
+            "Cost reduction"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Value Sensitive Design",
+        question: "What is the main challenge in applying discourse ethics to VSD in a global context?",
+        options: [
+            "The lack of interest in ethical issues.",
+            "The difficulty of involving all affected stakeholders in the discourse.",
+            "The focus on economic efficiency.",
+            "The lack of technological tools."
+        ],
+        answer: 1,
+    },
+
+    // Section 5: Persuasive Systems Design (20 questions)
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the primary goal of Persuasive Systems Design (PSD)?",
+        options: [
+            "To maximize profit in software development",
+            "To change users' attitudes or behaviors through technology",
+            "To reduce the cost of software production",
+            "To enhance the aesthetic appeal of software"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is NOT a category of design principles in PSD?",
+        options: [
+            "Primary task support",
+            "Dialogue support",
+            "System credibility support",
+            "Financial support"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "According to the article, what is the first step in the development of persuasive systems?",
+        options: [
+            "Analyzing the persuasion context",
+            "Understanding the key issues behind persuasive systems",
+            "Designing system qualities",
+            "Implementing software features"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is a key postulate behind persuasive systems?",
+        options: [
+            "Information technology is always neutral",
+            "Persuasion is often incremental",
+            "Systems should be difficult to use",
+            "Persuasion should always be covert"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What does the 'reduction' principle in primary task support involve?",
+        options: [
+            "Increasing the complexity of tasks",
+            "Reducing complex behavior into simple tasks",
+            "Eliminating user feedback",
+            "Increasing the cost of using the system"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of the 'tunneling' principle?",
+        options: [
+            "Providing tailored information for different user groups",
+            "Guiding users through a process to persuade them along the way",
+            "Offering personalized content and services",
+            "Keeping track of user performance"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the main focus of the 'dialogue support' category in PSD?",
+        options: [
+            "Supporting the user’s primary task",
+            "Providing feedback and interaction to keep users motivated",
+            "Ensuring system credibility",
+            "Leveraging social influence"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of the 'praise' principle in dialogue support?",
+        options: [
+            "Offering virtual rewards for target behaviors",
+            "Sending automated text messages to praise users for reaching goals",
+            "Providing tailored information for user groups",
+            "Guiding users through a process"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What does the 'system credibility support' category focus on?",
+        options: [
+            "Ensuring the system is visually attractive",
+            "Making the system credible and trustworthy",
+            "Leveraging social influence",
+            "Reducing the complexity of tasks"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of the 'trustworthiness' principle in system credibility support?",
+        options: [
+            "Providing truthful and unbiased information",
+            "Offering virtual rewards for target behaviors",
+            "Guiding users through a process",
+            "Keeping track of user performance"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the main focus of the 'social support' category in PSD?",
+        options: [
+            "Supporting the user’s primary task",
+            "Providing feedback and interaction to keep users motivated",
+            "Leveraging social influence to motivate users",
+            "Ensuring system credibility"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of the 'social comparison' principle in social support?",
+        options: [
+            "Providing means for users to compare their performance with others",
+            "Offering virtual rewards for target behaviors",
+            "Guiding users through a process",
+            "Keeping track of user performance"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the main purpose of the 'rehearsal' principle in primary task support?",
+        options: [
+            "To reduce complex behavior into simple tasks",
+            "To provide means for users to rehearse a target behavior",
+            "To guide users through a process",
+            "To offer personalized content and services"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of the 'self-monitoring' principle in primary task support?",
+        options: [
+            "Providing means for users to track their performance",
+            "Offering virtual rewards for target behaviors",
+            "Guiding users through a process",
+            "Providing tailored information for user groups"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What does the 'tailoring' principle in primary task support involve?",
+        options: [
+            "Providing information tailored to the user's needs and context",
+            "Reducing complex behavior into simple tasks",
+            "Guiding users through a process",
+            "Offering personalized content and services"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of the 'personalization' principle in primary task support?",
+        options: [
+            "Offering personalized content and services",
+            "Providing tailored information for user groups",
+            "Guiding users through a process",
+            "Keeping track of user performance"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the main focus of the 'simulation' principle in primary task support?",
+        options: [
+            "To provide means for users to observe the link between cause and effect",
+            "To reduce complex behavior into simple tasks",
+            "To guide users through a process",
+            "To offer personalized content and services"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of the 'rewards' principle in dialogue support?",
+        options: [
+            "Offering virtual rewards for target behaviors",
+            "Sending automated text messages to praise users for reaching goals",
+            "Providing tailored information for user groups",
+            "Guiding users through a process"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What does the 'reminders' principle in dialogue support involve?",
+        options: [
+            "Reminding users of their target behavior during system use",
+            "Offering virtual rewards for target behaviors",
+            "Providing tailored information for user groups",
+            "Guiding users through a process"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of the 'social learning' principle in social support?",
+        options: [
+            "Providing means for users to observe others performing the target behavior",
+            "Offering virtual rewards for target behaviors",
+            "Guiding users through a process",
+            "Keeping track of user performance"
+        ],
+        answer: 0,
+    },
+
+    // Section 6: Educational Technologies and Bloom's Taxonomy (20 questions)
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "What was the primary objective of the study?",
+        options: [
+            "To compare the effects of YouTube, AR, and VR on student engagement.",
+            "To examine the impact of educational technologies on lower cognitive levels of Bloom’s taxonomy.",
+            "To evaluate the long-term effects of immersive technologies on learning outcomes.",
+            "To assess the usability of AR and VR in higher education."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "Which of the following technologies was NOT compared in the study?",
+        options: [
+            "Virtual Reality (VR)",
+            "Augmented Reality (AR)",
+            "Online video platforms (YouTube)",
+            "Artificial Intelligence (AI)"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "How many students were included in the final sample of the study?",
+        options: [
+            "180",
+            "139",
+            "200",
+            "100"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "Which cognitive level of Bloom’s taxonomy was most impacted by Augmented Reality (AR)?",
+        options: [
+            "Knowledge",
+            "Understanding",
+            "Application",
+            "Analysis"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "What was the duration of the lecture delivered in the study?",
+        options: [
+            "10 minutes",
+            "15 minutes",
+            "30 minutes",
+            "45 minutes"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "Which learning environment showed the highest impact on the cognitive level of understanding?",
+        options: [
+            "Traditional classroom",
+            "YouTube",
+            "Augmented Reality (AR)",
+            "Virtual Reality (VR)"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "What was the main finding regarding Virtual Reality (VR) in the study?",
+        options: [
+            "VR significantly outperformed all other learning environments.",
+            "VR had no significant advantage over other learning environments.",
+            "VR was the least effective learning environment.",
+            "VR was only effective for long-term learning outcomes."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "Which theory guided the design considerations of the study?",
+        options: [
+            "Social Learning Theory",
+            "Cognitive Load Theory",
+            "Constructivist Theory",
+            "Behaviorist Theory"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "What was the topic of the lecture delivered in the study?",
+        options: [
+            "Global Citizenship Education (GCE) and university-community engagement.",
+            "The impact of technology on education.",
+            "The role of AR and VR in higher education.",
+            "The future of online learning platforms."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "Which group performed better than the classroom group in the study?",
+        options: [
+            "YouTube",
+            "Augmented Reality (AR)",
+            "Virtual Reality (VR)",
+            "None of the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "What was the primary reason for choosing a 15-minute lecture duration?",
+        options: [
+            "To minimize cognitive fatigue and maximize learning outcomes.",
+            "To ensure all students could attend the lecture.",
+            "To align with the average attention span of students.",
+            "To standardize the lecture across all groups."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "Which of the following was a limitation of the study?",
+        options: [
+            "Lack of interaction between participants and instructors.",
+            "Use of a diverse and representative sample.",
+            "Long-term assessment of learning outcomes.",
+            "High familiarity with VR among participants."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "What was the main conclusion regarding YouTube as a learning tool?",
+        options: [
+            "It is superior to traditional classroom learning.",
+            "It is more effective as a supplementary tool rather than a stand-alone tool.",
+            "It is ineffective for improving learning outcomes.",
+            "It is only useful for long-term learning."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "Which cognitive level of Bloom’s taxonomy was least impacted by Virtual Reality (VR)?",
+        options: [
+            "Knowledge",
+            "Understanding",
+            "Application",
+            "Analysis"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "What was the primary reason for the low performance of the VR group?",
+        options: [
+            "Lack of content alignment with course objectives.",
+            "Cognitive burden associated with immersive technologies.",
+            "Technical issues with the VR headsets.",
+            "Lack of interest in the lecture topic."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "Which of the following was NOT a finding of the study?",
+        options: [
+            "AR had the highest impact on the cognitive level of understanding.",
+            "VR significantly outperformed other learning environments.",
+            "Classroom learning performed strongly across all cognitive levels.",
+            "YouTube was less effective than classroom learning."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "What was the sample size calculated for the study based on the power analysis?",
+        options: [
+            "139",
+            "180",
+            "200",
+            "250"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "Which of the following was a key feature of the AR learning environment?",
+        options: [
+            "A 3D model of a whiteboard and an animated avatar of the lecturer.",
+            "A fully immersive virtual classroom.",
+            "Real-time feedback and problem-solving scenarios.",
+            "A gamified learning experience."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "What was the primary reason for using a guest lecturer in the study?",
+        options: [
+            "To minimize confounding factors such as familiarity with a specific lecturer.",
+            "To ensure the lecture was delivered in a standardized manner.",
+            "To provide a more engaging learning experience.",
+            "To align with the cognitive load theory."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Educational Technologies and Bloom's Taxonomy",
+        question: "Which of the following was a recommendation for future research based on the study’s limitations?",
+        options: [
+            "Focus on short-term learning outcomes only.",
+            "Use a less diverse sample to improve generalizability.",
+            "Incorporate interactive components into the experimental design.",
+            "Avoid using immersive technologies in future studies."
+        ],
+        answer: 2,
+    },
+
+    // Section 7: 3D-RAB Model and Persuasive Technology (20 questions)
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "What is the primary purpose of the 3D-RAB model?",
+        options: [
+            "To evaluate the usability of persuasive technologies.",
+            "To analyze and implement behavioral change in persuasive technology.",
+            "To compare different persuasive technologies.",
+            "To measure the effectiveness of social psychology theories."
+        ],
+        answer: 1,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "Which of the following is NOT a dimension in the 3D-RAB model?",
+        options: [
+            "Attitude towards target behavior (ATTB)",
+            "Attitude towards changing/maintaining current behavior (ATCMB)",
+            "Current behavior (CB)",
+            "Social influence (SI)"
+        ],
+        answer: 3,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "What does the 3D-RAB model aim to categorize users based on?",
+        options: [
+            "Their personality traits.",
+            "Their cognitive dissonance states.",
+            "Their technological proficiency.",
+            "Their social media usage."
+        ],
+        answer: 1,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "Which theory serves as the basis for the 3D-RAB model?",
+        options: [
+            "Theory of Planned Behavior (TpB)",
+            "Cognitive Dissonance Theory",
+            "Social Learning Theory",
+            "Behaviorism"
+        ],
+        answer: 1,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "What is the main limitation of the Persuasive Systems Design (PSD) framework?",
+        options: [
+            "It does not consider user attitudes.",
+            "It lacks a systematic method for selecting persuasive techniques.",
+            "It does not address the variability in user needs over time.",
+            "It is too complex for practical use."
+        ],
+        answer: 2,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "In the 3D-RAB model, what does ATTB stand for?",
+        options: [
+            "Attitude towards target behavior",
+            "Attitude towards technology-based behavior",
+            "Attitude towards traditional behavior",
+            "Attitude towards temporary behavior"
+        ],
+        answer: 0,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "Which of the following is a characteristic of strong cognitive dissonance?",
+        options: [
+            "Mild psychological tension",
+            "No psychological tension",
+            "Strong psychological tension",
+            "Neutral psychological tension"
+        ],
+        answer: 2,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "What is the ideal state in the 3D-RAB model?",
+        options: [
+            "State 1",
+            "State 2",
+            "State 5",
+            "State 8"
+        ],
+        answer: 0,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "Which state in the 3D-RAB model is characterized by no cognitive dissonance but negative behavior?",
+        options: [
+            "State 1",
+            "State 4",
+            "State 5",
+            "State 8"
+        ],
+        answer: 3,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "What is the primary focus of persuasive technology?",
+        options: [
+            "Changing user attitudes",
+            "Achieving target behavior",
+            "Enhancing user experience",
+            "Improving system usability"
+        ],
+        answer: 1,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "Which of the following is a key factor in determining a user’s readiness to change behavior?",
+        options: [
+            "Attitude towards target behavior (ATTB)",
+            "Attitude towards changing/maintaining current behavior (ATCMB)",
+            "Current behavior (CB)",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "What is the main challenge in State 3 of the 3D-RAB model?",
+        options: [
+            "Moving the user to State 1",
+            "Moving the user to State 7",
+            "Moving the user to State 8",
+            "Moving the user to State 5"
+        ],
+        answer: 0,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "Which state in the 3D-RAB model is considered the most difficult to change?",
+        options: [
+            "State 1",
+            "State 5",
+            "State 7",
+            "State 8"
+        ],
+        answer: 3,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "What is the primary goal of reinforcement methods in State 2?",
+        options: [
+            "To move the user to State 1",
+            "To move the user to State 6",
+            "To move the user to State 8",
+            "To move the user to State 4"
+        ],
+        answer: 0,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "Which of the following is a key factor in the success of persuasive technology?",
+        options: [
+            "User familiarity with technology",
+            "Cognitive states of individuals",
+            "Availability of technical support",
+            "Cost of implementation"
+        ],
+        answer: 1,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "What is the main focus of the Theory of Planned Behavior (TpB)?",
+        options: [
+            "Predicting intentions rather than behavior",
+            "Predicting behavior rather than intentions",
+            "Measuring cognitive dissonance",
+            "Measuring social influence"
+        ],
+        answer: 0,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "Which of the following is a characteristic of weak cognitive dissonance?",
+        options: [
+            "Strong psychological tension",
+            "Mild psychological tension",
+            "No psychological tension",
+            "Moderate psychological tension"
+        ],
+        answer: 1,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "What is the primary purpose of the 35 behavioral grid proposed by Fogg?",
+        options: [
+            "To categorize behavior change",
+            "To measure cognitive dissonance",
+            "To evaluate persuasive technologies",
+            "To analyze user attitudes"
+        ],
+        answer: 0,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "Which of the following is a key limitation of the 3D-RAB model?",
+        options: [
+            "It does not consider user attitudes.",
+            "It is difficult to measure attitudes objectively.",
+            "It is too complex for practical use.",
+            "It does not address cognitive dissonance."
+        ],
+        answer: 1,
+    },
+    {
+        section: "3D-RAB Model and Persuasive Technology",
+        question: "What is the main contribution of the 3D-RAB model to persuasive technology?",
+        options: [
+            "It provides a systematic approach to designing persuasive systems.",
+            "It measures the effectiveness of social psychology theories.",
+            "It evaluates the usability of persuasive technologies.",
+            "It compares different persuasive technologies."
+        ],
+        answer: 0,
+    },
+
+    // Section 8: Milky Way Application and Value Sensitive Design (20 questions)
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "What is the primary purpose of persuasive technology?",
+        options: [
+            "To manipulate users into making decisions",
+            "To help people change their behavior or attitudes",
+            "To collect user data for marketing purposes",
+            "To replace human decision-making"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "Which of the following is NOT a phase in the Persuasive Systems Design (PSD) model?",
+        options: [
+            "Understanding the issues behind persuasive systems",
+            "Analyzing the persuasion context",
+            "Conducting value sensitive analysis",
+            "Designing persuasive system features"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "What is the main goal of the Milky Way application?",
+        options: [
+            "To provide medical advice to new mothers",
+            "To increase breastfeeding confidence and duration",
+            "To replace face-to-face breastfeeding consultations",
+            "To market breastfeeding products"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "Which of the following is a key ethical concern in persuasive technology?",
+        options: [
+            "Ensuring the system is coercive",
+            "Ensuring the system is voluntary and not manipulative",
+            "Ensuring the system collects as much data as possible",
+            "Ensuring the system is used by as many people as possible"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "What is the core value of the Milky Way application?",
         options: [
             "Privacy",
-            "Scalability",
-            "Redundancy",
-            "Throughput"
+            "Autonomy",
+            "Breastfeeding",
+            "Human welfare"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "Which of the following is a direct stakeholder of the Milky Way application?",
+        options: [
+            "Society as a whole",
+            "Pregnant women intending to breastfeed",
+            "Marketing officers of the university",
+            "Infants"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "What is the main ethical issue related to autonomy in the Milky Way application?",
+        options: [
+            "Users should be forced to breastfeed",
+            "Users should be allowed to stop using the application or breastfeeding at any time",
+            "Users should not be given any information about breastfeeding",
+            "Users should be required to share personal data"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "Which of the following is a persuasive system feature used in the Milky Way application?",
+        options: [
+            "Tailoring",
+            "Coercion",
+            "Data mining",
+            "Manipulation"
         ],
         answer: 0,
     },
     {
-        section: "Ethics in Software Engineering",
-        question: "What is the primary ethical concern with AI-powered financial systems?",
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "What is the primary method used in value sensitive design to identify stakeholders?",
         options: [
-            "Improved financial efficiency",
-            "Potential for biased or unfair financial decisions",
-            "Reduced data storage requirements",
-            "Increased system performance"
+            "Stakeholder tokens",
+            "Ulrich’s boundary questions",
+            "Persuasive Systems Design model",
+            "Empirical investigation"
         ],
         answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "Which of the following is an indirect stakeholder of the Milky Way application?",
+        options: [
+            "Pregnant women",
+            "Infants",
+            "Application developers",
+            "Marketing officers"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "What is the main challenge in balancing autonomy and persuasion in the Milky Way application?",
+        options: [
+            "Ensuring users feel pressured to breastfeed",
+            "Ensuring users are not manipulated but still persuaded to breastfeed",
+            "Ensuring users are forced to use the application",
+            "Ensuring users do not receive any information about breastfeeding"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "Which of the following is a key value identified in the Milky Way application?",
+        options: [
+            "Coercion",
+            "Autonomy",
+            "Manipulation",
+            "Data collection"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "What is the main purpose of value sensitive analysis in persuasive system design?",
+        options: [
+            "To identify stakeholders and their values",
+            "To increase the coercive nature of the system",
+            "To collect user data for marketing purposes",
+            "To replace the Persuasive Systems Design model"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "Which of the following is a limitation of value sensitive analysis?",
+        options: [
+            "It provides clear guidance on solving conflicting values",
+            "It is easy to identify all relevant stakeholders",
+            "It does not offer tools to solve conflicting values",
+            "It is not useful for persuasive system design"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "What is the main ethical concern related to privacy in the Milky Way application?",
+        options: [
+            "Users should be forced to share personal information",
+            "Users should be able to discuss anonymously in the forum",
+            "Users should not be allowed to use the application",
+            "Users should be required to provide their real names"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "Which of the following is a source of knowledge in the Milky Way application design?",
+        options: [
+            "Marketing officers",
+            "Infants",
+            "Society as a whole",
+            "Pregnant women"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "What is the main benefit of involving stakeholders in the design of persuasive systems?",
+        options: [
+            "It increases the coercive nature of the system",
+            "It ensures the system is more relevant and meaningful to users",
+            "It reduces the need for ethical considerations",
+            "It eliminates the need for user testing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "Which of the following is a key value related to human welfare in the Milky Way application?",
+        options: [
+            "Ensuring users feel pressured to breastfeed",
+            "Providing evidence-based information on breastfeeding benefits",
+            "Collecting user data for marketing purposes",
+            "Ensuring users are forced to use the application"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "What is the main ethical concern related to cultural differences in the Milky Way application?",
+        options: [
+            "Ensuring the application uses culturally appropriate images and language",
+            "Ensuring the application is only available in one language",
+            "Ensuring the application does not provide any information about breastfeeding",
+            "Ensuring the application is only used in one country"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Milky Way Application and Value Sensitive Design",
+        question: "What is the main advantage of using value sensitive analysis in persuasive system design?",
+        options: [
+            "It provides a clear method for solving conflicting values",
+            "It helps identify stakeholders and their values, making the system more ethical",
+            "It eliminates the need for user involvement in the design process",
+            "It ensures the system is coercive and manipulative"
+        ],
+        answer: 1,
+    },
+
+    // Section 9: Behavior Change Support Systems (BCSS) and Machine Learning (20 questions)
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "What is the primary focus of the study in the PDF?",
+        options: [
+            "The impact of social media on behavior change",
+            "The determinants of compliance intention in Behavior Change Support Systems (BCSS)",
+            "The role of wearable devices in physical activity",
+            "The effectiveness of gamification in health apps"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "Which theoretical model serves as the main framework for the study?",
+        options: [
+            "Theory of Planned Behavior",
+            "Self-Determination Theory",
+            "Persuasive Systems Design (PSD) model",
+            "Social Cognitive Theory"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "What is the main reason for the long-term ineffectiveness of BCSS?",
+        options: [
+            "Lack of user interest",
+            "High cost of implementation",
+            "Non-compliance by users",
+            "Limited availability of BCSS"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "Which of the following is NOT one of the four persuasive principles of the PSD model?",
+        options: [
+            "Primary task support",
+            "Dialogue support",
+            "Social support",
+            "Financial support"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "What does 'perceived credibility support' refer to in the context of BCSS?",
+        options: [
+            "The user's belief that the system is fun to use",
+            "The user's belief that the system provides trustworthy information",
+            "The user's belief that the system is easy to use",
+            "The user's belief that the system is socially engaging"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "Which hypothesis states that perceived social support positively influences perceived competence?",
+        options: [
+            "H1a",
+            "H1b",
+            "H2a",
+            "H2b"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "What is the primary goal of primary task support in the PSD model?",
+        options: [
+            "To make the primary task easier for the user",
+            "To provide financial incentives for the user",
+            "To increase social interaction among users",
+            "To make the system more visually appealing"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "Which of the following constructs is influenced by both perceived competence and perceived effectiveness?",
+        options: [
+            "Perceived persuasiveness",
+            "Perceived enjoyment",
+            "Perceived compliance intention",
+            "Perceived credibility"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "What is the relationship between perceived enjoyment and perceived persuasiveness?",
+        options: [
+            "Perceived enjoyment negatively influences perceived persuasiveness",
+            "Perceived enjoyment has no effect on perceived persuasiveness",
+            "Perceived enjoyment positively influences perceived persuasiveness",
+            "Perceived persuasiveness negatively influences perceived enjoyment"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "Which statistical method was used to evaluate the proposed model in the study?",
+        options: [
+            "Multiple regression analysis",
+            "Partial least squares structural equation modeling (PLS-SEM)",
+            "Factor analysis",
+            "ANOVA"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "What is the definition of 'perceived competence' in the context of the study?",
+        options: [
+            "The user's belief that the system is effective",
+            "The user's belief in their ability to perform and maintain positive behaviors",
+            "The user's belief that the system is enjoyable",
+            "The user's belief that the system is credible"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "Which of the following is a limitation of the study mentioned in the PDF?",
+        options: [
+            "The sample size was too small",
+            "The study only focused on female participants",
+            "The sample had a male dominance of 80.34%",
+            "The study did not use any statistical analysis"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "What is the main outcome variable in the proposed research model?",
+        options: [
+            "Perceived effectiveness",
+            "Perceived persuasiveness",
+            "Perceived compliance intention",
+            "Perceived enjoyment"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "Which of the following is NOT a factor that influences perceived compliance intention in the study?",
+        options: [
+            "Perceived persuasiveness",
+            "Perceived enjoyment",
+            "Perceived credibility",
+            "Perceived financial incentives"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "What is the role of 'dialogue support' in the PSD model?",
+        options: [
+            "To provide financial incentives to users",
+            "To provide feedback and motivation to users",
+            "To increase social interaction among users",
+            "To make the system more visually appealing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "Which of the following is a key finding of the study?",
+        options: [
+            "Perceived financial incentives significantly influence compliance intention",
+            "Perceived competence and effectiveness influence perceived enjoyment",
+            "Perceived social support has no effect on perceived competence",
+            "Perceived persuasiveness negatively influences compliance intention"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "What is the definition of 'perceived effectiveness' in the context of the study?",
+        options: [
+            "The user's belief that the system is fun to use",
+            "The user's belief that the system is credible",
+            "The user's belief that the system is beneficial in performing activities of interest",
+            "The user's belief that the system is easy to use"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "Which of the following is a key recommendation for BCSS developers based on the study?",
+        options: [
+            "Focus on increasing financial incentives for users",
+            "Focus on improving system credibility and social support",
+            "Focus on making the system more visually appealing",
+            "Focus on reducing the cost of the system"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "What is the main demographic characteristic of the respondents in the study?",
+        options: [
+            "Majority were female",
+            "Majority were over 55 years old",
+            "Majority were between 18 and 35 years old",
+            "Majority were graduate students"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
+        question: "What is the significance of the study's findings for BCSS developers?",
+        options: [
+            "It highlights the importance of financial incentives in improving compliance",
+            "It provides insights into how persuasive design principles can improve compliance intention",
+            "It suggests that visual appeal is the most important factor in system design",
+            "It emphasizes the need for reducing system costs"
+        ],
+        answer: 1,
+    },
+
+    // Section 10: Systematic Review on Machine Learning and BCSS (20 questions)
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "What is the primary objective of the systematic review in the PDF?",
+        options: [
+            "To evaluate the cost-effectiveness of BCSS",
+            "To identify trends in the use of machine learning for predicting adherence to BCSS",
+            "To compare different types of BCSS",
+            "To assess the impact of BCSS on healthcare costs"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "Which databases were used for the systematic literature search in the study?",
+        options: [
+            "Google Scholar and Web of Science",
+            "Scopus and PubMed",
+            "IEEE Xplore and ACM Digital Library",
+            "PubMed and Google Scholar"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "How many journal papers were eligible for inclusion in the systematic review?",
+        options: [
+            "11",
+            "20",
+            "50",
+            "100"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "Which of the following is NOT a category of adherence problems identified in the review?",
+        options: [
+            "Medication adherence",
+            "Physical activity adherence",
+            "Financial adherence",
+            "Diet adherence"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "What is the most used persuasive system design (PSD) feature in the reviewed BCSS?",
+        options: [
+            "Social support",
+            "Dialogue support",
+            "Primary task support",
+            "Credibility support"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "Which machine learning technique was most commonly used across the studies?",
+        options: [
+            "Logistic regression",
+            "Random forest",
+            "Support vector machines",
+            "Long short-term memory (LSTM)"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "What is the definition of 'adherence to digital cognitive or behavioral interventions'?",
+        options: [
+            "The successful completion of all recommended tasks and achievement of initial set goals",
+            "The consistent use of medication as prescribed",
+            "The increase in physical activity levels over time",
+            "The avoidance of dietary relapse"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "Which of the following is a barrier to adherence mentioned in the review?",
+        options: [
+            "Lack of financial incentives",
+            "Achievement of set health or body goals",
+            "Overuse of social support features",
+            "Excessive system personalization"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "What is the primary goal of primary task support in BCSS?",
+        options: [
+            "To provide financial incentives to users",
+            "To simplify and motivate users to perform recommended tasks",
+            "To increase social interaction among users",
+            "To make the system more visually appealing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "Which of the following is a feature of dialogue support in BCSS?",
+        options: [
+            "Personalization",
+            "Reminders",
+            "Expertise",
+            "Social facilitation"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "What is the least used persuasive system design (PSD) feature in the reviewed BCSS?",
+        options: [
+            "Primary task support",
+            "Dialogue support",
+            "Credibility support",
+            "Social support"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "Which of the following is a common performance metric used to evaluate machine learning models in the studies?",
+        options: [
+            "Area under the receiver operating characteristic curve (AUROC)",
+            "Mean squared error (MSE)",
+            "R-squared",
+            "F1-score"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "What is the main limitation of the data collection methods in some of the included studies?",
+        options: [
+            "Data were collected in a controlled environment, which may not represent real-world behavior",
+            "Data were collected using self-reports, which are prone to bias",
+            "Data were collected using only wearable devices",
+            "Data were collected over a short period of time"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "Which of the following is a deep learning technique used in the reviewed studies?",
+        options: [
+            "Logistic regression",
+            "Random forest",
+            "Long short-term memory (LSTM)",
+            "Support vector machines"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "What is the primary reason for the sparing use of deep learning techniques in the reviewed studies?",
+        options: [
+            "Deep learning techniques are less accurate than traditional methods",
+            "Deep learning techniques require large amounts of data",
+            "Deep learning techniques are more expensive to implement",
+            "Deep learning techniques are not suitable for health-related data"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "Which of the following is a predictor of physical activity adherence identified in the review?",
+        options: [
+            "Exercise history",
+            "Medication dosage",
+            "Dietary preferences",
+            "Sleep patterns"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "What is the main challenge reported in most of the included studies regarding data?",
+        options: [
+            "Data were too large to process",
+            "Data were scarce and small-sized",
+            "Data were collected using outdated methods",
+            "Data were not relevant to the study objectives"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "Which of the following is a feature of credibility support in BCSS?",
+        options: [
+            "Reminders",
+            "Expertise",
+            "Social facilitation",
+            "Personalization"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "What is the primary goal of using machine learning in BCSS according to the review?",
+        options: [
+            "To reduce the cost of healthcare",
+            "To predict adherence behavior in real-time",
+            "To replace human healthcare providers",
+            "To increase the number of BCSS users"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Systematic Review on Machine Learning and BCSS",
+        question: "Which of the following is a key finding of the systematic review?",
+        options: [
+            "Machine learning techniques are not effective in predicting adherence",
+            "Traditional machine learning techniques are more commonly used than advanced techniques",
+            "Deep learning techniques are the most effective for all types of adherence problems",
+            "Social support features are the most effective in improving adherence"
+        ],
+        answer: 1,
+    },
+
+    // Section 11: Persuasive Social Support Features (20 questions)
+    {
+        section: "Persuasive Social Support Features",
+        question: "What is the primary focus of the study in the PDF?",
+        options: [
+            "The impact of financial incentives on health app usage",
+            "The influence of persuasive social support features on perceived health competence",
+            "The role of gamification in fitness apps",
+            "The effect of app design on user retention"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "Which theoretical framework is used as the foundation for the study?",
+        options: [
+            "Theory of Planned Behavior",
+            "Social Cognitive Theory",
+            "Persuasive Systems Design (PSD) framework",
+            "Self-Determination Theory"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "What is the definition of 'perceived health competence' in the context of the study?",
+        options: [
+            "The user's belief that the app is easy to use",
+            "The user's confidence in their ability to perform and maintain positive health behaviors",
+            "The user's satisfaction with the app's design",
+            "The user's perception of the app's credibility"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "Which of the following is NOT a feature of the social support principle in the PSD framework?",
+        options: [
+            "Social learning",
+            "Social comparison",
+            "Financial incentives",
+            "Recognition"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "What is the main hypothesis regarding the relationship between social facilitation and social learning?",
+        options: [
+            "Social facilitation negatively impacts social learning",
+            "Social facilitation has no effect on social learning",
+            "Social facilitation positively influences social learning",
+            "Social facilitation only affects competition"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "Which of the following is a key finding of the study?",
+        options: [
+            "Social comparison has no effect on cooperation",
+            "Recognition negatively impacts perceived health competence",
+            "Social learning positively influences perceived health competence",
+            "Competition has no effect on recognition"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "What is the role of 'normative influence' in the study?",
+        options: [
+            "It refers to the user's desire to conform to social norms within the app",
+            "It refers to the user's ability to compete with others",
+            "It refers to the user's perception of the app's credibility",
+            "It refers to the user's financial incentives for using the app"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "Which of the following is a mediator in the relationship between social facilitation and perceived health competence?",
+        options: [
+            "Social comparison",
+            "Social learning",
+            "Competition",
+            "Recognition"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "What is the primary method used for data analysis in the study?",
+        options: [
+            "Multiple regression analysis",
+            "Partial Least Squares Structural Equation Modeling (PLS-SEM)",
+            "Factor analysis",
+            "ANOVA"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "Which of the following is a limitation of the study mentioned in the PDF?",
+        options: [
+            "The sample size was too small",
+            "The study only focused on female participants",
+            "The sample had a male dominance of over 70%",
+            "The study did not use any statistical analysis"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "What is the main outcome variable in the proposed research model?",
+        options: [
+            "Perceived effectiveness",
+            "Perceived persuasiveness",
+            "Perceived health competence",
+            "Perceived enjoyment"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "Which of the following is a feature of dialogue support in the PSD framework?",
+        options: [
+            "Reminders",
+            "Expertise",
+            "Social facilitation",
+            "Personalization"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "What is the primary goal of primary task support in the PSD framework?",
+        options: [
+            "To provide financial incentives to users",
+            "To simplify and motivate users to perform recommended tasks",
+            "To increase social interaction among users",
+            "To make the system more visually appealing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "Which of the following is a common performance metric used to evaluate machine learning models in the studies?",
+        options: [
+            "Area under the receiver operating characteristic curve (AUROC)",
+            "Mean squared error (MSE)",
+            "R-squared",
+            "F1-score"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "What is the main challenge reported in most of the included studies regarding data?",
+        options: [
+            "Data were too large to process",
+            "Data were scarce and small-sized",
+            "Data were collected using outdated methods",
+            "Data were not relevant to the study objectives"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "Which of the following is a feature of credibility support in the PSD framework?",
+        options: [
+            "Reminders",
+            "Expertise",
+            "Social facilitation",
+            "Personalization"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "What is the primary goal of using machine learning in BCSS according to the review?",
+        options: [
+            "To reduce the cost of healthcare",
+            "To predict adherence behavior in real-time",
+            "To replace human healthcare providers",
+            "To increase the number of BCSS users"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "Which of the following is a key finding of the systematic review?",
+        options: [
+            "Machine learning techniques are not effective in predicting adherence",
+            "Traditional machine learning techniques are more commonly used than advanced techniques",
+            "Deep learning techniques are the most effective for all types of adherence problems",
+            "Social support features are the most effective in improving adherence"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "What is the main demographic characteristic of the respondents in the study?",
+        options: [
+            "Majority were female",
+            "Majority were over 55 years old",
+            "Majority were between 18 and 25 years old",
+            "Majority were graduate students"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Social Support Features",
+        question: "What is the significance of the study's findings for BCSS developers?",
+        options: [
+            "It highlights the importance of financial incentives in improving compliance",
+            "It provides insights into how persuasive design principles can improve compliance intention",
+            "It suggests that visual appeal is the most important factor in system design",
+            "It emphasizes the need for reducing system costs"
+        ],
+        answer: 1,
+    },
+
+    // Section 12: Technological Factors in Physical Activity BCSS (20 questions)
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "What is the primary focus of the systematic review discussed in the paper?",
+        options: [
+            "To identify psychological factors influencing user compliance with BCSS",
+            "To identify technological factors influencing user compliance with physical activity BCSS",
+            "To evaluate the effectiveness of wearable trackers in promoting physical activity",
+            "To analyze the role of social media in behavior change"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is NOT a form of compliance behavior identified in the review?",
+        options: [
+            "Program compliance",
+            "Behavior compliance",
+            "Attitude compliance",
+            "Both A and B"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which framework was used to analyze the persuasive features of BCSS in the review?",
+        options: [
+            "Technology Acceptance Model (TAM)",
+            "Persuasive Systems Design (PSD) framework",
+            "Unified Theory of Acceptance and Use of Technology (UTAUT)",
+            "Social Cognitive Theory"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "What percentage of physical activity BCSS users stop complying with the system within three months of downloading it?",
+        options: [
+            "Over 50%",
+            "30%",
+            "70%",
+            "20%"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a category of technological factors influencing compliance identified in the review?",
+        options: [
+            "User experience",
+            "Persuasive systems features",
+            "Other behavior change strategies",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a primary task support feature in BCSS?",
+        options: [
+            "Reminders",
+            "Personalization",
+            "Social comparison",
+            "Expertise"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a dialogue support feature in BCSS?",
+        options: [
+            "Self-monitoring",
+            "Reminders",
+            "Expertise",
+            "Social learning"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a credibility support feature in BCSS?",
+        options: [
+            "Expertise",
+            "Rewards",
+            "Social role",
+            "Similarity"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a social support feature in BCSS?",
+        options: [
+            "Social learning",
+            "Personalization",
+            "Reminders",
+            "Expertise"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "What is the main purpose of the PACE app mentioned in the review?",
+        options: [
+            "To monitor sleep patterns",
+            "To promote physical activity among older adults",
+            "To track dietary habits",
+            "To provide mental health support"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a factor influencing behavior compliance?",
+        options: [
+            "Perceived usefulness",
+            "Perceived risk of over-activity",
+            "Intention to use",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a factor influencing program compliance?",
+        options: [
+            "Ease of use",
+            "Perceived enjoyment",
+            "Usability",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a limitation of the systematic review?",
+        options: [
+            "It only considered journal articles",
+            "It included conference papers",
+            "It focused on psychological factors",
+            "It did not use any frameworks"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a persuasive feature that was extensively used in BCSS aimed at compliance change?",
+        options: [
+            "Dialogue support",
+            "Primary task support",
+            "Credibility support",
+            "Social support"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a persuasive feature that was predominantly used in BCSS aimed at behavior change?",
+        options: [
+            "Dialogue support",
+            "Primary task support",
+            "Credibility support",
+            "Social support"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is an example of a gamified physical activity app mentioned in the review?",
+        options: [
+            "PACE app",
+            "Mission: Schweinehund",
+            "ActiveTrack",
+            "My Dear Knee"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a technological platform used in the BCSS discussed in the review?",
+        options: [
+            "Web-based apps",
+            "Mobile apps",
+            "Gamified apps",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a factor that was rarely explored in compliance models?",
+        options: [
+            "Feedback",
+            "Accountability",
+            "Rewards",
+            "Expertise"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a key finding of the review regarding social support features?",
+        options: [
+            "They are extensively used in BCSS aimed at compliance change",
+            "They are rarely used in physical activity BCSS",
+            "They are the most effective in promoting behavior change",
+            "They are not relevant in BCSS"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Technological Factors in Physical Activity BCSS",
+        question: "Which of the following is a recommendation for designers of BCSS based on the review?",
+        options: [
+            "Focus only on primary task support features",
+            "Tailor persuasive features based on compliance behavior types",
+            "Ignore user experience features",
+            "Avoid using dialogue support features"
+        ],
+        answer: 1,
+    },
+
+    // Section 13: Virtual Reality (VR) and Continuance Intention (20 questions)
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "What is the primary focus of the study discussed in the paper?",
+        options: [
+            "To evaluate the effectiveness of VR in gaming",
+            "To examine factors influencing continuance intention to use VR for exercise",
+            "To analyze the impact of VR on mental health",
+            "To compare VR with traditional exercise methods"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is NOT a construct examined in the study?",
+        options: [
+            "Perceived enjoyment",
+            "Perceived effectiveness",
+            "Social support",
+            "Perceived immersion"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which framework was used to guide the development of the VR environment in the study?",
+        options: [
+            "Technology Acceptance Model (TAM)",
+            "Persuasive Systems Design (PSD) framework",
+            "Unified Theory of Acceptance and Use of Technology (UTAUT)",
+            "Social Cognitive Theory"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "What percentage of the world’s adult population is physically inactive according to the study?",
+        options: [
+            "Over 25%",
+            "15%",
+            "50%",
+            "10%"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is a primary task support feature in the VR environment?",
+        options: [
+            "Praise",
+            "Self-monitoring",
+            "Social role",
+            "Expertise"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is a dialogue support feature in the VR environment?",
+        options: [
+            "Self-monitoring",
+            "Praise",
+            "Credibility support",
+            "Perceived immersion"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is a credibility support feature in the VR environment?",
+        options: [
+            "Self-monitoring",
+            "Praise",
+            "Surface credibility",
+            "Perceived enjoyment"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "What is the primary task in the VR environment developed for the study?",
+        options: [
+            "Playing a game",
+            "Completing a walking exercise",
+            "Solving puzzles",
+            "Watching a video"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which software was used to develop the VR environment in the study?",
+        options: [
+            "Blender and Unity3D",
+            "Unreal Engine and Maya",
+            "AutoCAD and SketchUp",
+            "Photoshop and Illustrator"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "What was the walking distance covered in the VR environment?",
+        options: [
+            "1.5km to 2km",
+            "3km to 4km",
+            "500m to 1km",
+            "5km to 6km"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following had the strongest impact on continuance intention in the study?",
+        options: [
+            "Perceived enjoyment",
+            "Perceived effectiveness",
+            "Perceived persuasiveness",
+            "Perceived immersion"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is NOT a factor influencing continuance intention in the study?",
+        options: [
+            "Perceived enjoyment",
+            "Perceived effectiveness",
+            "Social support",
+            "Perceived persuasiveness"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "What was the primary method used for data analysis in the study?",
+        options: [
+            "Partial Least Squares Structural Equation Modeling (PLS-SEM)",
+            "Multiple Regression Analysis",
+            "Factor Analysis",
+            "ANOVA"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is a key finding of the study regarding primary task support?",
+        options: [
+            "It had no impact on perceived immersion",
+            "It had a stronger impact on perceived immersion than dialogue support",
+            "It had a weaker impact on perceived immersion than dialogue support",
+            "It only influenced perceived enjoyment"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is a key finding of the study regarding perceived immersion?",
+        options: [
+            "It had no impact on perceived enjoyment",
+            "It had a strong positive impact on perceived enjoyment",
+            "It only influenced perceived effectiveness",
+            "It had no impact on continuance intention"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is a limitation of the study mentioned in the paper?",
+        options: [
+            "The study did not consider social support",
+            "The study only focused on gaming",
+            "The study did not use any frameworks",
+            "The study did not collect any data"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is a recommendation for future work mentioned in the study?",
+        options: [
+            "To focus only on perceived enjoyment",
+            "To test the model on a larger population",
+            "To ignore individual differences",
+            "To stop using VR for exercise"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is a key implication of the study for designers of VR systems?",
+        options: [
+            "Focus only on perceived enjoyment",
+            "Focus on creating systems that are perceived as effective",
+            "Ignore user experience features",
+            "Avoid using persuasive features"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is a key contribution of the study to persuasive systems research?",
+        options: [
+            "It ignored the role of PSD constructs",
+            "It provided a theoretical framework for understanding continuance intention in VR",
+            "It focused only on gaming",
+            "It did not use any data analysis methods"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Virtual Reality (VR) and Continuance Intention",
+        question: "Which of the following is a key finding of the study regarding perceived persuasiveness?",
+        options: [
+            "It had no impact on continuance intention",
+            "It was the strongest predictor of continuance intention",
+            "It was influenced by primary task support, dialogue support, and credibility support",
+            "It was not examined in the study"
+        ],
+        answer: 2,
+    },
+
+    // Section 14: Health and Fitness Apps and Sentiment Analysis (20 questions)
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "What is the primary focus of the study in the paper?",
+        options: [
+            "To evaluate the usability of health and fitness apps",
+            "To explore the impact of persuasive system features on user sentiments",
+            "To compare iOS and Android health apps",
+            "To analyze the financial performance of health apps"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "Which framework is used as the basis for persuasive system design in the study?",
+        options: [
+            "Fogg’s Behavior Model",
+            "Elaboration Likelihood Model (ELM)",
+            "Persuasive Systems Design (PSD) framework",
+            "Technology Acceptance Model (TAM)"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "How many persuasive system features are proposed in the PSD framework?",
+        options: [
+            "15",
+            "20",
+            "28",
+            "35"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "Which of the following is NOT a category of persuasive system features in the PSD framework?",
+        options: [
+            "Primary Task Support",
+            "Dialogue Support",
+            "Social Support",
+            "Financial Support"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "What sampling technique was used to select the apps for the study?",
+        options: [
+            "Convenience sampling",
+            "Stratified random sampling",
+            "Snowball sampling",
+            "Cluster sampling"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "How many health and fitness apps were ultimately selected for the study?",
+        options: [
+            "10",
+            "23",
+            "50",
+            "72"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "Which of the following features was most dominant in health and fitness apps according to the study?",
+        options: [
+            "Social Support",
+            "Dialogue Support",
+            "Primary Task Support",
+            "Credibility Support"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "Which of the following features was least used in the apps studied?",
+        options: [
+            "Social Support",
+            "Dialogue Support",
+            "Primary Task Support",
+            "Credibility Support"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "What sentiment analysis tool was used in the study?",
+        options: [
+            "VADER",
+            "LIWC",
+            "SentiWordNet",
+            "TextBlob"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "Which of the following emotions was NOT categorized in the sentiment analysis?",
+        options: [
+            "Liking",
+            "Trust",
+            "Anger",
+            "Jealousy"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "What was the main finding regarding the relationship between persuasive features and user sentiments?",
+        options: [
+            "More features always lead to higher positive sentiments",
+            "Apps with fewer features had higher positive sentiments",
+            "Social support features increased positive sentiments",
+            "Credibility support features had no impact on sentiments"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "Which of the following apps had the highest positive sentiment intensity?",
+        options: [
+            "Headspace",
+            "Pocket Yoga",
+            "WalkingApp",
+            "Calorie Counter by FatSecret"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "What was the primary method used to analyze the relationship between persuasive features and sentiments?",
+        options: [
+            "Regression analysis",
+            "Cluster analysis",
+            "Factor analysis",
+            "Correlation analysis"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "Which of the following features was most frequently used in Dialogue Support?",
+        options: [
+            "Praise",
+            "Rewards",
+            "Reminders",
+            "Social Role"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "What was the main limitation of the study?",
+        options: [
+            "Small sample size",
+            "Lack of diversity in app selection",
+            "Inability to establish causal relationships",
+            "Limited use of sentiment analysis tools"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "Which of the following emotions was most associated with apps that had more Social Support features?",
+        options: [
+            "Liking",
+            "Trust",
+            "Anger",
+            "Happiness"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "What was the primary reason for excluding apps with less than 500 reviews?",
+        options: [
+            "To ensure a diverse sample",
+            "To ensure apps had adequate user feedback",
+            "To reduce the complexity of analysis",
+            "To focus on popular apps only"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "Which of the following is NOT a Primary Task Support feature?",
+        options: [
+            "Reduction",
+            "Tunnelling",
+            "Tailoring",
+            "Competition"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "What was the main conclusion regarding Credibility Support features?",
+        options: [
+            "They significantly increased user trust",
+            "They had no impact on user sentiments",
+            "They were the most frequently used features",
+            "They were rarely used in the apps studied"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Health and Fitness Apps and Sentiment Analysis",
+        question: "Which of the following apps had the lowest positive sentiment intensity?",
+        options: [
+            "Headspace",
+            "Pocket Yoga",
+            "WalkingApp",
+            "Calorie Counter by FatSecret"
+        ],
+        answer: 0,
+    },
+
+    // Section 15: U-FADE Framework and Persuasive Systems Design (20 questions)
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "What is the primary goal of the U-FADE framework?",
+        options: [
+            "To evaluate the usability of persuasive systems",
+            "To provide a systematic approach for designing persuasive systems",
+            "To compare different persuasive technologies",
+            "To analyze the financial performance of persuasive systems"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "Which model is integrated into the U-FADE framework to analyze user context?",
+        options: [
+            "Elaboration Likelihood Model (ELM)",
+            "3-Dimensional Relationship between Attitude and Behaviour (3D-RAB) model",
+            "Functional Triad",
+            "Behaviour Wizard"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "How many steps are included in the U-FADE framework?",
+        options: [
+            "3",
+            "5",
+            "7",
+            "10"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "Which of the following is NOT a step in the U-FADE framework?",
+        options: [
+            "Event Analysis",
+            "Selecting Persuasive Strategy",
+            "Financial Analysis",
+            "Evaluating Change"
+        ],
+        answer: 2,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "What does the 3D-RAB model categorize users based on?",
+        options: [
+            "Age and gender",
+            "Cognitive dissonance and attitude",
+            "Income level and education",
+            "Geographic location"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "Which of the following is a key component of the User Context analysis in U-FADE?",
+        options: [
+            "Financial constraints",
+            "Current Behaviour (CB)",
+            "Market trends",
+            "Technological advancements"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "What does the Persuasive Technology Onion (PTO) analyze?",
+        options: [
+            "Internal factors of persuasion",
+            "External factors of persuasion",
+            "Financial factors of persuasion",
+            "Technological factors of persuasion"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "Which of the following is an example of Natural Attitude or Behaviour Change (NABC)?",
+        options: [
+            "Organizational rules",
+            "Cultural norms",
+            "Government regulations",
+            "Job requirements"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "What is the primary focus of the Persuasive Pathway Model (PPM)?",
+        options: [
+            "Financial planning",
+            "Selecting persuasive strategies",
+            "Market analysis",
+            "User interface design"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "According to the Persuasive Pathway Model (PPM), which type of message is effective for long-term attitude change?",
+        options: [
+            "Peripheral messages",
+            "Elaborated messages",
+            "Visual messages",
+            "Emotional messages"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "Which of the following is an example of a system feature that supports peripheral messages?",
+        options: [
+            "Tunnelling",
+            "Self-monitoring",
+            "Rewards",
+            "Simulation"
+        ],
+        answer: 2,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "What is the purpose of the Transition Description Card (TDC) in U-FADE?",
+        options: [
+            "To evaluate financial performance",
+            "To summarize activities for implementing transitions",
+            "To analyze market trends",
+            "To design user interfaces"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "Which of the following is a key benefit of using the 3D-RAB model for evaluating change?",
+        options: [
+            "It measures financial performance",
+            "It identifies changes in user attitudes and behaviours",
+            "It analyzes market trends",
+            "It evaluates technological advancements"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "What is the main challenge addressed by the U-FADE framework?",
+        options: [
+            "Financial constraints in persuasive system design",
+            "Changing user needs during persuasive interventions",
+            "Lack of technological advancements",
+            "Market competition"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "Which of the following is a key design implication of the U-FADE framework?",
+        options: [
+            "Designing for specific target groups",
+            "Focusing on financial performance",
+            "Analyzing market trends",
+            "Evaluating technological advancements"
+        ],
+        answer: 0,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "What is the primary focus of the Planned Attitude or Behaviour Change (PABC) analysis?",
+        options: [
+            "Informal activities that influence behaviour",
+            "Formal rules and regulations that influence behaviour",
+            "Financial constraints",
+            "Market trends"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "Which of the following is an example of a system feature that supports elaborated messages?",
+        options: [
+            "Rewards",
+            "Tunnelling",
+            "Personalisation",
+            "Similarity"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "What is the primary purpose of the Event Analysis step in U-FADE?",
+        options: [
+            "To evaluate financial performance",
+            "To analyze internal and external factors affecting behaviour",
+            "To design user interfaces",
+            "To analyze market trends"
+        ],
+        answer: 1,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "Which of the following is a key benefit of using the U-FADE framework?",
+        options: [
+            "It provides a systematic approach for designing persuasive systems",
+            "It focuses on financial performance",
+            "It analyzes market trends",
+            "It evaluates technological advancements"
+        ],
+        answer: 0,
+    },
+    {
+        section: "U-FADE Framework and Persuasive Systems Design",
+        question: "What is the primary focus of the Evaluating Change step in U-FADE?",
+        options: [
+            "To measure financial performance",
+            "To assess changes in user attitudes and behaviours",
+            "To analyze market trends",
+            "To evaluate technological advancements"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Software Architecture Evolution",
+        question: "Which of the following is a key characteristic of monolithic architecture?",
+        options: [
+            "Loosely coupled components",
+            "Single codebase for all functionalities",
+            "Independent deployment of services",
+            "Event-driven communication"
+        ],
+        answer: 1,
+    },
+
+    // Section 2: Persuasive Systems Design (100 questions)
+    {
+        section: "Persuasive Systems Design",
+        question: "How can we develop ethical guidelines for the design and deployment of behavior change support systems?",
+        options: [
+            "Implementing safeguards to protect user privacy and data security.",
+            "Establishing clear principles for transparency, accountability, and user consent.",
+            "All of the above.",
+            "Engaging in ongoing research and evaluation to assess the impact of interventions."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "According to PSD, how does the 'Scarcity' principle contribute to persuasive technology?",
+        options: [
+            "Encourage abundance for better outcomes",
+            "Scarcity is irrelevant in persuasive design",
+            "Manipulate the perception of abundance for sustained engagement",
+            "Leverage the perception of scarcity to increase the perceived value of interventions"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does the 'Trustworthiness' principle contribute to the effectiveness of persuasive systems in PSD?",
+        options: [
+            "Trustworthiness is irrelevant in persuasive design",
+            "Establish and maintain user trust through transparent communication and reliable information",
+            "Manipulate user trust for sustained engagement",
+            "Encourage distrust for better outcomes"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the Persuasive Systems Design (PSD) model?",
+        options: [
+            "None of the above",
+            "A model for evaluating the ethical implications of a system",
+            "A model for analyzing the value of a system",
+            "A framework for designing persuasive systems"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is Value Sensitive Analysis (VSA)?",
+        options: [
+            "A method for evaluating the ethical implications of a system",
+            "A method for designing persuasive systems",
+            "A method for analyzing the value of a system",
+            "A method for selecting and implementing persuasive features in a system"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Website quotes an authority, such as a statement by government health office. This is an example implementation of?",
+        options: [
+            "Authority",
+            "Third-party endorsement",
+            "Real-world feel",
+            "None of the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What does the future hold for the ethical development and use of persuasive technology?",
+        options: [
+            "A shift towards user-centered design and ethical AI principles.",
+            "Increasingly sophisticated techniques for manipulating user behavior.",
+            "Unregulated and unchecked growth of the persuasive technology industry.",
+            "A growing awareness of the ethical implications and potential harms."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the Value Sensitive Analysis (VSA) PSD model?",
+        options: [
+            "A model for selecting and implementing persuasive features in a system",
+            "A combination of the PSD model with VSA to enhance ethical analysis and stakeholder engagement in persuasive system design",
+            "A model for analyzing the value of a system",
+            "A model for evaluating the ethical implications of a system"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are the effects of computers that flatter?",
+        options: [
+            "They lead to increased skepticism and distrust.",
+            "They have no significant impact on human behavior.",
+            "They can create more likable and persuasive interactive technologies.",
+            "They result in decreased user engagement and satisfaction."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the difference between cooperation and competition?",
+        options: [
+            "Cooperation and competition are the same thing.",
+            "Cooperation and competition are not important in persuasive systems.",
+            "Cooperation involves working together with others to motivate behavior change, while competition involves competing with others to motivate behavior change.",
+            "Cooperation involves comparing oneself to others to motivate behavior change, while recognition involves using the presence of others to motivate behavior change."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the main focus about the role of computing products as persuasive social actors?",
+        options: [
+            "Understanding human-computer interaction.",
+            "Investigating the automatic social responses triggered by computing products.",
+            "Exploring the impact of AI on social behavior.",
+            "Designing more advanced computing systems."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Three boundary issues are used to identify stakeholders in the Value Sensitive Analysis.",
+        options: [
+            "True",
+            "False"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the primary role of feedback in persuasive technology?",
+        options: [
+            "Providing information about user preferences.",
+            "Guiding behavior through real-time information and cues.",
+            "Enhancing user engagement.",
+            "Customizing the user interface."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are some potential challenges associated with using persuasive technology to address complex social issues such as poverty and inequality?",
+        options: [
+            "Lack of trust and engagement from marginalized communities.",
+            "Difficulty tailoring interventions to diverse and specific needs.",
+            "Difficulty measuring and evaluating the long-term impact of interventions.",
+            "Risk of perpetuating existing biases and inequalities through technology."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology consider the well-being of vulnerable populations in its design?",
+        options: [
+            "Well-being is irrelevant for vulnerable populations",
+            "Ignore vulnerable populations",
+            "Target vulnerable populations for better outcomes",
+            "Implement features to protect and respect vulnerable populations"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which psychological principle involves the tendency to follow the actions of others in uncertain situations?",
+        options: [
+            "Conformity bias.",
+            "Obedience.",
+            "Herd mentality.",
+            "Social influence."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can we hold developers and designers accountable for the ethical implications of their work?",
+        options: [
+            "Relying solely on the self-regulation of the tech industry.",
+            "Supporting legislation that establishes ethical guidelines for persuasive technology development.",
+            "Boycotting the products and services of companies that use unethical persuasive techniques.",
+            "Encouraging whistleblowing within the tech industry."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does the 'Praise' principle in PSD contribute to persuasive technology?",
+        options: [
+            "Discourage positive feedback",
+            "Provide negative feedback to enhance motivation",
+            "Offer positive reinforcement and praise to users for their achievements",
+            "Praise is irrelevant in persuasive design"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which type of persuasive design element leverages social proof to influence user behavior?",
+        options: [
+            "Social media notifications",
+            "Progress bars",
+            "Gamification elements",
+            "Testimonials"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which design element involves the use of social norms to influence behavior?",
+        options: [
+            "Social validation.",
+            "Similarity.",
+            "Social influence.",
+            "Social proof."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What term refers to the ability of a system to adapt its behavior based on user interactions?",
+        options: [
+            "Responsiveness.",
+            "Customization.",
+            "Personalization.",
+            "Adaptability."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Pick the odd one out",
+        options: [
+            "Praise",
+            "Reduction",
+            "Personalization",
+            "Tunneling"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "In value-sensitive persuasive systems, what role does user participation in the design process play, and how does it contribute to ethical considerations?",
+        options: [
+            "User participation is irrelevant in persuasive design",
+            "Exclude users for better decision-making",
+            "Designers alone should determine the values embedded in persuasive systems",
+            "Involve users to ensure their values are considered, enhancing system effectiveness and ethical alignment"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does persuasive technology impact social norms, and why is this important to consider?",
+        options: [
+            "Persuasion has no impact on social norms",
+            "Social norms are irrelevant in persuasive design",
+            "Persuasion shapes and reinforces social norms; important for ethical considerations",
+            "Persuasion disrupts social norms for the better"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the role of the 'Feedback' principle in PSD?",
+        options: [
+            "Discourage feedback for simplicity",
+            "Manipulate feedback for better outcomes",
+            "Feedback is irrelevant in persuasive design",
+            "Provide occasional feedback to users on their progress and performance"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the term for the phenomenon where individuals are more likely to comply with a request if it is perceived as coming from an authority figure?",
+        options: [
+            "Social proof.",
+            "Consistency.",
+            "Reciprocity.",
+            "Authority."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What type of information does the Milky Way application provide, and how is its persuasive power enhanced as discussed in the 'Ethical evaluation of a value sensitive persuasive system: Case Milky Way'?",
+        options: [
+            "It provides feedback on users’ progress, and its persuasive power is enhanced by providing social support",
+            "It provides reminders to users, and its persuasive power is enhanced by providing feedback on their behavior",
+            "It provides motivational messages, and its persuasive power is enhanced by using common language",
+            "It provides trustworthy, evidence-based breastfeeding information, and its persuasive power is enhanced by providing sources to scientific literature"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What role does cognitive dissonance play in the 3D-RAB model?",
+        options: [
+            "It creates psychological tension for behavior change.",
+            "It identifies patterns of persuasion in social networks.",
+            "It collects user feedback for persuasive approaches.",
+            "It categorizes users based on their behavior."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Personal stories of the people who have succeeded in their goal behavior are published on a smoking cessation Website. This is an example implementation of?",
+        options: [
+            "Cooperation",
+            "Recognition",
+            "Competition",
+            "Social Facilitation"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is 'shaping' in persuasive technology?",
+        options: [
+            "Reinforcing successive approximations of a desired behavior until the desired behavior is reached.",
+            "A method of error correction in programming.",
+            "The process of forming user preferences.",
+            "The development of three-dimensional shapes in user interfaces."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the difference between direct and indirect persuasion?",
+        options: [
+            "Direct persuasion uses social influence to motivate behavior change, while indirect persuasion focuses on the system’s credibility.",
+            "Direct persuasion aims at convincing the user by appealing to reason and intelligence, while indirect persuasion uses simple cues or stereotypes for evaluating the information",
+            "Direct persuasion focuses on the user’s emotions, while indirect persuasion focuses on the user’s cognitive processes.",
+            "Direct persuasion is more effective than indirect persuasion."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "An iterative tripartite methodology encompasses what?",
+        options: [
+            "Empirical, technical, and iterative investigations",
+            "Conceptual, empirical, and technical investigations",
+            "Conceptual, non-conceptual, and iterative investigations",
+            "Empirical, non-conceptual, and iterative investigations"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology be used to promote environmental sustainability and reduce individual carbon footprints?",
+        options: [
+            "By promoting the latest sustainable technologies and encouraging consumerism.",
+            "By highlighting the negative consequences of climate change and inducing fear and anxiety.",
+            "By creating gamified challenges to encourage sustainable behaviors and competition.",
+            "By providing personalized feedback and recommendations for eco-friendly consumption habits."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "In the context of persuasive technology, what does 'priming' involve?",
+        options: [
+            "Presenting information subtly to influence subsequent behavior.",
+            "Alerting users through notifications.",
+            "Displaying persuasive messages prominently.",
+            "Customizing the user interface."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "According to PSD, what is the role of the 'Self-Persuasion' principle?",
+        options: [
+            "Facilitate opportunities for users to persuade themselves of the value of behavior change",
+            "Discourage users from persuading themselves",
+            "Manipulate user self-perceptions for better outcomes",
+            "Self-persuasion is irrelevant in persuasive design"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology be used to improve mental health outcomes?",
+        options: [
+            "By providing personalized support and interventions for individuals struggling with mental health challenges.",
+            "By encouraging social isolation and disconnecting from meaningful relationships.",
+            "By creating immersive virtual reality experiences to escape from real-world problems.",
+            "By promoting unrealistic beauty standards and body image expectations."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What concept involves presenting information in a way that appeals to emotions rather than logic?",
+        options: [
+            "Pathos.",
+            "Emotional framing.",
+            "Logos.",
+            "Ethical appeal."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "In the context of persuasive design, how can designers address potential biases and stereotypes in the system?",
+        options: [
+            "Actively identify and mitigate biases to ensure fairness and inclusivity",
+            "Embrace biases for better system effectiveness",
+            "Ignore biases; they are unavoidable",
+            "Biases have no impact on persuasive technology"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What term refers to the psychological phenomenon where individuals are more likely to be persuaded by someone they like or admire?",
+        options: [
+            "Liking principle.",
+            "Similarity principle.",
+            "Attractiveness principle.",
+            "Authority principle."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are the 28 persuasive system features listed in the PSD model grouped into?",
+        options: [
+            "Primary task support, dialogue support, credibility support, and feedback support",
+            "Primary task support, dialogue support, credibility support, and motivation support",
+            "Primary task support, dialogue support, credibility support, and behavior support",
+            "Primary task support, dialogue support, credibility support, and social support"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the potential impact of persuasive technology on our understanding of free will and individual autonomy?",
+        options: [
+            "It can enhance our ability to make informed and rational decisions",
+            "It can foster a sense of community and belonging.",
+            "It can provide us with greater access to information and resources.",
+            "It can challenge our perception of ourselves as independent and self-governing beings."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does the 3D-RAB model contribute to designing persuasive third party applications for social networking services?",
+        options: [
+            "By considering external factors affecting persuasive strategies.",
+            "By implementing direct advertising techniques.",
+            "By focusing on individual user preferences.",
+            "By analyzing user demographics."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is NOT a common persuasive design terminology?",
+        options: [
+            "Cognitive dissonance",
+            "Social proof",
+            "Gamification",
+            "Purification"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology ethically leverage data analytics for user profiling while addressing privacy concerns?",
+        options: [
+            "Collect data without user consent for more accurate profiling",
+            "Implement transparent data collection practices and user-controlled profiling",
+            "Ignore privacy concerns for better profiling",
+            "Privacy concerns are irrelevant in persuasive design"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What term refers to the persuasive technique that involves making a seemingly larger request, which is later reduced to the desired request?",
+        options: [
+            "Low-ball technique.",
+            "Foot-in-the-door technique.",
+            "Door-in-the-face technique.",
+            "Scarcity principle."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "A certificate / trust seal indicating the use of secure connections. This is an example implementation of?",
+        options: [
+            "Verifiability",
+            "Expertise",
+            "Surface credibility",
+            "Third party endorsement"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the ethical dilemma associated with persuasive technology?",
+        options: [
+            "It can lead to social isolation and loneliness.",
+            "It can be used to spread misinformation.",
+            "It can exploit users' vulnerabilities and manipulate their behavior.",
+            "It can be addictive and harmful to mental health."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an example of a persuasive technology application for environmental conservation?",
+        options: [
+            "Online shopping websites.",
+            "Social media platforms.",
+            "Video streaming services.",
+            "Energy-saving apps."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "In PSD, what is the significance of the 'Reduction' principle?",
+        options: [
+            "Reduction has no impact on persuasive design",
+            "Increase cognitive load",
+            "Simplify the system to reduce resistance",
+            "Ignore the principle for better outcomes"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "In the ethical design of persuasive technology, how can designers account for the potential unintended consequences of persuasive interventions?",
+        options: [
+            "Unintended consequences cannot be predicted or mitigated",
+            "Focus on short-term outcomes and ignore potential long-term consequences",
+            "Utilize scenario planning and rigorous testing to anticipate and address unintended consequences",
+            "Unintended consequences are irrelevant in ethical design"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How many dimensions are included in the 3D-RAB model?",
+        options: [
+            "5.",
+            "3.",
+            "4.",
+            "2."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the purpose of the 'Feedback' principle in PSD?",
+        options: [
+            "Manipulate feedback for better outcomes",
+            "Feedback is irrelevant in persuasive design",
+            "Discourage feedback for simplicity",
+            "Provide occasional feedback to users on their progress and performance"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does the 'Personalization' principle contribute to the effectiveness of persuasive systems in PSD?",
+        options: [
+            "Ignore user preferences for simplicity",
+            "Provide standardized interventions for all users",
+            "Personalization has no impact on persuasion",
+            "Customize persuasive strategies based on individual characteristics and needs"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the main ethical issue with persuasive technology?",
+        options: [
+            "It can be used to control users",
+            "It can be used to harm users",
+            "It can be used to manipulate users",
+            "It can be used to deceive users"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the role of 'Suggestion' in PSD?",
+        options: [
+            "Offer subtle suggestions to guide behavior change",
+            "Discourage suggestions for autonomy",
+            "Suggestions are irrelevant in persuasive design",
+            "Provide intrusive suggestions for better outcomes"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Users of a computer-based learning environment can recognize how many co-students are doing their assigned homework at the same time as them. This is an example implementation of?",
+        options: [
+            "Social Learning",
+            "Social Facilitation",
+            "Recognition",
+            "Cooperation"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are some potential risks associated with using persuasive technology in education?",
+        options: [
+            "Psychological manipulation and pressure",
+            "Increased student engagement",
+            "Improved learning outcomes",
+            "Enhanced teacher-student communication"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the importance of inclusivity in persuasive design?",
+        options: [
+            "Excludes certain user groups",
+            "Enhances the effectiveness of persuasion",
+            "Inclusivity is irrelevant",
+            "Simplifies the design process"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technologies be used to strengthen democracy and civic engagement?",
+        options: [
+            "By spreading misinformation and manipulating public opinion.",
+            "By facilitating online voting and participation in political processes.",
+            "By limiting access to diverse perspectives and promoting echo chambers.",
+            "By undermining trust in government institutions and democratic processes."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can behavior change support systems be used to address the growing problem of chronic diseases?",
+        options: [
+            "By facilitating self-monitoring of health indicators and promoting healthy behaviors.",
+            "By integrating with healthcare systems to improve disease detection and treatment.",
+            "By providing personalized interventions and education about disease management.",
+            "All of the above."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which design element refers to the ability of a system to provide timely and relevant information?",
+        options: [
+            "Salience.",
+            "Relevance.",
+            "Urgency.",
+            "Timeliness."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the difference between C-, B-, and A-Change?",
+        options: [
+            "C-Change is an attitude change, B-Change is a change in an act of complying, and A-Change is a behavior change.",
+            "C-Change is a change in an act of complying, B-Change is an attitude change, and A-Change is a behavior change.",
+            "C-Change is a change in an act of complying, B-Change is a behavior change, and A-Change is an attitude change.",
+            "C-Change is a behavior change, B-Change is an attitude change, and A-Change is a change in an act of complying."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which design principle involves creating a sense of scarcity to increase the perceived value of a product or service?",
+        options: [
+            "Urgency.",
+            "Social proof.",
+            "Scarcity.",
+            "Authority."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the potential impact of persuasive technology on the privacy and security of individuals?",
+        options: [
+            "Enhanced security measures to protect against online threats.",
+            "Greater vulnerability to data breaches and privacy violations.",
+            "Improved ability for individuals to remain anonymous online.",
+            "Increased transparency and control over personal data."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What role does transparency play in ethical persuasive technology design?",
+        options: [
+            "Enhances user trust and understanding",
+            "Complicates the design process",
+            "Decreases system effectiveness",
+            "Transparency is unnecessary"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are the limitations of the PSD model?",
+        options: [
+            "It does not address ethical issues in depth",
+            "It does not provide a comprehensive approach to stakeholder engagement",
+            "It does not provide a comprehensive approach to value analysis",
+            "All the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the purpose of the Milky Way application as discussed in the 'Ethical evaluation of a value-sensitive persuasive system: Case Milky Way'?",
+        options: [
+            "To discourage women from breastfeeding",
+            "To provide information on the benefits of child labor",
+            "To support women in continuing to breastfeed for a longer period of time",
+            "To provide information on the benefits of formula feeding"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "There are 12 boundary categories in the identification of stakeholders in the Value Sensitive Analysis?",
+        options: [
+            "False",
+            "True"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Value Sensitive Analysis is ……?",
+        options: [
+            "An iterative tripartite",
+            "Only conceptual based",
+            "Only technically based",
+            "None of the Above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology balance the tension between promoting positive behavior change and avoiding paternalism?",
+        options: [
+            "Prioritize paternalism for better outcomes",
+            "Navigate the tension by emphasizing user autonomy and informed choices",
+            "Paternalism is irrelevant in persuasive design",
+            "Ignore the tension for simplicity"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What challenges arise when designing persuasive technology for diverse cultural contexts, and how can these challenges be addressed ethically?",
+        options: [
+            "Ignore cultural contexts for simplicity",
+            "Cultural contexts have no impact on persuasive design",
+            "Recognize and respect cultural diversity, adapting persuasive strategies accordingly",
+            "Manipulate cultural contexts for better persuasion"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the significance of iterative testing and feedback in the design of persuasive systems?",
+        options: [
+            "Iterative testing is unnecessary",
+            "Use iterative testing and feedback to improve system effectiveness and address ethical concerns",
+            "Testing and feedback are irrelevant in persuasive design",
+            "Collect feedback but ignore it in subsequent iterations"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the role of accessibility in ethical persuasive design, and why is it important?",
+        options: [
+            "Accessibility has no impact on persuasive technology",
+            "Accessibility is unnecessary",
+            "Ignore accessibility for better design simplicity",
+            "Accessibility is crucial for ensuring inclusivity and fairness in persuasion"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can we ensure that behavior change support systems are used to empower individuals and communities to make positive changes?",
+        options: [
+            "By promoting self-efficacy and building community support networks.",
+            "By providing opportunities for self-reflection and goal setting.",
+            "All of the above.",
+            "By fostering collaboration and knowledge-sharing among users."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the ethical dilemma associated with using persuasive technology to encourage charitable giving?",
+        options: [
+            "It can undermine users' trust and confidence in charitable organizations.",
+            "It can exploit users' emotions and sense of guilt or obligation.",
+            "It can divert resources away from more effective forms of charity.",
+            "It can lead to impulsive donations without careful consideration."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "According to PSD, what is the significance of the 'Trustworthiness' principle?",
+        options: [
+            "Manipulate user trust for sustained engagement",
+            "Encourage distrust for better outcomes",
+            "Establish and maintain user trust through transparent communication and reliable information",
+            "Trustworthiness is irrelevant in persuasive design"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are the three phases of the PSD model?",
+        options: [
+            "Analyzing the intent, event, and strategy, evaluating the system, and selecting and implementing persuasive features",
+            "Analyzing the intent, event, and strategy, selecting and implementing persuasive features, and evaluating the system",
+            "Understanding the main issues behind persuasive systems, analyzing the persuasion context, and analyzing the persuasive features.",
+            "Understanding the main issues, selecting and implementing persuasive features, and evaluating the system"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the main focus of the Value Sensitive Analysis?",
+        options: [
+            "The ethical evaluation of a persuasive system",
+            "The design of a persuasive system",
+            "The implementation of a persuasive system",
+            "The evaluation of a persuasive system"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive design address the potential for addiction and overuse?",
+        options: [
+            "Addiction is irrelevant in persuasive design",
+            "Ignore addiction concerns",
+            "Implement features to promote responsible use",
+            "Encourage overuse for higher engagement"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are the different levels of cognitive dissonance identified in the 3D-RAB model?",
+        options: [
+            "Initial, intermediate, advanced.",
+            "Low, moderate, high.",
+            "Positive, neutral, negative.",
+            "Strong, moderate, weak, none."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the role of behavioral science in the ethical design of persuasive systems?",
+        options: [
+            "Apply behavioural science ethically to understand and guide user behaviour",
+            "Use behavioral science to manipulate users",
+            "Behavioural science is irrelevant",
+            "Behavioural science contradicts ethical considerations"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does the 'Comparison' principle in PSD influence user engagement?",
+        options: [
+            "Encourage unrealistic comparisons for better outcomes",
+            "Discourage users from making comparisons",
+            "Comparison has no impact on persuasive systems",
+            "Facilitate realistic social and self-comparisons to guide behavior change"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What are the intent, event, and strategy respectively, analyzed in the second phase of the PSD model?",
+        options: [
+            "The persuader, use/user/technology contexts, and message/route",
+            "Use/user/technology contexts, persuader, and message/route",
+            "Message/route, persuader, and use/user/technology context",
+            "None of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology be used to promote economic growth and entrepreneurship?",
+        options: [
+            "By encouraging risk-taking and impulsive investment behavior.",
+            "By facilitating online collaboration and resource sharing.",
+            "By increasing competition and driving down wages and profits.",
+            "By providing personalized recommendations and market insights."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the second phase of the PSD model?",
+        options: [
+            "Understanding the main issues",
+            "Analyzing the intent, event, and strategy",
+            "Evaluating the system",
+            "Selecting and implementing persuasive feature"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the difference between positive and negative persuasion?",
+        options: [
+            "There is no significant difference between positive and negative persuasion.",
+            "Positive persuasion is transparent and ethical, while negative persuasion is deceptive and unethical.",
+            "Positive persuasion is aimed at improving user experience, while negative persuasion is manipulative.",
+            "Positive persuasion uses positive reinforcement, while negative persuasion uses punishment."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "According to PSD, how does the 'Feedback' principle contribute to behavior change?",
+        options: [
+            "Manipulate feedback for better outcomes",
+            "Provide occasional feedback to users on their progress and performance",
+            "Feedback is irrelevant in persuasive design",
+            "Discourage feedback for simplicity"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does value-sensitive persuasive design handle feedback from end-users?",
+        options: [
+            "Lets designers make all decisions",
+            "Ignores user feedback",
+            "Values user feedback and adapts the system accordingly",
+            "Feedback is irrelevant"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the term for the persuasive technique that involves presenting information in a way that emphasizes potential losses rather than gains?",
+        options: [
+            "Risk communication.",
+            "Positive framing.",
+            "Gain framing.",
+            "Loss aversion."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is a potential ethical concern related to persuasive technology?",
+        options: [
+            "Manipulation and loss of autonomy.",
+            "Increased user engagement.",
+            "Enhanced accessibility.",
+            "Improved user experience."
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Which of the following is an ethical concern in persuasive design related to vulnerable populations?",
+        options: [
+            "Targeting vulnerable populations without consent",
+            "Prioritizing vulnerable populations",
+            "Persuasion is irrelevant for vulnerable populations",
+            "Ignoring vulnerable populations"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is the primary purpose of the 3D-RAB model in the context of social networking services?",
+        options: [
+            "To enhance data analytics.",
+            "To increase advertising revenue.",
+            "To promote user engagement.",
+            "To facilitate behavior change."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "A shared fitness journal in a mobile application for encouraging physical activity. This is an example implementation of?",
+        options: [
+            "Social comparison",
+            "Social learning",
+            "Social facilitation",
+            "Normative influence"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does the 'Liking' principle in PSD influence user engagement?",
+        options: [
+            "Enhance user liking through aesthetic design and positive interactions",
+            "Manipulate user preferences for sustained engagement",
+            "Liking has no impact on persuasive systems",
+            "Encourage dislike for better outcomes"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How does the 'Personal Control' principle in PSD contribute to user engagement?",
+        options: [
+            "Personal control is irrelevant in persuasive design",
+            "Manipulate user control for sustained engagement",
+            "Provide users with control over persuasive features and interventions",
+            "Reduce user control for simplicity"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can we ensure that behavior change support systems are used to promote social justice and equity?",
+        options: [
+            "By developing culturally sensitive and accessible interventions.",
+            "All of the above.",
+            "By addressing systemic barriers and inequalities in access to technology.",
+            "By involving diverse communities in the design and development process."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "How can persuasive technology respect user privacy while still influencing behavior?",
+        options: [
+            "Use covert tactics",
+            "Obtain explicit consent",
+            "Ignore privacy concerns",
+            "Privacy is irrelevant"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Users can share and compare information related to their physical health and smoking behavior via instant messaging application. This is an example implementation of?",
+        options: [
+            "None of the above",
+            "Social facilitation",
+            "Social comparison",
+            "Social learning"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "Heart rate monitor presents a user’s heart rate and the duration of the exercise. This is an example implementation of?",
+        options: [
+            "Rehearsal",
+            "Self-monitoring",
+            "Reminders",
+            "Praise"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Persuasive Systems Design",
+        question: "What is persuasive technology?",
+        options: [
+            "Information technology for entertainment.",
+            "Technology for surveillance.",
+            "Technology designed to change attitudes or behaviors.",
+            "Technology for communication purposes."
+        ],
+        answer: 2,
     },
 ];

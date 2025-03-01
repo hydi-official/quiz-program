@@ -214,7 +214,7 @@ const QuizPage = () => {
 
         <div className="mt-8 text-center">
           <p className="text-gray-500 dark:text-gray-400 text-sm">
-            Developed by Essel Eghan 😌🤌🏽
+            Developed by Essel And Weezy 😌🤌🏽
           </p>
         </div>
       </div>
