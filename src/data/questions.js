@@ -2957,8 +2957,9 @@ export const questions = [
             "develop"
         ],
         answer: 0,
-    }
-];: "Constraints in an LP model represent",
+    },
+    {
+        section: "Constraints in an LP model represent",
         options: [
             "Limitations",
             "Requirements",
@@ -3605,5 +3606,2230 @@ export const questions = [
         ],
         answer: 0,
     },
+
+      {
+    section: "Management Principles and Practices",
+    question: "Who is the political scientist and philosopher whose main interest was to study the psychology behind individual & group action?",
+    options: [
+      "Albert Einstein",
+      "Newton",
+      "Aldfer",
+      "Mary Parker follet"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A good decision always implies that",
+    options: [
+      "Will obtain the best final results",
+      "Have used appropriate quantitative analysis",
+      "Have considered all alternatives",
+      "Have followed a logical process"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The value of the coefficient of optimism is needed while using the criterion of",
+    options: [
+      "Equally likely",
+      "Maximin",
+      "Realism",
+      "Maximin"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Game theory models are classified by the",
+    options: [
+      "Number of players",
+      "Sum of all payoff",
+      "Number of strategies",
+      "All of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Every mathematical model",
+    options: [
+      "Must be deterministic",
+      "Requires computer aid for solution",
+      "Represents data in numerical form",
+      "All of the above"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Operations research is applied",
+    options: [
+      "Military",
+      "Business",
+      "Administration",
+      "All of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ model involves all forms of diagrams",
+    options: [
+      "iconic",
+      "mathematical",
+      "analogue",
+      "schematic"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A constraint in an LP model restricts",
+    options: [
+      "Value of objective function",
+      "Value of decision variable",
+      "Use of available resource",
+      "all of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Constraints in LP problem are called active if they",
+    options: [
+      "Represent optimal solution",
+      "At optimality do not consume all the available resources",
+      "Both of (a) and (b)",
+      "None of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "All negative constraints must be written as",
+    options: [
+      "Equality",
+      "Non equality",
+      "Greater than or equal to",
+      "Less than or equal to"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "If two constraints do not intersect in the positive quadrant of the graph, then",
+    options: [
+      "The problem is infeasible",
+      "The solution is unbounded",
+      "One of the constraints is redundant",
+      "None of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ is the latest time by which an activity can be finished without delaying the completion of the project",
+    options: [
+      "EST",
+      "EFT",
+      "LST",
+      "LFT"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "PERT emphasis on ______________",
+    options: [
+      "Time",
+      "Activity",
+      "a) and b)",
+      "None of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ is an activity oriented diagram",
+    options: [
+      "CPM",
+      "PERT",
+      "Histogram",
+      "None of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "In a decision theory problem under complete uncertainty, which one of the following approaches will not be possible?",
+    options: [
+      "Expected monetary value",
+      "Maxmin",
+      "Minimax",
+      "Hurwicz"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The equally likely decision criteria is also known as",
+    options: [
+      "Bayes",
+      "Laplace",
+      "Minimax",
+      "Hurwicz"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which of the following might be viewed as an optimistic decision criterion?",
+    options: [
+      "Hurwicz criterion",
+      "Maximin",
+      "Maximax",
+      "Minimax"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "While using Hurwicz criterion, the coefficient of realism",
+    options: [
+      "Represents the degree of optimism",
+      "Represents the degree of pessimism",
+      "Is the probability of state of nature",
+      "None of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Operations research approach is",
+    options: [
+      "Multi disciplinary",
+      "Scientific",
+      "Intuitive",
+      "All of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "OR techniques helps to find ______________ solution",
+    options: [
+      "Feasible",
+      "Non feasible",
+      "Optimal",
+      "Non optimal"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "An organization chart is an example of",
+    options: [
+      "Iconic",
+      "Mathematical",
+      "Analogue",
+      "None of the above"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Linear programming is a",
+    options: [
+      "Constraint optimization technique",
+      "Technique for economic allocation of limited resources",
+      "Mathematical technique",
+      "all of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The graphical method of LP problem uses",
+    options: [
+      "Objective function equation",
+      "Constraint equation",
+      "Linear equations",
+      "All the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A linear programming model does not contain which of the following components?",
+    options: [
+      "Data",
+      "Decisions",
+      "Constraints",
+      "A spread sheet"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Straight lines shown in a linear programming graph indicates",
+    options: [
+      "Objective function",
+      "Constraints",
+      "Points",
+      "All the above"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Activities that cannot be started until one or more of the other activities are completed, but immediately succeed them are called ______________ activities",
+    options: [
+      "Predecessor",
+      "Successor",
+      "Dummy",
+      "End"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ is the earliest starting time plus activity time",
+    options: [
+      "EST",
+      "EFT",
+      "LST",
+      "LFT"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The event is commonly represented by ______________ in network diagram",
+    options: [
+      "Nodes",
+      "Arrow",
+      "Triangle",
+      "None of these"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which of the following is (are) types of decision-making environments?",
+    options: [
+      "Decision making under uncertainty",
+      "Decision making under certainty",
+      "Decision making under risk",
+      "None of the above"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Decision theory is concerned with",
+    options: [
+      "Methods of arriving at an optimal decision",
+      "Selecting optimal decision in sequential manner",
+      "Analysis of information that is available",
+      "All of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The expected value of perfect information is equal to",
+    options: [
+      "EPPI – Minimum EMV",
+      "EPPI + Maximum EMV",
+      "Maximum EOL",
+      "None of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "OR provides solution only if the elements are",
+    options: [
+      "Quantified",
+      "Qualified",
+      "Feasible",
+      "Optimal"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ models in which the input and output variables follow a probability distribution",
+    options: [
+      "Iconic",
+      "mathematical",
+      "analogue",
+      "Deterministic model"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "While plotting constraints on a graph paper, terminal points on both axes are connected by a straight line because",
+    options: [
+      "The resources are limited in supply",
+      "The objective function is a linear function",
+      "The constraints are linear equations or in equalities",
+      "all of the above"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "While solving an LP problem, infeasibility may be removed by",
+    options: [
+      "Adding another constraint",
+      "Adding another variable",
+      "Removing a constraint",
+      "Removing a variable"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Full form of PERT is",
+    options: [
+      "Performance evaluation review technique",
+      "Programme Evaluation Review technique",
+      "Programme Evaluation Research Technique",
+      "None of these"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The maximax criteria is ______________",
+    options: [
+      "Optimistic",
+      "Neutral",
+      "Pessimistic",
+      "Can be any one of the above"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Father of Scientific Management is ______________",
+    options: [
+      "Henry Fayol",
+      "Koontz o Donnel",
+      "Fredrick Winslow Taylor",
+      "Luther Gulick"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Interpersonal role means ______________",
+    options: [
+      "working with and through people",
+      "working on self",
+      "working for people",
+      "understanding the people"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Management involves the co-ordination of human & material resources towards the accomplishment of ______________",
+    options: [
+      "individual objectives",
+      "organizational objectives",
+      "group objectives",
+      "individual & group objectives"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Science is ______________",
+    options: [
+      "definitive",
+      "descriptive",
+      "an interpretation",
+      "game"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Working out a pattern of relationships between the various factors of production is called as ______________",
+    options: [
+      "planning",
+      "organization",
+      "co-ordination",
+      "control"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Supervisory staff management constitutes the ______________ of the management ladder",
+    options: [
+      "highest rank",
+      "middle rank",
+      "lowest rank",
+      "administration rank"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Combining several techniques which can be applied to all kinds of efficiency problems, including labour productivity problems is called as ______________",
+    options: [
+      "work study",
+      "scientific task planning",
+      "fatigue study",
+      "time study"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ is a place where production plans are executed but the people working therein have nothing to do with the framing of the plans",
+    options: [
+      "Factory",
+      "Store",
+      "Office",
+      "Departments"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "According to Fayol, business activities can be broadly classified into ______________ categories",
+    options: [
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A hierarchy of superiors ranging from the ultimate authority to the lowest ranks is called as ______________",
+    options: [
+      "hierarchical order",
+      "social order",
+      "scalar chain",
+      "direction"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Under scientific management, planning had been separated from ______________",
+    options: [
+      "direction",
+      "execution",
+      "organizing",
+      "determination"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning is done for ______________",
+    options: [
+      "A specific period",
+      "Various department",
+      "An organization",
+      "The employees"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning does not come to an end with the establishment of a business concern because it is ______________",
+    options: [
+      "common to all",
+      "flexible",
+      "a continuous process",
+      "a linchpin for all activities"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "According to time, plan can be divided into ______________ types",
+    options: [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The organization should have an effective network to ______________ all the information that is relevant to planning of the goals at every level",
+    options: [
+      "communicate",
+      "control",
+      "co-ordinate",
+      "develop"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Secondary information relating to the methods in planning process can be obtained by ______________",
+    options: [
+      "informal scanning",
+      "formal scanning",
+      "environmental monitoring",
+      "websites"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Secondary plans flow from ______________ plans",
+    options: [
+      "basic",
+      "strategic",
+      "top management",
+      "employees view"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Organizational planning is done by ______________",
+    options: [
+      "top level management",
+      "middle level management",
+      "low level management",
+      "people from all level of management"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A ______________ denotes activities of a broad nature including many different functions & interactions",
+    options: [
+      "programme",
+      "problem",
+      "project",
+      "budget"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning seeks to examine a series of ______________",
+    options: [
+      "flexibility",
+      "cause-effect relationship",
+      "process",
+      "continuity"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ may be defined as the future results or a desired state of affairs which the organization seeks and strives to achieve",
+    options: [
+      "Objectives",
+      "Policies",
+      "Procedures",
+      "Rules"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The Hawthorne studies______________",
+    options: [
+      "found that to increase worker efficiency, management must analyze and minimize the motions required to complete a task",
+      "found that when workers know they are being watched, their productivity increases",
+      "found that a worker is inherently lazy and will use any excuse not to perform their duties",
+      "found that workers accept a managerial directive only if it is acceptable in terms of their personal interests"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The resources within an organization, used to achieve its goal, make up the ______________ of a business",
+    options: [
+      "external environment",
+      "internal environment",
+      "social responsibility",
+      "workers motivation"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which of the following is the most common type of departmentalization?",
+    options: [
+      "Customer/Market Departmentalization",
+      "Function Departmentalization",
+      "Geography Departmentalization",
+      "Process Departmentalization"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which of the following is NOT a major influence on the rate of compensation?",
+    options: [
+      "Competition",
+      "Voluntary retirement",
+      "Laws",
+      "Unions"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Rules, duties and responsibilities of workers are given in writing in ______________",
+    options: [
+      "formal organization",
+      "informal organization",
+      "business organisation",
+      "strategic organization"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which type of organization gives importance to people and their relationships?",
+    options: [
+      "Formal Organization",
+      "Informal Organization",
+      "Business Organization",
+      "Strategic Organization"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Deal with routing and repetitive problems is a ______________",
+    options: [
+      "programmed decision",
+      "non-programmed decision",
+      "major decision",
+      "minor decision"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The decision dealing with novel and non-repetitive problems is ______________",
+    options: [
+      "programmed decision",
+      "non-programmed decision",
+      "individual decision",
+      "non-economic decision"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Programmed decision is also known as ______________",
+    options: [
+      "routine decisions",
+      "structured decisions",
+      "strategic decisions",
+      "operative decisions"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The decision which is implemented within the concerned department is known as ______________",
+    options: [
+      "economic decision",
+      "departmental decision",
+      "non-economic decision",
+      "problem decision"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Departmentation is a part of the ______________",
+    options: [
+      "organisaton process",
+      "control process",
+      "planning process",
+      "staffing process"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Departmentation on the basis of activities grouped according to the type of customer is ______________",
+    options: [
+      "Departmentation by function",
+      "Departmentation by products",
+      "Departmentation by territory",
+      "Departmentation by customers"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Father of Management is ______________",
+    options: [
+      "Henry Fayol",
+      "Koontz o Donnel",
+      "Fredrick Winslow Taylor",
+      "Luther Gulick"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Correcting the deviations in the predetermined targets is called as ______________",
+    options: [
+      "decision making",
+      "budgeting",
+      "controlling",
+      "organizing"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Practitioners of management were the first to formulate the principles of management based on their ______________",
+    options: [
+      "skills",
+      "knowledge",
+      "own experience",
+      "theoretical knowledge"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Administrative people need ______________ skills than technical skills",
+    options: [
+      "managing & administering",
+      "planning",
+      "coordinating",
+      "decision making"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Communication begins with ______________",
+    options: [
+      "Encoding",
+      "Idea origination",
+      "Decoding",
+      "Channel selection"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Life span of F.W.Taylor was ______________",
+    options: [
+      "1857 - 1915",
+      "1856 - 1915",
+      "1858 - 1916",
+      "1880 - 1940"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ was developed mainly to increase the output of the average worker and to improve the efficiency of the management",
+    options: [
+      "Scientific management",
+      "Human resource management",
+      "Piece rate system",
+      "Time rate system"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Fayol was a ______________ Industrialist",
+    options: [
+      "French",
+      "Japan",
+      "American",
+      "Australian"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "An employee receives order from only one superior and this concept is named as ______________",
+    options: [
+      "unity of command",
+      "unity of direction",
+      "discipline",
+      "centralization"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ is the first & foremost function of management",
+    options: [
+      "Planning",
+      "Decision-making",
+      "Forecasting",
+      "Budgeting"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning is an interdependent process which co-ordinates ______________",
+    options: [
+      "various departments",
+      "various business activities",
+      "various levels of management",
+      "various dimensions"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning is required at ______________",
+    options: [
+      "all the department",
+      "all levels of management",
+      "all the shops",
+      "all the institutions"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Expand MBE",
+    options: [
+      "Materials By Exception",
+      "Management By Experience",
+      "Materializing By Experience",
+      "Management By Exception"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Every organization has to develop its ______________ irrespective of the differences in size, nature of activities etc.",
+    options: [
+      "strategic plan",
+      "distinct planning process",
+      "standard plan",
+      "profit line"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The term alternative course of action means ______________ to achieve desired objective",
+    options: [
+      "more than one action-plan",
+      "more than one derivative plan",
+      "opportunities",
+      "direction plans"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning is a ______________ function",
+    options: [
+      "significant",
+      "pervasive",
+      "development",
+      "forecasting"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "It is important to present yourself positively within an organization to ensure that ______________",
+    options: [
+      "customers see the organization in a negative light",
+      "customers see the organization in a negative light",
+      "your appearance reflects the standards within the organisation",
+      "your appearance conflicts with standards within the organisation"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The duration of medium term plan is ______________",
+    options: [
+      "1 to 2 years",
+      "2 to 3 years",
+      "3 to 4 years",
+      "4 to 5 years"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The external environment factor that states: The values and culture that affect the way people feel about the organization they are in and about work itself is ______________",
+    options: [
+      "sociological factors",
+      "political factors",
+      "economic factors",
+      "psychological factors"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "All of the following are the characteristics of an organization EXCEPT ______________",
+    options: [
+      "People",
+      "Product",
+      "Purpose",
+      "Structure"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A ______________ organizational structure is the simplest form and has clear lines of authority and ease of decision making",
+    options: [
+      "horizontal",
+      "line",
+      "vertical",
+      "staff"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Formal authority flows from upwards to downwards in ______________",
+    options: [
+      "formal organization",
+      "informal organization",
+      "business organisation",
+      "strategic organization"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which organizational relationship gives a greater job satisfaction and results in maximum production?",
+    options: [
+      "Formal Organization",
+      "Informal Organization",
+      "Business Organization",
+      "Strategic Organization"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The decision which is taken within the purview of the policy of the organization is ______________",
+    options: [
+      "programmed decision",
+      "non-programmed decision",
+      "major decision",
+      "minor decision"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Non-programmed decision is also called ______________",
+    options: [
+      "routine decisions",
+      "structured decisions",
+      "strategic decisions",
+      "operative decisions"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Crisis decision is also known as ______________",
+    options: [
+      "group decision",
+      "major decision",
+      "minor decision",
+      "spot decision"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Banks, insurance companies and distribution agencies are examples of ______________",
+    options: [
+      "departmentation by function",
+      "departmentation by products",
+      "departmentation by territory",
+      "departmentation by customers"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "An unaccomplished human goal with the positive support of other resources indicates ______________",
+    options: [
+      "unavailability of raw materials",
+      "repair in machinery",
+      "inability of people to work together",
+      "market declination"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Placing the right person in the right job is called as ______________",
+    options: [
+      "recruiting",
+      "staffing",
+      "hiring",
+      "transfer"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Serving the society is called as ______________",
+    options: [
+      "social obligation",
+      "ethics",
+      "responsibility",
+      "human nature"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Motivating and leading the human resources towards better performance & higher productivity is known as ______________",
+    options: [
+      "direction",
+      "commanding",
+      "span of control",
+      "scalar chain"
+    ],
+    answer: 0,
+  },
+
+
+    {
+    section: "Management Principles and Practices",
+    question: "Who is the political scientist and philosopher whose main interest was to study the psychology behind individual & group action?",
+    options: [
+      "Albert Einstein",
+      "Newton",
+      "Aldfer",
+      "Mary Parker follet"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A good decision always implies that",
+    options: [
+      "Will obtain the best final results",
+      "Have used appropriate quantitative analysis",
+      "Have considered all alternatives",
+      "Have followed a logical process"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The value of the coefficient of optimism is needed while using the criterion of",
+    options: [
+      "Equally likely",
+      "Maximin",
+      "Realism",
+      "Maximin"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Game theory models are classified by the",
+    options: [
+      "Number of players",
+      "Sum of all payoff",
+      "Number of strategies",
+      "All of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Every mathematical model",
+    options: [
+      "Must be deterministic",
+      "Requires computer aid for solution",
+      "Represents data in numerical form",
+      "All of the above"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Operations research is applied",
+    options: [
+      "Military",
+      "Business",
+      "Administration",
+      "All of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ model involves all forms of diagrams",
+    options: [
+      "iconic",
+      "mathematical",
+      "analogue",
+      "schematic"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A constraint in an LP model restricts",
+    options: [
+      "Value of objective function",
+      "Value of decision variable",
+      "Use of available resource",
+      "all of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Constraints in LP problem are called active if they",
+    options: [
+      "Represent optimal solution",
+      "At optimality do not consume all the available resources",
+      "Both of (a) and (b)",
+      "None of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "All negative constraints must be written as",
+    options: [
+      "Equality",
+      "Non equality",
+      "Greater than or equal to",
+      "Less than or equal to"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "If two constraints do not intersect in the positive quadrant of the graph, then",
+    options: [
+      "The problem is infeasible",
+      "The solution is unbounded",
+      "One of the constraints is redundant",
+      "None of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ is the latest time by which an activity can be finished without delaying the completion of the project",
+    options: [
+      "EST",
+      "EFT",
+      "LST",
+      "LFT"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "PERT emphasis on ______________",
+    options: [
+      "Time",
+      "Activity",
+      "a) and b)",
+      "None of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ is an activity oriented diagram",
+    options: [
+      "CPM",
+      "PERT",
+      "Histogram",
+      "None of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "In a decision theory problem under complete uncertainty, which one of the following approaches will not be possible?",
+    options: [
+      "Expected monetary value",
+      "Maxmin",
+      "Minimax",
+      "Hurwicz"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The equally likely decision criteria is also known as",
+    options: [
+      "Bayes",
+      "Laplace",
+      "Minimax",
+      "Hurwicz"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which of the following might be viewed as an optimistic decision criterion?",
+    options: [
+      "Hurwicz criterion",
+      "Maximin",
+      "Maximax",
+      "Minimax"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "While using Hurwicz criterion, the coefficient of realism",
+    options: [
+      "Represents the degree of optimism",
+      "Represents the degree of pessimism",
+      "Is the probability of state of nature",
+      "None of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Operations research approach is",
+    options: [
+      "Multi disciplinary",
+      "Scientific",
+      "Intuitive",
+      "All of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "OR techniques helps to find ______________ solution",
+    options: [
+      "Feasible",
+      "Non feasible",
+      "Optimal",
+      "Non optimal"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "An organization chart is an example of",
+    options: [
+      "Iconic",
+      "Mathematical",
+      "Analogue",
+      "None of the above"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Linear programming is a",
+    options: [
+      "Constraint optimization technique",
+      "Technique for economic allocation of limited resources",
+      "Mathematical technique",
+      "all of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The graphical method of LP problem uses",
+    options: [
+      "Objective function equation",
+      "Constraint equation",
+      "Linear equations",
+      "All the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A linear programming model does not contain which of the following components?",
+    options: [
+      "Data",
+      "Decisions",
+      "Constraints",
+      "A spread sheet"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Straight lines shown in a linear programming graph indicates",
+    options: [
+      "Objective function",
+      "Constraints",
+      "Points",
+      "All the above"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Activities that cannot be started until one or more of the other activities are completed, but immediately succeed them are called ______________ activities",
+    options: [
+      "Predecessor",
+      "Successor",
+      "Dummy",
+      "End"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ is the earliest starting time plus activity time",
+    options: [
+      "EST",
+      "EFT",
+      "LST",
+      "LFT"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The event is commonly represented by ______________ in network diagram",
+    options: [
+      "Nodes",
+      "Arrow",
+      "Triangle",
+      "None of these"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which of the following is (are) types of decision-making environments?",
+    options: [
+      "Decision making under uncertainty",
+      "Decision making under certainty",
+      "Decision making under risk",
+      "None of the above"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Decision theory is concerned with",
+    options: [
+      "Methods of arriving at an optimal decision",
+      "Selecting optimal decision in sequential manner",
+      "Analysis of information that is available",
+      "All of the above"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The expected value of perfect information is equal to",
+    options: [
+      "EPPI – Minimum EMV",
+      "EPPI + Maximum EMV",
+      "Maximum EOL",
+      "None of the above"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "OR provides solution only if the elements are",
+    options: [
+      "Quantified",
+      "Qualified",
+      "Feasible",
+      "Optimal"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ models in which the input and output variables follow a probability distribution",
+    options: [
+      "Iconic",
+      "mathematical",
+      "analogue",
+      "Deterministic model"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "While plotting constraints on a graph paper, terminal points on both axes are connected by a straight line because",
+    options: [
+      "The resources are limited in supply",
+      "The objective function is a linear function",
+      "The constraints are linear equations or in equalities",
+      "all of the above"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "While solving an LP problem, infeasibility may be removed by",
+    options: [
+      "Adding another constraint",
+      "Adding another variable",
+      "Removing a constraint",
+      "Removing a variable"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Full form of PERT is",
+    options: [
+      "Performance evaluation review technique",
+      "Programme Evaluation Review technique",
+      "Programme Evaluation Research Technique",
+      "None of these"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The maximax criteria is ______________",
+    options: [
+      "Optimistic",
+      "Neutral",
+      "Pessimistic",
+      "Can be any one of the above"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Father of Scientific Management is ______________",
+    options: [
+      "Henry Fayol",
+      "Koontz o Donnel",
+      "Fredrick Winslow Taylor",
+      "Luther Gulick"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Interpersonal role means ______________",
+    options: [
+      "working with and through people",
+      "working on self",
+      "working for people",
+      "understanding the people"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Management involves the co-ordination of human & material resources towards the accomplishment of ______________",
+    options: [
+      "individual objectives",
+      "organizational objectives",
+      "group objectives",
+      "individual & group objectives"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Science is ______________",
+    options: [
+      "definitive",
+      "descriptive",
+      "an interpretation",
+      "game"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Working out a pattern of relationships between the various factors of production is called as ______________",
+    options: [
+      "planning",
+      "organization",
+      "co-ordination",
+      "control"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Supervisory staff management constitutes the ______________ of the management ladder",
+    options: [
+      "highest rank",
+      "middle rank",
+      "lowest rank",
+      "administration rank"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Combining several techniques which can be applied to all kinds of efficiency problems, including labour productivity problems is called as ______________",
+    options: [
+      "work study",
+      "scientific task planning",
+      "fatigue study",
+      "time study"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ is a place where production plans are executed but the people working therein have nothing to do with the framing of the plans",
+    options: [
+      "Factory",
+      "Store",
+      "Office",
+      "Departments"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "According to Fayol, business activities can be broadly classified into ______________ categories",
+    options: [
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A hierarchy of superiors ranging from the ultimate authority to the lowest ranks is called as ______________",
+    options: [
+      "hierarchical order",
+      "social order",
+      "scalar chain",
+      "direction"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Under scientific management, planning had been separated from ______________",
+    options: [
+      "direction",
+      "execution",
+      "organizing",
+      "determination"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning is done for ______________",
+    options: [
+      "A specific period",
+      "Various department",
+      "An organization",
+      "The employees"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning does not come to an end with the establishment of a business concern because it is ______________",
+    options: [
+      "common to all",
+      "flexible",
+      "a continuous process",
+      "a linchpin for all activities"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "According to time, plan can be divided into ______________ types",
+    options: [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The organization should have an effective network to ______________ all the information that is relevant to planning of the goals at every level",
+    options: [
+      "communicate",
+      "control",
+      "co-ordinate",
+      "develop"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Secondary information relating to the methods in planning process can be obtained by ______________",
+    options: [
+      "informal scanning",
+      "formal scanning",
+      "environmental monitoring",
+      "websites"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Secondary plans flow from ______________ plans",
+    options: [
+      "basic",
+      "strategic",
+      "top management",
+      "employees view"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Organizational planning is done by ______________",
+    options: [
+      "top level management",
+      "middle level management",
+      "low level management",
+      "people from all level of management"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A ______________ denotes activities of a broad nature including many different functions & interactions",
+    options: [
+      "programme",
+      "problem",
+      "project",
+      "budget"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning seeks to examine a series of ______________",
+    options: [
+      "flexibility",
+      "cause-effect relationship",
+      "process",
+      "continuity"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ may be defined as the future results or a desired state of affairs which the organization seeks and strives to achieve",
+    options: [
+      "Objectives",
+      "Policies",
+      "Procedures",
+      "Rules"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The Hawthorne studies______________",
+    options: [
+      "found that to increase worker efficiency, management must analyze and minimize the motions required to complete a task",
+      "found that when workers know they are being watched, their productivity increases",
+      "found that a worker is inherently lazy and will use any excuse not to perform their duties",
+      "found that workers accept a managerial directive only if it is acceptable in terms of their personal interests"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The resources within an organization, used to achieve its goal, make up the ______________ of a business",
+    options: [
+      "external environment",
+      "internal environment",
+      "social responsibility",
+      "workers motivation"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which of the following is the most common type of departmentalization?",
+    options: [
+      "Customer/Market Departmentalization",
+      "Function Departmentalization",
+      "Geography Departmentalization",
+      "Process Departmentalization"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which of the following is NOT a major influence on the rate of compensation?",
+    options: [
+      "Competition",
+      "Voluntary retirement",
+      "Laws",
+      "Unions"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Rules, duties and responsibilities of workers are given in writing in ______________",
+    options: [
+      "formal organization",
+      "informal organization",
+      "business organisation",
+      "strategic organization"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which type of organization gives importance to people and their relationships?",
+    options: [
+      "Formal Organization",
+      "Informal Organization",
+      "Business Organization",
+      "Strategic Organization"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Deal with routing and repetitive problems is a ______________",
+    options: [
+      "programmed decision",
+      "non-programmed decision",
+      "major decision",
+      "minor decision"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The decision dealing with novel and non-repetitive problems is ______________",
+    options: [
+      "programmed decision",
+      "non-programmed decision",
+      "individual decision",
+      "non-economic decision"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Programmed decision is also known as ______________",
+    options: [
+      "routine decisions",
+      "structured decisions",
+      "strategic decisions",
+      "operative decisions"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The decision which is implemented within the concerned department is known as ______________",
+    options: [
+      "economic decision",
+      "departmental decision",
+      "non-economic decision",
+      "problem decision"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Departmentation is a part of the ______________",
+    options: [
+      "organisaton process",
+      "control process",
+      "planning process",
+      "staffing process"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Departmentation on the basis of activities grouped according to the type of customer is ______________",
+    options: [
+      "Departmentation by function",
+      "Departmentation by products",
+      "Departmentation by territory",
+      "Departmentation by customers"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Father of Management is ______________",
+    options: [
+      "Henry Fayol",
+      "Koontz o Donnel",
+      "Fredrick Winslow Taylor",
+      "Luther Gulick"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Correcting the deviations in the predetermined targets is called as ______________",
+    options: [
+      "decision making",
+      "budgeting",
+      "controlling",
+      "organizing"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Practitioners of management were the first to formulate the principles of management based on their ______________",
+    options: [
+      "skills",
+      "knowledge",
+      "own experience",
+      "theoretical knowledge"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Administrative people need ______________ skills than technical skills",
+    options: [
+      "managing & administering",
+      "planning",
+      "coordinating",
+      "decision making"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Communication begins with ______________",
+    options: [
+      "Encoding",
+      "Idea origination",
+      "Decoding",
+      "Channel selection"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Life span of F.W.Taylor was ______________",
+    options: [
+      "1857 - 1915",
+      "1856 - 1915",
+      "1858 - 1916",
+      "1880 - 1940"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ was developed mainly to increase the output of the average worker and to improve the efficiency of the management",
+    options: [
+      "Scientific management",
+      "Human resource management",
+      "Piece rate system",
+      "Time rate system"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Fayol was a ______________ Industrialist",
+    options: [
+      "French",
+      "Japan",
+      "American",
+      "Australian"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "An employee receives order from only one superior and this concept is named as ______________",
+    options: [
+      "unity of command",
+      "unity of direction",
+      "discipline",
+      "centralization"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "______________ is the first & foremost function of management",
+    options: [
+      "Planning",
+      "Decision-making",
+      "Forecasting",
+      "Budgeting"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning is an interdependent process which co-ordinates ______________",
+    options: [
+      "various departments",
+      "various business activities",
+      "various levels of management",
+      "various dimensions"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning is required at ______________",
+    options: [
+      "all the department",
+      "all levels of management",
+      "all the shops",
+      "all the institutions"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Expand MBE",
+    options: [
+      "Materials By Exception",
+      "Management By Experience",
+      "Materializing By Experience",
+      "Management By Exception"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Every organization has to develop its ______________ irrespective of the differences in size, nature of activities etc.",
+    options: [
+      "strategic plan",
+      "distinct planning process",
+      "standard plan",
+      "profit line"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The term alternative course of action means ______________ to achieve desired objective",
+    options: [
+      "more than one action-plan",
+      "more than one derivative plan",
+      "opportunities",
+      "direction plans"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Planning is a ______________ function",
+    options: [
+      "significant",
+      "pervasive",
+      "development",
+      "forecasting"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "It is important to present yourself positively within an organization to ensure that ______________",
+    options: [
+      "customers see the organization in a negative light",
+      "customers see the organization in a negative light",
+      "your appearance reflects the standards within the organisation",
+      "your appearance conflicts with standards within the organisation"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The duration of medium term plan is ______________",
+    options: [
+      "1 to 2 years",
+      "2 to 3 years",
+      "3 to 4 years",
+      "4 to 5 years"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The external environment factor that states: The values and culture that affect the way people feel about the organization they are in and about work itself is ______________",
+    options: [
+      "sociological factors",
+      "political factors",
+      "economic factors",
+      "psychological factors"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "All of the following are the characteristics of an organization EXCEPT ______________",
+    options: [
+      "People",
+      "Product",
+      "Purpose",
+      "Structure"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "A ______________ organizational structure is the simplest form and has clear lines of authority and ease of decision making",
+    options: [
+      "horizontal",
+      "line",
+      "vertical",
+      "staff"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Formal authority flows from upwards to downwards in ______________",
+    options: [
+      "formal organization",
+      "informal organization",
+      "business organisation",
+      "strategic organization"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Which organizational relationship gives a greater job satisfaction and results in maximum production?",
+    options: [
+      "Formal Organization",
+      "Informal Organization",
+      "Business Organization",
+      "Strategic Organization"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "The decision which is taken within the purview of the policy of the organization is ______________",
+    options: [
+      "programmed decision",
+      "non-programmed decision",
+      "major decision",
+      "minor decision"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Non-programmed decision is also called ______________",
+    options: [
+      "routine decisions",
+      "structured decisions",
+      "strategic decisions",
+      "operative decisions"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Crisis decision is also known as ______________",
+    options: [
+      "group decision",
+      "major decision",
+      "minor decision",
+      "spot decision"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Banks, insurance companies and distribution agencies are examples of ______________",
+    options: [
+      "departmentation by function",
+      "departmentation by products",
+      "departmentation by territory",
+      "departmentation by customers"
+    ],
+    answer: 3,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "An unaccomplished human goal with the positive support of other resources indicates ______________",
+    options: [
+      "unavailability of raw materials",
+      "repair in machinery",
+      "inability of people to work together",
+      "market declination"
+    ],
+    answer: 2,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Placing the right person in the right job is called as ______________",
+    options: [
+      "recruiting",
+      "staffing",
+      "hiring",
+      "transfer"
+    ],
+    answer: 1,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Serving the society is called as ______________",
+    options: [
+      "social obligation",
+      "ethics",
+      "responsibility",
+      "human nature"
+    ],
+    answer: 0,
+  },
+  {
+    section: "Management Principles and Practices",
+    question: "Motivating and leading the human resources towards better performance & higher productivity is known as ______________",
+    options: [
+      "direction",
+      "commanding",
+      "span of control",
+      "scalar chain"
+    ],
+    answer: 0,
+  },
   
 ];
