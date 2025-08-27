@@ -5831,5 +5831,667 @@ export const questions = [
     ],
     answer: 0,
   },
+   {
+    section: "Management Principles",
+    question: "A hierarchy of superiors ranging from the ultimate authority to the lowest ranks is called as ______________.",
+    options: ["hierarchical order", "social order", "scalar chain", "direction"],
+    answer: 2
+  },
+  ...
+  {
+    section: "Management Principles",
+    question: "What is the main role of a leader in an organisation?",
+    options: ["Enforce rules", "Maintain silence", "Inspire and guide the team", "Avoid communication"],
+    answer: 2
+  },
+     {
+        "section": "Management Principles",
+        "question": "A hierarchy of superiors ranging from the ultimate authority to the lowest ranks is called as ______________.",
+        "options": [
+            "hierarchical order",
+            "social order",
+            "scalar chain",
+            "direction"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "Under scientific management, planning had been separated from ______________.",
+        "options": [
+            "direction",
+            "execution",
+            "organizing",
+            "determination"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Management Principles",
+        "question": "Planning is done for ______________.",
+        "options": [
+            "A specific period",
+            "Various department",
+            "An organization",
+            "The employees"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Management Principles",
+        "question": "Planning does not come to an end with the establishment of a business concern because it is ______________.",
+        "options": [
+            "common to all",
+            "flexible",
+            "a continuous process",
+            "a linchpin for all activities"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "At what level of an organisation does a corporate manager operate?",
+        "options": [
+            "Functional",
+            "Operational",
+            "Middle level",
+            "Top level"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Management Principles",
+        "question": "By which principle is utilitarianism defined?",
+        "options": [
+            "Equality for everyone",
+            "Maximisation of outcomes for individuals",
+            "The best outcome for the majority of people",
+            "The least worst outcome for everybody"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "Consumer values based on personality types are a form of what type of brand value?",
+        "options": [
+            "Core",
+            "Functional",
+            "Expressive",
+            "Individual"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "Enhancement of job satisfaction and productivity are key characteristics of which theoretical perspective of work design?",
+        "options": [
+            "Process improvement",
+            "Techno-structural change model",
+            "Job characteristics model",
+            "Socio-technical systems"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Management Principles",
+        "question": "From what does a chain of command extend?",
+        "options": [
+            "Bottom to top",
+            "Top to bottom",
+            "Diagonally",
+            "Laterally"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Management Principles",
+        "question": "Functional structures help to create\u2026",
+        "options": [
+            "teamwork",
+            "specialisation",
+            "project work groups",
+            "multi-skilled employees"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Management Principles",
+        "question": "How can organisational structures that are characterised by democratic and inclusive styles of management be described?",
+        "options": [
+            "Hierarchical",
+            "Bureaucratic",
+            "Flat",
+            "Functional"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "How can you describe the thinking and outlook of transformational leaders?",
+        "options": [
+            "Strategic",
+            "Operational",
+            "Functional",
+            "Developmental"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Management Principles",
+        "question": "How do you call a system that allows workers to work part of the week from home?",
+        "options": [
+            "Piece time",
+            "Part-time",
+            "Job sharing",
+            "Telecommuting"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Management Principles",
+        "question": "How do you describe a work group that comprises workers with demarcated tasks and distant line managers?",
+        "options": [
+            "Dependent",
+            "Independent",
+            "Interdependent",
+            "Collaborative"
+        ],
+        "answer": 1
+    },
+      {
+        "section": "Management Principles",
+        "question": "A hierarchy of superiors ranging from the ultimate authority to the lowest ranks is called as ______________.",
+        "options": [
+            "hierarchical order",
+            "social order",
+            "scalar chain",
+            "direction"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "Under scientific management, planning had been separated from ______________.",
+        "options": [
+            "direction",
+            "execution",
+            "organizing",
+            "determination"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Management Principles",
+        "question": "Planning is done for ______________.",
+        "options": [
+            "A specific period",
+            "Various department",
+            "An organization",
+            "The employees"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Management Principles",
+        "question": "Planning does not come to an end with the establishment of a business concern because it is ______________.",
+        "options": [
+            "common to all",
+            "flexible",
+            "a continuous process",
+            "a linchpin for all activities"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "At what level of an organisation does a corporate manager operate?",
+        "options": [
+            "Functional",
+            "Operational",
+            "Middle level",
+            "Top level"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Management Principles",
+        "question": "By which principle is utilitarianism defined?",
+        "options": [
+            "Equality for everyone",
+            "Maximisation of outcomes for individuals",
+            "The best outcome for the majority of people",
+            "The least worst outcome for everybody"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "Consumer values based on personality types are a form of what type of brand value?",
+        "options": [
+            "Core",
+            "Functional",
+            "Expressive",
+            "Individual"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "Enhancement of job satisfaction and productivity are key characteristics of which theoretical perspective of work design?",
+        "options": [
+            "Process improvement",
+            "Techno-structural change model",
+            "Job characteristics model",
+            "Socio-technical systems"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Management Principles",
+        "question": "From what does a chain of command extend?",
+        "options": [
+            "Bottom to top",
+            "Top to bottom",
+            "Diagonally",
+            "Laterally"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Management Principles",
+        "question": "Functional structures help to create\u2026",
+        "options": [
+            "teamwork",
+            "specialisation",
+            "project work groups",
+            "multi-skilled employees"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Management Principles",
+        "question": "How can organisational structures that are characterised by democratic and inclusive styles of management be described?",
+        "options": [
+            "Hierarchical",
+            "Bureaucratic",
+            "Flat",
+            "Functional"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "How can you describe the thinking and outlook of transformational leaders?",
+        "options": [
+            "Strategic",
+            "Operational",
+            "Functional",
+            "Developmental"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Management Principles",
+        "question": "How do you call a system that allows workers to work part of the week from home?",
+        "options": [
+            "Piece time",
+            "Part-time",
+            "Job sharing",
+            "Telecommuting"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Management Principles",
+        "question": "How do you describe a work group that comprises workers with demarcated tasks and distant line managers?",
+        "options": [
+            "Dependent",
+            "Independent",
+            "Interdependent",
+            "Collaborative"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Management Principles",
+        "question": "How does lateral communication in an organisation occur?",
+        "options": [
+            "Information passes upwards",
+            "Information passes downwards",
+            "Information passes across the organisation",
+            "Information passes in a circular flow"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "What is the purpose of performance appraisal?",
+        "options": [
+            "To discipline employees",
+            "To increase workload",
+            "To evaluate and develop employees",
+            "To determine holidays"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "What is the main role of a leader in an organisation?",
+        "options": [
+            "Enforce rules",
+            "Maintain silence",
+            "Inspire and guide the team",
+            "Avoid communication"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "How does lateral communication in an organisation occur?",
+        "options": [
+            "Information passes upwards",
+            "Information passes downwards",
+            "Information passes across the organisation",
+            "Information passes in a circular flow"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "What is the purpose of performance appraisal?",
+        "options": [
+            "To discipline employees",
+            "To increase workload",
+            "To evaluate and develop employees",
+            "To determine holidays"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "What is the main role of a leader in an organisation?",
+        "options": [
+            "Enforce rules",
+            "Maintain silence",
+            "Inspire and guide the team",
+            "Avoid communication"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "Who of the following is a leading writer on contingency theory of leadership?",
+        "options": [
+            "Rosabeth Kanter",
+            "Joan Woodward",
+            "Rensis Likert",
+            "Fred Fiedler"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Management Principles",
+        "question": "Who of the following is the industrial philanthropist?",
+        "options": [
+            "Frederick Taylor",
+            "Seebohm Rowntree",
+            "Henry Ford",
+            "Max Weber"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Management Principles",
+        "question": "Who of these is the entrepreneur?",
+        "options": [
+            "Barack Obama",
+            "James Dyson",
+            "Damien Hirst",
+            "Mo Farah"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Management Principles",
+        "question": "Who was a major protagonist of utilitarianism?",
+        "options": [
+            "John Stuart Mill",
+            "Thomas Hobbes",
+            "Karl Marx",
+            "Adam Smith"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Management Principles",
+        "question": "Workers' acceptance of change is characteristic of what type of culture?",
+        "options": [
+            "Team culture",
+            "Collaborative culture",
+            "Group culture",
+            "Collective culture"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Management Principles",
+        "question": "'There is no discernible link between planning and performance'. Who is this position held by?",
+        "options": [
+            "Michael Porter",
+            "Milton Friedman",
+            "Gary Hamel",
+            "Henry Mintzberg"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Management Principles",
+        "question": "According to Belbin (1981) an extroverted and enthusiastic person fits with what role?",
+        "options": [
+            "Co-ordinator",
+            "Shaper",
+            "Resource investigator",
+            "Implementer"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "According to Lewin, Lippet and White's 1939 experiment, which form of leadership produced the most work from participants?",
+        "options": [
+            "Laissez-faire",
+            "Democratic",
+            "Authoritarian",
+            "A mix of laissez-faire and democratic"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Management Principles",
+        "question": "According to the Five Factor model, 'extraversion' as a personality type is characterised by what type of people?",
+        "options": [
+            "Good natured",
+            "Calm and self-confident",
+            "Sensitive and curious",
+            "Assertive and sociable"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Management Principles",
+        "question": "As what are key factors that reflect the situation of an organisation referred to?",
+        "options": [
+            "Administrations",
+            "Processes",
+            "Activities",
+            "Contingencies"
+        ],
+        "answer": 3
+    },
+      {
+        "section": "Communication & Management",
+        "question": "Informal communication systems skip over hierarchical levels and between departments and functions. They can connect",
+        "options": [
+            "Informal communication systems skip over hierarchical levels and between departments and functions. They can connect",
+            "only people on similar levels in the hierarchy",
+            "anyone in the organization except for the CEO",
+            "anyone in an organization to anyone else."
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "<div>All of the following are examples of external communication, EXCEPT:",
+        "options": [
+            "<div>All of the following are examples of external communication, EXCEPT:",
+            "press releases",
+            "websites or web pages human resources",
+            "management memos"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "<div>Jamie Dimon, the CEO of J.P. Morgan bank, wanted to clarify his position on \u201cracism and intolerance\u201d after events in Charlottesville, VA. He sent a message to all employees, saying in part, \u201cRacism, intolerance and violence are always wrong. The equal treatment of all people is one of our nation\u2019s bedrock principles. There is no room for equivocation here. \u2026 It is a leader\u2019s role, in business or government, to bring people together, not tear them apart.\u201d This is an example of ________ communication.",
+        "options": [
+            "<div>Jamie Dimon, the CEO of J.P. Morgan bank, wanted to clarify his position on \u201cracism and intolerance\u201d after events in Charlottesville, VA. He sent a message to all employees, saying in part, \u201cRacism, intolerance and violence are always wrong. The equal treatment of all people is one of our nation\u2019s bedrock principles. There is no room for equivocation here. \u2026 It is a leader\u2019s role, in business or government, to bring people together, not tear them apart.\u201d This is an example of ________ communication.",
+            "upward",
+            "external",
+            "downward"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "A listener\u2019s emotional state or ________ may filter what he hears in a message. For example, if management has not honored past commitments, the listener will look for the catch.",
+        "options": [
+            "A listener\u2019s emotional state or ________ may filter what he hears in a message. For example, if management has not honored past commitments, the listener will look for the catch.",
+            "marital status",
+            "hearing",
+            "past experiences"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "________ is the tendency to either \u201cunder notice\u201d or \u201cover focus on\u201d stimuli that cause emotional discomfort or contradict prior beliefs.",
+        "options": [
+            "________ is the tendency to either \u201cunder notice\u201d or \u201cover focus on\u201d stimuli that cause emotional discomfort or contradict prior beliefs.",
+            "Semantics",
+            "Information overload",
+            "Selective perception"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "In communication, the validity of the message is tied to the ________ of the sender. If the receiver doesn\u2019t trust the sender, he will view the message itself with skepticism or suspicion.",
+        "options": [
+            "In communication, the validity of the message is tied to the ________ of the sender. If the receiver doesn\u2019t trust the sender, he will view the message itself with skepticism or suspicion.",
+            "semantics",
+            "selective",
+            "perception credibility"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "Semantics is extremely important in effective communication. Misunderstandings can cause confusion. Which of the following might cause semantic confusion?",
+        "options": [
+            "Semantics is extremely important in effective communication. Misunderstandings can cause confusion. Which of the following might cause semantic confusion?",
+            "She is well-dressed.",
+            "She is skilled",
+            "She's a total filly!"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "Active listening requires control of one\u2019s own attention and thoughts. For example,",
+        "options": [
+            "Active listening requires control of one\u2019s own attention and thoughts. For example,",
+            "stay focused on the speaker's nose",
+            "don\u2019t make eye contact.",
+            "don\u2019t allow yourself to prepare a response before the speaker has finished his remarks."
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "One ________ technique is to ask questions to verify or confirm what you heard the speaker say.",
+        "options": [
+            "One ________ technique is to ask questions to verify or confirm what you heard the speaker say.",
+            "semantics",
+            "information overload",
+            "active listening"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "The most media-rich channel for exchanging information is:",
+        "options": [
+            "The most media-rich channel for exchanging information is:",
+            "written memos",
+            "email communication",
+            "face-to-face"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "If you want to convey facts, what is the best communication choice for you?",
+        "options": [
+            "If you want to convey facts, what is the best communication choice for you?",
+            "oral communication",
+            "verbal communication",
+            "written communication"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "Studies have shown that an audience reacts initially to ________. If you appear nervous, your audience will pick up on that and become nervous as well.",
+        "options": [
+            "Studies have shown that an audience reacts initially to ________. If you appear nervous, your audience will pick up on that and become nervous as well.",
+            "the status of the speaker. That is, whether he is a senior manager or not",
+            "the expertise of the speaker",
+            "the demeanor of the speaker and not to what is being said"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "When properly designed, organizational controls should",
+        "options": [
+            "When properly designed, organizational controls should",
+            "allow the organization to control consumer reactions to their strategy",
+            "provide a way for an organization to ignore environmental changes",
+            "lead to better organizational performance."
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "Controls start with handling cash. On average, fraud takes 5% from US business revenues. It pays to pay attention. For example, a company may give some employees company credit cards and",
+        "options": [
+            "Controls start with handling cash. On average, fraud takes 5% from US business revenues. It pays to pay attention. For example, a company may give some employees company credit cards and",
+            "allow the company\u2019s credit limit to be charged on each card",
+            "give the same limit to all employees",
+            "limit the maximum amount allowed on each."
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Communication & Management",
+        "question": "Days for Girls International is a nonprofit creating a more dignified world for girls through advocacy, health education, and sustainable feminine hygiene. They implemented financial controls to better position the organization for sustainability and growth. Headquarters manager Lora and executive director Celeste must sign off on each check. Each month, Melissa presents the reconciled bank statements to Celeste, and she is also in charge of the small petty cash account, which Celeste checks monthly. They purchase their materials from two vendors, and the inventory is regularly checked against the books. Expenses and travel must be pre-approved. Each year a budget is set and approved by their board. Lora is also well versed in grant administration and manages those as well. Identify one additional control step for Days for Girls.",
+        "options": [
+            "Days for Girls International is a nonprofit creating a more dignified world for girls through advocacy, health education, and sustainable feminine hygiene. They implemented financial controls to better position the organization for sustainability and growth. Headquarters manager Lora and executive director Celeste must sign off on each check. Each month, Melissa presents the reconciled bank statements to Celeste, and she is also in charge of the small petty cash account, which Celeste checks monthly. They purchase their materials from two vendors, and the inventory is regularly checked against the books. Expenses and travel must be pre-approved. Each year a budget is set and approved by their board. Lora is also well versed in grant administration and manages those as well. Identify one additional control step for Days for Girls.",
+            "Reconcile the checkbook against the bank statements.",
+            "Check their inventories on a regular basis against the inventories recorded on the books.",
+            "+-Look for additional vendors by using a competitive bidding process."
+        ],
+        "answer": 0
+    },
   
 ];
