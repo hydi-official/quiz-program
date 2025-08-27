@@ -858,6 +858,8 @@ export const questions = [
         answer: 3,
     },
     {
+                section: "Management Principles",
+
         question: "What is the term for the extent to which competition in one country is influenced by competition in other countries?",
         options: [
             "Globalisation",
@@ -868,6 +870,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "Which of these is not part of human resource policy?",
         options: [
             "Reward systems",
@@ -878,6 +882,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the term for the act of getting individuals to behave in ways that are acceptable to a group?",
         options: [
             "Brainwashing",
@@ -888,6 +894,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the term for an organisation that adapts to changes in the environment by quickly responding to shifts in supply and demand conditions?",
         options: [
             "International organisation",
@@ -898,6 +906,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "Which 18th century writer produced a famous book called 'The Wealth of Nations'?",
         options: [
             "Frederick Taylor",
@@ -908,6 +918,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the term for the monitoring of events both internal and external to the organisation that affects strategy?",
         options: [
             "Environmental scanning",
@@ -918,6 +930,8 @@ export const questions = [
         answer: 0,
     },
     {
+                        section: "Management Principles",
+
         question: "What are the three interpersonal roles of managers?",
         options: [
             "Communicator, organiser, spokesperson",
@@ -928,6 +942,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "Which one is not part of Lewin's (1952) three step approach to change?",
         options: [
             "Freezing",
@@ -938,6 +954,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the personnel department in an organisation concerned with?",
         options: [
             "Staff rewards",
@@ -948,6 +966,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "What are the key characteristics of transactional leaders?",
         options: [
             "Guiding, mentoring and motivating",
@@ -958,6 +978,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What is a succession plan?",
         options: [
             "A vote of no confidence in a board member",
@@ -968,6 +990,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "According to Lewin, Lippet and White's 1939 experiment, which form of leadership produced the most work from participants?",
         options: [
             "Democratic",
@@ -978,6 +1002,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "Which one of the following is not a characteristic of a bureaucratic organisation?",
         options: [
             "Regulations",
@@ -988,6 +1014,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "When a manager monitors the work performance of workers in his department to determine if the quality of their work is 'up to standard', this manager is engaging in which function?",
         options: [
             "Organising",
@@ -998,6 +1026,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "Which one of these characteristics is most commonly associated with the 'rational goal' model of management?",
         options: [
             "Productivity",
@@ -1008,6 +1038,8 @@ export const questions = [
         answer: 0,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the first step in a control process?",
         options: [
             "Select a strategy",
@@ -1018,6 +1050,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "Which is not an example of an external factor for learning and knowledge?",
         options: [
             "Social change",
@@ -1028,6 +1062,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "What is a definition of an objective?",
         options: [
             "A set standard of performance agreed by workers and managers",
@@ -1038,6 +1074,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "How does lateral communication in an organisation occur?",
         options: [
             "Information passes downwards",
@@ -1048,6 +1086,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the weakest form of control?",
         options: [
             "Simultaneous control",
@@ -1058,6 +1098,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "What is T-group training?",
         options: [
             "A group brought together to deliver training programmes",
@@ -1068,6 +1110,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "Which is not a characteristic of corporate social responsibility?",
         options: [
             "Environmental policies",
@@ -1078,6 +1122,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "Of what is an investment decision an example?",
         options: [
             "Management decision",
@@ -1088,6 +1134,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "Who of the following is a leading writer on contingency theory of leadership?",
         options: [
             "Rosabeth Kanter",
@@ -1098,6 +1146,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "By which principle is utilitarianism defined?",
         options: [
             "Equality for everyone",
@@ -1108,6 +1158,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "Which of these does not form part of the key streams identified by March (1988) in decision making in highly ambiguous environments?",
         options: [
             "Solutions",
@@ -1118,6 +1170,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "What is characteristic for the location of a virtual team?",
         options: [
             "In the same country",
@@ -1128,6 +1182,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "What is IS?",
         options: [
             "Information systems",
@@ -1138,6 +1194,8 @@ export const questions = [
         answer: 0,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the term for the act of acquiring an IS architecture from the market?",
         options: [
             "Procuring",
@@ -1148,6 +1206,8 @@ export const questions = [
         answer: 0,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the term for a sub-optimal but acceptable outcome of negotiations between parties?",
         options: [
             "Accepting",
@@ -1158,6 +1218,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What do companies that focus on filling a gap in the market engage in?",
         options: [
             "Direct marketing",
@@ -1168,6 +1230,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "What is a normative perspective?",
         options: [
             "The way things are going to be",
@@ -1178,6 +1242,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "Profitability stemming from how well a firm positions itself in the market is a key feature of which writer's view on strategy?",
         options: [
             "Jay Barney",
@@ -1188,6 +1254,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "Which of these is not an advantage of a virtual team?",
         options: [
             "Team members can be recruited for their specific skills or experience",
@@ -1198,6 +1266,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "Enhancement of job satisfaction and productivity are key characteristics of which theoretical perspective of work design?",
         options: [
             "Techno-structural change model",
@@ -1208,6 +1278,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "To what does authority refer?",
         options: [
             "The ability to organise people",
@@ -1218,6 +1290,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "What is a PDP?",
         options: [
             "Personal Development Payment",
@@ -1228,6 +1302,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "Simon (1960) is associated with what type of decision making model?",
         options: [
             "Administrative",
@@ -1238,6 +1314,8 @@ export const questions = [
         answer: 0,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the guiding principle of scientific management?",
         options: [
             "Freedom of association",
@@ -1248,6 +1326,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What assumption is the garbage can model of decision making based on?",
         options: [
             "Limited knowledge and great insight",
@@ -1258,6 +1338,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the term for the development and design of value adding products and/or services to meet the demand characteristics of individual customers?",
         options: [
             "Bespoke",
@@ -1268,6 +1350,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the purpose of a 'quality circle'?",
         options: [
             "Bring together managers and workers to review targets",
@@ -1278,6 +1362,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the first step in a 'Stage gate' process?",
         options: [
             "Demonstrate a plan",
@@ -1288,6 +1374,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the term for incremental changes to processes in an organisation using information technology?",
         options: [
             "Business Process Improvement",
@@ -1298,6 +1386,8 @@ export const questions = [
         answer: 0,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the term for decisions limited by human capacity to absorb and analyse information?",
         options: [
             "Conscious rationality",
@@ -1308,6 +1398,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the term for a market that is defined by specific characteristics?",
         options: [
             "Market segment",
@@ -1318,6 +1410,8 @@ export const questions = [
         answer: 0,
     },
     {
+                        section: "Management Principles",
+
         question: "Consumer values based on personality types are a form of what type of brand value?",
         options: [
             "Functional",
@@ -1328,6 +1422,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the optimal span of control?",
         options: [
             "None of the above",
@@ -1338,6 +1434,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What is intuitive decision making based on?",
         options: [
             "Instinct",
@@ -1348,6 +1446,8 @@ export const questions = [
         answer: 0,
     },
     {
+                        section: "Management Principles",
+
         question: "What is not a purpose of an organisational structure?",
         options: [
             "To limit workers' rights",
@@ -1358,6 +1458,8 @@ export const questions = [
         answer: 0,
     },
     {
+                        section: "Management Principles",
+
         question: "To what does emotional intelligence refer?",
         options: [
             "How people view and understand others",
@@ -1368,6 +1470,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What one of these is not a recognised type of authority?",
         options: [
             "Functional",
@@ -1378,6 +1482,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the guiding principle behind New Public Management?",
         options: [
             "Profit maximisation",
@@ -1388,6 +1494,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "Which of the following is not a recognised type of plan?",
         options: [
             "Business",
@@ -1398,6 +1506,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "What characteristic is not a key feature of the 'open systems' model of management?",
         options: [
             "Adaptation",
@@ -1408,6 +1518,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "What is premise control based on?",
         options: [
             "People",
@@ -1418,6 +1530,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "According to Belbin (1981) an extroverted and enthusiastic person fits with what role?",
         options: [
             "Implementer",
@@ -1428,6 +1542,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What are the two main dimensions of the Ohio Studies into leadership?",
         options: [
             "Initiating structure and considerations",
@@ -1438,6 +1554,8 @@ export const questions = [
         answer: 0,
     },
     {
+                        section: "Management Principles",
+
         question: "The brand of BP is an example of what type of brand name?",
         options: [
             "Abbreviated",
@@ -1448,6 +1566,8 @@ export const questions = [
         answer: 0,
     },
     {
+                        section: "Management Principles",
+
         question: "According to the Five Factor model, 'extraversion' as a personality type is characterised by what type of people?",
         options: [
             "Calm and self-confident",
@@ -1458,6 +1578,8 @@ export const questions = [
         answer: 2,
     },
     {
+                        section: "Management Principles",
+
         question: "What do you call a style of leadership that takes account of others' views, opinions and ideas?",
         options: [
             "People-oriented",
@@ -1468,6 +1590,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "What is the purpose of employee relations?",
         options: [
             "Undertake conflict resolution",
@@ -1478,6 +1602,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "Which feature does not form one of Fayol's 14 principles of management?",
         options: [
             "Initiative",
@@ -1488,6 +1614,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "Which of the following motivators is the most basic need in Maslow's hierarchy?",
         options: [
             "Esteem",
@@ -1498,6 +1626,8 @@ export const questions = [
         answer: 3,
     },
     {
+                        section: "Management Principles",
+
         question: "What is another name for contingency planning?",
         options: [
             "Ad hoc planning",
@@ -1508,6 +1638,8 @@ export const questions = [
         answer: 1,
     },
     {
+                        section: "Management Principles",
+
         question: "What does CRM stand for?",
         options: [
             "Consumer Relations Management",
@@ -5838,7 +5970,6 @@ export const questions = [
     options: ["hierarchical order", "social order", "scalar chain", "direction"],
     answer: 2
   },
-  ...
   {
     section: "Management Principles",
     question: "What is the main role of a leader in an organisation?",
