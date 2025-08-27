@@ -1,5558 +1,2025 @@
 export const questions = [
-    // Section 1: Captology and Persuasive Technologies (20 questions)
     {
-        section: "Captology and Persuasive Technologies",
-        question: "What is the primary focus of captology?",
+        section: "Management Principles",
+        question: "At what level of an organization does a corporate manager operate?",
         options: [
-            "The study of computer hardware",
-            "The study of computers as persuasive technologies",
-            "The study of computer programming languages",
-            "The study of computer networks"
+            "Top level",
+            "Operational",
+            "Middle level",
+            "Functional"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "Which 18th century writer produced a famous book called 'The Wealth of Nations'?",
+        options: [
+            "Henry Mintzberg",
+            "Dr Samuel Johnson",
+            "Adam Smith",
+            "Frederick Taylor"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "What are the main characteristics of an effective control system?",
+        options: [
+            "Flexibility, accuracy, timeliness and objectivity",
+            "Flexibility, measurability, timeliness and objectivity",
+            "Flexibility, accuracy, timeliness and relevance",
+            "Flexibility, accuracy, relevance and objectivity"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "What does situational theory of leadership emphasize?",
+        options: [
+            "Events",
+            "Personality traits",
+            "Environment",
+            "Political situation"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "What is a strategic alliance?",
+        options: [
+            "Formal agreement to share knowledge",
+            "Formal agreement committing two or more firms to exchange resources to produce products or services",
+            "Formal agreement to share profits from a shared investment",
+            "Any form of partnership between one firm and another"
         ],
         answer: 1,
     },
     {
-        section: "Captology and Persuasive Technologies",
-        question: "Which of the following is NOT one of the three types of intent proposed for persuasive computers?",
+        section: "Management Principles",
+        question: "What is not a purpose of an organizational structure?",
         options: [
-            "Endogenous",
-            "Exogenous",
-            "Autogenous",
-            "Extrinsic"
+            "To limit workers' rights",
+            "To organize lines of communication",
+            "To formalize authority",
+            "To coordinate people and resources"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the term for forcing people to accept change?",
+        options: [
+            "Converting",
+            "Conditioning",
+            "Conversion",
+            "Coercion"
         ],
         answer: 3,
     },
     {
-        section: "Captology and Persuasive Technologies",
-        question: "According to the paper, what is the definition of a persuasive computer?",
+        section: "Management Principles",
+        question: "What is a whistleblower?",
         options: [
-            "A computer that performs complex calculations",
-            "An interactive technology that changes a person’s attitudes or behaviors",
-            "A computer that enhances productivity",
-            "A computer that simulates real-world environments"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "Which of the following is an example of a computer functioning as a social actor?",
-        options: [
-            "A pocket calculator",
-            "A virtual reality system",
-            "A character in a CD-ROM that encourages healthy eating",
-            "A web browser"
+            "Someone who commits illegal or unethical acts",
+            "Someone who devises illegal or unethical acts",
+            "Someone who reports illegal or unethical acts",
+            "Someone who benefits from illegal or unethical acts"
         ],
         answer: 2,
     },
     {
-        section: "Captology and Persuasive Technologies",
-        question: "What does the 'Functional Triad' framework describe?",
+        section: "Management Principles",
+        question: "How can organizational structures that are characterized by democratic and inclusive styles of management be described?",
         options: [
-            "Three types of computer hardware",
-            "Three ways computers function: as tools, media, and social actors",
-            "Three levels of computer programming",
-            "Three types of computer networks"
+            "Flat",
+            "Hierarchical",
+            "Functional",
+            "Bureaucratic"
         ],
-        answer: 1,
+        answer: 0,
     },
     {
-        section: "Captology and Persuasive Technologies",
-        question: "Which of the following is an example of a computer as a persuasive tool?",
+        section: "Management Principles",
+        question: "What is the optimal span of control?",
         options: [
-            "A video game that teaches health habits",
-            "A Polar Heart Rate Monitor that motivates exercise",
-            "A virtual reality simulation of HIV risks",
-            "A CD-ROM character that praises users"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "What is the primary ethical concern for designers of persuasive technologies?",
-        options: [
-            "Increasing computational power",
-            "Avoiding deception and respecting privacy",
-            "Reducing production costs",
-            "Enhancing user interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "Which level of analysis focuses on groups or organizations in captology?",
-        options: [
-            "Intraindividual",
-            "Interindividual",
-            "Organizational",
-            "Societal"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "What is the main reason behavior change is considered a more compelling metric than attitude change in captology?",
-        options: [
-            "Behavior change is easier to measure",
-            "Behavior change is more difficult to achieve and more useful for real-world outcomes",
-            "Attitude change is irrelevant in persuasive technologies",
-            "Behavior change is less important than attitude change"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "Which of the following is an example of an autogenously persuasive technology?",
-        options: [
-            "A mother giving her son a PDA to help him stay organized",
-            "A person using a calorie-counting device to change their eating habits",
-            "A company designing a health app to persuade users to exercise",
-            "A teacher using a computer program to teach students"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "What is the primary purpose of the 'Functional Triad' framework?",
-        options: [
-            "To categorize computer hardware",
-            "To understand how computers function as tools, media, and social actors",
-            "To measure the computational power of computers",
-            "To design computer networks"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "Which of the following is an example of a computer as a persuasive medium?",
-        options: [
-            "A Polar Heart Rate Monitor",
-            "A virtual reality simulation of HIV risks",
-            "A CD-ROM character that praises users",
-            "A pocket calculator"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "What is the main ethical responsibility of researchers studying persuasive computers?",
-        options: [
-            "To design new persuasive technologies",
-            "To act as watchdogs and disclose findings about persuasive technologies",
-            "To promote the use of persuasive technologies in all domains",
-            "To focus solely on the technical aspects of persuasive technologies"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "Which of the following is NOT a level of analysis in captology?",
-        options: [
-            "Intraindividual",
-            "Interindividual",
-            "Organizational",
-            "Computational"
+            "7",
+            "5",
+            "2",
+            "None of the above"
         ],
         answer: 3,
     },
     {
-        section: "Captology and Persuasive Technologies",
-        question: "What is the primary focus of Direction A in the research directions for captology?",
+        section: "Management Principles",
+        question: "What is the term for an organization that adapts to changes in the environment by quickly responding to shifts in supply and demand conditions?",
         options: [
-            "To study attitude change",
-            "To focus on interactive technologies that change behaviors",
-            "To compare computers with other media",
-            "To design desktop applications"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "Which of the following is an example of an endogenously persuasive technology?",
-        options: [
-            "A person using a fitness app to track their exercise",
-            "A company designing a game to teach children about health",
-            "A teacher using a computer program to teach students",
-            "A mother giving her son a PDA to help him stay organized"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "What is the primary reason cross-media comparisons are considered problematic in captology?",
-        options: [
-            "They are too easy to conduct",
-            "They involve too many variables and lack useful theoretical insights",
-            "They focus only on desktop computers",
-            "They ignore ethical considerations"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "Which of the following is an example of a persuasive technology that raises ethical concerns?",
-        options: [
-            "A computer system that monitors employees’ hand-washing behavior",
-            "A CD-ROM that encourages healthy eating",
-            "A virtual reality simulation of HIV risks",
-            "A Polar Heart Rate Monitor"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "What is the primary goal of educating people about captology?",
-        options: [
-            "To increase the use of persuasive technologies in all domains",
-            "To help people recognize when technologies are using persuasive tactics",
-            "To promote the development of new computer hardware",
-            "To focus solely on the technical aspects of persuasive technologies"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Captology and Persuasive Technologies",
-        question: "Which of the following is a key ethical value for designers of persuasive technologies?",
-        options: [
-            "Maximizing profit",
-            "Avoiding deception and respecting privacy",
-            "Increasing computational power",
-            "Reducing production costs"
-        ],
-        answer: 1,
-    },
-
-    // Section 2: Persuasive Social Actors (20 questions)
-    {
-        section: "Persuasive Social Actors",
-        question: "What is the primary focus of computers as persuasive social actors?",
-        options: [
-            "To increase computational power",
-            "To trigger social responses in humans through social cues",
-            "To improve hardware performance",
-            "To reduce software errors"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "Which of the following is an example of a computing product functioning as a persuasive social actor?",
-        options: [
-            "A pocket calculator",
-            "Nintendo’s Pocket Pikachu",
-            "A web browser",
-            "A spreadsheet program"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "What are the five primary types of social cues that cause people to infer social presence in a computing product?",
-        options: [
-            "Physical, psychological, language, social dynamics, and social roles",
-            "Visual, auditory, tactile, olfactory, and gustatory",
-            "Cognitive, emotional, behavioral, social, and cultural",
-            "Technical, functional, aesthetic, ethical, and practical"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "Which of the following is an example of a physical cue in a computing product?",
-        options: [
-            "A text message saying 'I’m sorry'",
-            "A cartoon orangutan on a slot machine",
-            "A dialogue box asking for user input",
-            "A computer program that praises the user"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "What is the 'halo effect' in the context of persuasive computing?",
-        options: [
-            "The tendency for users to ignore unattractive interfaces",
-            "The assumption that attractive products are also intelligent and credible",
-            "The belief that all computing products are inherently persuasive",
-            "The tendency for users to prefer products with complex features"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "Which principle suggests that people are more readily persuaded by computing products that are similar to themselves?",
-        options: [
-            "Principle of Authority",
-            "Principle of Similarity",
-            "Principle of Reciprocity",
-            "Principle of Praise"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "In the Stanford Personality Study, what was the key finding regarding user preferences?",
-        options: [
-            "Users preferred computers with opposite personalities",
-            "Users preferred computers with similar personalities",
-            "Users preferred computers with no personality",
-            "Users preferred computers with random personalities"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "What was the main finding of the Stanford Affiliation Study?",
-        options: [
-            "Users preferred working with computers labeled as teammates",
-            "Users preferred working with computers labeled as opponents",
-            "Users preferred working with computers labeled as teachers",
-            "Users preferred working with computers labeled as pets"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "Which of the following is an example of a computing product using language to convey social presence?",
-        options: [
-            "A spreadsheet program",
-            "Amazon.com’s personalized recommendations",
-            "A calculator app",
-            "A database management system"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "What is the primary purpose of praise in persuasive computing?",
-        options: [
-            "To increase the computational speed of the system",
-            "To make users feel better about themselves and more open to persuasion",
-            "To reduce the number of errors in the system",
-            "To improve the hardware performance of the device"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "What is the 'rule of reciprocity' in the context of persuasive computing?",
-        options: [
-            "Users will feel the need to reciprocate when a computer does them a favor",
-            "Users will ignore the computer if it does not perform well",
-            "Users will always prefer computers with similar personalities",
-            "Users will only use computers that are visually attractive"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "In the Stanford Reciprocity Study, what was the key finding?",
-        options: [
-            "Users performed more work for a computer that had previously helped them",
-            "Users ignored the computer that had previously helped them",
-            "Users preferred working with computers that had no social cues",
-            "Users performed less work for a computer that had previously helped them"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "Which of the following is an example of a computing product adopting a social role to persuade users?",
-        options: [
-            "A spreadsheet program",
-            "Mavis Beacon Teaches Typing",
-            "A database management system",
-            "A calculator app"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "What is the Principle of Authority in persuasive computing?",
-        options: [
-            "Computing technology that assumes roles of authority will have enhanced powers of persuasion",
-            "Users will always prefer computers with similar personalities",
-            "Users will ignore computers that adopt authority roles",
-            "Computing technology should avoid adopting authority roles"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "Which of the following is an example of a computing product using social dynamics to persuade users?",
-        options: [
-            "A spreadsheet program",
-            "Eudora’s registration dialogue box",
-            "A database management system",
-            "A calculator app"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "What is the primary ethical concern when designing psychological cues into computing products?",
-        options: [
-            "Users may become too dependent on the technology",
-            "Users may infer a psychology to the technology, whether intended or not",
-            "Users may ignore the technology if it has too many social cues",
-            "Users may prefer technology with no social cues"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "In the Oscilloscope Study, what was the key finding regarding error messages?",
-        options: [
-            "Users preferred harsh error messages",
-            "Users preferred friendly and helpful error messages",
-            "Users ignored error messages regardless of their tone",
-            "Users preferred error messages with no social cues"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "Which of the following is an example of a computing product using social roles to persuade users?",
-        options: [
-            "A spreadsheet program",
-            "Ask Jeeves search engine",
-            "A database management system",
-            "A calculator app"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "What is the primary reason for using social cues in leisure and entertainment products?",
-        options: [
-            "To improve computational efficiency",
-            "To enhance the social experience and make the product more engaging",
-            "To reduce the number of errors in the system",
-            "To improve hardware performance"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Actors",
-        question: "Which of the following is an example of a computing product using praise to persuade users?",
-        options: [
-            "A spreadsheet program",
-            "A dialogue box praising the user’s contribution",
-            "A database management system",
-            "A calculator app"
-        ],
-        answer: 1,
-    },
-
-    // Section 3: Persuasive Systems and Value Sensitive Design (20 questions)
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "What is the primary goal of persuasive systems?",
-        options: [
-            "To increase computational efficiency",
-            "To change a person’s attitude or behavior without coercion or deception",
-            "To improve hardware performance",
-            "To reduce software errors"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "Which of the following is an example of a persuasive system?",
-        options: [
-            "A spreadsheet program",
-            "Amazon.com",
-            "A database management system",
-            "A calculator app"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "What is the main focus of value-based practical reasoning in persuasive systems?",
-        options: [
-            "To assess the truth of propositions",
-            "To evaluate the desirability or value of actions",
-            "To improve computational speed",
-            "To reduce hardware costs"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "According to Habermas, which of the following is NOT a type of practical discourse?",
-        options: [
-            "Pragmatic discourse",
-            "Ethical discourse",
-            "Moral discourse",
-            "Theoretical discourse"
+            "Opportunistic organization",
+            "Enterprising organization",
+            "International organization",
+            "Agile organization"
         ],
         answer: 3,
     },
     {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "What is the primary concern of pragmatic discourse in persuasive systems?",
+        section: "Management Principles",
+        question: "What is the term Tuckman uses for reaching consensus as a group?",
         options: [
-            "To reflect on the self-understanding of a person or community",
-            "To seek justice for all through generalization across conflicting interests",
-            "To assess the rational choice of means in light of fixed goals",
-            "To evaluate the truth of propositions"
+            "Forming",
+            "Norming",
+            "Storming",
+            "Performing"
         ],
-        answer: 2,
+        answer: 1,
     },
     {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "Which of the following is a critical question in pragmatic discourse?",
+        section: "Management Principles",
+        question: "To what time-frame do strategic plans relate?",
         options: [
-            "Is the value proposed indeed a legitimate value?",
-            "How is value V understood/defined?",
-            "Has a norm/regulation negative consequences for my value orientation?",
-            "Are there alternative ways of regulation that could be good for all?"
+            "Unspecified time it takes to achieve an aim",
+            "Long-term",
+            "Medium-term",
+            "Short-term"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "By which principle is utilitarianism defined?",
+        options: [
+            "The best outcome for the majority of people",
+            "Equality for everyone",
+            "The least worst outcome for everybody",
+            "Maximization of outcomes for individuals"
         ],
         answer: 0,
     },
     {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "What is the primary concern of ethical discourse in persuasive systems?",
+        section: "Management Principles",
+        question: "What are the two main dimensions of the Ohio Studies into leadership?",
         options: [
-            "To assess the rational choice of means in light of fixed goals",
-            "To reflect on and rationally choose value preferences",
-            "To seek justice for all through generalization across conflicting interests",
-            "To evaluate the truth of propositions"
+            "Organizational structure and conditioning",
+            "Initiating structure and considerations",
+            "Starting position and end position",
+            "Initial environment and changed environment"
         ],
         answer: 1,
     },
     {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "Which of the following is a critical question in ethical discourse?",
+        section: "Management Principles",
+        question: "What is not an advantage of a hierarchical structure?",
         options: [
-            "Is it possible to do action A?",
-            "How is value V understood/defined?",
-            "Are the values promoted in accord with norms?",
-            "Are there alternative ways of regulation that could be good for all?"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "What is the primary concern of moral discourse in persuasive systems?",
-        options: [
-            "To assess the rational choice of means in light of fixed goals",
-            "To reflect on and rationally choose value preferences",
-            "To seek justice for all through generalization across conflicting interests",
-            "To evaluate the truth of propositions"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "Which of the following is a critical question in moral discourse?",
-        options: [
-            "Is the value proposed indeed a legitimate value?",
-            "How is value V understood/defined?",
-            "Has a norm/regulation negative consequences for my value orientation?",
-            "Are there alternative ways of realizing the same goal?"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "What is the purpose of the critical questions proposed in the paper?",
-        options: [
-            "To improve computational efficiency",
-            "To guide reflections on persuasive systems in design and use time",
-            "To reduce hardware costs",
-            "To evaluate the truth of propositions"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "Which of the following is a key issue in the design of persuasive systems?",
-        options: [
-            "Improving computational speed",
-            "Addressing ethical implications and involving stakeholders",
-            "Reducing hardware costs",
-            "Evaluating the truth of propositions"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "What is the role of discourse ethics in the design of persuasive systems?",
-        options: [
-            "To improve computational efficiency",
-            "To involve all stakeholders in the design process and address ethical issues",
-            "To reduce hardware costs",
-            "To evaluate the truth of propositions"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "Which of the following is an example of a commercial web-based persuasive system analyzed in the paper?",
-        options: [
-            "Amazon.com",
-            "Nike+ system",
-            "Classmates.com",
-            "Google"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "What is the primary purpose of the feedback mechanism in the Nike+ system?",
-        options: [
-            "To improve computational efficiency",
-            "To allow users to provide feedback on what they value or do not value",
-            "To reduce hardware costs",
-            "To evaluate the truth of propositions"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "Which of the following is a critical question related to the action-value relationship in pragmatic discourse?",
-        options: [
-            "Is it possible to do action A?",
-            "Does doing action A have a side effect which demotes the value intended?",
-            "How is value V understood/defined?",
-            "Has a norm/regulation negative consequences for my value orientation?"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "What is the primary purpose of the forum in the Nike+ system?",
-        options: [
-            "To improve computational efficiency",
-            "To allow users to discuss and articulate their values and consequences of actions",
-            "To reduce hardware costs",
-            "To evaluate the truth of propositions"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "Which of the following is a critical question related to the goal-value relationship in pragmatic discourse?",
-        options: [
-            "Is the value proposed indeed a legitimate value?",
-            "How is value V understood/defined?",
-            "Has a norm/regulation negative consequences for my value orientation?",
-            "Are there alternative ways of realizing the same goal?"
+            "Quick response to change",
+            "Discipline and stability",
+            "Small span of control",
+            "Clear chain of command"
         ],
         answer: 0,
     },
     {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "What is the primary purpose of the ethical discourse in persuasive systems?",
+        section: "Management Principles",
+        question: "Workers' acceptance of change is characteristic of what type of culture?",
         options: [
-            "To assess the rational choice of means in light of fixed goals",
-            "To reflect on and rationally choose value preferences",
-            "To seek justice for all through generalization across conflicting interests",
-            "To evaluate the truth of propositions"
+            "Collective culture",
+            "Collaborative culture",
+            "Team culture",
+            "Group culture"
         ],
         answer: 1,
     },
     {
-        section: "Persuasive Systems and Value Sensitive Design",
-        question: "Which of the following is a critical question related to the action-goal relationship in pragmatic discourse?",
+        section: "Management Principles",
+        question: "What is a social enterprise concerned with?",
         options: [
-            "Is it possible to do action A?",
-            "Does doing action A have a side effect which demotes the value intended?",
-            "How is value V understood/defined?",
-            "Has a norm/regulation negative consequences for my value orientation?"
+            "Profit maximization",
+            "Running a business to create social benefits",
+            "Providing public service",
+            "Maximizing market share"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "Of what is individual freedom to schedule work an example?",
+        options: [
+            "Job design",
+            "Job enrichment",
+            "Job rate",
+            "Job planning"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the term for incremental changes to processes in an organization using information technology?",
+        options: [
+            "Business Process Change",
+            "Business Process Reengineering",
+            "Business Process Advance",
+            "Business Process Improvement"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "Where was Total Quality Management first developed?",
+        options: [
+            "USA",
+            "Korea",
+            "UK",
+            "Japan"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the first step in a 'Stage gate' process?",
+        options: [
+            "Initiate learning.",
+            "Develop a product.",
+            "Generate ideas and concepts.",
+            "Demonstrate a plan."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "What is characteristic for the location of a virtual team?",
+        options: [
+            "In the same building",
+            "Remotely",
+            "In the same industry",
+            "In the same country"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What is OD?",
+        options: [
+            "Organizational disputes",
+            "Organizational drift",
+            "Organizational development",
+            "Organizational demands"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the term for an autonomous business entity within an overall corporate enterprise which is set apart from other areas of the business?",
+        options: [
+            "Strategic alliance",
+            "Subsidiary",
+            "Strategic partnership",
+            "Strategic business unit"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "What do you call a style of leadership that takes account of others' views, opinions and ideas?",
+        options: [
+            "People-oriented",
+            "Democratic",
+            "Laissez-faire",
+            "Autocratic"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the overriding philosophy underpinning the strategic direction of an organization?",
+        options: [
+            "Vision statement",
+            "Strategy statement",
+            "Business statement",
+            "Mission statement"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the term for the act of getting individuals to behave in ways that are acceptable to a group?",
+        options: [
+            "Socialization",
+            "Indoctrination",
+            "Brainwashing",
+            "Propaganda"
         ],
         answer: 0,
     },
-
-    // Section 4: Value Sensitive Design (20 questions)
     {
-        section: "Value Sensitive Design",
-        question: "What is the primary focus of Value Sensitive Design (VSD)?",
+        section: "Management Principles",
+        question: "What is the term for the phenomenon that a new IT system is implemented across the whole organization simultaneously?",
         options: [
-            "Maximizing profit in technology development",
-            "Incorporating human values into the design process",
-            "Reducing the cost of technology production",
-            "Enhancing the aesthetic appeal of technology"
+            "Parallel approach",
+            "Instant approach",
+            "Immersed approach",
+            "Plunge approach"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "According to the Five Factor model, 'extraversion' as a personality type is characterized by what type of people?",
+        options: [
+            "Assertive and sociable",
+            "Calm and self-confident",
+            "Good natured",
+            "Sensitive and curious"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "As what are key factors that reflect the situation of an organization referred to?",
+        options: [
+            "Contingencies",
+            "Activities",
+            "Processes",
+            "Administrations"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "Specialization is a feature of which organizational structure?",
+        options: [
+            "Functional",
+            "Matrix",
+            "Divisional",
+            "Multi-divisional"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "Which one is not part of Lewin's (1952) three step approach to change?",
+        options: [
+            "Freezing",
+            "Initiating change",
+            "Unfreezing",
+            "Changing behavior"
         ],
         answer: 1,
     },
     {
-        section: "Value Sensitive Design",
-        question: "Which of the following is NOT a type of investigation in VSD?",
+        section: "Management Principles",
+        question: "What is the term for power derived from status or position in an organization?",
         options: [
-            "Conceptual",
-            "Empirical",
-            "Technical",
+            "Legitimate",
+            "Referent",
+            "Reward",
+            "Expert"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "What is a succession plan?",
+        options: [
+            "The formal process of acquiring a new staff member",
+            "Dismissing an employee for a more favorable employee",
+            "A vote of no confidence in a board member",
+            "A formal process of planning to fill a role that will become vacant"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the term for the act of acquiring an IS architecture from the market?",
+        options: [
+            "External buying",
+            "Ordering",
+            "Procuring",
+            "Outsourcing"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "Which of these does not form part of the key streams identified by March (1988) in decision making in highly ambiguous environments?",
+        options: [
+            "Choice opportunities",
+            "Solutions",
+            "Problems",
+            "Expectations"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the term for a radical rethinking of the nature of the business?",
+        options: [
+            "Revolutionary change",
+            "Paradigm shift",
+            "Strategic manoeuvre",
+            "Transformational change"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What does the acronym SMART stand for?",
+        options: [
+            "Standardized, measurable, achievable, rewarded, and timely",
+            "Specific, measurable, achievable, rewarded and timely",
+            "Suitable, measurable, actionable, rewarded and timely",
+            "Specific, measurable, actionable, resourced and timely"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the richest form of information?",
+        options: [
+            "Telephone",
+            "Video conference",
+            "E-mail",
+            "Face-to-face"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "Which one is not an element in the primary activities of a value chain?",
+        options: [
+            "Inbound logistics",
+            "Procurement",
+            "Outbound logistics",
+            "Service"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "Which one of the following is not a characteristic of a team?",
+        options: [
+            "Individual and collective responsibility",
+            "Collective output",
+            "Minimal and formal knowledge sharing",
+            "Fluid dimension to roles and tasks"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "Which of the following is not a recognized type of plan?",
+        options: [
+            "Ad hoc",
+            "Business",
+            "Financial",
+            "Succession"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "What is not a characteristic of a corporate social responsibility framework?",
+        options: [
+            "Harnessing diversity",
+            "Retaining the status quo",
+            "Understanding society",
+            "Building capacity"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "Which of the following does not form the basis of a performance indicator for a marketing plan?",
+        options: [
+            "Competitor reaction",
+            "Marketing effectiveness",
+            "Consumer reaction",
+            "Contribution to business performance"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "Simon (1960) is associated with what type of decision-making model?",
+        options: [
+            "Administrative",
+            "Programmed",
+            "Classical",
+            "Rational"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the term for gaining consumers' express agreement to receive marketing material?",
+        options: [
+            "Targeted marketing",
+            "Focused marketing",
+            "Opt-in marketing",
+            "Permission marketing"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "Which of these is not an advantage of a virtual team?",
+        options: [
+            "Team members can be recruited for their specific skills or experience.",
+            "Conflict can be resolved easily using face-to-face meetings.",
+            "No overhead costs associated with physical buildings.",
+            "Low transport or commuting costs."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What is premise control based on?",
+        options: [
+            "Assumptions",
+            "People",
+            "Resources",
+            "Buildings"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "What is IS?",
+        options: [
+            "Internal services",
+            "International sales",
+            "Information systems",
+            "Intelligent strategy"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the guiding principle behind New Public Management?",
+        options: [
+            "Introducing private sector business principles into the public sector",
+            "Restructuring public organizations",
+            "Replacing public management with private sector management",
+            "Profit maximization"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "Functional structures help to create...",
+        options: [
+            "teamwork",
+            "specialization",
+            "multi-skilled employees",
+            "project work groups"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What are characteristics of a programmed decision?",
+        options: [
+            "Low risk and certain",
+            "Routine and non-complex",
+            "Complex and risky",
+            "Uncertain and non-routine"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What is intuitive decision making based on?",
+        options: [
+            "Rationality",
+            "Guesswork",
+            "Instinct",
+            "Gambling"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "Which writer was concerned with the reaction of workers to key characteristics of bureaucracies?",
+        options: [
+            "Gouldner",
+            "Mayo",
+            "Weber",
+            "Merton"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the first step in a control process?",
+        options: [
+            "Choose key personnel for the task",
+            "Allocate resources",
+            "Set standards",
+            "Select a strategy"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "What type of organizational culture is most likely to deliver stability and efficiency?",
+        options: [
+            "Task culture",
+            "Role culture",
+            "Power culture",
+            "People culture"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What is a PDP?",
+        options: [
+            "Personal Development Payment",
+            "Personal Development Plan",
+            "People Development Plan",
+            "Personnel Development Plan"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "When a manager monitors the work performance of workers in his department to determine if the quality of their work is 'up to standard', this manager is engaging in which function?",
+        options: [
+            "Controlling",
+            "Leading",
+            "Planning",
+            "Organizing"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "From what does a chain of command extend?",
+        options: [
+            "Diagonally",
+            "Bottom to top",
+            "Top to bottom",
+            "Laterally"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the weakest form of control?",
+        options: [
+            "Simultaneous control",
+            "Pre-control",
+            "Post-control",
+            "Duel control"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "Which of these is not part of human resource policy?",
+        options: [
+            "Staff development",
+            "Reward systems",
+            "Suppliers choice",
+            "Staff appraisals"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "In the 'five forces model', what is the type of competitive activity that exists between organizations?",
+        options: [
+            "The potential for entry into the industry",
+            "The level of rivalry",
+            "The power of customers",
+            "The threat of substitute products"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "Which is not a recognized form of business continuity planning?",
+        options: [
+            "Contingency planning",
+            "Building planning",
+            "Financial planning",
+            "Scenario planning"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "Which is not an example of an external factor for learning and knowledge?",
+        options: [
+            "Organizational structure",
+            "Demographic change",
+            "Political influences",
+            "Social change"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the term for a market that is defined by specific characteristics?",
+        options: [
+            "Market division",
+            "Market segment",
+            "Market niche",
+            "Market characteristics"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What do the four 'P's' of marketing relate to?",
+        options: [
+            "Product, price, publicity and promotion",
+            "Product, price, place and promotion",
+            "Product, price, post and promotion",
+            "Product, price, press and promotion"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the purpose of a 'quality circle'?",
+        options: [
+            "Bring together managers and workers to review quality of work.",
+            "Bring together managers and workers to review targets.",
+            "Bring together managers and workers to find improvements.",
+            "Bring together managers and workers to discuss output."
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Principles",
+        question: "How does lateral communication in an organization occur?",
+        options: [
+            "Information is a two-way process.",
+            "Information passes between different departments and functions.",
+            "Information passes upwards.",
+            "Information passes downwards."
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What is another name for contingency planning?",
+        options: [
+            "Business level planning",
+            "Scenario planning",
+            "Ad hoc planning",
+            "Synergy planning"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What is the term for a process that enables an organization to assess and demonstrate its social, economic, and environmental benefits and limitations?",
+        options: [
+            "Social account",
+            "Social strategy",
+            "Social plan",
+            "Social audit"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "How can you describe the thinking and outlook of transformational leaders?",
+        options: [
+            "Developmental",
+            "Functional",
+            "Operational",
+            "Strategic"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "Enhancement of job satisfaction and productivity are key characteristics of which theoretical perspective of work design?",
+        options: [
+            "Techno-structural change model",
+            "Job characteristics model",
+            "Socio-technical systems",
+            "Process improvement"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "What do you call the understanding of a dominant culture before choosing a suitable control system?",
+        options: [
+            "Market control",
+            "Bureaucratic control",
+            "People control",
+            "Clan control"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "According to Belbin (1981) an extroverted and enthusiastic person fits with what role?",
+        options: [
+            "Shaper",
+            "Implementer",
+            "Co-Ordinator",
+            "Resource investigator"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "Which one of the following is a feature of McGregor's Theory X?",
+        options: [
+            "Workers like to show initiative.",
+            "Workers view physical and mental effort as a natural part of work.",
+            "Workers enjoy responsibility.",
+            "Workers like to be directed."
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management Principles",
+        question: "What are group norms?",
+        options: [
+            "Modes of behavior that are shared by some members of the group",
+            "Modes of behavior that are acceptable to and shared by group members",
+            "Modes of behavior that are different of those of the other group members",
+            "Modes of behavior that challenge group values and beliefs"
+        ],
+        answer: 1,
+    },
+     {
+        question: "What is the term for power derived from status or position in an organisation?",
+        options: [
+            "Reward",
+            "Referent",
+            "Expert",
+            "Legitimate"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What is the term for the extent to which competition in one country is influenced by competition in other countries?",
+        options: [
+            "Globalisation",
+            "International trade",
+            "Global competition",
+            "Global economics"
+        ],
+        answer: 2,
+    },
+    {
+        question: "Which of these is not part of human resource policy?",
+        options: [
+            "Reward systems",
+            "Staff development",
+            "Staff appraisals",
+            "Suppliers choice"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What is the term for the act of getting individuals to behave in ways that are acceptable to a group?",
+        options: [
+            "Brainwashing",
+            "Indoctrination",
+            "Socialisation",
+            "Propaganda"
+        ],
+        answer: 2,
+    },
+    {
+        question: "What is the term for an organisation that adapts to changes in the environment by quickly responding to shifts in supply and demand conditions?",
+        options: [
+            "International organisation",
+            "Agile organisation",
+            "Enterprising organisation",
+            "Opportunistic organisation"
+        ],
+        answer: 1,
+    },
+    {
+        question: "Which 18th century writer produced a famous book called 'The Wealth of Nations'?",
+        options: [
+            "Frederick Taylor",
+            "Henry Mintzberg",
+            "Adam Smith",
+            "Dr Samuel Johnson"
+        ],
+        answer: 2,
+    },
+    {
+        question: "What is the term for the monitoring of events both internal and external to the organisation that affects strategy?",
+        options: [
+            "Environmental scanning",
+            "Strategic analysis",
+            "Organizational surveillance",
+            "Market research"
+        ],
+        answer: 0,
+    },
+    {
+        question: "What are the three interpersonal roles of managers?",
+        options: [
+            "Communicator, organiser, spokesperson",
+            "Figurehead, leader and liaison",
+            "Spokesperson, leader, coordinator",
+            "Director, coordinator, disseminator"
+        ],
+        answer: 1,
+    },
+    {
+        question: "Which one is not part of Lewin's (1952) three step approach to change?",
+        options: [
+            "Freezing",
+            "Unfreezing",
+            "Initiating change",
+            "Changing behaviour"
+        ],
+        answer: 2,
+    },
+    {
+        question: "What is the personnel department in an organisation concerned with?",
+        options: [
+            "Staff rewards",
+            "Staff development",
+            "Staff administration",
+            "Staff attraction"
+        ],
+        answer: 2,
+    },
+    {
+        question: "What are the key characteristics of transactional leaders?",
+        options: [
+            "Guiding, mentoring and motivating",
+            "Guiding, demonstrating and motivating",
+            "Guiding, mentoring and demonstrating",
+            "Guiding, commanding and motivating"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What is a succession plan?",
+        options: [
+            "A vote of no confidence in a board member",
+            "A formal process of planning to fill a role that will become vacant",
+            "Dismissing an employee for a more favourable employee",
+            "The formal process of acquiring a new staff member"
+        ],
+        answer: 1,
+    },
+    {
+        question: "According to Lewin, Lippet and White's 1939 experiment, which form of leadership produced the most work from participants?",
+        options: [
+            "Democratic",
+            "Laissez-faire",
+            "A mix of laissez-faire and democratic",
+            "Authoritarian"
+        ],
+        answer: 3,
+    },
+    {
+        question: "Which one of the following is not a characteristic of a bureaucratic organisation?",
+        options: [
+            "Regulations",
+            "Command structure",
+            "Authority",
+            "Change"
+        ],
+        answer: 3,
+    },
+    {
+        question: "When a manager monitors the work performance of workers in his department to determine if the quality of their work is 'up to standard', this manager is engaging in which function?",
+        options: [
+            "Organising",
+            "Leading",
+            "Planning",
+            "Controlling"
+        ],
+        answer: 3,
+    },
+    {
+        question: "Which one of these characteristics is most commonly associated with the 'rational goal' model of management?",
+        options: [
+            "Productivity",
+            "Health and safety",
+            "Worker welfare",
+            "Interpersonal relationships"
+        ],
+        answer: 0,
+    },
+    {
+        question: "What is the first step in a control process?",
+        options: [
+            "Select a strategy",
+            "Set standards",
+            "Allocate resources",
+            "Choose key personnel for the task"
+        ],
+        answer: 1,
+    },
+    {
+        question: "Which is not an example of an external factor for learning and knowledge?",
+        options: [
+            "Social change",
+            "Organisational structure",
+            "Demographic change",
+            "Political influences"
+        ],
+        answer: 1,
+    },
+    {
+        question: "What is a definition of an objective?",
+        options: [
+            "A set standard of performance agreed by workers and managers",
+            "A defined specified outcome to be achieved in the long-term",
+            "A clear set of goals to be attained given a set number of resources",
+            "A clearly defined and measurable outcome to be achieved over a specified timeframe"
+        ],
+        answer: 3,
+    },
+    {
+        question: "How does lateral communication in an organisation occur?",
+        options: [
+            "Information passes downwards",
+            "Information is a two-way process",
+            "Information passes upwards",
+            "Information passes between different departments and functions"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What is the weakest form of control?",
+        options: [
+            "Simultaneous control",
+            "Pre-control",
+            "Post-control",
+            "Duel control"
+        ],
+        answer: 2,
+    },
+    {
+        question: "What is T-group training?",
+        options: [
+            "A group brought together to deliver training programmes",
+            "Team building activities involving learning",
+            "Team training for the purposes of advancing technology",
+            "A group whose aim is transformational change"
+        ],
+        answer: 3,
+    },
+    {
+        question: "Which is not a characteristic of corporate social responsibility?",
+        options: [
+            "Environmental policies",
+            "Price-fixing",
+            "Consumer rights",
+            "Product safety"
+        ],
+        answer: 1,
+    },
+    {
+        question: "Of what is an investment decision an example?",
+        options: [
+            "Management decision",
+            "Non-programmed decision",
+            "Programmed decision",
+            "Routine decision"
+        ],
+        answer: 1,
+    },
+    {
+        question: "Who of the following is a leading writer on contingency theory of leadership?",
+        options: [
+            "Rosabeth Kanter",
+            "Fred Fiedler",
+            "Rensis Likert",
+            "Joan Woodward"
+        ],
+        answer: 1,
+    },
+    {
+        question: "By which principle is utilitarianism defined?",
+        options: [
+            "Equality for everyone",
+            "The best outcome for the majority of people",
+            "The least worst outcome for everybody",
+            "Maximisation of outcomes for individuals"
+        ],
+        answer: 1,
+    },
+    {
+        question: "Which of these does not form part of the key streams identified by March (1988) in decision making in highly ambiguous environments?",
+        options: [
+            "Solutions",
+            "Choice opportunities",
+            "Expectations",
+            "Problems"
+        ],
+        answer: 2,
+    },
+    {
+        question: "What is characteristic for the location of a virtual team?",
+        options: [
+            "In the same country",
+            "Remotely",
+            "In the same industry",
+            "In the same building"
+        ],
+        answer: 1,
+    },
+    {
+        question: "What is IS?",
+        options: [
+            "Information systems",
+            "Intelligent strategy",
+            "International sales",
+            "Internal services"
+        ],
+        answer: 0,
+    },
+    {
+        question: "What is the term for the act of acquiring an IS architecture from the market?",
+        options: [
+            "Procuring",
+            "Ordering",
+            "Outsourcing",
+            "External buying"
+        ],
+        answer: 0,
+    },
+    {
+        question: "What is the term for a sub-optimal but acceptable outcome of negotiations between parties?",
+        options: [
+            "Accepting",
+            "Bargaining",
+            "Compromising",
+            "Satisficing"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What do companies that focus on filling a gap in the market engage in?",
+        options: [
+            "Direct marketing",
+            "Niche marketing",
+            "Traditional marketing",
+            "Outbound marketing"
+        ],
+        answer: 1,
+    },
+    {
+        question: "What is a normative perspective?",
+        options: [
+            "The way things are going to be",
+            "The way things were",
+            "The way things are",
+            "The way things should be"
+        ],
+        answer: 3,
+    },
+    {
+        question: "Profitability stemming from how well a firm positions itself in the market is a key feature of which writer's view on strategy?",
+        options: [
+            "Jay Barney",
+            "Peter Drucker",
+            "Henry Mintzberg",
+            "Michael Porter"
+        ],
+        answer: 3,
+    },
+    {
+        question: "Which of these is not an advantage of a virtual team?",
+        options: [
+            "Team members can be recruited for their specific skills or experience",
+            "No overhead costs associated with physical buildings",
+            "Low transport or commuting costs",
+            "Conflict can be resolved easily using face-to-face meetings"
+        ],
+        answer: 3,
+    },
+    {
+        question: "Enhancement of job satisfaction and productivity are key characteristics of which theoretical perspective of work design?",
+        options: [
+            "Techno-structural change model",
+            "Process improvement",
+            "Job characteristics model",
+            "Socio-technical systems"
+        ],
+        answer: 2,
+    },
+    {
+        question: "To what does authority refer?",
+        options: [
+            "The ability to organise people",
+            "The power to command and direct",
+            "The right to change jobs",
+            "The need for order"
+        ],
+        answer: 1,
+    },
+    {
+        question: "What is a PDP?",
+        options: [
+            "Personal Development Payment",
+            "Personnel Development Plan",
+            "Personal Development Plan",
+            "People Development Plan"
+        ],
+        answer: 2,
+    },
+    {
+        question: "Simon (1960) is associated with what type of decision making model?",
+        options: [
+            "Administrative",
+            "Rational",
+            "Classical",
+            "Programmed"
+        ],
+        answer: 0,
+    },
+    {
+        question: "What is the guiding principle of scientific management?",
+        options: [
+            "Freedom of association",
+            "Fluid working relationships",
+            "Experimentation",
+            "One best way to do a job"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What assumption is the garbage can model of decision making based on?",
+        options: [
+            "Limited knowledge and great insight",
+            "Limited knowledge and high risk",
+            "Limited knowledge but high level of experience",
+            "Limited knowledge and uncertainty"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What is the term for the development and design of value adding products and/or services to meet the demand characteristics of individual customers?",
+        options: [
+            "Bespoke",
+            "Personalisation",
+            "Individualism",
+            "Customisation"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What is the purpose of a 'quality circle'?",
+        options: [
+            "Bring together managers and workers to review targets",
+            "Bring together managers and workers to discuss output",
+            "Bring together managers and workers to find improvements",
+            "Bring together managers and workers to review quality of work"
+        ],
+        answer: 2,
+    },
+    {
+        question: "What is the first step in a 'Stage gate' process?",
+        options: [
+            "Demonstrate a plan",
+            "Initiate learning",
+            "Generate ideas and concepts",
+            "Develop a product"
+        ],
+        answer: 2,
+    },
+    {
+        question: "What is the term for incremental changes to processes in an organisation using information technology?",
+        options: [
+            "Business Process Improvement",
+            "Business Process Reengineering",
+            "Business Process Advance",
+            "Business Process Change"
+        ],
+        answer: 0,
+    },
+    {
+        question: "What is the term for decisions limited by human capacity to absorb and analyse information?",
+        options: [
+            "Conscious rationality",
+            "Restricted rationality",
+            "Cognitive rationality",
+            "Bounded rationality"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What is the term for a market that is defined by specific characteristics?",
+        options: [
+            "Market segment",
+            "Market division",
+            "Market niche",
+            "Market characteristic"
+        ],
+        answer: 0,
+    },
+    {
+        question: "Consumer values based on personality types are a form of what type of brand value?",
+        options: [
+            "Functional",
+            "Core",
+            "Individual",
+            "Expressive"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What is the optimal span of control?",
+        options: [
+            "None of the above",
+            "7",
+            "2",
+            "5"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What is intuitive decision making based on?",
+        options: [
+            "Instinct",
+            "Rationality",
+            "Guesswork",
+            "Gambling"
+        ],
+        answer: 0,
+    },
+    {
+        question: "What is not a purpose of an organisational structure?",
+        options: [
+            "To limit workers' rights",
+            "To organise lines of communication",
+            "To formalise authority",
+            "To coordinate people and resources"
+        ],
+        answer: 0,
+    },
+    {
+        question: "To what does emotional intelligence refer?",
+        options: [
+            "How people view and understand others",
+            "How people view and understand themselves",
+            "How people view and understand the world",
+            "How people view and understand themselves and others"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What one of these is not a recognised type of authority?",
+        options: [
+            "Functional",
+            "Supplier",
+            "Executive",
+            "Line management"
+        ],
+        answer: 1,
+    },
+    {
+        question: "What is the guiding principle behind New Public Management?",
+        options: [
+            "Profit maximisation",
+            "Restructuring public organisations",
+            "Introducing private sector business principles into the public sector",
+            "Replacing public management with private sector management"
+        ],
+        answer: 2,
+    },
+    {
+        question: "Which of the following is not a recognised type of plan?",
+        options: [
+            "Business",
+            "Succession",
+            "Ad hoc",
             "Financial"
         ],
-        answer: 3,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "According to Habermas, which principle is central to discourse ethics?",
-        options: [
-            "The principle of utility",
-            "The discourse principle",
-            "The principle of least effort",
-            "The principle of authority"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "What does the discourse principle state?",
-        options: [
-            "Only norms that meet with the approval of all affected can claim validity.",
-            "Norms should be decided by experts only.",
-            "Norms should be based on economic efficiency.",
-            "Norms should be enforced by authority."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "Which of the following is a critique of the VSD methodology by Le Dantec et al. (2009)?",
-        options: [
-            "It provides too much guidance on empirical instruments.",
-            "It focuses on discovering new values rather than refining known values.",
-            "It lacks guidance on which empirical instruments are effective.",
-            "It ignores the role of stakeholders in the design process."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "What is the purpose of 'value dams and flows' in VSD?",
-        options: [
-            "To identify technical features that are strongly opposed or liked by stakeholders.",
-            "To reduce the cost of design.",
-            "To eliminate all value conflicts.",
-            "To prioritize aesthetic design elements."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "Which of the following is a key value in the UrbanSim case study?",
-        options: [
-            "Profit maximization",
-            "Legitimation",
-            "Speed of development",
-            "Cost reduction"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "What is the main challenge in applying discourse ethics to VSD?",
-        options: [
-            "The lack of interest in ethical issues.",
-            "The difficulty of involving all affected stakeholders in the discourse.",
-            "The focus on economic efficiency.",
-            "The lack of technological tools."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "What is the role of boundary critique in VSD?",
-        options: [
-            "To identify and challenge the assumptions about who should be involved in the design process.",
-            "To eliminate all stakeholders from the design process.",
-            "To focus only on technical aspects of design.",
-            "To reduce the time required for design."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "Which of the following is a key feature of the 'ideal speech situation' in discourse ethics?",
-        options: [
-            "Coercion is allowed to speed up decision-making.",
-            "All relevant information is available to participants.",
-            "Only experts are allowed to participate.",
-            "Time is limited to ensure quick decisions."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "What is the primary goal of ethical discourse in VSD?",
-        options: [
-            "To resolve conflicts over technical design choices.",
-            "To clarify which values are good for the stakeholders.",
-            "To maximize profit.",
-            "To reduce the cost of design."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "Which of the following is a limitation of the 'value dams and flows' technique?",
-        options: [
-            "It does not promote dialogical reflections among stakeholders.",
-            "It is too expensive to implement.",
-            "It focuses only on aesthetic design elements.",
-            "It eliminates all value conflicts."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "What is the main purpose of meta-communication in VSD?",
-        options: [
-            "To facilitate reflection on communication structures and norms.",
-            "To reduce the cost of communication.",
-            "To eliminate all forms of communication.",
-            "To focus only on technical communication."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "Which of the following is a key value in the design of the Cookie Manager Tool?",
-        options: [
-            "Informed consent",
-            "Profit maximization",
-            "Speed of development",
-            "Cost reduction"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "What is the main challenge in applying discourse ethics to VSD in a global context?",
-        options: [
-            "The lack of interest in ethical issues.",
-            "The difficulty of involving all affected stakeholders in the discourse.",
-            "The focus on economic efficiency.",
-            "The lack of technological tools."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "What is the primary focus of pragmatic discourse in VSD?",
-        options: [
-            "To resolve conflicts over technical design choices.",
-            "To clarify which values are good for the stakeholders.",
-            "To maximize profit.",
-            "To reduce the cost of design."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "Which of the following is a key feature of the 'ideal speech situation' in discourse ethics?",
-        options: [
-            "Coercion is allowed to speed up decision-making.",
-            "All relevant information is available to participants.",
-            "Only experts are allowed to participate.",
-            "Time is limited to ensure quick decisions."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "What is the main purpose of meta-communication in VSD?",
-        options: [
-            "To facilitate reflection on communication structures and norms.",
-            "To reduce the cost of communication.",
-            "To eliminate all forms of communication.",
-            "To focus only on technical communication."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "Which of the following is a key value in the design of the Cookie Manager Tool?",
-        options: [
-            "Informed consent",
-            "Profit maximization",
-            "Speed of development",
-            "Cost reduction"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Value Sensitive Design",
-        question: "What is the main challenge in applying discourse ethics to VSD in a global context?",
-        options: [
-            "The lack of interest in ethical issues.",
-            "The difficulty of involving all affected stakeholders in the discourse.",
-            "The focus on economic efficiency.",
-            "The lack of technological tools."
-        ],
-        answer: 1,
-    },
-
-    // Section 5: Persuasive Systems Design (20 questions)
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the primary goal of Persuasive Systems Design (PSD)?",
-        options: [
-            "To maximize profit in software development",
-            "To change users' attitudes or behaviors through technology",
-            "To reduce the cost of software production",
-            "To enhance the aesthetic appeal of software"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is NOT a category of design principles in PSD?",
-        options: [
-            "Primary task support",
-            "Dialogue support",
-            "System credibility support",
-            "Financial support"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "According to the article, what is the first step in the development of persuasive systems?",
-        options: [
-            "Analyzing the persuasion context",
-            "Understanding the key issues behind persuasive systems",
-            "Designing system qualities",
-            "Implementing software features"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is a key postulate behind persuasive systems?",
-        options: [
-            "Information technology is always neutral",
-            "Persuasion is often incremental",
-            "Systems should be difficult to use",
-            "Persuasion should always be covert"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What does the 'reduction' principle in primary task support involve?",
-        options: [
-            "Increasing the complexity of tasks",
-            "Reducing complex behavior into simple tasks",
-            "Eliminating user feedback",
-            "Increasing the cost of using the system"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of the 'tunneling' principle?",
-        options: [
-            "Providing tailored information for different user groups",
-            "Guiding users through a process to persuade them along the way",
-            "Offering personalized content and services",
-            "Keeping track of user performance"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the main focus of the 'dialogue support' category in PSD?",
-        options: [
-            "Supporting the user’s primary task",
-            "Providing feedback and interaction to keep users motivated",
-            "Ensuring system credibility",
-            "Leveraging social influence"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of the 'praise' principle in dialogue support?",
-        options: [
-            "Offering virtual rewards for target behaviors",
-            "Sending automated text messages to praise users for reaching goals",
-            "Providing tailored information for user groups",
-            "Guiding users through a process"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What does the 'system credibility support' category focus on?",
-        options: [
-            "Ensuring the system is visually attractive",
-            "Making the system credible and trustworthy",
-            "Leveraging social influence",
-            "Reducing the complexity of tasks"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of the 'trustworthiness' principle in system credibility support?",
-        options: [
-            "Providing truthful and unbiased information",
-            "Offering virtual rewards for target behaviors",
-            "Guiding users through a process",
-            "Keeping track of user performance"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the main focus of the 'social support' category in PSD?",
-        options: [
-            "Supporting the user’s primary task",
-            "Providing feedback and interaction to keep users motivated",
-            "Leveraging social influence to motivate users",
-            "Ensuring system credibility"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of the 'social comparison' principle in social support?",
-        options: [
-            "Providing means for users to compare their performance with others",
-            "Offering virtual rewards for target behaviors",
-            "Guiding users through a process",
-            "Keeping track of user performance"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the main purpose of the 'rehearsal' principle in primary task support?",
-        options: [
-            "To reduce complex behavior into simple tasks",
-            "To provide means for users to rehearse a target behavior",
-            "To guide users through a process",
-            "To offer personalized content and services"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of the 'self-monitoring' principle in primary task support?",
-        options: [
-            "Providing means for users to track their performance",
-            "Offering virtual rewards for target behaviors",
-            "Guiding users through a process",
-            "Providing tailored information for user groups"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What does the 'tailoring' principle in primary task support involve?",
-        options: [
-            "Providing information tailored to the user's needs and context",
-            "Reducing complex behavior into simple tasks",
-            "Guiding users through a process",
-            "Offering personalized content and services"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of the 'personalization' principle in primary task support?",
-        options: [
-            "Offering personalized content and services",
-            "Providing tailored information for user groups",
-            "Guiding users through a process",
-            "Keeping track of user performance"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the main focus of the 'simulation' principle in primary task support?",
-        options: [
-            "To provide means for users to observe the link between cause and effect",
-            "To reduce complex behavior into simple tasks",
-            "To guide users through a process",
-            "To offer personalized content and services"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of the 'rewards' principle in dialogue support?",
-        options: [
-            "Offering virtual rewards for target behaviors",
-            "Sending automated text messages to praise users for reaching goals",
-            "Providing tailored information for user groups",
-            "Guiding users through a process"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What does the 'reminders' principle in dialogue support involve?",
-        options: [
-            "Reminding users of their target behavior during system use",
-            "Offering virtual rewards for target behaviors",
-            "Providing tailored information for user groups",
-            "Guiding users through a process"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of the 'social learning' principle in social support?",
-        options: [
-            "Providing means for users to observe others performing the target behavior",
-            "Offering virtual rewards for target behaviors",
-            "Guiding users through a process",
-            "Keeping track of user performance"
-        ],
-        answer: 0,
-    },
-
-    // Section 6: Educational Technologies and Bloom's Taxonomy (20 questions)
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "What was the primary objective of the study?",
-        options: [
-            "To compare the effects of YouTube, AR, and VR on student engagement.",
-            "To examine the impact of educational technologies on lower cognitive levels of Bloom’s taxonomy.",
-            "To evaluate the long-term effects of immersive technologies on learning outcomes.",
-            "To assess the usability of AR and VR in higher education."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "Which of the following technologies was NOT compared in the study?",
-        options: [
-            "Virtual Reality (VR)",
-            "Augmented Reality (AR)",
-            "Online video platforms (YouTube)",
-            "Artificial Intelligence (AI)"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "How many students were included in the final sample of the study?",
-        options: [
-            "180",
-            "139",
-            "200",
-            "100"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "Which cognitive level of Bloom’s taxonomy was most impacted by Augmented Reality (AR)?",
-        options: [
-            "Knowledge",
-            "Understanding",
-            "Application",
-            "Analysis"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "What was the duration of the lecture delivered in the study?",
-        options: [
-            "10 minutes",
-            "15 minutes",
-            "30 minutes",
-            "45 minutes"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "Which learning environment showed the highest impact on the cognitive level of understanding?",
-        options: [
-            "Traditional classroom",
-            "YouTube",
-            "Augmented Reality (AR)",
-            "Virtual Reality (VR)"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "What was the main finding regarding Virtual Reality (VR) in the study?",
-        options: [
-            "VR significantly outperformed all other learning environments.",
-            "VR had no significant advantage over other learning environments.",
-            "VR was the least effective learning environment.",
-            "VR was only effective for long-term learning outcomes."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "Which theory guided the design considerations of the study?",
-        options: [
-            "Social Learning Theory",
-            "Cognitive Load Theory",
-            "Constructivist Theory",
-            "Behaviorist Theory"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "What was the topic of the lecture delivered in the study?",
-        options: [
-            "Global Citizenship Education (GCE) and university-community engagement.",
-            "The impact of technology on education.",
-            "The role of AR and VR in higher education.",
-            "The future of online learning platforms."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "Which group performed better than the classroom group in the study?",
-        options: [
-            "YouTube",
-            "Augmented Reality (AR)",
-            "Virtual Reality (VR)",
-            "None of the above"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "What was the primary reason for choosing a 15-minute lecture duration?",
-        options: [
-            "To minimize cognitive fatigue and maximize learning outcomes.",
-            "To ensure all students could attend the lecture.",
-            "To align with the average attention span of students.",
-            "To standardize the lecture across all groups."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "Which of the following was a limitation of the study?",
-        options: [
-            "Lack of interaction between participants and instructors.",
-            "Use of a diverse and representative sample.",
-            "Long-term assessment of learning outcomes.",
-            "High familiarity with VR among participants."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "What was the main conclusion regarding YouTube as a learning tool?",
-        options: [
-            "It is superior to traditional classroom learning.",
-            "It is more effective as a supplementary tool rather than a stand-alone tool.",
-            "It is ineffective for improving learning outcomes.",
-            "It is only useful for long-term learning."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "Which cognitive level of Bloom’s taxonomy was least impacted by Virtual Reality (VR)?",
-        options: [
-            "Knowledge",
-            "Understanding",
-            "Application",
-            "Analysis"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "What was the primary reason for the low performance of the VR group?",
-        options: [
-            "Lack of content alignment with course objectives.",
-            "Cognitive burden associated with immersive technologies.",
-            "Technical issues with the VR headsets.",
-            "Lack of interest in the lecture topic."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "Which of the following was NOT a finding of the study?",
-        options: [
-            "AR had the highest impact on the cognitive level of understanding.",
-            "VR significantly outperformed other learning environments.",
-            "Classroom learning performed strongly across all cognitive levels.",
-            "YouTube was less effective than classroom learning."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "What was the sample size calculated for the study based on the power analysis?",
-        options: [
-            "139",
-            "180",
-            "200",
-            "250"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "Which of the following was a key feature of the AR learning environment?",
-        options: [
-            "A 3D model of a whiteboard and an animated avatar of the lecturer.",
-            "A fully immersive virtual classroom.",
-            "Real-time feedback and problem-solving scenarios.",
-            "A gamified learning experience."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "What was the primary reason for using a guest lecturer in the study?",
-        options: [
-            "To minimize confounding factors such as familiarity with a specific lecturer.",
-            "To ensure the lecture was delivered in a standardized manner.",
-            "To provide a more engaging learning experience.",
-            "To align with the cognitive load theory."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Educational Technologies and Bloom's Taxonomy",
-        question: "Which of the following was a recommendation for future research based on the study’s limitations?",
-        options: [
-            "Focus on short-term learning outcomes only.",
-            "Use a less diverse sample to improve generalizability.",
-            "Incorporate interactive components into the experimental design.",
-            "Avoid using immersive technologies in future studies."
-        ],
-        answer: 2,
-    },
-
-    // Section 7: 3D-RAB Model and Persuasive Technology (20 questions)
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "What is the primary purpose of the 3D-RAB model?",
-        options: [
-            "To evaluate the usability of persuasive technologies.",
-            "To analyze and implement behavioral change in persuasive technology.",
-            "To compare different persuasive technologies.",
-            "To measure the effectiveness of social psychology theories."
-        ],
-        answer: 1,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "Which of the following is NOT a dimension in the 3D-RAB model?",
-        options: [
-            "Attitude towards target behavior (ATTB)",
-            "Attitude towards changing/maintaining current behavior (ATCMB)",
-            "Current behavior (CB)",
-            "Social influence (SI)"
-        ],
-        answer: 3,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "What does the 3D-RAB model aim to categorize users based on?",
-        options: [
-            "Their personality traits.",
-            "Their cognitive dissonance states.",
-            "Their technological proficiency.",
-            "Their social media usage."
-        ],
-        answer: 1,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "Which theory serves as the basis for the 3D-RAB model?",
-        options: [
-            "Theory of Planned Behavior (TpB)",
-            "Cognitive Dissonance Theory",
-            "Social Learning Theory",
-            "Behaviorism"
-        ],
-        answer: 1,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "What is the main limitation of the Persuasive Systems Design (PSD) framework?",
-        options: [
-            "It does not consider user attitudes.",
-            "It lacks a systematic method for selecting persuasive techniques.",
-            "It does not address the variability in user needs over time.",
-            "It is too complex for practical use."
-        ],
-        answer: 2,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "In the 3D-RAB model, what does ATTB stand for?",
-        options: [
-            "Attitude towards target behavior",
-            "Attitude towards technology-based behavior",
-            "Attitude towards traditional behavior",
-            "Attitude towards temporary behavior"
-        ],
-        answer: 0,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "Which of the following is a characteristic of strong cognitive dissonance?",
-        options: [
-            "Mild psychological tension",
-            "No psychological tension",
-            "Strong psychological tension",
-            "Neutral psychological tension"
-        ],
-        answer: 2,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "What is the ideal state in the 3D-RAB model?",
-        options: [
-            "State 1",
-            "State 2",
-            "State 5",
-            "State 8"
-        ],
-        answer: 0,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "Which state in the 3D-RAB model is characterized by no cognitive dissonance but negative behavior?",
-        options: [
-            "State 1",
-            "State 4",
-            "State 5",
-            "State 8"
-        ],
-        answer: 3,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "What is the primary focus of persuasive technology?",
-        options: [
-            "Changing user attitudes",
-            "Achieving target behavior",
-            "Enhancing user experience",
-            "Improving system usability"
-        ],
-        answer: 1,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "Which of the following is a key factor in determining a user’s readiness to change behavior?",
-        options: [
-            "Attitude towards target behavior (ATTB)",
-            "Attitude towards changing/maintaining current behavior (ATCMB)",
-            "Current behavior (CB)",
-            "All of the above"
-        ],
-        answer: 3,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "What is the main challenge in State 3 of the 3D-RAB model?",
-        options: [
-            "Moving the user to State 1",
-            "Moving the user to State 7",
-            "Moving the user to State 8",
-            "Moving the user to State 5"
-        ],
-        answer: 0,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "Which state in the 3D-RAB model is considered the most difficult to change?",
-        options: [
-            "State 1",
-            "State 5",
-            "State 7",
-            "State 8"
-        ],
-        answer: 3,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "What is the primary goal of reinforcement methods in State 2?",
-        options: [
-            "To move the user to State 1",
-            "To move the user to State 6",
-            "To move the user to State 8",
-            "To move the user to State 4"
-        ],
-        answer: 0,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "Which of the following is a key factor in the success of persuasive technology?",
-        options: [
-            "User familiarity with technology",
-            "Cognitive states of individuals",
-            "Availability of technical support",
-            "Cost of implementation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "What is the main focus of the Theory of Planned Behavior (TpB)?",
-        options: [
-            "Predicting intentions rather than behavior",
-            "Predicting behavior rather than intentions",
-            "Measuring cognitive dissonance",
-            "Measuring social influence"
-        ],
-        answer: 0,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "Which of the following is a characteristic of weak cognitive dissonance?",
-        options: [
-            "Strong psychological tension",
-            "Mild psychological tension",
-            "No psychological tension",
-            "Moderate psychological tension"
-        ],
-        answer: 1,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "What is the primary purpose of the 35 behavioral grid proposed by Fogg?",
-        options: [
-            "To categorize behavior change",
-            "To measure cognitive dissonance",
-            "To evaluate persuasive technologies",
-            "To analyze user attitudes"
-        ],
-        answer: 0,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "Which of the following is a key limitation of the 3D-RAB model?",
-        options: [
-            "It does not consider user attitudes.",
-            "It is difficult to measure attitudes objectively.",
-            "It is too complex for practical use.",
-            "It does not address cognitive dissonance."
-        ],
-        answer: 1,
-    },
-    {
-        section: "3D-RAB Model and Persuasive Technology",
-        question: "What is the main contribution of the 3D-RAB model to persuasive technology?",
-        options: [
-            "It provides a systematic approach to designing persuasive systems.",
-            "It measures the effectiveness of social psychology theories.",
-            "It evaluates the usability of persuasive technologies.",
-            "It compares different persuasive technologies."
-        ],
-        answer: 0,
-    },
-
-    // Section 8: Milky Way Application and Value Sensitive Design (20 questions)
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "What is the primary purpose of persuasive technology?",
-        options: [
-            "To manipulate users into making decisions",
-            "To help people change their behavior or attitudes",
-            "To collect user data for marketing purposes",
-            "To replace human decision-making"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "Which of the following is NOT a phase in the Persuasive Systems Design (PSD) model?",
-        options: [
-            "Understanding the issues behind persuasive systems",
-            "Analyzing the persuasion context",
-            "Conducting value sensitive analysis",
-            "Designing persuasive system features"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "What is the main goal of the Milky Way application?",
-        options: [
-            "To provide medical advice to new mothers",
-            "To increase breastfeeding confidence and duration",
-            "To replace face-to-face breastfeeding consultations",
-            "To market breastfeeding products"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "Which of the following is a key ethical concern in persuasive technology?",
-        options: [
-            "Ensuring the system is coercive",
-            "Ensuring the system is voluntary and not manipulative",
-            "Ensuring the system collects as much data as possible",
-            "Ensuring the system is used by as many people as possible"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "What is the core value of the Milky Way application?",
-        options: [
-            "Privacy",
-            "Autonomy",
-            "Breastfeeding",
-            "Human welfare"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "Which of the following is a direct stakeholder of the Milky Way application?",
-        options: [
-            "Society as a whole",
-            "Pregnant women intending to breastfeed",
-            "Marketing officers of the university",
-            "Infants"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "What is the main ethical issue related to autonomy in the Milky Way application?",
-        options: [
-            "Users should be forced to breastfeed",
-            "Users should be allowed to stop using the application or breastfeeding at any time",
-            "Users should not be given any information about breastfeeding",
-            "Users should be required to share personal data"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "Which of the following is a persuasive system feature used in the Milky Way application?",
-        options: [
-            "Tailoring",
-            "Coercion",
-            "Data mining",
-            "Manipulation"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "What is the primary method used in value sensitive design to identify stakeholders?",
-        options: [
-            "Stakeholder tokens",
-            "Ulrich’s boundary questions",
-            "Persuasive Systems Design model",
-            "Empirical investigation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "Which of the following is an indirect stakeholder of the Milky Way application?",
-        options: [
-            "Pregnant women",
-            "Infants",
-            "Application developers",
-            "Marketing officers"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "What is the main challenge in balancing autonomy and persuasion in the Milky Way application?",
-        options: [
-            "Ensuring users feel pressured to breastfeed",
-            "Ensuring users are not manipulated but still persuaded to breastfeed",
-            "Ensuring users are forced to use the application",
-            "Ensuring users do not receive any information about breastfeeding"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "Which of the following is a key value identified in the Milky Way application?",
-        options: [
-            "Coercion",
-            "Autonomy",
-            "Manipulation",
-            "Data collection"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "What is the main purpose of value sensitive analysis in persuasive system design?",
-        options: [
-            "To identify stakeholders and their values",
-            "To increase the coercive nature of the system",
-            "To collect user data for marketing purposes",
-            "To replace the Persuasive Systems Design model"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "Which of the following is a limitation of value sensitive analysis?",
-        options: [
-            "It provides clear guidance on solving conflicting values",
-            "It is easy to identify all relevant stakeholders",
-            "It does not offer tools to solve conflicting values",
-            "It is not useful for persuasive system design"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "What is the main ethical concern related to privacy in the Milky Way application?",
-        options: [
-            "Users should be forced to share personal information",
-            "Users should be able to discuss anonymously in the forum",
-            "Users should not be allowed to use the application",
-            "Users should be required to provide their real names"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "Which of the following is a source of knowledge in the Milky Way application design?",
-        options: [
-            "Marketing officers",
-            "Infants",
-            "Society as a whole",
-            "Pregnant women"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "What is the main benefit of involving stakeholders in the design of persuasive systems?",
-        options: [
-            "It increases the coercive nature of the system",
-            "It ensures the system is more relevant and meaningful to users",
-            "It reduces the need for ethical considerations",
-            "It eliminates the need for user testing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "Which of the following is a key value related to human welfare in the Milky Way application?",
-        options: [
-            "Ensuring users feel pressured to breastfeed",
-            "Providing evidence-based information on breastfeeding benefits",
-            "Collecting user data for marketing purposes",
-            "Ensuring users are forced to use the application"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "What is the main ethical concern related to cultural differences in the Milky Way application?",
-        options: [
-            "Ensuring the application uses culturally appropriate images and language",
-            "Ensuring the application is only available in one language",
-            "Ensuring the application does not provide any information about breastfeeding",
-            "Ensuring the application is only used in one country"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Milky Way Application and Value Sensitive Design",
-        question: "What is the main advantage of using value sensitive analysis in persuasive system design?",
-        options: [
-            "It provides a clear method for solving conflicting values",
-            "It helps identify stakeholders and their values, making the system more ethical",
-            "It eliminates the need for user involvement in the design process",
-            "It ensures the system is coercive and manipulative"
-        ],
-        answer: 1,
-    },
-
-    // Section 9: Behavior Change Support Systems (BCSS) and Machine Learning (20 questions)
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "What is the primary focus of the study in the PDF?",
-        options: [
-            "The impact of social media on behavior change",
-            "The determinants of compliance intention in Behavior Change Support Systems (BCSS)",
-            "The role of wearable devices in physical activity",
-            "The effectiveness of gamification in health apps"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "Which theoretical model serves as the main framework for the study?",
-        options: [
-            "Theory of Planned Behavior",
-            "Self-Determination Theory",
-            "Persuasive Systems Design (PSD) model",
-            "Social Cognitive Theory"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "What is the main reason for the long-term ineffectiveness of BCSS?",
-        options: [
-            "Lack of user interest",
-            "High cost of implementation",
-            "Non-compliance by users",
-            "Limited availability of BCSS"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "Which of the following is NOT one of the four persuasive principles of the PSD model?",
-        options: [
-            "Primary task support",
-            "Dialogue support",
-            "Social support",
-            "Financial support"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "What does 'perceived credibility support' refer to in the context of BCSS?",
-        options: [
-            "The user's belief that the system is fun to use",
-            "The user's belief that the system provides trustworthy information",
-            "The user's belief that the system is easy to use",
-            "The user's belief that the system is socially engaging"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "Which hypothesis states that perceived social support positively influences perceived competence?",
-        options: [
-            "H1a",
-            "H1b",
-            "H2a",
-            "H2b"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "What is the primary goal of primary task support in the PSD model?",
-        options: [
-            "To make the primary task easier for the user",
-            "To provide financial incentives for the user",
-            "To increase social interaction among users",
-            "To make the system more visually appealing"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "Which of the following constructs is influenced by both perceived competence and perceived effectiveness?",
-        options: [
-            "Perceived persuasiveness",
-            "Perceived enjoyment",
-            "Perceived compliance intention",
-            "Perceived credibility"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "What is the relationship between perceived enjoyment and perceived persuasiveness?",
-        options: [
-            "Perceived enjoyment negatively influences perceived persuasiveness",
-            "Perceived enjoyment has no effect on perceived persuasiveness",
-            "Perceived enjoyment positively influences perceived persuasiveness",
-            "Perceived persuasiveness negatively influences perceived enjoyment"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "Which statistical method was used to evaluate the proposed model in the study?",
-        options: [
-            "Multiple regression analysis",
-            "Partial least squares structural equation modeling (PLS-SEM)",
-            "Factor analysis",
-            "ANOVA"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "What is the definition of 'perceived competence' in the context of the study?",
-        options: [
-            "The user's belief that the system is effective",
-            "The user's belief in their ability to perform and maintain positive behaviors",
-            "The user's belief that the system is enjoyable",
-            "The user's belief that the system is credible"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "Which of the following is a limitation of the study mentioned in the PDF?",
-        options: [
-            "The sample size was too small",
-            "The study only focused on female participants",
-            "The sample had a male dominance of 80.34%",
-            "The study did not use any statistical analysis"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "What is the main outcome variable in the proposed research model?",
-        options: [
-            "Perceived effectiveness",
-            "Perceived persuasiveness",
-            "Perceived compliance intention",
-            "Perceived enjoyment"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "Which of the following is NOT a factor that influences perceived compliance intention in the study?",
-        options: [
-            "Perceived persuasiveness",
-            "Perceived enjoyment",
-            "Perceived credibility",
-            "Perceived financial incentives"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "What is the role of 'dialogue support' in the PSD model?",
-        options: [
-            "To provide financial incentives to users",
-            "To provide feedback and motivation to users",
-            "To increase social interaction among users",
-            "To make the system more visually appealing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "Which of the following is a key finding of the study?",
-        options: [
-            "Perceived financial incentives significantly influence compliance intention",
-            "Perceived competence and effectiveness influence perceived enjoyment",
-            "Perceived social support has no effect on perceived competence",
-            "Perceived persuasiveness negatively influences compliance intention"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "What is the definition of 'perceived effectiveness' in the context of the study?",
-        options: [
-            "The user's belief that the system is fun to use",
-            "The user's belief that the system is credible",
-            "The user's belief that the system is beneficial in performing activities of interest",
-            "The user's belief that the system is easy to use"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "Which of the following is a key recommendation for BCSS developers based on the study?",
-        options: [
-            "Focus on increasing financial incentives for users",
-            "Focus on improving system credibility and social support",
-            "Focus on making the system more visually appealing",
-            "Focus on reducing the cost of the system"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "What is the main demographic characteristic of the respondents in the study?",
-        options: [
-            "Majority were female",
-            "Majority were over 55 years old",
-            "Majority were between 18 and 35 years old",
-            "Majority were graduate students"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Behavior Change Support Systems (BCSS) and Machine Learning",
-        question: "What is the significance of the study's findings for BCSS developers?",
-        options: [
-            "It highlights the importance of financial incentives in improving compliance",
-            "It provides insights into how persuasive design principles can improve compliance intention",
-            "It suggests that visual appeal is the most important factor in system design",
-            "It emphasizes the need for reducing system costs"
-        ],
-        answer: 1,
-    },
-
-    // Section 10: Systematic Review on Machine Learning and BCSS (20 questions)
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "What is the primary objective of the systematic review in the PDF?",
-        options: [
-            "To evaluate the cost-effectiveness of BCSS",
-            "To identify trends in the use of machine learning for predicting adherence to BCSS",
-            "To compare different types of BCSS",
-            "To assess the impact of BCSS on healthcare costs"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "Which databases were used for the systematic literature search in the study?",
-        options: [
-            "Google Scholar and Web of Science",
-            "Scopus and PubMed",
-            "IEEE Xplore and ACM Digital Library",
-            "PubMed and Google Scholar"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "How many journal papers were eligible for inclusion in the systematic review?",
-        options: [
-            "11",
-            "20",
-            "50",
-            "100"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "Which of the following is NOT a category of adherence problems identified in the review?",
-        options: [
-            "Medication adherence",
-            "Physical activity adherence",
-            "Financial adherence",
-            "Diet adherence"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "What is the most used persuasive system design (PSD) feature in the reviewed BCSS?",
-        options: [
-            "Social support",
-            "Dialogue support",
-            "Primary task support",
-            "Credibility support"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "Which machine learning technique was most commonly used across the studies?",
-        options: [
-            "Logistic regression",
-            "Random forest",
-            "Support vector machines",
-            "Long short-term memory (LSTM)"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "What is the definition of 'adherence to digital cognitive or behavioral interventions'?",
-        options: [
-            "The successful completion of all recommended tasks and achievement of initial set goals",
-            "The consistent use of medication as prescribed",
-            "The increase in physical activity levels over time",
-            "The avoidance of dietary relapse"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "Which of the following is a barrier to adherence mentioned in the review?",
-        options: [
-            "Lack of financial incentives",
-            "Achievement of set health or body goals",
-            "Overuse of social support features",
-            "Excessive system personalization"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "What is the primary goal of primary task support in BCSS?",
-        options: [
-            "To provide financial incentives to users",
-            "To simplify and motivate users to perform recommended tasks",
-            "To increase social interaction among users",
-            "To make the system more visually appealing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "Which of the following is a feature of dialogue support in BCSS?",
-        options: [
-            "Personalization",
-            "Reminders",
-            "Expertise",
-            "Social facilitation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "What is the least used persuasive system design (PSD) feature in the reviewed BCSS?",
-        options: [
-            "Primary task support",
-            "Dialogue support",
-            "Credibility support",
-            "Social support"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "Which of the following is a common performance metric used to evaluate machine learning models in the studies?",
-        options: [
-            "Area under the receiver operating characteristic curve (AUROC)",
-            "Mean squared error (MSE)",
-            "R-squared",
-            "F1-score"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "What is the main limitation of the data collection methods in some of the included studies?",
-        options: [
-            "Data were collected in a controlled environment, which may not represent real-world behavior",
-            "Data were collected using self-reports, which are prone to bias",
-            "Data were collected using only wearable devices",
-            "Data were collected over a short period of time"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "Which of the following is a deep learning technique used in the reviewed studies?",
-        options: [
-            "Logistic regression",
-            "Random forest",
-            "Long short-term memory (LSTM)",
-            "Support vector machines"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "What is the primary reason for the sparing use of deep learning techniques in the reviewed studies?",
-        options: [
-            "Deep learning techniques are less accurate than traditional methods",
-            "Deep learning techniques require large amounts of data",
-            "Deep learning techniques are more expensive to implement",
-            "Deep learning techniques are not suitable for health-related data"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "Which of the following is a predictor of physical activity adherence identified in the review?",
-        options: [
-            "Exercise history",
-            "Medication dosage",
-            "Dietary preferences",
-            "Sleep patterns"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "What is the main challenge reported in most of the included studies regarding data?",
-        options: [
-            "Data were too large to process",
-            "Data were scarce and small-sized",
-            "Data were collected using outdated methods",
-            "Data were not relevant to the study objectives"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "Which of the following is a feature of credibility support in BCSS?",
-        options: [
-            "Reminders",
-            "Expertise",
-            "Social facilitation",
-            "Personalization"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "What is the primary goal of using machine learning in BCSS according to the review?",
-        options: [
-            "To reduce the cost of healthcare",
-            "To predict adherence behavior in real-time",
-            "To replace human healthcare providers",
-            "To increase the number of BCSS users"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Systematic Review on Machine Learning and BCSS",
-        question: "Which of the following is a key finding of the systematic review?",
-        options: [
-            "Machine learning techniques are not effective in predicting adherence",
-            "Traditional machine learning techniques are more commonly used than advanced techniques",
-            "Deep learning techniques are the most effective for all types of adherence problems",
-            "Social support features are the most effective in improving adherence"
-        ],
-        answer: 1,
-    },
-
-    // Section 11: Persuasive Social Support Features (20 questions)
-    {
-        section: "Persuasive Social Support Features",
-        question: "What is the primary focus of the study in the PDF?",
-        options: [
-            "The impact of financial incentives on health app usage",
-            "The influence of persuasive social support features on perceived health competence",
-            "The role of gamification in fitness apps",
-            "The effect of app design on user retention"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "Which theoretical framework is used as the foundation for the study?",
-        options: [
-            "Theory of Planned Behavior",
-            "Social Cognitive Theory",
-            "Persuasive Systems Design (PSD) framework",
-            "Self-Determination Theory"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "What is the definition of 'perceived health competence' in the context of the study?",
-        options: [
-            "The user's belief that the app is easy to use",
-            "The user's confidence in their ability to perform and maintain positive health behaviors",
-            "The user's satisfaction with the app's design",
-            "The user's perception of the app's credibility"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "Which of the following is NOT a feature of the social support principle in the PSD framework?",
-        options: [
-            "Social learning",
-            "Social comparison",
-            "Financial incentives",
-            "Recognition"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "What is the main hypothesis regarding the relationship between social facilitation and social learning?",
-        options: [
-            "Social facilitation negatively impacts social learning",
-            "Social facilitation has no effect on social learning",
-            "Social facilitation positively influences social learning",
-            "Social facilitation only affects competition"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "Which of the following is a key finding of the study?",
-        options: [
-            "Social comparison has no effect on cooperation",
-            "Recognition negatively impacts perceived health competence",
-            "Social learning positively influences perceived health competence",
-            "Competition has no effect on recognition"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "What is the role of 'normative influence' in the study?",
-        options: [
-            "It refers to the user's desire to conform to social norms within the app",
-            "It refers to the user's ability to compete with others",
-            "It refers to the user's perception of the app's credibility",
-            "It refers to the user's financial incentives for using the app"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "Which of the following is a mediator in the relationship between social facilitation and perceived health competence?",
-        options: [
-            "Social comparison",
-            "Social learning",
-            "Competition",
-            "Recognition"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "What is the primary method used for data analysis in the study?",
-        options: [
-            "Multiple regression analysis",
-            "Partial Least Squares Structural Equation Modeling (PLS-SEM)",
-            "Factor analysis",
-            "ANOVA"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "Which of the following is a limitation of the study mentioned in the PDF?",
-        options: [
-            "The sample size was too small",
-            "The study only focused on female participants",
-            "The sample had a male dominance of over 70%",
-            "The study did not use any statistical analysis"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "What is the main outcome variable in the proposed research model?",
-        options: [
-            "Perceived effectiveness",
-            "Perceived persuasiveness",
-            "Perceived health competence",
-            "Perceived enjoyment"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "Which of the following is a feature of dialogue support in the PSD framework?",
-        options: [
-            "Reminders",
-            "Expertise",
-            "Social facilitation",
-            "Personalization"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "What is the primary goal of primary task support in the PSD framework?",
-        options: [
-            "To provide financial incentives to users",
-            "To simplify and motivate users to perform recommended tasks",
-            "To increase social interaction among users",
-            "To make the system more visually appealing"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "Which of the following is a common performance metric used to evaluate machine learning models in the studies?",
-        options: [
-            "Area under the receiver operating characteristic curve (AUROC)",
-            "Mean squared error (MSE)",
-            "R-squared",
-            "F1-score"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "What is the main challenge reported in most of the included studies regarding data?",
-        options: [
-            "Data were too large to process",
-            "Data were scarce and small-sized",
-            "Data were collected using outdated methods",
-            "Data were not relevant to the study objectives"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "Which of the following is a feature of credibility support in the PSD framework?",
-        options: [
-            "Reminders",
-            "Expertise",
-            "Social facilitation",
-            "Personalization"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "What is the primary goal of using machine learning in BCSS according to the review?",
-        options: [
-            "To reduce the cost of healthcare",
-            "To predict adherence behavior in real-time",
-            "To replace human healthcare providers",
-            "To increase the number of BCSS users"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "Which of the following is a key finding of the systematic review?",
-        options: [
-            "Machine learning techniques are not effective in predicting adherence",
-            "Traditional machine learning techniques are more commonly used than advanced techniques",
-            "Deep learning techniques are the most effective for all types of adherence problems",
-            "Social support features are the most effective in improving adherence"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "What is the main demographic characteristic of the respondents in the study?",
-        options: [
-            "Majority were female",
-            "Majority were over 55 years old",
-            "Majority were between 18 and 25 years old",
-            "Majority were graduate students"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Social Support Features",
-        question: "What is the significance of the study's findings for BCSS developers?",
-        options: [
-            "It highlights the importance of financial incentives in improving compliance",
-            "It provides insights into how persuasive design principles can improve compliance intention",
-            "It suggests that visual appeal is the most important factor in system design",
-            "It emphasizes the need for reducing system costs"
-        ],
-        answer: 1,
-    },
-
-    // Section 12: Technological Factors in Physical Activity BCSS (20 questions)
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "What is the primary focus of the systematic review discussed in the paper?",
-        options: [
-            "To identify psychological factors influencing user compliance with BCSS",
-            "To identify technological factors influencing user compliance with physical activity BCSS",
-            "To evaluate the effectiveness of wearable trackers in promoting physical activity",
-            "To analyze the role of social media in behavior change"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is NOT a form of compliance behavior identified in the review?",
-        options: [
-            "Program compliance",
-            "Behavior compliance",
-            "Attitude compliance",
-            "Both A and B"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which framework was used to analyze the persuasive features of BCSS in the review?",
-        options: [
-            "Technology Acceptance Model (TAM)",
-            "Persuasive Systems Design (PSD) framework",
-            "Unified Theory of Acceptance and Use of Technology (UTAUT)",
-            "Social Cognitive Theory"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "What percentage of physical activity BCSS users stop complying with the system within three months of downloading it?",
-        options: [
-            "Over 50%",
-            "30%",
-            "70%",
-            "20%"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a category of technological factors influencing compliance identified in the review?",
-        options: [
-            "User experience",
-            "Persuasive systems features",
-            "Other behavior change strategies",
-            "All of the above"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a primary task support feature in BCSS?",
-        options: [
-            "Reminders",
-            "Personalization",
-            "Social comparison",
-            "Expertise"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a dialogue support feature in BCSS?",
-        options: [
-            "Self-monitoring",
-            "Reminders",
-            "Expertise",
-            "Social learning"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a credibility support feature in BCSS?",
-        options: [
-            "Expertise",
-            "Rewards",
-            "Social role",
-            "Similarity"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a social support feature in BCSS?",
-        options: [
-            "Social learning",
-            "Personalization",
-            "Reminders",
-            "Expertise"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "What is the main purpose of the PACE app mentioned in the review?",
-        options: [
-            "To monitor sleep patterns",
-            "To promote physical activity among older adults",
-            "To track dietary habits",
-            "To provide mental health support"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a factor influencing behavior compliance?",
-        options: [
-            "Perceived usefulness",
-            "Perceived risk of over-activity",
-            "Intention to use",
-            "All of the above"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a factor influencing program compliance?",
-        options: [
-            "Ease of use",
-            "Perceived enjoyment",
-            "Usability",
-            "All of the above"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a limitation of the systematic review?",
-        options: [
-            "It only considered journal articles",
-            "It included conference papers",
-            "It focused on psychological factors",
-            "It did not use any frameworks"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a persuasive feature that was extensively used in BCSS aimed at compliance change?",
-        options: [
-            "Dialogue support",
-            "Primary task support",
-            "Credibility support",
-            "Social support"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a persuasive feature that was predominantly used in BCSS aimed at behavior change?",
-        options: [
-            "Dialogue support",
-            "Primary task support",
-            "Credibility support",
-            "Social support"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is an example of a gamified physical activity app mentioned in the review?",
-        options: [
-            "PACE app",
-            "Mission: Schweinehund",
-            "ActiveTrack",
-            "My Dear Knee"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a technological platform used in the BCSS discussed in the review?",
-        options: [
-            "Web-based apps",
-            "Mobile apps",
-            "Gamified apps",
-            "All of the above"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a factor that was rarely explored in compliance models?",
-        options: [
-            "Feedback",
-            "Accountability",
-            "Rewards",
-            "Expertise"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a key finding of the review regarding social support features?",
-        options: [
-            "They are extensively used in BCSS aimed at compliance change",
-            "They are rarely used in physical activity BCSS",
-            "They are the most effective in promoting behavior change",
-            "They are not relevant in BCSS"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Technological Factors in Physical Activity BCSS",
-        question: "Which of the following is a recommendation for designers of BCSS based on the review?",
-        options: [
-            "Focus only on primary task support features",
-            "Tailor persuasive features based on compliance behavior types",
-            "Ignore user experience features",
-            "Avoid using dialogue support features"
-        ],
-        answer: 1,
-    },
-
-    // Section 13: Virtual Reality (VR) and Continuance Intention (20 questions)
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "What is the primary focus of the study discussed in the paper?",
-        options: [
-            "To evaluate the effectiveness of VR in gaming",
-            "To examine factors influencing continuance intention to use VR for exercise",
-            "To analyze the impact of VR on mental health",
-            "To compare VR with traditional exercise methods"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is NOT a construct examined in the study?",
-        options: [
-            "Perceived enjoyment",
-            "Perceived effectiveness",
-            "Social support",
-            "Perceived immersion"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which framework was used to guide the development of the VR environment in the study?",
-        options: [
-            "Technology Acceptance Model (TAM)",
-            "Persuasive Systems Design (PSD) framework",
-            "Unified Theory of Acceptance and Use of Technology (UTAUT)",
-            "Social Cognitive Theory"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "What percentage of the world’s adult population is physically inactive according to the study?",
-        options: [
-            "Over 25%",
-            "15%",
-            "50%",
-            "10%"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is a primary task support feature in the VR environment?",
-        options: [
-            "Praise",
-            "Self-monitoring",
-            "Social role",
-            "Expertise"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is a dialogue support feature in the VR environment?",
-        options: [
-            "Self-monitoring",
-            "Praise",
-            "Credibility support",
-            "Perceived immersion"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is a credibility support feature in the VR environment?",
-        options: [
-            "Self-monitoring",
-            "Praise",
-            "Surface credibility",
-            "Perceived enjoyment"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "What is the primary task in the VR environment developed for the study?",
-        options: [
-            "Playing a game",
-            "Completing a walking exercise",
-            "Solving puzzles",
-            "Watching a video"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which software was used to develop the VR environment in the study?",
-        options: [
-            "Blender and Unity3D",
-            "Unreal Engine and Maya",
-            "AutoCAD and SketchUp",
-            "Photoshop and Illustrator"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "What was the walking distance covered in the VR environment?",
-        options: [
-            "1.5km to 2km",
-            "3km to 4km",
-            "500m to 1km",
-            "5km to 6km"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following had the strongest impact on continuance intention in the study?",
-        options: [
-            "Perceived enjoyment",
-            "Perceived effectiveness",
-            "Perceived persuasiveness",
-            "Perceived immersion"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is NOT a factor influencing continuance intention in the study?",
-        options: [
-            "Perceived enjoyment",
-            "Perceived effectiveness",
-            "Social support",
-            "Perceived persuasiveness"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "What was the primary method used for data analysis in the study?",
-        options: [
-            "Partial Least Squares Structural Equation Modeling (PLS-SEM)",
-            "Multiple Regression Analysis",
-            "Factor Analysis",
-            "ANOVA"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is a key finding of the study regarding primary task support?",
-        options: [
-            "It had no impact on perceived immersion",
-            "It had a stronger impact on perceived immersion than dialogue support",
-            "It had a weaker impact on perceived immersion than dialogue support",
-            "It only influenced perceived enjoyment"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is a key finding of the study regarding perceived immersion?",
-        options: [
-            "It had no impact on perceived enjoyment",
-            "It had a strong positive impact on perceived enjoyment",
-            "It only influenced perceived effectiveness",
-            "It had no impact on continuance intention"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is a limitation of the study mentioned in the paper?",
-        options: [
-            "The study did not consider social support",
-            "The study only focused on gaming",
-            "The study did not use any frameworks",
-            "The study did not collect any data"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is a recommendation for future work mentioned in the study?",
-        options: [
-            "To focus only on perceived enjoyment",
-            "To test the model on a larger population",
-            "To ignore individual differences",
-            "To stop using VR for exercise"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is a key implication of the study for designers of VR systems?",
-        options: [
-            "Focus only on perceived enjoyment",
-            "Focus on creating systems that are perceived as effective",
-            "Ignore user experience features",
-            "Avoid using persuasive features"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is a key contribution of the study to persuasive systems research?",
-        options: [
-            "It ignored the role of PSD constructs",
-            "It provided a theoretical framework for understanding continuance intention in VR",
-            "It focused only on gaming",
-            "It did not use any data analysis methods"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Virtual Reality (VR) and Continuance Intention",
-        question: "Which of the following is a key finding of the study regarding perceived persuasiveness?",
-        options: [
-            "It had no impact on continuance intention",
-            "It was the strongest predictor of continuance intention",
-            "It was influenced by primary task support, dialogue support, and credibility support",
-            "It was not examined in the study"
-        ],
-        answer: 2,
-    },
-
-    // Section 14: Health and Fitness Apps and Sentiment Analysis (20 questions)
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "What is the primary focus of the study in the paper?",
-        options: [
-            "To evaluate the usability of health and fitness apps",
-            "To explore the impact of persuasive system features on user sentiments",
-            "To compare iOS and Android health apps",
-            "To analyze the financial performance of health apps"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "Which framework is used as the basis for persuasive system design in the study?",
-        options: [
-            "Fogg’s Behavior Model",
-            "Elaboration Likelihood Model (ELM)",
-            "Persuasive Systems Design (PSD) framework",
-            "Technology Acceptance Model (TAM)"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "How many persuasive system features are proposed in the PSD framework?",
-        options: [
-            "15",
-            "20",
-            "28",
-            "35"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "Which of the following is NOT a category of persuasive system features in the PSD framework?",
-        options: [
-            "Primary Task Support",
-            "Dialogue Support",
-            "Social Support",
-            "Financial Support"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "What sampling technique was used to select the apps for the study?",
-        options: [
-            "Convenience sampling",
-            "Stratified random sampling",
-            "Snowball sampling",
-            "Cluster sampling"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "How many health and fitness apps were ultimately selected for the study?",
-        options: [
-            "10",
-            "23",
-            "50",
-            "72"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "Which of the following features was most dominant in health and fitness apps according to the study?",
-        options: [
-            "Social Support",
-            "Dialogue Support",
-            "Primary Task Support",
-            "Credibility Support"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "Which of the following features was least used in the apps studied?",
-        options: [
-            "Social Support",
-            "Dialogue Support",
-            "Primary Task Support",
-            "Credibility Support"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "What sentiment analysis tool was used in the study?",
-        options: [
-            "VADER",
-            "LIWC",
-            "SentiWordNet",
-            "TextBlob"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "Which of the following emotions was NOT categorized in the sentiment analysis?",
-        options: [
-            "Liking",
-            "Trust",
-            "Anger",
-            "Jealousy"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "What was the main finding regarding the relationship between persuasive features and user sentiments?",
-        options: [
-            "More features always lead to higher positive sentiments",
-            "Apps with fewer features had higher positive sentiments",
-            "Social support features increased positive sentiments",
-            "Credibility support features had no impact on sentiments"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "Which of the following apps had the highest positive sentiment intensity?",
-        options: [
-            "Headspace",
-            "Pocket Yoga",
-            "WalkingApp",
-            "Calorie Counter by FatSecret"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "What was the primary method used to analyze the relationship between persuasive features and sentiments?",
-        options: [
-            "Regression analysis",
-            "Cluster analysis",
-            "Factor analysis",
-            "Correlation analysis"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "Which of the following features was most frequently used in Dialogue Support?",
-        options: [
-            "Praise",
-            "Rewards",
-            "Reminders",
-            "Social Role"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "What was the main limitation of the study?",
-        options: [
-            "Small sample size",
-            "Lack of diversity in app selection",
-            "Inability to establish causal relationships",
-            "Limited use of sentiment analysis tools"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "Which of the following emotions was most associated with apps that had more Social Support features?",
-        options: [
-            "Liking",
-            "Trust",
-            "Anger",
-            "Happiness"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "What was the primary reason for excluding apps with less than 500 reviews?",
-        options: [
-            "To ensure a diverse sample",
-            "To ensure apps had adequate user feedback",
-            "To reduce the complexity of analysis",
-            "To focus on popular apps only"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "Which of the following is NOT a Primary Task Support feature?",
-        options: [
-            "Reduction",
-            "Tunnelling",
-            "Tailoring",
-            "Competition"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "What was the main conclusion regarding Credibility Support features?",
-        options: [
-            "They significantly increased user trust",
-            "They had no impact on user sentiments",
-            "They were the most frequently used features",
-            "They were rarely used in the apps studied"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Health and Fitness Apps and Sentiment Analysis",
-        question: "Which of the following apps had the lowest positive sentiment intensity?",
-        options: [
-            "Headspace",
-            "Pocket Yoga",
-            "WalkingApp",
-            "Calorie Counter by FatSecret"
-        ],
-        answer: 0,
-    },
-
-    // Section 15: U-FADE Framework and Persuasive Systems Design (20 questions)
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "What is the primary goal of the U-FADE framework?",
-        options: [
-            "To evaluate the usability of persuasive systems",
-            "To provide a systematic approach for designing persuasive systems",
-            "To compare different persuasive technologies",
-            "To analyze the financial performance of persuasive systems"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "Which model is integrated into the U-FADE framework to analyze user context?",
-        options: [
-            "Elaboration Likelihood Model (ELM)",
-            "3-Dimensional Relationship between Attitude and Behaviour (3D-RAB) model",
-            "Functional Triad",
-            "Behaviour Wizard"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "How many steps are included in the U-FADE framework?",
-        options: [
-            "3",
-            "5",
-            "7",
-            "10"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "Which of the following is NOT a step in the U-FADE framework?",
-        options: [
-            "Event Analysis",
-            "Selecting Persuasive Strategy",
-            "Financial Analysis",
-            "Evaluating Change"
-        ],
-        answer: 2,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "What does the 3D-RAB model categorize users based on?",
-        options: [
-            "Age and gender",
-            "Cognitive dissonance and attitude",
-            "Income level and education",
-            "Geographic location"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "Which of the following is a key component of the User Context analysis in U-FADE?",
-        options: [
-            "Financial constraints",
-            "Current Behaviour (CB)",
-            "Market trends",
-            "Technological advancements"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "What does the Persuasive Technology Onion (PTO) analyze?",
-        options: [
-            "Internal factors of persuasion",
-            "External factors of persuasion",
-            "Financial factors of persuasion",
-            "Technological factors of persuasion"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "Which of the following is an example of Natural Attitude or Behaviour Change (NABC)?",
-        options: [
-            "Organizational rules",
-            "Cultural norms",
-            "Government regulations",
-            "Job requirements"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "What is the primary focus of the Persuasive Pathway Model (PPM)?",
-        options: [
-            "Financial planning",
-            "Selecting persuasive strategies",
-            "Market analysis",
-            "User interface design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "According to the Persuasive Pathway Model (PPM), which type of message is effective for long-term attitude change?",
-        options: [
-            "Peripheral messages",
-            "Elaborated messages",
-            "Visual messages",
-            "Emotional messages"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "Which of the following is an example of a system feature that supports peripheral messages?",
-        options: [
-            "Tunnelling",
-            "Self-monitoring",
-            "Rewards",
-            "Simulation"
-        ],
-        answer: 2,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "What is the purpose of the Transition Description Card (TDC) in U-FADE?",
-        options: [
-            "To evaluate financial performance",
-            "To summarize activities for implementing transitions",
-            "To analyze market trends",
-            "To design user interfaces"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "Which of the following is a key benefit of using the 3D-RAB model for evaluating change?",
-        options: [
-            "It measures financial performance",
-            "It identifies changes in user attitudes and behaviours",
-            "It analyzes market trends",
-            "It evaluates technological advancements"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "What is the main challenge addressed by the U-FADE framework?",
-        options: [
-            "Financial constraints in persuasive system design",
-            "Changing user needs during persuasive interventions",
-            "Lack of technological advancements",
-            "Market competition"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "Which of the following is a key design implication of the U-FADE framework?",
-        options: [
-            "Designing for specific target groups",
-            "Focusing on financial performance",
-            "Analyzing market trends",
-            "Evaluating technological advancements"
-        ],
-        answer: 0,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "What is the primary focus of the Planned Attitude or Behaviour Change (PABC) analysis?",
-        options: [
-            "Informal activities that influence behaviour",
-            "Formal rules and regulations that influence behaviour",
-            "Financial constraints",
-            "Market trends"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "Which of the following is an example of a system feature that supports elaborated messages?",
-        options: [
-            "Rewards",
-            "Tunnelling",
-            "Personalisation",
-            "Similarity"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "What is the primary purpose of the Event Analysis step in U-FADE?",
-        options: [
-            "To evaluate financial performance",
-            "To analyze internal and external factors affecting behaviour",
-            "To design user interfaces",
-            "To analyze market trends"
-        ],
-        answer: 1,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "Which of the following is a key benefit of using the U-FADE framework?",
-        options: [
-            "It provides a systematic approach for designing persuasive systems",
-            "It focuses on financial performance",
-            "It analyzes market trends",
-            "It evaluates technological advancements"
-        ],
-        answer: 0,
-    },
-    {
-        section: "U-FADE Framework and Persuasive Systems Design",
-        question: "What is the primary focus of the Evaluating Change step in U-FADE?",
-        options: [
-            "To measure financial performance",
-            "To assess changes in user attitudes and behaviours",
-            "To analyze market trends",
-            "To evaluate technological advancements"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a key characteristic of monolithic architecture?",
-        options: [
-            "Loosely coupled components",
-            "Single codebase for all functionalities",
-            "Independent deployment of services",
-            "Event-driven communication"
-        ],
-        answer: 1,
-    },
-
-    // Section 2: Persuasive Systems Design (100 questions)
-    {
-        section: "Persuasive Systems Design",
-        question: "How can we develop ethical guidelines for the design and deployment of behavior change support systems?",
-        options: [
-            "Implementing safeguards to protect user privacy and data security.",
-            "Establishing clear principles for transparency, accountability, and user consent.",
-            "All of the above.",
-            "Engaging in ongoing research and evaluation to assess the impact of interventions."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "According to PSD, how does the 'Scarcity' principle contribute to persuasive technology?",
-        options: [
-            "Encourage abundance for better outcomes",
-            "Scarcity is irrelevant in persuasive design",
-            "Manipulate the perception of abundance for sustained engagement",
-            "Leverage the perception of scarcity to increase the perceived value of interventions"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does the 'Trustworthiness' principle contribute to the effectiveness of persuasive systems in PSD?",
-        options: [
-            "Trustworthiness is irrelevant in persuasive design",
-            "Establish and maintain user trust through transparent communication and reliable information",
-            "Manipulate user trust for sustained engagement",
-            "Encourage distrust for better outcomes"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the Persuasive Systems Design (PSD) model?",
-        options: [
-            "None of the above",
-            "A model for evaluating the ethical implications of a system",
-            "A model for analyzing the value of a system",
-            "A framework for designing persuasive systems"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is Value Sensitive Analysis (VSA)?",
-        options: [
-            "A method for evaluating the ethical implications of a system",
-            "A method for designing persuasive systems",
-            "A method for analyzing the value of a system",
-            "A method for selecting and implementing persuasive features in a system"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Website quotes an authority, such as a statement by government health office. This is an example implementation of?",
-        options: [
-            "Authority",
-            "Third-party endorsement",
-            "Real-world feel",
-            "None of the above"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What does the future hold for the ethical development and use of persuasive technology?",
-        options: [
-            "A shift towards user-centered design and ethical AI principles.",
-            "Increasingly sophisticated techniques for manipulating user behavior.",
-            "Unregulated and unchecked growth of the persuasive technology industry.",
-            "A growing awareness of the ethical implications and potential harms."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the Value Sensitive Analysis (VSA) PSD model?",
-        options: [
-            "A model for selecting and implementing persuasive features in a system",
-            "A combination of the PSD model with VSA to enhance ethical analysis and stakeholder engagement in persuasive system design",
-            "A model for analyzing the value of a system",
-            "A model for evaluating the ethical implications of a system"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are the effects of computers that flatter?",
-        options: [
-            "They lead to increased skepticism and distrust.",
-            "They have no significant impact on human behavior.",
-            "They can create more likable and persuasive interactive technologies.",
-            "They result in decreased user engagement and satisfaction."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the difference between cooperation and competition?",
-        options: [
-            "Cooperation and competition are the same thing.",
-            "Cooperation and competition are not important in persuasive systems.",
-            "Cooperation involves working together with others to motivate behavior change, while competition involves competing with others to motivate behavior change.",
-            "Cooperation involves comparing oneself to others to motivate behavior change, while recognition involves using the presence of others to motivate behavior change."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the main focus about the role of computing products as persuasive social actors?",
-        options: [
-            "Understanding human-computer interaction.",
-            "Investigating the automatic social responses triggered by computing products.",
-            "Exploring the impact of AI on social behavior.",
-            "Designing more advanced computing systems."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Three boundary issues are used to identify stakeholders in the Value Sensitive Analysis.",
-        options: [
-            "True",
-            "False"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the primary role of feedback in persuasive technology?",
-        options: [
-            "Providing information about user preferences.",
-            "Guiding behavior through real-time information and cues.",
-            "Enhancing user engagement.",
-            "Customizing the user interface."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are some potential challenges associated with using persuasive technology to address complex social issues such as poverty and inequality?",
-        options: [
-            "Lack of trust and engagement from marginalized communities.",
-            "Difficulty tailoring interventions to diverse and specific needs.",
-            "Difficulty measuring and evaluating the long-term impact of interventions.",
-            "Risk of perpetuating existing biases and inequalities through technology."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology consider the well-being of vulnerable populations in its design?",
-        options: [
-            "Well-being is irrelevant for vulnerable populations",
-            "Ignore vulnerable populations",
-            "Target vulnerable populations for better outcomes",
-            "Implement features to protect and respect vulnerable populations"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which psychological principle involves the tendency to follow the actions of others in uncertain situations?",
-        options: [
-            "Conformity bias.",
-            "Obedience.",
-            "Herd mentality.",
-            "Social influence."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can we hold developers and designers accountable for the ethical implications of their work?",
-        options: [
-            "Relying solely on the self-regulation of the tech industry.",
-            "Supporting legislation that establishes ethical guidelines for persuasive technology development.",
-            "Boycotting the products and services of companies that use unethical persuasive techniques.",
-            "Encouraging whistleblowing within the tech industry."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does the 'Praise' principle in PSD contribute to persuasive technology?",
-        options: [
-            "Discourage positive feedback",
-            "Provide negative feedback to enhance motivation",
-            "Offer positive reinforcement and praise to users for their achievements",
-            "Praise is irrelevant in persuasive design"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which type of persuasive design element leverages social proof to influence user behavior?",
-        options: [
-            "Social media notifications",
-            "Progress bars",
-            "Gamification elements",
-            "Testimonials"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which design element involves the use of social norms to influence behavior?",
-        options: [
-            "Social validation.",
-            "Similarity.",
-            "Social influence.",
-            "Social proof."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What term refers to the ability of a system to adapt its behavior based on user interactions?",
-        options: [
-            "Responsiveness.",
-            "Customization.",
-            "Personalization.",
-            "Adaptability."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Pick the odd one out",
-        options: [
-            "Praise",
-            "Reduction",
-            "Personalization",
-            "Tunneling"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "In value-sensitive persuasive systems, what role does user participation in the design process play, and how does it contribute to ethical considerations?",
-        options: [
-            "User participation is irrelevant in persuasive design",
-            "Exclude users for better decision-making",
-            "Designers alone should determine the values embedded in persuasive systems",
-            "Involve users to ensure their values are considered, enhancing system effectiveness and ethical alignment"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does persuasive technology impact social norms, and why is this important to consider?",
-        options: [
-            "Persuasion has no impact on social norms",
-            "Social norms are irrelevant in persuasive design",
-            "Persuasion shapes and reinforces social norms; important for ethical considerations",
-            "Persuasion disrupts social norms for the better"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the role of the 'Feedback' principle in PSD?",
-        options: [
-            "Discourage feedback for simplicity",
-            "Manipulate feedback for better outcomes",
-            "Feedback is irrelevant in persuasive design",
-            "Provide occasional feedback to users on their progress and performance"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the term for the phenomenon where individuals are more likely to comply with a request if it is perceived as coming from an authority figure?",
-        options: [
-            "Social proof.",
-            "Consistency.",
-            "Reciprocity.",
-            "Authority."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What type of information does the Milky Way application provide, and how is its persuasive power enhanced as discussed in the 'Ethical evaluation of a value sensitive persuasive system: Case Milky Way'?",
-        options: [
-            "It provides feedback on users’ progress, and its persuasive power is enhanced by providing social support",
-            "It provides reminders to users, and its persuasive power is enhanced by providing feedback on their behavior",
-            "It provides motivational messages, and its persuasive power is enhanced by using common language",
-            "It provides trustworthy, evidence-based breastfeeding information, and its persuasive power is enhanced by providing sources to scientific literature"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What role does cognitive dissonance play in the 3D-RAB model?",
-        options: [
-            "It creates psychological tension for behavior change.",
-            "It identifies patterns of persuasion in social networks.",
-            "It collects user feedback for persuasive approaches.",
-            "It categorizes users based on their behavior."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Personal stories of the people who have succeeded in their goal behavior are published on a smoking cessation Website. This is an example implementation of?",
-        options: [
-            "Cooperation",
-            "Recognition",
-            "Competition",
-            "Social Facilitation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is 'shaping' in persuasive technology?",
-        options: [
-            "Reinforcing successive approximations of a desired behavior until the desired behavior is reached.",
-            "A method of error correction in programming.",
-            "The process of forming user preferences.",
-            "The development of three-dimensional shapes in user interfaces."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the difference between direct and indirect persuasion?",
-        options: [
-            "Direct persuasion uses social influence to motivate behavior change, while indirect persuasion focuses on the system’s credibility.",
-            "Direct persuasion aims at convincing the user by appealing to reason and intelligence, while indirect persuasion uses simple cues or stereotypes for evaluating the information",
-            "Direct persuasion focuses on the user’s emotions, while indirect persuasion focuses on the user’s cognitive processes.",
-            "Direct persuasion is more effective than indirect persuasion."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "An iterative tripartite methodology encompasses what?",
-        options: [
-            "Empirical, technical, and iterative investigations",
-            "Conceptual, empirical, and technical investigations",
-            "Conceptual, non-conceptual, and iterative investigations",
-            "Empirical, non-conceptual, and iterative investigations"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology be used to promote environmental sustainability and reduce individual carbon footprints?",
-        options: [
-            "By promoting the latest sustainable technologies and encouraging consumerism.",
-            "By highlighting the negative consequences of climate change and inducing fear and anxiety.",
-            "By creating gamified challenges to encourage sustainable behaviors and competition.",
-            "By providing personalized feedback and recommendations for eco-friendly consumption habits."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "In the context of persuasive technology, what does 'priming' involve?",
-        options: [
-            "Presenting information subtly to influence subsequent behavior.",
-            "Alerting users through notifications.",
-            "Displaying persuasive messages prominently.",
-            "Customizing the user interface."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "According to PSD, what is the role of the 'Self-Persuasion' principle?",
-        options: [
-            "Facilitate opportunities for users to persuade themselves of the value of behavior change",
-            "Discourage users from persuading themselves",
-            "Manipulate user self-perceptions for better outcomes",
-            "Self-persuasion is irrelevant in persuasive design"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology be used to improve mental health outcomes?",
-        options: [
-            "By providing personalized support and interventions for individuals struggling with mental health challenges.",
-            "By encouraging social isolation and disconnecting from meaningful relationships.",
-            "By creating immersive virtual reality experiences to escape from real-world problems.",
-            "By promoting unrealistic beauty standards and body image expectations."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What concept involves presenting information in a way that appeals to emotions rather than logic?",
-        options: [
-            "Pathos.",
-            "Emotional framing.",
-            "Logos.",
-            "Ethical appeal."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "In the context of persuasive design, how can designers address potential biases and stereotypes in the system?",
-        options: [
-            "Actively identify and mitigate biases to ensure fairness and inclusivity",
-            "Embrace biases for better system effectiveness",
-            "Ignore biases; they are unavoidable",
-            "Biases have no impact on persuasive technology"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What term refers to the psychological phenomenon where individuals are more likely to be persuaded by someone they like or admire?",
-        options: [
-            "Liking principle.",
-            "Similarity principle.",
-            "Attractiveness principle.",
-            "Authority principle."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are the 28 persuasive system features listed in the PSD model grouped into?",
-        options: [
-            "Primary task support, dialogue support, credibility support, and feedback support",
-            "Primary task support, dialogue support, credibility support, and motivation support",
-            "Primary task support, dialogue support, credibility support, and behavior support",
-            "Primary task support, dialogue support, credibility support, and social support"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the potential impact of persuasive technology on our understanding of free will and individual autonomy?",
-        options: [
-            "It can enhance our ability to make informed and rational decisions",
-            "It can foster a sense of community and belonging.",
-            "It can provide us with greater access to information and resources.",
-            "It can challenge our perception of ourselves as independent and self-governing beings."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does the 3D-RAB model contribute to designing persuasive third party applications for social networking services?",
-        options: [
-            "By considering external factors affecting persuasive strategies.",
-            "By implementing direct advertising techniques.",
-            "By focusing on individual user preferences.",
-            "By analyzing user demographics."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is NOT a common persuasive design terminology?",
-        options: [
-            "Cognitive dissonance",
-            "Social proof",
-            "Gamification",
-            "Purification"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology ethically leverage data analytics for user profiling while addressing privacy concerns?",
-        options: [
-            "Collect data without user consent for more accurate profiling",
-            "Implement transparent data collection practices and user-controlled profiling",
-            "Ignore privacy concerns for better profiling",
-            "Privacy concerns are irrelevant in persuasive design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What term refers to the persuasive technique that involves making a seemingly larger request, which is later reduced to the desired request?",
-        options: [
-            "Low-ball technique.",
-            "Foot-in-the-door technique.",
-            "Door-in-the-face technique.",
-            "Scarcity principle."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "A certificate / trust seal indicating the use of secure connections. This is an example implementation of?",
-        options: [
-            "Verifiability",
-            "Expertise",
-            "Surface credibility",
-            "Third party endorsement"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the ethical dilemma associated with persuasive technology?",
-        options: [
-            "It can lead to social isolation and loneliness.",
-            "It can be used to spread misinformation.",
-            "It can exploit users' vulnerabilities and manipulate their behavior.",
-            "It can be addictive and harmful to mental health."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of a persuasive technology application for environmental conservation?",
-        options: [
-            "Online shopping websites.",
-            "Social media platforms.",
-            "Video streaming services.",
-            "Energy-saving apps."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "In PSD, what is the significance of the 'Reduction' principle?",
-        options: [
-            "Reduction has no impact on persuasive design",
-            "Increase cognitive load",
-            "Simplify the system to reduce resistance",
-            "Ignore the principle for better outcomes"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "In the ethical design of persuasive technology, how can designers account for the potential unintended consequences of persuasive interventions?",
-        options: [
-            "Unintended consequences cannot be predicted or mitigated",
-            "Focus on short-term outcomes and ignore potential long-term consequences",
-            "Utilize scenario planning and rigorous testing to anticipate and address unintended consequences",
-            "Unintended consequences are irrelevant in ethical design"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How many dimensions are included in the 3D-RAB model?",
-        options: [
-            "5.",
-            "3.",
-            "4.",
-            "2."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the purpose of the 'Feedback' principle in PSD?",
-        options: [
-            "Manipulate feedback for better outcomes",
-            "Feedback is irrelevant in persuasive design",
-            "Discourage feedback for simplicity",
-            "Provide occasional feedback to users on their progress and performance"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does the 'Personalization' principle contribute to the effectiveness of persuasive systems in PSD?",
-        options: [
-            "Ignore user preferences for simplicity",
-            "Provide standardized interventions for all users",
-            "Personalization has no impact on persuasion",
-            "Customize persuasive strategies based on individual characteristics and needs"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the main ethical issue with persuasive technology?",
-        options: [
-            "It can be used to control users",
-            "It can be used to harm users",
-            "It can be used to manipulate users",
-            "It can be used to deceive users"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the role of 'Suggestion' in PSD?",
-        options: [
-            "Offer subtle suggestions to guide behavior change",
-            "Discourage suggestions for autonomy",
-            "Suggestions are irrelevant in persuasive design",
-            "Provide intrusive suggestions for better outcomes"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Users of a computer-based learning environment can recognize how many co-students are doing their assigned homework at the same time as them. This is an example implementation of?",
-        options: [
-            "Social Learning",
-            "Social Facilitation",
-            "Recognition",
-            "Cooperation"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are some potential risks associated with using persuasive technology in education?",
-        options: [
-            "Psychological manipulation and pressure",
-            "Increased student engagement",
-            "Improved learning outcomes",
-            "Enhanced teacher-student communication"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the importance of inclusivity in persuasive design?",
-        options: [
-            "Excludes certain user groups",
-            "Enhances the effectiveness of persuasion",
-            "Inclusivity is irrelevant",
-            "Simplifies the design process"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technologies be used to strengthen democracy and civic engagement?",
-        options: [
-            "By spreading misinformation and manipulating public opinion.",
-            "By facilitating online voting and participation in political processes.",
-            "By limiting access to diverse perspectives and promoting echo chambers.",
-            "By undermining trust in government institutions and democratic processes."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can behavior change support systems be used to address the growing problem of chronic diseases?",
-        options: [
-            "By facilitating self-monitoring of health indicators and promoting healthy behaviors.",
-            "By integrating with healthcare systems to improve disease detection and treatment.",
-            "By providing personalized interventions and education about disease management.",
-            "All of the above."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which design element refers to the ability of a system to provide timely and relevant information?",
-        options: [
-            "Salience.",
-            "Relevance.",
-            "Urgency.",
-            "Timeliness."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the difference between C-, B-, and A-Change?",
-        options: [
-            "C-Change is an attitude change, B-Change is a change in an act of complying, and A-Change is a behavior change.",
-            "C-Change is a change in an act of complying, B-Change is an attitude change, and A-Change is a behavior change.",
-            "C-Change is a change in an act of complying, B-Change is a behavior change, and A-Change is an attitude change.",
-            "C-Change is a behavior change, B-Change is an attitude change, and A-Change is a change in an act of complying."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which design principle involves creating a sense of scarcity to increase the perceived value of a product or service?",
-        options: [
-            "Urgency.",
-            "Social proof.",
-            "Scarcity.",
-            "Authority."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the potential impact of persuasive technology on the privacy and security of individuals?",
-        options: [
-            "Enhanced security measures to protect against online threats.",
-            "Greater vulnerability to data breaches and privacy violations.",
-            "Improved ability for individuals to remain anonymous online.",
-            "Increased transparency and control over personal data."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What role does transparency play in ethical persuasive technology design?",
-        options: [
-            "Enhances user trust and understanding",
-            "Complicates the design process",
-            "Decreases system effectiveness",
-            "Transparency is unnecessary"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are the limitations of the PSD model?",
-        options: [
-            "It does not address ethical issues in depth",
-            "It does not provide a comprehensive approach to stakeholder engagement",
-            "It does not provide a comprehensive approach to value analysis",
-            "All the above"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the purpose of the Milky Way application as discussed in the 'Ethical evaluation of a value-sensitive persuasive system: Case Milky Way'?",
-        options: [
-            "To discourage women from breastfeeding",
-            "To provide information on the benefits of child labor",
-            "To support women in continuing to breastfeed for a longer period of time",
-            "To provide information on the benefits of formula feeding"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "There are 12 boundary categories in the identification of stakeholders in the Value Sensitive Analysis?",
-        options: [
-            "False",
-            "True"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Value Sensitive Analysis is ……?",
-        options: [
-            "An iterative tripartite",
-            "Only conceptual based",
-            "Only technically based",
-            "None of the Above"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology balance the tension between promoting positive behavior change and avoiding paternalism?",
-        options: [
-            "Prioritize paternalism for better outcomes",
-            "Navigate the tension by emphasizing user autonomy and informed choices",
-            "Paternalism is irrelevant in persuasive design",
-            "Ignore the tension for simplicity"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What challenges arise when designing persuasive technology for diverse cultural contexts, and how can these challenges be addressed ethically?",
-        options: [
-            "Ignore cultural contexts for simplicity",
-            "Cultural contexts have no impact on persuasive design",
-            "Recognize and respect cultural diversity, adapting persuasive strategies accordingly",
-            "Manipulate cultural contexts for better persuasion"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the significance of iterative testing and feedback in the design of persuasive systems?",
-        options: [
-            "Iterative testing is unnecessary",
-            "Use iterative testing and feedback to improve system effectiveness and address ethical concerns",
-            "Testing and feedback are irrelevant in persuasive design",
-            "Collect feedback but ignore it in subsequent iterations"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the role of accessibility in ethical persuasive design, and why is it important?",
-        options: [
-            "Accessibility has no impact on persuasive technology",
-            "Accessibility is unnecessary",
-            "Ignore accessibility for better design simplicity",
-            "Accessibility is crucial for ensuring inclusivity and fairness in persuasion"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can we ensure that behavior change support systems are used to empower individuals and communities to make positive changes?",
-        options: [
-            "By promoting self-efficacy and building community support networks.",
-            "By providing opportunities for self-reflection and goal setting.",
-            "All of the above.",
-            "By fostering collaboration and knowledge-sharing among users."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the ethical dilemma associated with using persuasive technology to encourage charitable giving?",
-        options: [
-            "It can undermine users' trust and confidence in charitable organizations.",
-            "It can exploit users' emotions and sense of guilt or obligation.",
-            "It can divert resources away from more effective forms of charity.",
-            "It can lead to impulsive donations without careful consideration."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "According to PSD, what is the significance of the 'Trustworthiness' principle?",
-        options: [
-            "Manipulate user trust for sustained engagement",
-            "Encourage distrust for better outcomes",
-            "Establish and maintain user trust through transparent communication and reliable information",
-            "Trustworthiness is irrelevant in persuasive design"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are the three phases of the PSD model?",
-        options: [
-            "Analyzing the intent, event, and strategy, evaluating the system, and selecting and implementing persuasive features",
-            "Analyzing the intent, event, and strategy, selecting and implementing persuasive features, and evaluating the system",
-            "Understanding the main issues behind persuasive systems, analyzing the persuasion context, and analyzing the persuasive features.",
-            "Understanding the main issues, selecting and implementing persuasive features, and evaluating the system"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the main focus of the Value Sensitive Analysis?",
-        options: [
-            "The ethical evaluation of a persuasive system",
-            "The design of a persuasive system",
-            "The implementation of a persuasive system",
-            "The evaluation of a persuasive system"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive design address the potential for addiction and overuse?",
-        options: [
-            "Addiction is irrelevant in persuasive design",
-            "Ignore addiction concerns",
-            "Implement features to promote responsible use",
-            "Encourage overuse for higher engagement"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are the different levels of cognitive dissonance identified in the 3D-RAB model?",
-        options: [
-            "Initial, intermediate, advanced.",
-            "Low, moderate, high.",
-            "Positive, neutral, negative.",
-            "Strong, moderate, weak, none."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the role of behavioral science in the ethical design of persuasive systems?",
-        options: [
-            "Apply behavioural science ethically to understand and guide user behaviour",
-            "Use behavioral science to manipulate users",
-            "Behavioural science is irrelevant",
-            "Behavioural science contradicts ethical considerations"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does the 'Comparison' principle in PSD influence user engagement?",
-        options: [
-            "Encourage unrealistic comparisons for better outcomes",
-            "Discourage users from making comparisons",
-            "Comparison has no impact on persuasive systems",
-            "Facilitate realistic social and self-comparisons to guide behavior change"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are the intent, event, and strategy respectively, analyzed in the second phase of the PSD model?",
-        options: [
-            "The persuader, use/user/technology contexts, and message/route",
-            "Use/user/technology contexts, persuader, and message/route",
-            "Message/route, persuader, and use/user/technology context",
-            "None of the above"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology be used to promote economic growth and entrepreneurship?",
-        options: [
-            "By encouraging risk-taking and impulsive investment behavior.",
-            "By facilitating online collaboration and resource sharing.",
-            "By increasing competition and driving down wages and profits.",
-            "By providing personalized recommendations and market insights."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the second phase of the PSD model?",
-        options: [
-            "Understanding the main issues",
-            "Analyzing the intent, event, and strategy",
-            "Evaluating the system",
-            "Selecting and implementing persuasive feature"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the difference between positive and negative persuasion?",
-        options: [
-            "There is no significant difference between positive and negative persuasion.",
-            "Positive persuasion is transparent and ethical, while negative persuasion is deceptive and unethical.",
-            "Positive persuasion is aimed at improving user experience, while negative persuasion is manipulative.",
-            "Positive persuasion uses positive reinforcement, while negative persuasion uses punishment."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "According to PSD, how does the 'Feedback' principle contribute to behavior change?",
-        options: [
-            "Manipulate feedback for better outcomes",
-            "Provide occasional feedback to users on their progress and performance",
-            "Feedback is irrelevant in persuasive design",
-            "Discourage feedback for simplicity"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does value-sensitive persuasive design handle feedback from end-users?",
-        options: [
-            "Lets designers make all decisions",
-            "Ignores user feedback",
-            "Values user feedback and adapts the system accordingly",
-            "Feedback is irrelevant"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the term for the persuasive technique that involves presenting information in a way that emphasizes potential losses rather than gains?",
-        options: [
-            "Risk communication.",
-            "Positive framing.",
-            "Gain framing.",
-            "Loss aversion."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is a potential ethical concern related to persuasive technology?",
-        options: [
-            "Manipulation and loss of autonomy.",
-            "Increased user engagement.",
-            "Enhanced accessibility.",
-            "Improved user experience."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an ethical concern in persuasive design related to vulnerable populations?",
-        options: [
-            "Targeting vulnerable populations without consent",
-            "Prioritizing vulnerable populations",
-            "Persuasion is irrelevant for vulnerable populations",
-            "Ignoring vulnerable populations"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the primary purpose of the 3D-RAB model in the context of social networking services?",
-        options: [
-            "To enhance data analytics.",
-            "To increase advertising revenue.",
-            "To promote user engagement.",
-            "To facilitate behavior change."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "A shared fitness journal in a mobile application for encouraging physical activity. This is an example implementation of?",
-        options: [
-            "Social comparison",
-            "Social learning",
-            "Social facilitation",
-            "Normative influence"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does the 'Liking' principle in PSD influence user engagement?",
-        options: [
-            "Enhance user liking through aesthetic design and positive interactions",
-            "Manipulate user preferences for sustained engagement",
-            "Liking has no impact on persuasive systems",
-            "Encourage dislike for better outcomes"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does the 'Personal Control' principle in PSD contribute to user engagement?",
-        options: [
-            "Personal control is irrelevant in persuasive design",
-            "Manipulate user control for sustained engagement",
-            "Provide users with control over persuasive features and interventions",
-            "Reduce user control for simplicity"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can we ensure that behavior change support systems are used to promote social justice and equity?",
-        options: [
-            "By developing culturally sensitive and accessible interventions.",
-            "All of the above.",
-            "By addressing systemic barriers and inequalities in access to technology.",
-            "By involving diverse communities in the design and development process."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology respect user privacy while still influencing behavior?",
-        options: [
-            "Use covert tactics",
-            "Obtain explicit consent",
-            "Ignore privacy concerns",
-            "Privacy is irrelevant"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Users can share and compare information related to their physical health and smoking behavior via instant messaging application. This is an example implementation of?",
-        options: [
-            "None of the above",
-            "Social facilitation",
-            "Social comparison",
-            "Social learning"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Heart rate monitor presents a user’s heart rate and the duration of the exercise. This is an example implementation of?",
-        options: [
-            "Rehearsal",
-            "Self-monitoring",
-            "Reminders",
-            "Praise"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is persuasive technology?",
-        options: [
-            "Information technology for entertainment.",
-            "Technology for surveillance.",
-            "Technology designed to change attitudes or behaviors.",
-            "Technology for communication purposes."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Software Architecture Evolution",
-        question: "Which of the following is a key characteristic of monolithic architecture?",
-        options: [
-            "Loosely coupled components",
-            "Single codebase for all functionalities",
-            "Independent deployment of services",
-            "Event-driven communication"
-        ],
-        answer: 1,
-    },
-
-    // Section 2: Persuasive Systems Design (100 questions)
-    {
-        section: "Persuasive Systems Design",
-        question: "What is 'shaping' in persuasive technology?",
-        options: [
-            "The process of forming user preferences.",
-            "The development of three-dimensional shapes in user interfaces.",
-            "A method of error correction in programming.",
-            "Reinforcing successive approximations of a desired behavior until the desired behavior is reached."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the primary goal of persuasive technology?",
-        options: [
-            "Enhancing user experience.",
-            "Changing attitudes or behaviors.",
-            "Informing users.",
-            "Entertaining users."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can we ensure that behavior change support systems are used to promote social justice and equity?",
-        options: [
-            "By developing culturally sensitive and accessible interventions.",
-            "By involving diverse communities in the design and development process.",
-            "By addressing systemic barriers and inequalities in access to technology.",
-            "All of the above."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the potential impact of persuasive technology on our understanding of free will and individual autonomy?",
-        options: [
-            "It can provide us with greater access to information and resources.",
-            "It can challenge our perception of ourselves as independent and self-governing beings.",
-            "It can enhance our ability to make informed and rational decisions.",
-            "It can foster a sense of community and belonging."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the role of artificial intelligence and machine learning in the development of future behavior change support systems?",
-        options: [
-            "To identify patterns and predict individual behavior change trajectories.",
-            "To develop chatbots and virtual assistants for providing support and guidance.",
-            "To analyze user data and personalize interventions in real-time.",
-            "All of the above."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the impact of computers using emotions to motivate and persuade?",
-        options: [
-            "It has no significant impact on human behavior.",
-            "It can be a powerful tool for changing user behavior.",
-            "It leads to increased skepticism and distrust.",
-            "It results in decreased user engagement and satisfaction."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which ethical principle is violated when persuasive technology exploits users' vulnerabilities?",
-        options: [
-            "Beneficence",
-            "Justice",
-            "Autonomy",
-            "Fidelity"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "The concept of value can be prioritized.",
-        options: [
-            "True",
-            "False"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are the challenges in using the 3D-RAB model for designing persuasive applications?",
-        options: [
-            "Collecting user feedback.",
-            "Identifying user states.",
-            "Analyzing cognitive dissonance.",
-            "Tailoring persuasive approaches."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the purpose of persuasive technology?",
-        options: [
-            "To deceive users into believing false information",
-            "To influence users without coercion, deception, or manipulation",
-            "To control users' actions and thoughts",
-            "To manipulate users into adopting certain healthy behaviors"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What challenges arise when designing persuasive systems that influence political or ideological beliefs, and how can these challenges be addressed ethically?",
-        options: [
-            "Acknowledge the influence and strive for transparency, user control, and respect for diverse perspectives",
-            "Ignore political beliefs for simplicity",
-            "Manipulate political beliefs for better persuasion",
-            "Political beliefs have no impact on persuasive design"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the primary role of feedback in persuasive technology?",
-        options: [
-            "Providing information about user preferences.",
-            "Enhancing user engagement.",
-            "Customizing the user interface.",
-            "Guiding behavior through real-time information and cues."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What term is used to describe the automatic and natural social responses triggered in humans by computing products?",
-        options: [
-            "Social automation.",
-            "Social engineering.",
-            "Social cognition.",
-            "Social presence."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology be used to promote social justice and combat discrimination?",
-        options: [
-            "By facilitating online protests and movements for social change.",
-            "By creating echo chambers that reinforce existing social divisions.",
-            "By amplifying marginalized voices and raising awareness of social injustices.",
-            "By identifying and challenging biased algorithms and discriminatory practices."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What term refers to the process of encouraging individuals to adopt and maintain a behavior over time?",
-        options: [
-            "Behavior sustainability",
-            "Behavior initiation.",
-            "Behavior cessation.",
-            "Behavior modification."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the role of empathy in ethical persuasive design?",
-        options: [
-            "Empathy enhances user manipulation",
-            "Empathy is unnecessary",
-            "Empathy hinders persuasion",
-            "Empathy fosters understanding and user well-being"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does the 'Personalization' principle contribute to the effectiveness of persuasive systems in PSD?",
-        options: [
-            "Provide standardized interventions for all users",
-            "Customize persuasive strategies based on individual characteristics and needs",
-            "Personalization has no impact on persuasion",
-            "Ignore user preferences for simplicity"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What type of information does the Milky Way application provide, and how is its persuasive power enhanced as discussed in the 'Ethical evaluation of a value sensitive persuasive system: Case Milky Way'?",
-        options: [
-            "It provides trustworthy, evidence-based breastfeeding information, and its persuasive power is enhanced by providing sources to scientific literature",
-            "It provides reminders to users, and its persuasive power is enhanced by providing feedback on their behavior",
-            "It provides feedback on users' progress, and its persuasive power is enhanced by providing social support",
-            "It provides motivational messages, and its persuasive power is enhanced by using common language"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How many dimensions are included in the 3D-RAB model?",
-        options: [
-            "2.",
-            "3.",
-            "4.",
-            "5."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are the effects of computers that flatter?",
-        options: [
-            "They have no significant impact on human behavior",
-            "They can create more likable and persuasive interactive technologies.",
-            "They result in decreased user engagement and satisfaction",
-            "They lead to increased skepticism and distrust."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does the ethical design of persuasive technology account for individual differences in cognitive abilities and decision-making processes?",
-        options: [
-            "Individual differences are irrelevant in persuasive design",
-            "Tailor interventions to accommodate diverse cognitive abilities and decision-making styles",
-            "Provide standardized interventions for all users",
-            "Ignore individual differences for consistency"
-        ],
         answer: 1,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "What is the term for the persuasive technique that involves presenting information in a way that emphasizes potential gains rather than losses?",
+        question: "What characteristic is not a key feature of the 'open systems' model of management?",
         options: [
-            "Positive framing",
-            "Gain framing.",
-            "Loss aversion",
-            "Risk communication."
+            "Adaptation",
+            "Morale",
+            "Growth resource",
+            "Innovation"
         ],
         answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does the 'Self-Monitoring' principle in PSD contribute to persuasive systems?",
-        options: [
-            "Self-monitoring has no impact on behavior change",
-            "Force users to rely solely on external monitoring",
-            "Facilitate user self-monitoring to enhance awareness and reflection",
-            "Discourage users from monitoring their behavior"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What does the future hold for the ethical development and use of persuasive technology?",
-        options: [
-            "A growing awareness of the ethical implications and potential harms",
-            "Increasingly sophisticated techniques for manipulating user behavior.",
-            "A shift towards user-centered design and ethical AI principles.",
-            "Unregulated and unchecked growth of the persuasive technology industry."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What ethical considerations should be taken into account when designing persuasive systems for children or adolescents?",
-        options: [
-            "Ensuring age-appropriate content and protecting privacy.",
-            "Encouraging excessive screen time for better engagement.",
-            "Ignoring ethical concerns for simplicity.",
-            "Manipulating children's behavior for better outcomes."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can social networking services collect user feedback to tailor persuasive approaches using the 3D-RAB model?",
-        options: [
-            "Through behavioral analysis.",
-            "Through demographic surveys.",
-            "Through direct messaging.",
-            "Through daily status updates or tweets."
-        ],
-        answer: 0,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "What is the role of 'Suggestion' in PSD?",
+        question: "What is premise control based on?",
         options: [
-            "Provide intrusive suggestions for better outcomes",
-            "Suggestions are irrelevant in persuasive design",
-            "Offer subtle suggestions to guide behavior change",
-            "Discourage suggestions for autonomy"
+            "People",
+            "Buildings",
+            "Assumptions",
+            "Resources"
         ],
         answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does persuasive technology often exploit users' desire for social approval and belonging?",
-        options: [
-            "By encouraging users to express their individuality and unique perspectives",
-            "By promoting social comparison and highlighting differences between users.",
-            "By creating exclusive communities and offering limited access to certain features.",
-            "By providing anonymous platforms for communication and self-expression."
-        ],
-        answer: 1,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "In PSD, what is the purpose of the 'Personalization' principle?",
+        question: "According to Belbin (1981) an extroverted and enthusiastic person fits with what role?",
         options: [
-            "Customize persuasive strategies based on individual characteristics and needs",
-            "Personalization has no impact on persuasion",
-            "Ignore user preferences for simplicity",
-            "Provide standardized interventions for all users"
+            "Implementer",
+            "Shaper",
+            "Co-ordinator",
+            "Resource investigator"
         ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are some potential ways to mitigate the negative impacts of persuasive technology on children and adolescents?",
-        options: [
-            "Encouraging open communication and setting clear boundaries around technology use.",
-            "Providing age-appropriate educational resources about online safety and privacy.",
-            "Limiting children's access to technology altogether.",
-            "Implementing stricter parental controls and internet filters."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What does the term 'captology' refer to in the context of persuasive technology?",
-        options: [
-            "The use of social media for persuasion.",
-            "The study of persuasive communication.",
-            "The psychology of online shopping.",
-            "The study of computers as persuasive technologies."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the Persuasive Systems Design (PSD) model?",
-        options: [
-            "A model for evaluating the ethical implications of a system",
-            "A model for analyzing the value of a system",
-            "None of the above",
-            "A framework for designing persuasive systems"
-        ],
         answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "A flying simulator to help flight pilots practice for severe weather conditions. This is an example implementation of?",
-        options: [
-            "Simulation",
-            "Self-monitoring",
-            "Reduction",
-            "Rehearsal"
-        ],
-        answer: 0,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "What is the main focus of the Value Sensitive Analysis?",
+        question: "What are the two main dimensions of the Ohio Studies into leadership?",
         options: [
-            "The ethical evaluation of a persuasive system",
-            "The implementation of a persuasive system",
-            "The design of a persuasive system",
-            "The evaluation of a persuasive system"
+            "Initiating structure and considerations",
+            "Organisational structure and conditioning",
+            "Initial environment and changed environment",
+            "Starting position and end position"
         ],
         answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Mobile application is updated regularly and there are no dangling links or out-of-date information. This is an example implementation of?",
-        options: [
-            "Expertise",
-            "Authority",
-            "Real-world feel",
-            "Surface credibility"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology respect user autonomy when providing personalized recommendations?",
-        options: [
-            "Provide personalization without user consent",
-            "Personalization and user autonomy are unrelated",
-            "Ignore user autonomy for more effective personalization",
-            "Allow users to have control over their preferences and the personalization process"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "In the context of PSD, what role does the 'Primary Task Support' principle play?",
-        options: [
-            "Primary tasks are irrelevant",
-            "Manipulate primary tasks for better persuasion",
-            "Enhance and facilitate primary tasks",
-            "Discourage primary tasks"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Application for healthier eating habits provides an option for coaching messages. This is an example implementation of?",
-        options: [
-            "Reminders",
-            "Praise",
-            "Liking",
-            "Suggestion"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology address potential negative psychological impacts on users?",
-        options: [
-            "Ignore psychological impacts",
-            "Encourage negative psychological impacts for behavioral change",
-            "Acknowledge and address negative psychological impacts to prioritize user well-being",
-            "Negative impacts are irrelevant"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the purpose of the 'Trustworthiness' principle in PSD?",
-        options: [
-            "Encourage distrust for better outcomes",
-            "Establish and maintain user trust through transparent communication and reliable information",
-            "Manipulate user trust for sustained engagement",
-            "Trustworthiness is irrelevant in persuasive design"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Personal stories of the people who have succeeded in their goal behavior are published on a smoking cessation Website. This is an example implementation of?",
-        options: [
-            "Social Facilitation",
-            "Cooperation",
-            "Competition",
-            "Recognition"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How can we hold developers and designers accountable for the ethical implications of their work?",
-        options: [
-            "Boycotting the products and services of companies that use unethical persuasive techniques.",
-            "Encouraging whistleblowing within the tech industry.",
-            "Relying solely on the self-regulation of the tech industry",
-            "Supporting legislation that establishes ethical guidelines for persuasive technology development."
-        ],
-        answer: 3,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology ethically address issues related to user trust, and why is trust crucial in persuasive design?",
+        question: "The brand of BP is an example of what type of brand name?",
         options: [
-            "Establish and maintain trust through transparent communication and consistent ethical behavior",
-            "Manipulate user trust for better outcomes",
-            "Ignore trust for simplicity",
-            "Trust is irrelevant in persuasive design"
+            "Abbreviated",
+            "Descriptive",
+            "Free-standing",
+            "Expressive"
         ],
         answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the difference between positive and negative persuasion?",
-        options: [
-            "Positive persuasion is aimed at improving user experience, while negative persuasion is manipulative.",
-            "There is no significant difference between positive and negative persuasion",
-            "Positive persuasion is transparent and ethical, while negative persuasion is deceptive and unethical.",
-            "Positive persuasion uses positive reinforcement, while negative persuasion uses punishment."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the primary goal of persuasive technology?",
-        options: [
-            "To facilitate communication",
-            "To entertain users",
-            "To collect user data",
-            "To influence users' behavior"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the norm of reciprocity?",
-        options: [
-            "A psychological principle related to emotional reciprocity",
-            "A social phenomenon where individuals feel compelled to return favors",
-            "A measure of social influence in online interactions.",
-            "A concept in human-computer interaction theory."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "How does persuasive technology contribute to the concept of informed consent?",
-        options: [
-            "Ignores consent",
-            "Consent is irrelevant",
-            "Facilitates informed and voluntary consent",
-            "Manipulates consent"
-        ],
-        answer: 2,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "A shared fitness journal in a mobile application for encouraging physical activity. This is an example implementation of?",
+        question: "According to the Five Factor model, 'extraversion' as a personality type is characterised by what type of people?",
         options: [
-            "Normative influence",
-            "Social comparison",
-            "Social facilitation",
-            "Social learning"
+            "Calm and self-confident",
+            "Sensitive and curious",
+            "Assertive and sociable",
+            "Good natured"
         ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What role does cognitive dissonance play in the 3D-RAB model?",
-        options: [
-            "It identifies patterns of persuasion in social networks",
-            "It creates psychological tension for behavior change",
-            "It categorizes users based on their behavior.",
-            "It collects user feedback for persuasive approaches."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of a persuasive technology application for environmental conservation?",
-        options: [
-            "Online shopping websites.",
-            "Energy-saving apps.",
-            "Social media platforms.",
-            "Video streaming services"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "E-health application has a virtual specialist to support communication between users and health specialists. This is an example implementation of?",
-        options: [
-            "Reminders",
-            "Social role",
-            "Liking",
-            "Similarity"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which psychological principle involves making a small initial commitment to increase the likelihood of a larger commitment later?",
-        options: [
-            "Authority.",
-            "Social proof.",
-            "Scarcity.",
-            "Consistency"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "According to PSD, what is the significance of the 'Trustworthiness' principle?",
-        options: [
-            "Encourage distrust for better outcomes",
-            "Manipulate user trust for sustained engagement",
-            "Trustworthiness is irrelevant in persuasive design",
-            "Establish and maintain user trust through transparent communication and reliable information"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which design principle suggests that persuasive technology should match the user's beliefs and values, actions, etc.?",
-        options: [
-            "Homophily.",
-            "Credibility.",
-            "Similarity.",
-            "Consistency."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are some potential negative consequences of using persuasive design elements to promote physical fitness and healthy habits?",
-        options: [
-            "Improved self-esteem and body image perceptions.",
-            "Increased motivation and adherence to exercise routines.",
-            "Obsession with tracking and quantifying every aspect of health behavior.",
-            "Development of unhealthy and unsustainable fitness goals."
-        ],
         answer: 2,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "What is the Persuasive Systems Design model?",
+        question: "What do you call a style of leadership that takes account of others' views, opinions and ideas?",
         options: [
-            "A model for designing and developing medical devices.",
-            "A conceptualization for designing and developing BCSSs.",
-            "A model for designing and developing educational programs.",
-            "A model for designing and developing social media platforms."
+            "People-oriented",
+            "Democratic",
+            "Laissez-faire",
+            "Autocratic"
         ],
         answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What does the term 'gamification' refer to in the context of persuasive technology?",
-        options: [
-            "Designing games for entertainment.",
-            "Creating persuasive narratives.",
-            "Incorporating game elements into non-game contexts to influence behavior.",
-            "Enhancing user motivation."
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are some potential risks associated with using persuasive technology to promote healthy behaviors?",
-        options: [
-            "Technology may exacerbate existing inequalities in health outcomes.",
-            "Technology may not be able to effectively address the underlying causes of unhealthy behaviors.",
-            "Users may become overly reliant on technology and neglect self-motivation.",
-            "Persuasive techniques used for health promotion may be misappropriated for other purposes."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Who is most vulnerable to the persuasive effects of technology?",
-        options: [
-            "Adults with high incomes",
-            "People with disabilities",
-            "People with low levels of education",
-            "Children and adolescents"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the term for the persuasive technique that involves presenting offers at lower requests to users for their commitment, then suddenly increasing the request?",
-        options: [
-            "Scarcity principle.",
-            "Door-in-the-face technique.",
-            "Foot-in-the-door technique.",
-            "Low-ball technique."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the role of the 'Feedback' principle in PSD?",
-        options: [
-            "Feedback is irrelevant in persuasive design",
-            "Discourage feedback for simplicity",
-            "Provide occasional feedback to users on their progress and performance",
-            "Manipulate feedback for better outcomes"
-        ],
-        answer: 2,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the significance of iterative testing and feedback in the design of persuasive systems?",
-        options: [
-            "Collect feedback but ignore it in subsequent iterations",
-            "Iterative testing is unnecessary",
-            "Use iterative testing and feedback to improve system effectiveness and address ethical concerns",
-            "Testing and feedback are irrelevant in persuasive design"
-        ],
-        answer: 2,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "What are some ways to protect yourself from the persuasive effects of technology?",
+        question: "What is the purpose of employee relations?",
         options: [
-            "Limit your screen time",
+            "Undertake conflict resolution",
             "All of the above",
-            "Be aware of persuasive design elements",
-            "Use privacy-focused settings"
+            "Adhere to the law pertaining to workers' rights",
+            "Maintain a harmonious working environment"
         ],
         answer: 1,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of a persuasive technology application for health promotion?",
+        question: "Which feature does not form one of Fayol's 14 principles of management?",
         options: [
-            "Fitness tracking apps.",
-            "Social media influencers.",
-            "Online shopping platforms.",
-            "Video streaming services."
+            "Initiative",
+            "Order",
+            "Esprit de corps",
+            "Individualism"
+        ],
+        answer: 3,
+    },
+    {
+        question: "Which of the following motivators is the most basic need in Maslow's hierarchy?",
+        options: [
+            "Esteem",
+            "Safety",
+            "Belonging",
+            "Physiological"
+        ],
+        answer: 3,
+    },
+    {
+        question: "What is another name for contingency planning?",
+        options: [
+            "Ad hoc planning",
+            "Scenario planning",
+            "Business level planning",
+            "Synergy planning"
+        ],
+        answer: 1,
+    },
+    {
+        question: "What does CRM stand for?",
+        options: [
+            "Consumer Relations Management",
+            "Consumer Returns Management",
+            "Customer Relationship Management",
+            "Customer Relationship Marketing"
+        ],
+        answer: 2,
+    },
+     {
+        section: "Management and Organization",
+        question: "Which of these is not an advantage of a virtual team?",
+        options: [
+            "Conflict can be resolved easily using face-to-face meetings",
+            "Reduced travel costs",
+            "Access to global talent pool",
+            "Flexible working arrangements"
         ],
         answer: 0,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "What are the potential risks of using behavior change support systems to manipulate or exploit individuals?",
+        section: "Management and Organization",
+        question: "How does lateral communication in an organisation occur?",
         options: [
-            "Privacy violations and data misuse.",
-            "Unintended consequences and negative side effects.",
-            "Loss of autonomy and control over personal choices.",
-            "All of the above."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the role of accessibility in ethical persuasive design, and why is it important?",
-        options: [
-            "Ignore accessibility for better design simplicity",
-            "Accessibility is crucial for ensuring inclusivity and fairness in persuasion",
-            "Accessibility is unnecessary",
-            "Accessibility has no impact on persuasive technology"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the difference between normative influence and social learning?",
-        options: [
-            "Normative influence and social learning are not important in persuasive systems.",
-            "Normative influence involves working together with others to motivate behavior change, while social learning involves comparing oneself to others to motivate behavior change.",
-            "Normative influence and social learning are the same thing.",
-            "Normative influence involves using social norms to motivate behavior change, while social learning involves observing others to learn and motivate behavior change."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "According to ethical guidelines, what should designers prioritize when faced with conflicting interests between stakeholders and end-users?",
-        options: [
-            "Balance conflicting interests without a priority",
-            "Prioritize end-users' well-being and values",
-            "Ignore conflicting interests",
-            "Prioritize stakeholders' interests"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Website quotes an authority, such as a statement by government health office. This is an example implementation of?",
-        options: [
-            "Third-party endorsement",
-            "None of the above",
-            "Authority",
-            "Real-world feel"
+            "Information flows from top to bottom",
+            "Information flows from bottom to top",
+            "Information passes between different departments and functions",
+            "Information is restricted to management levels"
         ],
         answer: 2,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "How does persuasive technology consider the potential for addiction without sacrificing its effectiveness?",
+        section: "Management and Organization",
+        question: "What is not a characteristic of a corporate social responsibility framework?",
         options: [
-            "Encourage addiction for sustained engagement",
-            "Prioritize addiction for better outcomes",
-            "Addiction is irrelevant in persuasive design",
-            "Implement features to prevent and address addiction while promoting positive behavior change"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which design principle involves creating a sense of scarcity to increase the perceived value of a product or service?",
-        options: [
-            "Scarcity",
-            "Urgency.",
-            "Authority.",
-            "Social proof."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which of the following is an example of a persuasive technology application in the field of social activism?",
-        options: [
-            "Fitness tracking apps.",
-            "Social media platforms.",
-            "Online shopping websites.",
-            "Petition signing apps."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the difference between C-, B-, and A-Change?",
-        options: [
-            "C-Change is a change in an act of complying, B-Change is a behavior change, and A-Change is an attitude change.",
-            "C-Change is an attitude change, B-Change is a change in an act of complying, and A-Change is a behavior change.",
-            "C-Change is a behavior change, B-Change is an attitude change, and A-Change is a change in an act of complying.",
-            "C-Change is a change in an act of complying, B-Change is an attitude change, and A-Change is a behavior change."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the term for the persuasive technique that involves presenting information in a way that emphasizes potential losses rather than gains?",
-        options: [
-            "Loss aversion.",
-            "Gain framing.",
-            "Risk communication.",
-            "Positive framing."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the difference between direct and indirect persuasion?",
-        options: [
-            "Direct persuasion aims at convincing the user by appealing to reason and intelligence, while indirect persuasion uses simple cues or stereotypes for evaluating the information",
-            "Direct persuasion uses social influence to motivate behavior change, while indirect persuasion focuses on the system's credibility.",
-            "Direct persuasion is more effective than indirect persuasion.",
-            "Direct persuasion focuses on the user's emotions, while indirect persuasion focuses on the user's cognitive processes."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Pick the odd one out",
-        options: [
-            "Reduction",
-            "Praise",
-            "Tunneling",
-            "Personalization"
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the role of accessibility in ethical persuasive design, and why is it important?",
-        options: [
-            "Ignore accessibility for better design simplicity",
-            "Accessibility is crucial for ensuring inclusivity and fairness in persuasion",
-            "Accessibility is unnecessary",
-            "Accessibility has no impact on persuasive technology"
+            "Stakeholder engagement",
+            "Retaining the status quo",
+            "Environmental sustainability",
+            "Ethical business practices"
         ],
         answer: 1,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "How does the 'Liking' principle in PSD influence user engagement?",
+        section: "Management and Organization",
+        question: "What is the richest form of information?",
         options: [
-            "Manipulate user preferences for sustained engagement",
-            "Liking has no impact on persuasive systems",
-            "Enhance user liking through aesthetic design and positive interactions",
-            "Encourage dislike for better outcomes"
+            "Email",
+            "Written reports",
+            "Face-to-face",
+            "Video conferencing"
         ],
         answer: 2,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "How can persuasive technology ethically leverage data analytics for user profiling while addressing privacy concerns?",
+        section: "Management and Organization",
+        question: "What is the term used in Ansoff's matrix for increasing market share with existing products in existing markets?",
         options: [
-            "Privacy concerns are irrelevant in persuasive design",
-            "Collect data without user consent for more accurate profiling",
-            "Ignore privacy concerns for better profiling",
-            "Implement transparent data collection practices and user-controlled profiling"
+            "Product development",
+            "Market development",
+            "Diversification",
+            "Market penetration"
         ],
         answer: 3,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "Which type of persuasive design element leverages social proof to influence user behavior?",
+        section: "Management and Organization",
+        question: "What is the term for the monitoring of events both internal and external to the organisation that affects strategy?",
         options: [
-            "Testimonials",
-            "Progress bars",
-            "Gamification elements",
-            "Social media notifications"
+            "Environmental scanning",
+            "Strategic planning",
+            "Market research",
+            "Competitive analysis"
         ],
         answer: 0,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "Caloric balance monitoring application sends text messages to its users as daily reminders. This is an example implementation of?",
+        section: "Management and Organization",
+        question: "What does situational theory of leadership emphasise?",
         options: [
-            "Self-monitoring",
-            "Reminder",
-            "Similarity",
-            "Liking"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Who is responsible for ensuring the ethical use of persuasive technology?",
-        options: [
-            "Government regulators",
-            "A combination of all of the above",
-            "Developers and designers alone",
-            "Users alone"
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which design element refers to the ability of a system to provide timely and relevant information?",
-        options: [
-            "Urgency.",
-            "Relevance.",
-            "Timeliness.",
-            "Salience."
-        ],
-        answer: 3,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What term refers to the psychological phenomenon where individuals are more likely to be persuaded by someone they like or admire?",
-        options: [
-            "Attractiveness principle.",
-            "Liking principle.",
-            "Similarity principle.",
-            "Authority principle."
-        ],
-        answer: 1,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "According to PSD, what is the significance of the 'Reduction' principle?",
-        options: [
-            "Simplify the system to reduce resistance",
-            "Increase cognitive load",
-            "Ignore the principle for better outcomes",
-            "Reduction has no impact on persuasive design"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What are the external factors considered in the 3D-RAB model for designing persuasive applications?",
-        options: [
-            "Social media engagement.",
-            "User demographics.",
-            "Environmental influences.",
-            "Cognitive dissonance."
+            "Personal traits",
+            "Leadership style",
+            "Environment",
+            "Organizational structure"
         ],
         answer: 2,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "In PSD, how does the 'Reward' principle contribute to the design of persuasive systems?",
+        section: "Management and Organization",
+        question: "As what are key factors that reflect the situation of an organisation referred to?",
         options: [
-            "Manipulate rewards for better outcomes",
-            "Rewards have no impact on persuasive design",
-            "Provide extrinsic rewards to encourage positive behavior change",
-            "Punish users for undesired behavior"
+            "Variables",
+            "Parameters",
+            "Elements",
+            "Contingencies"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management and Organization",
+        question: "What is the guiding principle behind New Public Management?",
+        options: [
+            "Maintaining traditional bureaucracy",
+            "Increasing government control",
+            "Reducing public services",
+            "Introducing private sector business principles into the public sector"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management and Organization",
+        question: "What is the term for the act of acquiring an IS architecture from the market?",
+        options: [
+            "Developing",
+            "Building",
+            "Procuring",
+            "Creating"
         ],
         answer: 2,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "In the context of persuasive technology, what does 'priming' involve?",
+        section: "Management and Organization",
+        question: "To what does authority refer?",
         options: [
-            "Alerting users through notifications.",
-            "Customizing the user interface.",
-            "Displaying persuasive messages prominently.",
-            "Presenting information subtly to influence subsequent behavior."
+            "The ability to influence",
+            "The right to make suggestions",
+            "The capacity to negotiate",
+            "The power to command and direct"
         ],
         answer: 3,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "According to value-sensitive design, what is the role of inclusivity in addressing ethical concerns?",
+        section: "Management and Organization",
+        question: "What is the term for a sub-optimal but acceptable outcome of negotiations between parties?",
         options: [
-            "Inclusivity addresses ethical concerns related to diverse user needs",
-            "Inclusivity hinders persuasion effectiveness",
-            "Inclusivity simplifies the design process",
-            "Inclusivity is irrelevant"
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the potential impact of persuasive technology on the privacy and security of individuals?",
-        options: [
-            "Greater vulnerability to data breaches and privacy violations.",
-            "Improved ability for individuals to remain anonymous online.",
-            "Increased transparency and control over personal data.",
-            "Enhanced security measures to protect against online threats."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Which psychological principle involves the tendency to follow the actions of others in uncertain situations?",
-        options: [
-            "Conformity bias.",
-            "Herd mentality.",
-            "Obedience.",
-            "Social influence."
+            "Compromising",
+            "Satisficing",
+            "Optimizing",
+            "Maximizing"
         ],
         answer: 1,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "Pick the odd one out",
+        section: "Management and Organization",
+        question: "Which writer is most associated with bureaucratic structures?",
         options: [
-            "Social Support",
-            "System Credibility",
-            "Primary Task Support",
-            "Social Proof"
+            "Henri Fayol",
+            "Max Weber",
+            "Frederick Taylor",
+            "Peter Drucker"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management and Organization",
+        question: "Which of the following motivators is the most basic need in Maslow's hierarchy?",
+        options: [
+            "Safety",
+            "Social",
+            "Physiological",
+            "Self-actualization"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management and Organization",
+        question: "What are the two main dimensions of the Ohio Studies into leadership?",
+        options: [
+            "Task and relationship",
+            "Autocratic and democratic",
+            "Formal and informal",
+            "Initiating structure and considerations"
         ],
         answer: 3,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "What is the 3D-RAB model?",
+        section: "Management and Organization",
+        question: "What is not part of a marketing plan?",
         options: [
-            "A model for social media engagement.",
-            "A model for behavior change analysis in social networking.",
-            "A model for data analytics in social networking.",
-            "A model for cognitive dissonance analysis."
+            "Market analysis",
+            "Marketing objectives",
+            "Government support",
+            "Marketing mix strategies"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management and Organization",
+        question: "Which one is not part of Lewin's (1952) three step approach to change?",
+        options: [
+            "Unfreezing",
+            "Moving",
+            "Initiating change",
+            "Refreezing"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management and Organization",
+        question: "Functional structures help to create...",
+        options: [
+            "Flexibility",
+            "Specialisation",
+            "Innovation",
+            "Coordination"
         ],
         answer: 1,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "How does persuasive technology impact long-term user well-being?",
+        section: "Management and Organization",
+        question: "What is not a component of an agile organisation?",
         options: [
-            "No impact on well-being",
-            "Positively influences well-being",
-            "Negatively influences well-being",
-            "Well-being is irrelevant"
+            "Flexibility",
+            "Responsiveness",
+            "Market focus and position",
+            "Adaptability"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management and Organization",
+        question: "Which element of the cultural web forms regalia?",
+        options: [
+            "Stories",
+            "Rituals",
+            "Symbols",
+            "Power structures"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management and Organization",
+        question: "What is the weakest form of control?",
+        options: [
+            "Pre-control",
+            "Post-control",
+            "Concurrent control",
+            "Feedback control"
         ],
         answer: 1,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "In persuasive technology, what does the term 'consistency' refer to?",
+        section: "Management and Organization",
+        question: "What is the term for a radical rethinking of the nature of the business?",
         options: [
-            "Aligning with user habits and routines.",
-            "Presenting information in a consistent manner.",
-            "Creating a sense of similarity.",
-            "Adapting to user preferences."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is persuasive technology?",
-        options: [
-            "Technology designed to change attitudes or behaviors.",
-            "Technology for surveillance.",
-            "Information technology for entertainment.",
-            "Technology for communication purposes."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "What is the difference between real-world feel and authority?",
-        options: [
-            "Real-world feel involves providing information about the local culture and customs of the destination, while authority involves quoting a statement from a government health office to support its recommendations.",
-            "Real-world feel and authority are the same thing.",
-            "Real-world feel involves quoting a statement from a government health office to support its recommendations, while authority involves providing information about the local culture and customs of the destination.",
-            "Real-world feel and authority are not important in persuasive systems."
-        ],
-        answer: 0,
-    },
-    {
-        section: "Persuasive Systems Design",
-        question: "Stakeholder analysis takes the values of different interest groups into account in purpose to ensure that the system is ethical from all points of views.",
-        options: [
-            "False",
-            "True"
+            "Business process reengineering",
+            "Paradigm shift",
+            "Organizational restructuring",
+            "Strategic planning"
         ],
         answer: 1,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "Three boundary issues are used to identify stakeholders in the Value Sensitive Analysis.",
+        section: "Management and Organization",
+        question: "What is the term for the act of getting individuals to behave in ways that are acceptable to a group?",
         options: [
-            "True",
-            "False"
+            "Indoctrination",
+            "Socialisation",
+            "Training",
+            "Orientation"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management and Organization",
+        question: "Which one is not an element in the primary activities of a value chain?",
+        options: [
+            "Procurement",
+            "Inbound logistics",
+            "Operations",
+            "Outbound logistics"
         ],
         answer: 0,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "What is the relationship between attitude and behavior in the 3D-RAB model?",
+        section: "Management and Organization",
+        question: "Power distance in national cultures is a characteristic of a model by which writer?",
         options: [
-            "Behavior influences attitude.",
-            "They have no impact on persuasive strategies",
-            "They are independent of each other.",
-            "Attitude influences behavior."
+            "Edward Hall",
+            "Geert Hofstede",
+            "Fons Trompenaars",
+            "Charles Handy"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management and Organization",
+        question: "When does an acquisition take place?",
+        options: [
+            "Two equal partners merge",
+            "Two unequal partners become one after a buyout",
+            "A company goes public",
+            "A company divests a division"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management and Organization",
+        question: "According to Belbin (1981) an extroverted and enthusiastic person fits with what role?",
+        options: [
+            "Team worker",
+            "Coordinator",
+            "Shaper",
+            "Resource investigator"
         ],
         answer: 3,
     },
     {
-        section: "Persuasive Systems Design",
-        question: "What is the difference between social facilitation and social comparison?",
+        section: "Management and Organization",
+        question: "What one of the following is not a characteristic of the job characteristics model?",
         options: [
-            "Social facilitation and social comparison are the same thing.",
-            "Social facilitation involves comparing oneself to others to motivate behavior change, while social comparison involves using the presence of others to motivate behavior change.",
-            "Social facilitation and social comparison are not important in persuasive systems.",
-            "Social comparison involves comparing oneself to others to motivate behavior change, while social facilitation involves using the presence of others to motivate behavior change."
+            "Reward",
+            "Skill variety",
+            "Task identity",
+            "Autonomy"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management and Organization",
+        question: "How can organisational structures that are characterised by democratic and inclusive styles of management be described?",
+        options: [
+            "Tall",
+            "Hierarchical",
+            "Centralized",
+            "Flat"
         ],
         answer: 3,
     },
+    {
+        section: "Management and Organization",
+        question: "What is a paradigm?",
+        options: [
+            "A type of organizational structure",
+            "A management technique",
+            "An example serving as a model",
+            "A leadership style"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management and Organization",
+        question: "Specialisation is a feature of which organisational structure?",
+        options: [
+            "Matrix",
+            "Divisional",
+            "Functional",
+            "Network"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management and Organization",
+        question: "What tasks does Human resource management involve?",
+        options: [
+            "Recruitment and selection",
+            "All of the above",
+            "Training and development",
+            "Performance management"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management and Organization",
+        question: "What do you call the understanding of a dominant culture before choosing a suitable control system?",
+        options: [
+            "Clan control",
+            "Market control",
+            "Bureaucratic control",
+            "Cultural control"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management and Organization",
+        question: "What is the term for an autonomous business entity within an overall corporate enterprise which is set apart from other areas of the business?",
+        options: [
+            "Business unit",
+            "Division",
+            "Department",
+            "Strategic business unit"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management and Organization",
+        question: "By which principle is utilitarianism defined?",
+        options: [
+            "The greatest good for the individual",
+            "The best outcome for the majority of people",
+            "The most profitable outcome",
+            "The most efficient outcome"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management and Organization",
+        question: "What is the personnel department in an organisation concerned with?",
+        options: [
+            "Staff administration",
+            "Strategic planning",
+            "Financial management",
+            "Operations management"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management and Organization",
+        question: "To what does emotional intelligence refer?",
+        options: [
+            "IQ levels of employees",
+            "How people view and understand themselves and others",
+            "Technical skills of managers",
+            "Cognitive abilities"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management and Organization",
+        question: "At what level of an organisation does a corporate manager operate?",
+        options: [
+            "First level",
+            "Middle level",
+            "Operational level",
+            "Top level"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management and Organization",
+        question: "What are workers primarily motivated by according to the instrumental approach?",
+        options: [
+            "Economic reward",
+            "Job satisfaction",
+            "Social recognition",
+            "Personal growth"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management and Organization",
+        question: "What type of organisational culture is most likely to deliver stability and efficiency?",
+        options: [
+            "Power culture",
+            "Task culture",
+            "Person culture",
+            "Role culture"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management and Organization",
+        question: "Of what is worker autonomy in decision making an example?",
+        options: [
+            "Job enrichment",
+            "Worker empowerment",
+            "Job rotation",
+            "Job enlargement"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management and Organization",
+        question: "What is the first step in a control process?",
+        options: [
+            "Measure performance",
+            "Compare with standards",
+            "Take corrective action",
+            "Set standards"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management and Organization",
+        question: "Which of these does not form part of the key streams identified by March (1988) in decision making in highly ambiguous environments?",
+        options: [
+            "Problems",
+            "Solutions",
+            "Participants",
+            "Expectations"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Management and Organization",
+        question: "In the 'five forces model', what is the type of competitive activity that exists between organisations?",
+        options: [
+            "The level of rivalry",
+            "Threat of new entrants",
+            "Bargaining power of suppliers",
+            "Threat of substitutes"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management and Organization",
+        question: "Improving quality through small, incremental improvements is a characteristic of what type of quality management system?",
+        options: [
+            "Six Sigma",
+            "Kaizen",
+            "Total Quality Management",
+            "Lean Manufacturing"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "Which of these is not part of the recognized challenges for modern managers?",
+        options: [
+            "Managing communications",
+            "Micro-managing the workforce",
+            "Managing the learning organization",
+            "Managing change"
+        ],
+        answer: 1,
+    }
 ];

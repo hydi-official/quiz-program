@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { questions } from "../data/questions";
 import QuizCard from "../Components/QuizCard";
 import Results from "../Components/Results";
-import { Moon, Sun, Info, Github } from "lucide-react"; // Import Github icon
+import { Moon, Sun, Info, Github ,Heart} from "lucide-react"; // Import Github icon
 
 const QuizPage = () => {
   const [index, setIndex] = useState(0);
@@ -213,10 +213,16 @@ const QuizPage = () => {
         )}
 
         <div className="mt-8 text-center">
-          <p className="text-gray-500 dark:text-gray-400 text-sm">
-            Developed by Essel And Weezy 😌🤌🏽
-          </p>
-        </div>
+            <div className="inline-flex items-center space-x-2 text-gray-500 dark:text-gray-400 text-sm">
+              <span>Developed with</span>
+              <Heart size={16} className="text-red-500 animate-pulse" />
+              <span>by Essel</span>
+              <span className="animate-bounce">😌🤌🏽</span>
+            </div>
+            <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">
+              Wishing all final year students the very best! 🎓✨
+            </p>
+          </div>
       </div>
     </div>
   );
