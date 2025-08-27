@@ -10,6 +10,7 @@ const QuizPage = () => {
   const [mistakes, setMistakes] = useState(0);
   const [showResults, setShowResults] = useState(false);
   const [answers, setAnswers] = useState(Array(questions.length).fill(null));
+  const [answerStatus, setAnswerStatus] = useState(Array(questions.length).fill(null)); // Track correct/incorrect status
   const [selected, setSelected] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(
@@ -23,20 +24,26 @@ const QuizPage = () => {
   const handleMark = () => {
     if (selected !== null) {
       const updatedAnswers = [...answers];
+      const updatedStatus = [...answerStatus];
       updatedAnswers[index] = selected;
-      setAnswers(updatedAnswers);
-
+      
+      let isCorrect = false;
+      
       if (Array.isArray(questions[index].answer)) {
-        const isCorrect =
+        isCorrect =
           selected.length === questions[index].answer.length &&
           selected.every((ans) => questions[index].answer.includes(ans));
-
-        isCorrect ? setScore((prev) => prev + 1) : setMistakes((prev) => prev + 1);
       } else {
-        selected === questions[index].answer
-          ? setScore((prev) => prev + 1)
-          : setMistakes((prev) => prev + 1);
+        isCorrect = selected === questions[index].answer;
       }
+      
+      // Update status array
+      updatedStatus[index] = isCorrect ? 'correct' : 'incorrect';
+      
+      setAnswers(updatedAnswers);
+      setAnswerStatus(updatedStatus);
+      
+      isCorrect ? setScore((prev) => prev + 1) : setMistakes((prev) => prev + 1);
     }
   };
 
@@ -53,6 +60,19 @@ const QuizPage = () => {
     if (index > 0) {
       setIndex(index - 1);
       setSelected(answers[index - 1]);
+    }
+  };
+
+  // Function to get button color based on answer status
+  const getQuestionButtonColor = (idx) => {
+    if (answerStatus[idx] === 'correct') {
+      return 'bg-green-500 hover:bg-green-600'; // Green for correct
+    } else if (answerStatus[idx] === 'incorrect') {
+      return 'bg-red-500 hover:bg-red-600'; // Red for incorrect
+    } else if (answers[idx] !== null) {
+      return 'bg-yellow-500 hover:bg-yellow-600'; // Yellow for answered but not marked
+    } else {
+      return 'bg-gray-400 hover:bg-gray-500'; // Gray for unanswered
     }
   };
 
@@ -103,7 +123,28 @@ const QuizPage = () => {
           sidebarOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 p-4 overflow-y-auto z-50`}
       >
-        <h3 className="text-lg font-bold mb-4">Question Tracker</h3>
+        <h3 className="text-lg font-bold mb-2">Question Tracker</h3>
+        
+        {/* Color Legend */}
+        <div className="mb-4 text-xs space-y-1">
+          <div className="flex items-center space-x-2">
+            <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+            <span>Correct</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <div className="w-3 h-3 bg-red-500 rounded-full"></div>
+            <span>Incorrect</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+            <span>Selected (not marked)</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <div className="w-3 h-3 bg-gray-400 rounded-full"></div>
+            <span>Unanswered</span>
+          </div>
+        </div>
+
         <div className="grid grid-cols-4 sm:grid-cols-5 gap-2">
           {questions.map((_, idx) => (
             <button
@@ -112,8 +153,8 @@ const QuizPage = () => {
                 setIndex(idx);
                 setSidebarOpen(false);
               }}
-              className={`w-10 h-10 text-sm rounded-full flex items-center justify-center text-white font-bold ${
-                answers[idx] !== null ? "bg-green-500" : "bg-gray-400"
+              className={`w-10 h-10 text-sm rounded-full flex items-center justify-center text-white font-bold transition-colors duration-200 ${getQuestionButtonColor(idx)} ${
+                idx === index ? 'ring-2 ring-blue-400 ring-offset-1' : ''
               }`}
             >
               {idx + 1}

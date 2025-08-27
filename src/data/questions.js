@@ -2021,5 +2021,1589 @@ export const questions = [
             "Managing change"
         ],
         answer: 1,
+    },
+   
+    {
+        section: "Planning and Management Fundamentals",
+        question: "What is the planning horizon?",
+        options: [
+            "The distance ahead for the forecasts on which plans are made",
+            "hhh",
+            "The time ahead for which there is no information",
+            "The maximum time for which managers can make plans"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Planning and Management Fundamentals",
+        question: "While guiding organization members in appropriate directions, a manager exhibits",
+        options: [
+            "Consideration behavior",
+            "Authoritarian behavior", 
+            "Theory y behavior",
+            "Leadership behavior"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Planning and Management Fundamentals",
+        question: "Which role of manager that needs to resolve major and minor crisis that may occur unexpectedly?",
+        options: [
+            "Negotiator",
+            "Entrepreneur",
+            "Resource allocator",
+            "Disturbance handler"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Planning and Management Fundamentals",
+        question: "Group brainstorming encourages all of the following except",
+        options: [
+            "Team building",
+            "Analysis of alternatives",
+            "Convergent thinking",
+            "Uninhibited verbalization"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Planning and Management Fundamentals",
+        question: "______________ is not one of the eight steps in the decision making process.",
+        options: [
+            "Identifying the problem",
+            "Analyzing alternative solutions",
+            "Implementing the decision",
+            "Delegating the decision making"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Communication",
+        question: "All of the following are the levels of communication EXCEPT",
+        options: [
+            "Intrapersonal Communication",
+            "Interpersonal Communication",
+            "Mediated Communication",
+            "Frame Communication"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Organizational Structure",
+        question: "In which organizational form are there dual or multiple lines of authority?",
+        options: [
+            "Matrix",
+            "Modular",
+            "Multidivisional",
+            "Decentralized"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Functions",
+        question: "Functional managers are responsible",
+        options: [
+            "For a single area of activity",
+            "To the upper level of management and staff",
+            "For complex organizational sub-units",
+            "For obtaining copyrights and patents for newly developed processes and equipment"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Organizational Structure",
+        question: "Which of the following is the determinant of organization structure?",
+        options: [
+            "Technology",
+            "Centralization",
+            "Size of the work unit",
+            "Coordination of activities"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Communication",
+        question: "In communications management, to assimilate through the mind or senses is the process of",
+        options: [
+            "Receiving",
+            "Decoding",
+            "Comprehending",
+            "Understanding"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Authority and Power",
+        question: "______________ is an individual's capacity to influence decisions.",
+        options: [
+            "Span of control",
+            "Line authority",
+            "Staff authority",
+            "Power"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Communication",
+        question: "What is involved in communication process?",
+        options: [
+            "Idea-encoding-channel-decoding-feedback",
+            "Idea-information-channel-receiver",
+            "Information-channel-receiver",
+            "Sender-receiver-channel"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management History",
+        question: "Frederick Taylor and Frank and Lillian Gilbreth were advocates of an approach to management involving the use of scientific method, known as",
+        options: [
+            "The contingency approach",
+            "Scientific management",
+            "The quantitative approach",
+            "Management science"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Policy Making",
+        question: "Some policies are imposed by external forces, such as",
+        options: [
+            "Governmental regulatory agencies",
+            "Employee demands",
+            "Management decisions",
+            "Lack of funding"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Job Design",
+        question: "The job design would be LEAST formal in a",
+        options: [
+            "Matrix structure",
+            "Professional bureaucracy",
+            "Divisionalized structure",
+            "Machine bureaucracy"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Communication",
+        question: "Which of the following is not an example of formal communication?",
+        options: [
+            "Contact",
+            "email",
+            "Project status report",
+            "Status meeting"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Communication",
+        question: "All of the following are communication tools EXCEPT",
+        options: [
+            "Memos",
+            "Verbal circulation of a rumor",
+            "Body language",
+            "Inputting data into a spreadsheet"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Communication",
+        question: "______________ is a communication that flows from a higher level to one or more lower levels in the organization.",
+        options: [
+            "Horizontal communication",
+            "Upward communication", 
+            "Downward communication",
+            "None of given options"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Concepts",
+        question: "Which management concept suggests that low-importance decisions be handled by subordinates, so that managers can focus on high-importance decisions?",
+        options: [
+            "management by objective",
+            "management by exception",
+            "participatory management",
+            "inclusionary management"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Principles",
+        question: "Authority, discipline, unity of command, and unity of direction are",
+        options: [
+            "Principles of the human relations movement",
+            "Taylor's four principles of management",
+            "Elements of Weber's ideal bureaucratic structure",
+            "Four of Fayol's fourteen principles of management"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Organizational Structure",
+        question: "Organization structure primarily refers to",
+        options: [
+            "how activities are coordinated and controlled",
+            "how resources are allocated",
+            "the location of departments and office space",
+            "the policy statements developed by the firm"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Policy Making",
+        question: "Policies are sometimes defined as a(n)",
+        options: [
+            "Shortcut for thinking",
+            "Action plan",
+            "Substitute for strategy",
+            "Substitute for management authority"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Problem Solving",
+        question: "The problem-solving process begins with",
+        options: [
+            "Clarification of the situation",
+            "Establishment of alternatives",
+            "Identification of the difficulty",
+            "Isolation of the cause"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Organizational Structure",
+        question: "Scalar chain refers to",
+        options: [
+            "The line of authority from top management to the lowest rank",
+            "Degree to which subordinates are involved in decision making",
+            "Every employees should receive orders from only one superior",
+            "People and materials should be in the right place at the right time"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Delegation",
+        question: "______________ is the process of getting results accomplished through others.",
+        options: [
+            "Ordering",
+            "Mandating",
+            "Delegating",
+            "Working"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Communication",
+        question: "The receiver filters messages based on all but the following",
+        options: [
+            "Culture",
+            "Semantics",
+            "Language",
+            "Distance"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Communication",
+        question: "The communication process must have a medium to convey information between two or more parties. The three common media are",
+        options: [
+            "Written, spoken, and signalized",
+            "Visual, audio, and tactile",
+            "Seeing, talking, and listening",
+            "Seeing, listening, and touching"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Decision Making",
+        question: "The decision-making model consists of four styles: directive, analytic, behavioral and",
+        options: [
+            "Conceptual",
+            "Intuitive",
+            "Group interaction",
+            "Laggard"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Functions",
+        question: "Which of the following is not a basic function of the management process?",
+        options: [
+            "Controlling",
+            "Organizing",
+            "Working",
+            "Leading"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Span of Management",
+        question: "What is the term used to define the number of subordinates directly controlled by a manager?",
+        options: [
+            "Division management",
+            "Departmentation",
+            "Investment span",
+            "Span of management"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Policy Making",
+        question: "In general, if a policy is not thought out and established",
+        options: [
+            "A situation requiring action will arise",
+            "Social issues will cause change in the organization",
+            "Managers will be hired from the outside",
+            "There will be significant staff turnover"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management History",
+        question: "Who is the person was well known for the 'Hawthorne Studies'?",
+        options: [
+            "Elton Mayo",
+            "Max-Weber",
+            "Chester Barnard",
+            "Mary Parker Follet"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Motivation Theory",
+        question: "Maslow and Herzberg are two examples of ______________ theories of motivation.",
+        options: [
+            "Expectancy",
+            "Content",
+            "Process",
+            "Equity"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Decision Making",
+        question: "Which type of decision making is carried out by lower level management and deals with specific day to day processes?",
+        options: [
+            "Programmed decision making",
+            "Operational decision making",
+            "Administrative decision making",
+            "Mid-level decision making"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Motivation Theory",
+        question: "Which management theorist is responsible for the motivation-hygiene theory?",
+        options: [
+            "Abraham Maslow",
+            "Dale Hawthorne",
+            "Peter Drucker",
+            "Frederick Herzberg"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Strategic Planning",
+        question: "Strategic planning as a broad concept consists of",
+        options: [
+            "Corporate strategy and business strategy",
+            "Strategy formulation and strategy implementation",
+            "Inputs and outputs",
+            "Environmental analysis and internal analysis"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Scientific Management",
+        question: "Which of the following is NOT a principle of management given by Taylor?",
+        options: [
+            "Science, not rule of the Thumb",
+            "Functional foremanship",
+            "Maximum not restricted output",
+            "Harmony not discord"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Motivation Theory",
+        question: "Equity theory of motivation focuses on",
+        options: [
+            "Peoples expectation of different outcomes for a given action",
+            "Peoples perception of how fairly they have been treated in comparison with others",
+            "The motivational force involved in a person's action at work",
+            "People's perception of how they should perform in a given situation at work"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Operations Research",
+        question: "Operations research analysts do not",
+        options: [
+            "Predict future operations",
+            "Build more than one model",
+            "Collect relevant data",
+            "Recommend decision and accept"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "The name management science is preferred by",
+        options: [
+            "Americans",
+            "English",
+            "French",
+            "Latin"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "______________ Theory is an important operations research technique to analyze the queuing behaviour.",
+        options: [
+            "Waiting line",
+            "Net work",
+            "Decision",
+            "Simulation"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "A map indicates roads, highways, towns and the interrelationship is an ______________ model",
+        options: [
+            "Iconic",
+            "mathematical",
+            "analogue",
+            "none of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Linear Programming",
+        question: "A constraint in an LP model restricts",
+        options: [
+            "Value of objective function",
+            "Value of decision variable",
+            "Use of available resource",
+            "all of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Linear Programming",
+        question: "All negative constraints must be written as",
+        options: [
+            "Equality",
+            "Non equality",
+            "Greater than or equal to",
+            "Less than or equal to"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Linear Programming",
+        question: "If two constraints do not intersect in the positive quadrant of the graph, then",
+        options: [
+            "The problem is infeasible",
+            "The solution is unbounded",
+            "One of the constraints is redundant",
+            "None of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is the latest time by which an activity can be finished without delaying the completion of the project.",
+        options: [
+            "EST",
+            "EFT",
+            "LST",
+            "LFT"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Project Management",
+        question: "PERT emphasis on",
+        options: [
+            "Time",
+            "Activity",
+            "a) and b)",
+            "None of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is an activity oriented diagram.",
+        options: [
+            "CPM",
+            "PERT",
+            "Histogram",
+            "None of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Decision Theory",
+        question: "In a decision theory problem under complete uncertainty, which one of the following approaches will not be possible?",
+        options: [
+            "Expected monetary value",
+            "Maxmin",
+            "Minimax",
+            "Hurwicz"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Decision Theory",
+        question: "The equally likely decision criteria is also known as",
+        options: [
+            "Bayes",
+            "Laplace",
+            "Minimax",
+            "Hurwicz"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Decision Theory",
+        question: "Which of the following might be viewed as an optimistic decision criterion?",
+        options: [
+            "Hurwicz criterion",
+            "Maximin",
+            "Maximax",
+            "Minimax"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Decision Theory",
+        question: "While using Hurwicz criterion, the coefficient of realism",
+        options: [
+            "Represents the degree of optimism",
+            "Represents the degree of pessimism",
+            "Is the probability of state of nature",
+            "None of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "Operations research approach is",
+        options: [
+            "Multi disciplinary",
+            "Scientific",
+            "Intuitive",
+            "All of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "OR techniques helps to find ______________ solution",
+        options: [
+            "Feasible",
+            "Non feasible",
+            "Optimal",
+            "Non optimal"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Operations Research",
+        question: "An organization chart is an example of",
+        options: [
+            "Iconic",
+            "Mathematical",
+            "Analogue",
+            "None of the above"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Linear Programming",
+        question: "Linear programming is a",
+        options: [
+            "Constraint optimization technique",
+            "Technique for economic allocation of limited resources",
+            "Mathematical technique",
+            "all of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Linear Programming",
+        question: "The graphical method of LP problem uses",
+        options: [
+            "Objective function equation",
+            "Constraint equation",
+            "Linear equations",
+            "All the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Linear Programming",
+        question: "A linear programming model does not contain which of the following components?",
+        options: [
+            "Data",
+            "Decisions",
+            "Constraints",
+            "A spread sheet"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Linear Programming",
+        question: "Straight lines shown in a linear programming graph indicates",
+        options: [
+            "Objective function",
+            "Constraints",
+            "Points",
+            "All the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Project Management",
+        question: "Activities that cannot be started until one or more of the other activities are completed, but immediately succeed them are called ______________ activities",
+        options: [
+            "Predecessor",
+            "Successor",
+            "Dummy",
+            "End"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is the earliest starting time plus activity time.",
+        options: [
+            "EST",
+            "EFT",
+            "LST",
+            "LFT"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Project Management",
+        question: "The event is commonly represented by ______________ in network diagram",
+        options: [
+            "Nodes",
+            "Arrow",
+            "Triangle",
+            "None of these"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Decision Making",
+        question: "Which of the following is (are) types of decision-making environments?",
+        options: [
+            "Decision making under uncertainty",
+            "Decision making under certainty",
+            "Decision making under risk",
+            "None of the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Decision Theory",
+        question: "Decision theory is concerned with",
+        options: [
+            "Methods of arriving at an optimal decision",
+            "Selecting optimal decision in sequential manner",
+            "Analysis of information that is available",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Decision Theory",
+        question: "The expected value of perfect information is equal to",
+        options: [
+            "EPPI – Minimum EMV",
+            "EPPI + Maximum EMV",
+            "Maximum EOL",
+            "None of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "OR provides solution only if the elements are",
+        options: [
+            "Quantified",
+            "Qualified",
+            "Feasible",
+            "Optimal"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "______________ models in which the input and output variables follow a probability distribution.",
+        options: [
+            "Iconic",
+            "mathematical",
+            "analogue",
+            "Deterministic model"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Linear Programming",
+        question: "While plotting constraints on a graph paper, terminal points on both axes are connected by a straight line because",
+        options: [
+            "The resources are limited in supply",
+            "The objective function is a linear function",
+            "The constraints are linear equations or in equalities",
+            "all of the above"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Project Management",
+        question: "Full form of PERT is",
+        options: [
+            "Performance evaluation review technique",
+            "Programme Evaluation Review technique",
+            "Programme Evaluation Research Technique",
+            "None of these"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Decision Theory",
+        question: "The maximax criteria is",
+        options: [
+            "Optimistic",
+            "Neutral",
+            "Pessimistic",
+            "Can be any one of the above"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management History",
+        question: "Father of Scientific Management is",
+        options: [
+            "Henry Fayol",
+            "Koontz o Donnel",
+            "Fredrick Winslow Taylor",
+            "Luther Gullik"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Management Roles",
+        question: "Interpersonal role means",
+        options: [
+            "working with and through people",
+            "working on self",
+            "working for people",
+            "understanding the people"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Objectives",
+        question: "Management involves the co-ordination of human & material resources towards the accomplishment of",
+        options: [
+            "individual objectives",
+            "organizational objectives",
+            "group objectives",
+            "individual & group objectives"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Nature",
+        question: "Science is",
+        options: [
+            "definitive",
+            "descriptive",
+            "an interpretation",
+            "game"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Management Functions",
+        question: "Working out a pattern of relationships between the various factors of production is called as",
+        options: [
+            "planning",
+            "organization",
+            "co-ordination",
+            "control"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Management Levels",
+        question: "Supervisory staff management constitutes the ______________ of the management ladder.",
+        options: [
+            "highest rank",
+            "middle rank",
+            "lowest rank",
+            "administration rank"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Work Study",
+        question: "Combining several techniques which can be applied to all kinds of efficiency problems, including labour productivity problems is called as",
+        options: [
+            "work study",
+            "scientific task planning",
+            "fatigue study",
+            "time study"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Factory Management",
+        question: "______________ is a place where production plans are executed but the people working therein have nothing to do with the framing of the plans.",
+        options: [
+            "Factory",
+            "Store",
+            "Office",
+            "Departments"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Fayol's Management",
+        question: "According to Fayol, business activities can be broadly classified into ______________ categories.",
+        options: [
+            "5",
+            "10",
+            "6",
+            "4"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Organizational Structure",
+        question: "A hierarchy of superiors ranging from the ultimate authority to the lowest ranks is called as",
+        options: [
+            "hierarchical order",
+            "social order",
+            "scalar chain",
+            "direction"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Scientific Management",
+        question: "Under scientific management, planning had been separated from",
+        options: [
+            "direction",
+            "execution",
+            "organizing",
+            "determination"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Planning",
+        question: "Planning is done for",
+        options: [
+            "A specific period",
+            "Various department",
+            "An organization",
+            "The employees"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Planning",
+        question: "Planning does not come to an end with the establishment of a business concern because it is",
+        options: [
+            "common to all",
+            "flexible",
+            "a continuous process",
+            "a linchpin for all activities"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Planning",
+        question: "According to time, plan can be divided into ______________ types.",
+        options: [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Planning",
+        question: "The organization should have an effective network to ______________ all the information that is relevant to planning of the goals at every level.",
+        options: [
+            "communicate",
+            "control",
+            "co-ordinate",
+            "develop"
+        ],
+        answer: 0,
     }
+];: "Constraints in an LP model represent",
+        options: [
+            "Limitations",
+            "Requirements",
+            "Balancing limitation",
+            "all of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Linear Programming",
+        question: "Most of the constraints in the linear programming problem are expressed as",
+        options: [
+            "Equality",
+            "Inequality",
+            "Uncertain",
+            "all of the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Linear Programming",
+        question: "The solution space of a LP problem is unbounded due to",
+        options: [
+            "An incorrect formulation of the LP model",
+            "Objective function is unbounded",
+            "Neither (a) nor (b)",
+            "Both (a) and (b)"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Linear Programming",
+        question: "While solving an LP problem infeasibility may be removed by",
+        options: [
+            "Adding another constraint",
+            "Adding another variable",
+            "Removing a constraint",
+            "Removing a variable"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Project Management",
+        question: "An activity which must be completed before one or more other activities start is known as ______________ activity.",
+        options: [
+            "Predecessor",
+            "Successor",
+            "Dummy",
+            "End"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Linear Programming",
+        question: "Alternative solutions exists of an LP model when",
+        options: [
+            "One of the constraints is redundant",
+            "Objective function equation is parallel to one of the constraints",
+            "Two constraints are parallel",
+            "all of the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is the latest time by which an activity can be started without delaying the completion of the project.",
+        options: [
+            "EST",
+            "EFT",
+            "LST",
+            "LFT"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is the shortest possible time in which an activity can be delayed without delaying the project.",
+        options: [
+            "Pessimistic time estimate",
+            "Optimistic time estimate",
+            "Most likely time estimate",
+            "None of these"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Decision Theory",
+        question: "What decision-making condition must exist for the decision tree to be a valuable tool?",
+        options: [
+            "Certainty",
+            "Uncertainty",
+            "Risk",
+            "It does not matter, the tool is appropriate in all environments"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Decision Theory",
+        question: "The criteria of expected monetary value is used for making decisions under",
+        options: [
+            "Certainty",
+            "Uncertainty",
+            "Risk",
+            "all of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Decision Theory",
+        question: "The minimum expected opportunity loss is",
+        options: [
+            "Equal to EVPI",
+            "Minimum regret",
+            "Equal to EMV",
+            "Both (a) and (b)"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Network Analysis",
+        question: "The objective of network analysis is to",
+        options: [
+            "Minimize total project duration",
+            "Minimize total project cost",
+            "Minimize production delays, interruption and conflicts",
+            "All of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "Decision variables are",
+        options: [
+            "Controllable",
+            "Uncontrollable",
+            "Parameters",
+            "None of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "An optimization model",
+        options: [
+            "Mathematically provides best decision",
+            "Provides decision with limited context",
+            "Helps in evaluating various alternatives constantly",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Operations Research",
+        question: "Modern scientific management research originated during",
+        options: [
+            "World war II",
+            "World war I",
+            "1990",
+            "1993"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "______________ Example of probabilistic model",
+        options: [
+            "Game theory",
+            "Charts",
+            "Graphs",
+            "All the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Linear Programming",
+        question: "The best use of linear programming technique is to find an optimal use of",
+        options: [
+            "Money",
+            "Man power",
+            "Machine",
+            "all of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Linear Programming",
+        question: "Which of the following is not a category of linear programming problems?",
+        options: [
+            "Resource allocation problem",
+            "Cost benefit trade off problem",
+            "Distribution network problem",
+            "All of the above are categories of linear programming problems"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Linear Programming",
+        question: "In linear programming problem if all constraints are less than or equal to, then the feasible region is",
+        options: [
+            "Above lines",
+            "Below the lines",
+            "Unbounded",
+            "None of the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Project Management",
+        question: "An event which represents the beginning of more than one activity is known as ______________ event.",
+        options: [
+            "Merge",
+            "Net",
+            "Burst",
+            "None of the above"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is that sequence of activities which determines the total project time.",
+        options: [
+            "Net work",
+            "Critical path",
+            "Critical activities",
+            "None of the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is the duration by which an activity can be delayed without delaying the project",
+        options: [
+            "Slack",
+            "Total float",
+            "Free float",
+            "Independent float"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is event oriented.",
+        options: [
+            "CPM",
+            "PERT",
+            "LP",
+            "None of the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is the disconnection of an activity before the completion of activities in a project network diagram.",
+        options: [
+            "Dangling",
+            "Looping",
+            "Dummy",
+            "None of the above"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Decision Theory",
+        question: "If a decision theory problem has 3 decision alternatives and 4 states of nature, the number of payoffs in that problem will be",
+        options: [
+            "3",
+            "4",
+            "12",
+            "64"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Decision Theory",
+        question: "All of the following are steps in the decision-making process EXCEPT",
+        options: [
+            "Define the problem",
+            "List alternatives",
+            "Identify the possible outcomes",
+            "Compute the posterior probabilities"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Decision Theory",
+        question: "The minimum EOL will always result in the same decision as",
+        options: [
+            "Minimax",
+            "Maximin",
+            "Maximum EMV",
+            "Maximax"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Decision Theory",
+        question: "The decision making criteria that should be used to achieve maximum long term pay off is",
+        options: [
+            "EOL",
+            "EMV",
+            "Hurwicz",
+            "Maximax"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Transportation Problem",
+        question: "When total supply is equal to total demand in a transportation problem , the problem is said to be",
+        options: [
+            "Balanced",
+            "Unbalanced",
+            "Degenerate",
+            "None of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "A model is",
+        options: [
+            "An essence of reality",
+            "An approximation",
+            "An idealization'",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Operations Research",
+        question: "The application of OR techniques involves ______________ approach",
+        options: [
+            "Individual",
+            "Team",
+            "Critical",
+            "None of the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Linear Programming",
+        question: "______________ is an important Operations research technique to be used for determining optimal allocation of limited resources to meet the given objectives.",
+        options: [
+            "Waiting line theory",
+            "Net work analysis",
+            "Decision analysis",
+            "Linear programming"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Markov Analysis",
+        question: "______________ is a method of analyzing the current movement of the same variable in an effort to predict the future movement of the same variable.",
+        options: [
+            "Goal programming",
+            "Markov analysis",
+            "Replacement theory",
+            "Queuing theory"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Linear Programming",
+        question: "A feasible solution to a linear programming problem",
+        options: [
+            "Must satisfy all problem constraints simultaneously",
+            "Need not satisfy all constraints",
+            "Must be a corner point of the feasible region",
+            "Must optimize the value of the objective function"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Linear Programming",
+        question: "Which of the following may not be in a linear programming formulation?",
+        options: [
+            "<=",
+            ">",
+            "=",
+            "All the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Network Analysis",
+        question: "______________ is a series of related activities which result in some product or services.",
+        options: [
+            "Network",
+            "transportation model",
+            "assignment",
+            "none of these"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Linear Programming",
+        question: "Constraint in LP problem are called active if they",
+        options: [
+            "Represent optimal solution",
+            "At optimality do not consume all the available resources",
+            "Both of (a) and (b)",
+            "None of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Project Management",
+        question: "______________ at which an activity can start.",
+        options: [
+            "EST",
+            "EFT",
+            "LST",
+            "LFT"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is the time by which the completion of an activity can be delayed beyond its earliest finish time without affecting the earliest start time of a succeeding activity",
+        options: [
+            "Slack",
+            "Total float",
+            "Free float",
+            "Independent float"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Decision Theory",
+        question: "For decision making under uncertainty, identify the decision rule that is appropriate for the optimist.",
+        options: [
+            "Laplace",
+            "Maximax",
+            "Minimax regret",
+            "Maxmin"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Decision Theory",
+        question: "Opportunity loss refers to",
+        options: [
+            "The expected value of a bad decision",
+            "The expected loss from a bad decision",
+            "The difference between actual pay off and the optimal pay off",
+            "The regret from not having made a decision"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Decision Theory",
+        question: "Which of the following criterion is not used for decision making under uncertainty?",
+        options: [
+            "Maximin",
+            "Maximax",
+            "Minimax",
+            "Minimize expected loss"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Transportation Problem",
+        question: "The initial solution of a transportation problem can be obtained by applying any known method. But the only condition is",
+        options: [
+            "The solution be optimal",
+            "The rim conditions are satisfied",
+            "The solution not be degenerate",
+            "All of the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Operations Research",
+        question: "A physical model is an example of",
+        options: [
+            "An iconic model",
+            "An analogue model",
+            "A verbal model",
+            "A mathematical model"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "______________ helps management to evaluate alternative course of action for selecting the best course of action",
+        options: [
+            "Operations research",
+            "Quantitative technique",
+            "Management research",
+            "None of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Operations Research",
+        question: "______________ Is known as symbolic model",
+        options: [
+            "Iconic",
+            "Mathematical",
+            "Analogue",
+            "None of the above"
+        ],
+        answer: 1,
+    },
+    {
+        section: "Linear Programming",
+        question: "Which of the following as an assumption of an LP model",
+        options: [
+            "Divisibility",
+            "Proportionality",
+            "Additively",
+            "all of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Linear Programming",
+        question: "While solving LP problem graphically, the area bounded by the constraints is called",
+        options: [
+            "Feasible region",
+            "Infeasible region",
+            "Unbounded solution",
+            "None of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Project Management",
+        question: "Any activity which does not consume either any resource or time is called ______________ activity.",
+        options: [
+            "Predecessor",
+            "Successor",
+            "Dummy",
+            "End"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Project Management",
+        question: "Activities lying on the critical path are called",
+        options: [
+            "Net work",
+            "Critical path",
+            "Critical activities",
+            "None of the above"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is activity oriented.",
+        options: [
+            "CPM",
+            "PERT",
+            "LP",
+            "None of the above"
+        ],
+        answer: 0,
+    },
+    {
+        section: "Project Management",
+        question: "______________ is a scheme or design of something intended or device.",
+        options: [
+            "Programme",
+            "Project",
+            "Network",
+            "Float"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Decision Theory",
+        question: "Which of the following is not a part of decision tree problem specification?",
+        options: [
+            "a list of alternatives",
+            "A list of possible state of nature",
+            "EVPI",
+            "Pay off associated with alternative / state of nature combination"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Decision Making",
+        question: "A good decision always implies that",
+        options: [
+            "Will obtain the best final results",
+            "Have used appropriate quantitative analysis",
+            "Have considered all alternatives",
+            "Have followed a logical process"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Decision Theory",
+        question: "The value of the coefficient of optimism is needed while using the criterion of",
+        options: [
+            "Equally likely",
+            "Maximin",
+            "Realism",
+            "Maximin"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Game Theory",
+        question: "Game theory models are classified by the",
+        options: [
+            "Number of players",
+            "Sum of all payoff",
+            "Number of strategies",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Operations Research",
+        question: "Every mathematical model",
+        options: [
+            "Must be deterministic",
+            "Requires computer aid for solution",
+            "Represents data in numerical form",
+            "All of the above"
+        ],
+        answer: 2,
+    },
+    {
+        section: "Operations Research",
+        question: "Operations research is applied",
+        options: [
+            "Military",
+            "Business",
+            "Administration'",
+            "All of the above"
+        ],
+        answer: 3,
+    },
+    {
+        section: "Operations Research",
+        question: "______________ model involves all forms of diagrams",
+        options: [
+            "iconic",
+            "mathematical",
+            "analogue",
+            "schematic"
+        ],
+        answer: 0,
+    },
+  
 ];
