@@ -847,6 +847,7 @@ export const questions = [
         answer: 1,
     },
      {
+        section: "Management Principles",
         question: "What is the term for power derived from status or position in an organisation?",
         options: [
             "Reward",
