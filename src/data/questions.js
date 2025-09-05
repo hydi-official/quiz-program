@@ -220,336 +220,528 @@ export const questions =
         ],
         "answer": 1
     },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 21?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 22?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 23?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 24?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 25?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 26?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 27?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 28?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 29?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 30?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 31?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 32?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 33?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 34?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 35?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 36?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 37?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 38?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 39?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 40?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 41?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 42?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 43?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 44?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 45?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 46?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 47?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 48?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 49?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "General Computer Vision",
-        "question": "Which of the following is true about Computer Vision concept 50?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
+
+ {
+    "section": "Computer Vision - Introduction",
+    "question": "What is the primary goal of Computer Vision?",
+    "options": [
+      "To design better cameras and sensors",
+      "To enable machines to interpret and understand visual information",
+      "To create more realistic video games",
+      "To replace human photographers"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Introduction",
+    "question": "Computer Vision is a multidisciplinary field that combines computer science with which other fields?",
+    "options": [
+      "Biology and Chemistry",
+      "Mathematics and Electrical Engineering",
+      "Psychology and Sociology",
+      "Literature and Art"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Introduction",
+    "question": "In the analogy to human vision, what does the computer vision 'eye' do?",
+    "options": [
+      "Processes and interprets signals",
+      "Captures image data (like a camera)",
+      "Makes decisions based on analysis",
+      "Stores memories of images"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Introduction",
+    "question": "Which of the following is a key objective of computer vision?",
+    "options": [
+      "Increase internet bandwidth",
+      "Recognize patterns in images",
+      "Develop new programming languages",
+      "Design user interfaces"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Introduction",
+    "question": "What is an example of 'semantic understanding' in computer vision?",
+    "options": [
+      "Resizing an image",
+      "Applying a filter to enhance colors",
+      "Scene segmentation",
+      "Counting the number of pixels"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Applications",
+    "question": "Which application uses computer vision for real-time object detection and tracking?",
+    "options": [
+      "Word Processors",
+      "Autonomous Vehicles",
+      "Web Browsers",
+      "Music Players"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Applications",
+    "question": "Detecting abnormalities in X-rays or MRIs is an application of computer vision in which field?",
+    "options": [
+      "Industrial Automation",
+      "Medical Imaging",
+      "Augmented Reality",
+      "Facial Recognition"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Applications",
+    "question": "Which application involves overlaying digital information onto the physical world?",
+    "options": [
+      "Visual Inspection",
+      "Augmented Reality",
+      "Autonomous Navigation",
+      "Facial Recognition"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Fundamentals",
+    "question": "What is the main difference between Image Processing and Computer Vision?",
+    "options": [
+      "Image Processing is higher-level than Computer Vision",
+      "Computer Vision interprets image content, while Image Processing improves quality",
+      "They are exactly the same field",
+      "Image Processing requires more computational power"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Workflow",
+    "question": "What is the first step in the basic computer vision workflow?",
+    "options": [
+      "Pre-processing",
+      "Feature Extraction",
+      "Image Acquisition",
+      "Decision Making"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Workflow",
+    "question": "Which step involves improving image quality through resizing and color correction?",
+    "options": [
+      "Interpretation",
+      "Pre-processing",
+      "Image Acquisition",
+      "Decision Making"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Workflow",
+    "question": "Detecting edges, contours, or textures in an image is part of which workflow step?",
+    "options": [
+      "Image Acquisition",
+      "Pre-processing",
+      "Feature Extraction",
+      "Decision Making"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Workflow",
+    "question": "The final step of the computer vision workflow, where the system takes action, is called:",
+    "options": [
+      "Understanding",
+      "Interpretation",
+      "Decision Making",
+      "Feature Extraction"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Tools",
+    "question": "Which Python library is the primary open-source library for computer vision?",
+    "options": [
+      "NumPy",
+      "Matplotlib",
+      "OpenCV",
+      "Pandas"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Tools",
+    "question": "Which library is essential for numerical operations and manipulating image arrays in Python?",
+    "options": [
+      "OpenCV",
+      "NumPy",
+      "Matplotlib",
+      "scikit-image"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Tools",
+    "question": "Which library is commonly used for plotting and visualizing images and graphs in Python?",
+    "options": [
+      "OpenCV",
+      "NumPy",
+      "Matplotlib",
+      "TensorFlow"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Tools",
+    "question": "Which tool is used for deep learning-based vision systems?",
+    "options": [
+      "Matplotlib",
+      "NumPy",
+      "TensorFlow/Keras",
+      "OpenCV"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Setup",
+    "question": "What is the correct pip command to install OpenCV, NumPy, and Matplotlib?",
+    "options": [
+      "pip install computer-vision",
+      "pip install opencv numpy matplotlib",
+      "pip install cv2 plt np",
+      "install opencv-python numpy matplotlib"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Code",
+    "question": "Which OpenCV function is used to read an image from a file?",
+    "options": [
+      "cv2.load_image()",
+      "cv2.imread()",
+      "cv2.read()",
+      "cv2.open()"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Code",
+    "question": "By default, OpenCV loads images in which color format?",
+    "options": [
+      "RGB",
+      "BGR",
+      "Grayscale",
+      "HSV"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Code",
+    "question": "What is the purpose of the `cv2.cvtColor(image, cv2.COLOR_BGR2RGB)` function?",
+    "options": [
+      "To save the image to a file",
+      "To convert the image from BGR to RGB color format for correct display",
+      "To convert the image to grayscale",
+      "To resize the image"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Code",
+    "question": "Which Matplotlib function is used to display an image?",
+    "options": [
+      "plt.show()",
+      "plt.display()",
+      "plt.imshow()",
+      "plt.plot()"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Code",
+    "question": "What does `plt.axis('off')` do?",
+    "options": [
+      "Turns off the computer",
+      "Hides the axis ticks and labels around the image",
+      "Saves the image",
+      "Increases the image contrast"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Code",
+    "question": "What is the correct code to convert an image named `the_image` to grayscale?",
+    "options": [
+      "gray_image = cv2.cvtColor(the_image, cv2.COLOR_RGB2GRAY)",
+      "gray_image = cv2.cvtColor(the_image, cv2.COLOR_BGR2GRAY)",
+      "gray_image = cv2.grayscale(the_image)",
+      "gray_image = the_image.to_gray()"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Code",
+    "question": "When displaying a grayscale image with Matplotlib, what parameter must be set in `plt.imshow()`?",
+    "options": [
+      "title='Grayscale Image'",
+      "axis='off'",
+      "cmap='gray'",
+      "format='png'"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Data",
+    "question": "What does `image.shape` return for a color image?",
+    "options": [
+      "(width, height)",
+      "(height, width, channels)",
+      "(channels, height, width)",
+      "(height, width)"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Data",
+    "question": "What does `image.shape` return for a grayscale image?",
+    "options": [
+      "(width, height)",
+      "(height, width, channels)",
+      "(channels, height, width)",
+      "(height, width)"
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Computer Vision - Concepts",
+    "question": "What is the main benefit of converting an image to grayscale?",
+    "options": [
+      "It makes the image file size larger",
+      "It simplifies image data by removing color information, which is useful for tasks like edge detection",
+      "It always improves the image resolution",
+      "It adds more colors to the image"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Applications",
+    "question": "Visual inspection on an assembly line is an example of computer vision in:",
+    "options": [
+      "Medical Imaging",
+      "Industrial Automation",
+      "Augmented Reality",
+      "Autonomous Vehicles"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Applications",
+    "question": "Unlocking a smartphone using a face scan is an application of:",
+    "options": [
+      "Medical Imaging",
+      "Facial Recognition",
+      "Augmented Reality",
+      "Industrial Automation"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Workflow",
+    "question": "The step 'Classification, detection, or segmentation' falls under which part of the workflow?",
+    "options": [
+      "Image Acquisition",
+      "Pre-processing",
+      "Feature Extraction",
+      "Understanding / Interpretation"
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Computer Vision - Tools",
+    "question": "Which library is described as offering 'extensive functions for image and video analysis, camera calibration, object tracking'?",
+    "options": [
+      "NumPy",
+      "Matplotlib",
+      "OpenCV",
+      "scikit-image"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Code",
+    "question": "What is the purpose of the `plt.show()` function?",
+    "options": [
+      "To load an image from disk",
+      "To convert an image to grayscale",
+      "To render and display the image window",
+      "To install the matplotlib library"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Fundamentals",
+    "question": "The ultimate goal of a computer vision system is to:",
+    "options": [
+      "Capture the highest resolution image possible",
+      "Make decisions based on visual analysis",
+      "Store millions of images efficiently",
+      "Display images on a screen"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Setup",
+    "question": "What is the name of the Python package for OpenCV that is installed via pip?",
+    "options": [
+      "cv2",
+      "opencv",
+      "opencv-python",
+      "python-opencv"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Code",
+    "question": "In the code `print(\"Original Image Shape:\", image1.shape)`, what will be printed for a 640x480 color image?",
+    "options": [
+      "(640, 480)",
+      "(480, 640, 3)",
+      "(3, 480, 640)",
+      "(480, 640)"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Code",
+    "question": "In the code `print(\"Grayscale Image Shape:\", gray_image.shape)`, what will be printed for a 640x480 image?",
+    "options": [
+      "(640, 480)",
+      "(480, 640, 1)",
+      "(480, 640)",
+      "(1, 480, 640)"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Practical",
+    "question": "What is the final step in the suggested practical exercise?",
+    "options": [
+      "Load an image file",
+      "Convert it to grayscale",
+      "Display both images",
+      "Save the grayscale image"
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Computer Vision - Concepts",
+    "question": "What does the 'vision' in 'Computer Vision' refer to?",
+    "options": [
+      "The ability to display graphics on a monitor",
+      "The ability to interpret and understand visual information from the world",
+      "The technology behind virtual reality headsets",
+      "The resolution of a camera sensor"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - History",
+    "question": "The field of Computer Vision aims to replicate the capabilities of:",
+    "options": [
+      "A printer",
+      "Human vision",
+      "A digital calculator",
+      "A radio"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Workflow",
+    "question": "Which step would involve normalizing pixel values?",
+    "options": [
+      "Image Acquisition",
+      "Pre-processing",
+      "Feature Extraction",
+      "Decision Making"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Tools",
+    "question": "Which library is described as 'higher-level image processing'?",
+    "options": [
+      "OpenCV",
+      "NumPy",
+      "Matplotlib",
+      "scikit-image"
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Computer Vision - Code",
+    "question": "What is the correct function to save an image named `gray_image` to a file called 'output.jpg'?",
+    "options": [
+      "cv2.save_image(gray_image, 'output.jpg')",
+      "cv2.write(gray_image, 'output.jpg')",
+      "cv2.imsave('output.jpg', gray_image)",
+      "cv2.imwrite('output.jpg', gray_image)"
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Computer Vision - Applications",
+    "question": "Which of these is NOT a typical application of computer vision mentioned in the slides?",
+    "options": [
+      "Facial Recognition",
+      "Autonomous Vehicles",
+      "Medical Imaging",
+      "Text Editing"
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Computer Vision - Fundamentals",
+    "question": "What is the input to a computer vision system?",
+    "options": [
+      "Text commands",
+      "Audio signals",
+      "Digital images or videos",
+      "Electrical pulses"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Fundamentals",
+    "question": "What is the output of a computer vision system?",
+    "options": [
+      "A rendered 3D model",
+      "A new image file",
+      "Meaningful insights or decisions based on visual data",
+      "A printed photograph"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Introduction",
+    "question": "Why is computer vision considered a challenging field?",
+    "options": [
+      "Because computers are not powerful enough",
+      "Because it is easy for humans but difficult to formalize for machines",
+      "Because there are no good libraries available",
+      "Because images are always in black and white"
+    ],
+    "answer": 1
+  },
+
+
+
+
   {
     "section": "Computer Vision - Digital Images & Color Models",
     "question": "A digital image is fundamentally represented as a discrete grid of:",
@@ -1064,336 +1256,538 @@ export const questions =
         ],
         "answer": 2
     },
+ 
+
+
+
     {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 21 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 22 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 23 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 24 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 25 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 26 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 27 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 28 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 29 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 30 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 31 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 32 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 33 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 34 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 35 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 36 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 37 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 38 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 39 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 40 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 41 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 42 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 43 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 44 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 45 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 46 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 47 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 48 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 49 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Template Matching & Contours",
-        "question": "Sample question 50 related to template matching or contours?",
-        "options": [
-            "Option A",
-            "Option B",
-            "Option C",
-            "Option D"
-        ],
-        "answer": 0
-    },
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is the primary purpose of template matching?",
+    "options": [
+      "To change the color space of an image",
+      "To find parts of an image that match a given template image",
+      "To resize an image to a smaller resolution",
+      "To apply artistic filters to an image"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "How is template matching best described?",
+    "options": [
+      "A deep learning method",
+      "A sliding window method that uses similarity measures",
+      "A contour detection algorithm",
+      "A color correction technique"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Which of the following is a common application of template matching?",
+    "options": [
+      "Image resizing",
+      "Logo detection",
+      "Color enhancement",
+      "Video compression"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Which OpenCV function is used to perform template matching?",
+    "options": [
+      "cv2.matchTemplate()",
+      "cv2.findContours()",
+      "cv2.templateFind()",
+      "cv2.correlate()"
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "The result of cv2.matchTemplate() is a:",
+    "options": [
+      "Binary image",
+      "Grayscale image",
+      "Heatmap (response map) of match scores",
+      "List of contours"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "For the TM_SQDIFF method, the best match is found using:",
+    "options": [
+      "maxLoc",
+      "minLoc",
+      "meanLoc",
+      "medianLoc"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "A major limitation of template matching is its lack of robustness to:",
+    "options": [
+      "Color changes",
+      "Scale and rotation",
+      "Noise in the template",
+      "All of the above"
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is a contour in image processing?",
+    "options": [
+      "The color palette of an image",
+      "A curve that joins all continuous points along a boundary with the same color or intensity",
+      "The metadata of an image file",
+      "A filter applied to blur an image"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Contours are essential for all of the following EXCEPT:",
+    "options": [
+      "Shape analysis",
+      "Object detection and recognition",
+      "Changing the image file format",
+      "Measuring geometrical properties"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Before extracting contours, an image must typically be:",
+    "options": [
+      "Converted to grayscale and thresholded or edge-detected",
+      "Converted to HSV color space",
+      "Compressed to a JPEG format",
+      "Displayed on a screen"
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is the standard image processing pipeline for contour detection?",
+    "options": [
+      "Original → Blur → Grayscale → Threshold → Contour",
+      "Original → Grayscale → Blur → Threshold → Contour",
+      "Threshold → Original → Grayscale → Blur → Contour",
+      "Grayscale → Original → Threshold → Blur → Contour"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Which OpenCV function is used to detect contours in a binary image?",
+    "options": [
+      "cv2.drawContours()",
+      "cv2.findContours()",
+      "cv2.contourArea()",
+      "cv2.detectEdges()"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What does the `cv2.RETR_EXTERNAL` retrieval mode do?",
+    "options": [
+      "Retrieves all contours and establishes a full hierarchy",
+      "Retrieves only the outermost contours, ignoring nested ones",
+      "Retrieves only the innermost contours",
+      "Retrieves contours without any hierarchy"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is the purpose of the `cv2.CHAIN_APPROX_SIMPLE` approximation method?",
+    "options": [
+      "It keeps all points on the contour, using more memory",
+      "It compresses contour points to save memory (e.g., only endpoints of straight lines)",
+      "It draws the contours in a different color",
+      "It smoothens the contour by applying a blur"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Which function is used to draw contours on an image?",
+    "options": [
+      "cv2.findContours()",
+      "cv2.showContours()",
+      "cv2.drawContours()",
+      "cv2.plotContours()"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "In `cv2.drawContours(img, contours, -1, (0, 255, 0), 2)`, what does the '-1' parameter specify?",
+    "options": [
+      "Draw the first contour only",
+      "Draw no contours",
+      "Draw all contours",
+      "The line thickness"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What does the `cv2.contourArea()` function compute?",
+    "options": [
+      "The perimeter of the contour",
+      "The color intensity within the contour",
+      "The area enclosed by the contour",
+      "The center point of the contour"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What does the `cv2.arcLength()` function compute?",
+    "options": [
+      "The area of the contour",
+      "The perimeter (arc length) of the contour",
+      "The bounding box of the contour",
+      "The circularity of the contour"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Which function is used to get a bounding rectangle around a contour?",
+    "options": [
+      "cv2.contourArea()",
+      "cv2.boundingRect()",
+      "cv2.arcLength()",
+      "cv2.approxPolyDP()"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is the purpose of `cv2.approxPolyDP()`?",
+    "options": [
+      "To calculate the area of a contour",
+      "To simplify a contour by reducing the number of points",
+      "To convert a contour to a binary image",
+      "To find the center of mass of a contour"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "The `epsilon` parameter in `cv2.approxPolyDP` controls:",
+    "options": [
+      "The color of the approximated polygon",
+      "The accuracy of the approximation (higher epsilon = greater simplification)",
+      "The line thickness of the drawn polygon",
+      "The retrieval mode for the contour"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Polygon approximation with `cv2.approxPolyDP` is commonly used for:",
+    "options": [
+      "Blurring an image",
+      "Shape detection (e.g., triangle, rectangle)",
+      "Changing image resolution",
+      "Template matching"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Why is preprocessing (blur, threshold) crucial before contour detection?",
+    "options": [
+      "To make the image file size smaller",
+      "To reduce noise and create clear object boundaries in a binary image",
+      "To convert the image to a different color space",
+      "To draw the contours faster"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What does the hierarchy output from `cv2.findContours()` describe?",
+    "options": [
+      "The color values of the contours",
+      "The parent-child relationships between contours (e.g., one contour inside another)",
+      "The area and perimeter of each contour",
+      "The computational time taken to find the contours"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Which retrieval mode would you use to get ALL contours and their hierarchical relationships?",
+    "options": [
+      "cv2.RETR_EXTERNAL",
+      "cv2.RETR_LIST",
+      "cv2.RETR_TREE",
+      "cv2.RETR_SIMPLE"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "In the code `_, thresh = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)`, what does the value 127 represent?",
+    "options": [
+      "The maximum value to assign",
+      "The threshold value; pixels >127 become 255",
+      "The line thickness for drawing",
+      "The number of contours to find"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is the output of the thresholding function?",
+    "options": [
+      "A grayscale image",
+      "A color image",
+      "A binary image (black and white)",
+      "A list of points"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "To filter out small, noisy contours, you would use:",
+    "options": [
+      "cv2.approxPolyDP()",
+      "cv2.contourArea() with an if-statement",
+      "cv2.arcLength()",
+      "A different retrieval mode"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Which of these is a real-world application of contour detection?",
+    "options": [
+      "Object tracking in video",
+      "Logo detection in images",
+      "Medical image segmentation",
+      "All of the above"
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is the correct order of parameters for `cv2.rectangle` to draw a box around a match?",
+    "options": [
+      "(image, bottom_right, top_left, color, thickness)",
+      "(image, top_left, bottom_right, color, thickness)",
+      "(top_left, bottom_right, image, color, thickness)",
+      "(color, top_left, bottom_right, image, thickness)"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "After finding the best match location with template matching, how do you calculate the bottom_right coordinate?",
+    "options": [
+      "bottom_right = (top_left[0] - w, top_left[1] - h)",
+      "bottom_right = (top_left[0], top_left[1])",
+      "bottom_right = (top_left[0] + w, top_left[1] + h)",
+      "bottom_right = (max_loc[0], max_loc[1])"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What does `cv2.minMaxLoc(result)` return?",
+    "options": [
+      "The minimum and maximum values in the result array, and their locations",
+      "The mean and median of the result array",
+      "The dimensions of the template",
+      "The contours found in the image"
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "For which method would you use the `max_loc` from `minMaxLoc` to find the best match?",
+    "options": [
+      "TM_SQDIFF",
+      "TM_SQDIFF_NORMED",
+      "TM_CCOEFF_NORMED",
+      "None of the above"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is the primary input to `cv2.findContours`?",
+    "options": [
+      "A color image",
+      "A grayscale image",
+      "A binary image",
+      "A template image"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "The second argument to `cv2.findContours` specifies the:",
+    "options": [
+      "Contour approximation method",
+      "Contour retrieval mode",
+      "Output image",
+      "Line thickness"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "The third argument to `cv2.findContours` specifies the:",
+    "options": [
+      "Contour retrieval mode",
+      "Contour approximation method",
+      "Hierarchy output",
+      "Input image"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is the data type of the `contours` variable returned by `cv2.findContours`?",
+    "options": [
+      "A single NumPy array",
+      "A list of NumPy arrays",
+      "A dictionary of points",
+      "An integer value"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "How can you visualize the result matrix from template matching for debugging?",
+    "options": [
+      "With cv2.imshow('Result', result)",
+      "With matplotlib.pyplot.imshow(result)",
+      "With cv2.findContours(result)",
+      "It cannot be visualized"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is a common technique to find multiple matches using template matching?",
+    "options": [
+      "Using a larger template",
+      "Using thresholding on the result heatmap",
+      "Using contour detection on the template",
+      "Converting the image to grayscale"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Which step is necessary to keep an OpenCV window open to view the result?",
+    "options": [
+      "cv2.destroyAllWindows()",
+      "cv2.waitKey(0)",
+      "cv2.imwrite()",
+      "cv2.drawContours()"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What does `cv2.boundingRect(cnt)` return?",
+    "options": [
+      "The area and perimeter of the contour",
+      "The (x, y) coordinates of the centroid",
+      "The (x, y, width, height) of the bounding rectangle",
+      "A simplified polygon of the contour"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "The formula `epsilon = 0.02 * cv2.arcLength(cnt, True)` is used for:",
+    "options": [
+      "Calculating contour area",
+      "Setting the accuracy parameter for polygon approximation",
+      "Setting the threshold value for binarization",
+      "Calculating the aspect ratio of the bounding box"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "If `cv2.approxPolyDP` returns a contour with 3 vertices, the shape is likely a:",
+    "options": [
+      "Circle",
+      "Square",
+      "Triangle",
+      "Line"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "If `cv2.approxPolyDP` returns a contour with 4 vertices, the shape is likely a:",
+    "options": [
+      "Circle",
+      "Square or Rectangle",
+      "Pentagon",
+      "Triangle"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is the key conceptual difference between template matching and contour detection?",
+    "options": [
+      "Template matching finds a specific pattern, contour detection finds general boundaries",
+      "Contour detection is faster than template matching",
+      "Template matching requires a binary image",
+      "Contour detection uses a sliding window"
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Which of these is a typical use case for template matching over contour analysis?",
+    "options": [
+      "Finding the outline of any object",
+      "Measuring the area of a random blob",
+      "Finding a specific logo with a known appearance",
+      "Detecting all edges in an image"
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "Which of these is a typical use case for contour analysis over template matching?",
+    "options": [
+      "Finding a specific facial feature in an image",
+      "Detecting and measuring unknown objects based on their shape",
+      "Matching a printed character",
+      "Tracking a specific object in a video"
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Computer Vision - Template Matching & Contours",
+    "question": "What is the final step in any OpenCV script that displays images?",
+    "options": [
+      "cv2.imshow()",
+      "cv2.waitKey(0)",
+      "cv2.destroyAllWindows()",
+      "All of the above are necessary"
+    ],
+    "answer": 3
+  },
       {
     "section": "Computer Vision - Image Transformations & Thresholding",
     "question": "What do geometric transformations modify in an image?",
