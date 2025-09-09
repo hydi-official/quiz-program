@@ -1440,5 +1440,3606 @@ export const questions =
             "They avoid key expansion; weak keys are irrelevant"
         ],
         "answer": 1
-    }
+    },
+  {
+    "id": 283,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "32, 64, 128 bits",
+      "128, 192, 256 bits",
+      "64, 128, 192 bits",
+      "56, 112, 168 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 264,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "AES",
+      "RSA",
+      "ECB",
+      "CBC"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 240,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "Rail Fence",
+      "Vigen\u00e8re Cipher",
+      "One-Time Pad",
+      "Caesar Cipher"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 51,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "IPSec",
+      "SSH",
+      "PGP",
+      "TLS"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 191,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "HMAC is based on?",
+    "options": [
+      "Substitution ciphers",
+      "Block cipher",
+      "Stream cipher",
+      "Hash functions"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 176,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "RSA",
+      "ECB",
+      "AES",
+      "CBC"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 148,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Discrete logarithm",
+      "Elliptic curve addition",
+      "Integer factorization",
+      "Hash collision"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 126,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Confidentiality",
+      "Auditability",
+      "Integrity Checking",
+      "Cryptanalysis"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 103,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "SHA-256",
+      "RSA",
+      "DES",
+      "AES"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 32,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "HMAC is based on?",
+    "options": [
+      "Stream cipher",
+      "Substitution ciphers",
+      "Block cipher",
+      "Hash functions"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 85,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Integrity Checking",
+      "Confidentiality",
+      "Cryptanalysis",
+      "Auditability"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 104,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "64 bits",
+      "32 bits",
+      "128 bits",
+      "56 bits"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 57,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "HMAC is based on?",
+    "options": [
+      "Block cipher",
+      "Substitution ciphers",
+      "Stream cipher",
+      "Hash functions"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 81,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "One-Time Pad",
+      "Caesar Cipher",
+      "Rail Fence",
+      "Vigen\u00e8re Cipher"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 293,
+    "chapter": "Chapter 20: IP Security",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Auditability",
+      "Integrity Checking",
+      "Confidentiality",
+      "Cryptanalysis"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 161,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "HMAC is based on?",
+    "options": [
+      "Substitution ciphers",
+      "Hash functions",
+      "Stream cipher",
+      "Block cipher"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 156,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Auditability",
+      "Confidentiality",
+      "Cryptanalysis",
+      "Integrity Checking"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 132,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "56 bits",
+      "32 bits",
+      "64 bits",
+      "128 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 72,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Confidentiality",
+      "Cryptanalysis",
+      "Auditability",
+      "Integrity Checking"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 44,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "AH",
+      "ESP",
+      "SSL",
+      "TLS"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 253,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "IPSec",
+      "PGP",
+      "SSH",
+      "TLS"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 182,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Operating systems",
+      "Email",
+      "Databases",
+      "Networks"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 298,
+    "chapter": "Chapter 20: IP Security",
+    "question": "HMAC is based on?",
+    "options": [
+      "Hash functions",
+      "Stream cipher",
+      "Substitution ciphers",
+      "Block cipher"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 83,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "AES",
+      "RSA",
+      "SHA-256",
+      "DES"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 291,
+    "chapter": "Chapter 20: IP Security",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "RSA",
+      "ECB",
+      "AES",
+      "CBC"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 108,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "128 bits",
+      "32 bits",
+      "64 bits",
+      "56 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 47,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "ESP",
+      "AH",
+      "SSL",
+      "TLS"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 107,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "Vigen\u00e8re Cipher",
+      "One-Time Pad",
+      "Rail Fence",
+      "Caesar Cipher"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 119,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "RSA",
+      "CBC",
+      "ECB",
+      "AES"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 130,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Email",
+      "Networks",
+      "Databases",
+      "Operating systems"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 79,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "ECB",
+      "RSA",
+      "CBC",
+      "AES"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 221,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Hash collision",
+      "Integer factorization",
+      "Discrete logarithm",
+      "Elliptic curve addition"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 206,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "64, 128, 192 bits",
+      "56, 112, 168 bits",
+      "32, 64, 128 bits",
+      "128, 192, 256 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 289,
+    "chapter": "Chapter 20: IP Security",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Databases",
+      "Networks",
+      "Email",
+      "Operating systems"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 248,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "ESP",
+      "AH",
+      "SSL",
+      "TLS"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 174,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "64 bits",
+      "56 bits",
+      "32 bits",
+      "128 bits"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 92,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "HMAC is based on?",
+    "options": [
+      "Block cipher",
+      "Substitution ciphers",
+      "Hash functions",
+      "Stream cipher"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 60,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "Vigen\u00e8re Cipher",
+      "Rail Fence",
+      "One-Time Pad",
+      "Caesar Cipher"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 164,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "64 bits",
+      "32 bits",
+      "56 bits",
+      "128 bits"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 147,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "SHA-256",
+      "DES",
+      "RSA",
+      "AES"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 262,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "AES",
+      "ECB",
+      "RSA",
+      "CBC"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 210,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "SSL",
+      "ESP",
+      "AH",
+      "TLS"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 110,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "56, 112, 168 bits",
+      "64, 128, 192 bits",
+      "128, 192, 256 bits",
+      "32, 64, 128 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 90,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "IEEE 802.1X",
+      "IEEE 802.11i",
+      "IPSec",
+      "TLS 1.2"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 292,
+    "chapter": "Chapter 20: IP Security",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "AH",
+      "TLS",
+      "ESP",
+      "SSL"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 22,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "32, 64, 128 bits",
+      "64, 128, 192 bits",
+      "56, 112, 168 bits",
+      "128, 192, 256 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 106,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "IEEE 802.1X",
+      "IEEE 802.11i",
+      "IPSec",
+      "TLS 1.2"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 97,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "32, 64, 128 bits",
+      "56, 112, 168 bits",
+      "64, 128, 192 bits",
+      "128, 192, 256 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 24,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Hash collision",
+      "Elliptic curve addition",
+      "Discrete logarithm",
+      "Integer factorization"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 94,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Discrete logarithm",
+      "Hash collision",
+      "Integer factorization",
+      "Elliptic curve addition"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 4,
+    "chapter": "Chapter 1: Overview",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "64, 128, 192 bits",
+      "32, 64, 128 bits",
+      "56, 112, 168 bits",
+      "128, 192, 256 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 218,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Discrete logarithm",
+      "Elliptic curve addition",
+      "Hash collision",
+      "Integer factorization"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 163,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "DES",
+      "SHA-256",
+      "RSA",
+      "AES"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 141,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "IEEE 802.1X",
+      "TLS 1.2",
+      "IPSec",
+      "IEEE 802.11i"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 217,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Databases",
+      "Operating systems",
+      "Email",
+      "Networks"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 63,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "SSL",
+      "ESP",
+      "TLS",
+      "AH"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 127,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Elliptic curve addition",
+      "Hash collision",
+      "Discrete logarithm",
+      "Integer factorization"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 48,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Databases",
+      "Networks",
+      "Operating systems",
+      "Email"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 28,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "IPSec",
+      "PGP",
+      "TLS",
+      "SSH"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 173,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Confidentiality",
+      "Integrity Checking",
+      "Auditability",
+      "Cryptanalysis"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 7,
+    "chapter": "Chapter 1: Overview",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "AH",
+      "SSL",
+      "TLS",
+      "ESP"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 9,
+    "chapter": "Chapter 1: Overview",
+    "question": "HMAC is based on?",
+    "options": [
+      "Stream cipher",
+      "Block cipher",
+      "Substitution ciphers",
+      "Hash functions"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 98,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "SSL",
+      "AH",
+      "ESP",
+      "TLS"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 1,
+    "chapter": "Chapter 1: Overview",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Hash collision",
+      "Integer factorization",
+      "Elliptic curve addition",
+      "Discrete logarithm"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 86,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "RC4",
+      "Diffie-Hellman",
+      "DSA",
+      "AES"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 39,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Operating systems",
+      "Email",
+      "Networks",
+      "Databases"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 247,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "Caesar Cipher",
+      "One-Time Pad",
+      "Rail Fence",
+      "Vigen\u00e8re Cipher"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 183,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "HMAC is based on?",
+    "options": [
+      "Stream cipher",
+      "Block cipher",
+      "Hash functions",
+      "Substitution ciphers"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 265,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "TLS 1.2",
+      "IEEE 802.11i",
+      "IEEE 802.1X",
+      "IPSec"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 222,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "56, 112, 168 bits",
+      "128, 192, 256 bits",
+      "32, 64, 128 bits",
+      "64, 128, 192 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 227,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Email",
+      "Operating systems",
+      "Databases",
+      "Networks"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 112,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "AH",
+      "SSL",
+      "TLS",
+      "ESP"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 288,
+    "chapter": "Chapter 20: IP Security",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "CBC",
+      "ECB",
+      "AES",
+      "RSA"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 23,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "RSA",
+      "AES",
+      "ECB",
+      "CBC"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 285,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "32 bits",
+      "128 bits",
+      "56 bits",
+      "64 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 15,
+    "chapter": "Chapter 1: Overview",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "ECB",
+      "CBC",
+      "RSA",
+      "AES"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 146,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "CBC",
+      "AES",
+      "RSA",
+      "ECB"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 100,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "DES",
+      "RSA",
+      "AES",
+      "SHA-256"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 45,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Networks",
+      "Email",
+      "Databases",
+      "Operating systems"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 142,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "128 bits",
+      "56 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 154,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Discrete logarithm",
+      "Elliptic curve addition",
+      "Hash collision",
+      "Integer factorization"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 214,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "Rail Fence",
+      "Vigen\u00e8re Cipher",
+      "Caesar Cipher",
+      "One-Time Pad"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 159,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "PGP",
+      "TLS",
+      "SSH",
+      "IPSec"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 201,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "SSH",
+      "IPSec",
+      "TLS",
+      "PGP"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 226,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "HMAC is based on?",
+    "options": [
+      "Hash functions",
+      "Substitution ciphers",
+      "Block cipher",
+      "Stream cipher"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 242,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "AES",
+      "RSA",
+      "DES",
+      "SHA-256"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 251,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "RSA",
+      "AES",
+      "SHA-256",
+      "DES"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 172,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "64, 128, 192 bits",
+      "128, 192, 256 bits",
+      "32, 64, 128 bits",
+      "56, 112, 168 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 19,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "ESP",
+      "SSL",
+      "AH",
+      "TLS"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 281,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Operating systems",
+      "Networks",
+      "Databases",
+      "Email"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 171,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "CBC",
+      "AES",
+      "RSA",
+      "ECB"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 193,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Databases",
+      "Networks",
+      "Email",
+      "Operating systems"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 165,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Auditability",
+      "Confidentiality",
+      "Integrity Checking",
+      "Cryptanalysis"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 266,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "RSA",
+      "ECB",
+      "CBC",
+      "AES"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 84,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "CBC",
+      "RSA",
+      "AES",
+      "ECB"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 118,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "SSL",
+      "ESP",
+      "TLS",
+      "AH"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 87,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "HMAC is based on?",
+    "options": [
+      "Hash functions",
+      "Substitution ciphers",
+      "Block cipher",
+      "Stream cipher"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 259,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "SSL",
+      "AH",
+      "TLS",
+      "ESP"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 232,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "One-Time Pad",
+      "Rail Fence",
+      "Vigen\u00e8re Cipher",
+      "Caesar Cipher"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 76,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "32, 64, 128 bits",
+      "64, 128, 192 bits",
+      "56, 112, 168 bits",
+      "128, 192, 256 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 82,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "ESP",
+      "TLS",
+      "AH",
+      "SSL"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 277,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "128 bits",
+      "64 bits",
+      "32 bits",
+      "56 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 178,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "128 bits",
+      "32 bits",
+      "64 bits",
+      "56 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 244,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "PGP",
+      "IPSec",
+      "TLS",
+      "SSH"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 250,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "32 bits",
+      "128 bits",
+      "56 bits",
+      "64 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 61,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Discrete logarithm",
+      "Hash collision",
+      "Integer factorization",
+      "Elliptic curve addition"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 37,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "56, 112, 168 bits",
+      "128, 192, 256 bits",
+      "32, 64, 128 bits",
+      "64, 128, 192 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 188,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Cryptanalysis",
+      "Confidentiality",
+      "Auditability",
+      "Integrity Checking"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 229,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "56, 112, 168 bits",
+      "32, 64, 128 bits",
+      "128, 192, 256 bits",
+      "64, 128, 192 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 53,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "SSH",
+      "PGP",
+      "IPSec",
+      "TLS"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 263,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "Diffie-Hellman",
+      "DSA",
+      "AES",
+      "RC4"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 26,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "RSA",
+      "ECB",
+      "AES",
+      "CBC"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 187,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "64 bits",
+      "32 bits",
+      "128 bits",
+      "56 bits"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 189,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "HMAC is based on?",
+    "options": [
+      "Stream cipher",
+      "Hash functions",
+      "Substitution ciphers",
+      "Block cipher"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 213,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "TLS 1.2",
+      "IPSec",
+      "IEEE 802.11i",
+      "IEEE 802.1X"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 278,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "32 bits",
+      "128 bits",
+      "56 bits",
+      "64 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 30,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "32, 64, 128 bits",
+      "56, 112, 168 bits",
+      "64, 128, 192 bits",
+      "128, 192, 256 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 286,
+    "chapter": "Chapter 20: IP Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "56 bits",
+      "32 bits",
+      "64 bits",
+      "128 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 137,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "DES",
+      "RSA",
+      "SHA-256",
+      "AES"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 192,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "56 bits",
+      "32 bits",
+      "64 bits",
+      "128 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 71,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Integer factorization",
+      "Elliptic curve addition",
+      "Discrete logarithm",
+      "Hash collision"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 205,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Discrete logarithm",
+      "Elliptic curve addition",
+      "Hash collision",
+      "Integer factorization"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 109,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "AES",
+      "DSA",
+      "RC4",
+      "Diffie-Hellman"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 245,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "PGP",
+      "IPSec",
+      "TLS",
+      "SSH"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 254,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "TLS 1.2",
+      "IPSec",
+      "IEEE 802.1X",
+      "IEEE 802.11i"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 219,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "TLS 1.2",
+      "IEEE 802.1X",
+      "IPSec",
+      "IEEE 802.11i"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 144,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Networks",
+      "Operating systems",
+      "Databases",
+      "Email"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 202,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "IPSec",
+      "TLS 1.2",
+      "IEEE 802.1X",
+      "IEEE 802.11i"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 272,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "ECB",
+      "AES",
+      "CBC",
+      "RSA"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 168,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "AES",
+      "CBC",
+      "ECB",
+      "RSA"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 29,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "128 bits",
+      "64 bits",
+      "32 bits",
+      "56 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 239,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "HMAC is based on?",
+    "options": [
+      "Stream cipher",
+      "Block cipher",
+      "Substitution ciphers",
+      "Hash functions"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 131,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "PGP",
+      "IPSec",
+      "SSH",
+      "TLS"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 194,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "IPSec",
+      "TLS",
+      "PGP",
+      "SSH"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 231,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "AH",
+      "SSL",
+      "ESP",
+      "TLS"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 66,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "32, 64, 128 bits",
+      "64, 128, 192 bits",
+      "128, 192, 256 bits",
+      "56, 112, 168 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 133,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "56 bits",
+      "128 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 14,
+    "chapter": "Chapter 1: Overview",
+    "question": "HMAC is based on?",
+    "options": [
+      "Stream cipher",
+      "Block cipher",
+      "Substitution ciphers",
+      "Hash functions"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 70,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "AES",
+      "RSA",
+      "SHA-256",
+      "DES"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 34,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "128, 192, 256 bits",
+      "64, 128, 192 bits",
+      "32, 64, 128 bits",
+      "56, 112, 168 bits"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 195,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "HMAC is based on?",
+    "options": [
+      "Hash functions",
+      "Stream cipher",
+      "Block cipher",
+      "Substitution ciphers"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 123,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Integer factorization",
+      "Discrete logarithm",
+      "Elliptic curve addition",
+      "Hash collision"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 212,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "SHA-256",
+      "DES",
+      "AES",
+      "RSA"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 6,
+    "chapter": "Chapter 1: Overview",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Confidentiality",
+      "Auditability",
+      "Integrity Checking",
+      "Cryptanalysis"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 167,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "TLS",
+      "PGP",
+      "SSH",
+      "IPSec"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 271,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Auditability",
+      "Confidentiality",
+      "Cryptanalysis",
+      "Integrity Checking"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 73,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Networks",
+      "Email",
+      "Operating systems",
+      "Databases"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 56,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "SSH",
+      "TLS",
+      "PGP",
+      "IPSec"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 179,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "56, 112, 168 bits",
+      "32, 64, 128 bits",
+      "64, 128, 192 bits",
+      "128, 192, 256 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 151,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "HMAC is based on?",
+    "options": [
+      "Block cipher",
+      "Substitution ciphers",
+      "Stream cipher",
+      "Hash functions"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 223,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "SHA-256",
+      "RSA",
+      "DES",
+      "AES"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 160,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "SSL",
+      "AH",
+      "ESP",
+      "TLS"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 296,
+    "chapter": "Chapter 20: IP Security",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Integer factorization",
+      "Hash collision",
+      "Discrete logarithm",
+      "Elliptic curve addition"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 200,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "ECB",
+      "RSA",
+      "CBC",
+      "AES"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 43,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "One-Time Pad",
+      "Rail Fence",
+      "Vigen\u00e8re Cipher",
+      "Caesar Cipher"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 215,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "AES",
+      "DSA",
+      "RC4",
+      "Diffie-Hellman"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 74,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Discrete logarithm",
+      "Elliptic curve addition",
+      "Integer factorization",
+      "Hash collision"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 16,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "128, 192, 256 bits",
+      "56, 112, 168 bits",
+      "64, 128, 192 bits",
+      "32, 64, 128 bits"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 36,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Auditability",
+      "Confidentiality",
+      "Cryptanalysis",
+      "Integrity Checking"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 77,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Operating systems",
+      "Networks",
+      "Email",
+      "Databases"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 170,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "HMAC is based on?",
+    "options": [
+      "Stream cipher",
+      "Block cipher",
+      "Hash functions",
+      "Substitution ciphers"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 270,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "64 bits",
+      "56 bits",
+      "32 bits",
+      "128 bits"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 120,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "IEEE 802.1X",
+      "IEEE 802.11i",
+      "IPSec",
+      "TLS 1.2"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 224,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "64 bits",
+      "128 bits",
+      "56 bits",
+      "32 bits"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 261,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "HMAC is based on?",
+    "options": [
+      "Stream cipher",
+      "Hash functions",
+      "Substitution ciphers",
+      "Block cipher"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 52,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "HMAC is based on?",
+    "options": [
+      "Hash functions",
+      "Substitution ciphers",
+      "Block cipher",
+      "Stream cipher"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 258,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "SSH",
+      "PGP",
+      "TLS",
+      "IPSec"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 203,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "64, 128, 192 bits",
+      "128, 192, 256 bits",
+      "32, 64, 128 bits",
+      "56, 112, 168 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 246,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Email",
+      "Networks",
+      "Databases",
+      "Operating systems"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 25,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "TLS",
+      "PGP",
+      "IPSec",
+      "SSH"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 269,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "AH",
+      "ESP",
+      "SSL",
+      "TLS"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 230,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "RSA",
+      "DES",
+      "AES",
+      "SHA-256"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 249,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "IPSec",
+      "TLS",
+      "SSH",
+      "PGP"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 295,
+    "chapter": "Chapter 20: IP Security",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "IPSec",
+      "SSH",
+      "PGP",
+      "TLS"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 139,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "PGP",
+      "TLS",
+      "SSH",
+      "IPSec"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 54,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Cryptanalysis",
+      "Integrity Checking",
+      "Confidentiality",
+      "Auditability"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 186,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "56 bits",
+      "32 bits",
+      "64 bits",
+      "128 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 185,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Hash collision",
+      "Integer factorization",
+      "Elliptic curve addition",
+      "Discrete logarithm"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 180,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "Rail Fence",
+      "Vigen\u00e8re Cipher",
+      "One-Time Pad",
+      "Caesar Cipher"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 62,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "IEEE 802.1X",
+      "IEEE 802.11i",
+      "IPSec",
+      "TLS 1.2"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 128,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "56 bits",
+      "128 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 122,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Cryptanalysis",
+      "Integrity Checking",
+      "Confidentiality",
+      "Auditability"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 184,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "64, 128, 192 bits",
+      "128, 192, 256 bits",
+      "56, 112, 168 bits",
+      "32, 64, 128 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 300,
+    "chapter": "Chapter 20: IP Security",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "AH",
+      "ESP",
+      "TLS",
+      "SSL"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 31,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "AES",
+      "SHA-256",
+      "DES",
+      "RSA"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 162,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "SSH",
+      "PGP",
+      "TLS",
+      "IPSec"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 55,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Hash collision",
+      "Elliptic curve addition",
+      "Discrete logarithm",
+      "Integer factorization"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 294,
+    "chapter": "Chapter 20: IP Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "56 bits",
+      "64 bits",
+      "32 bits",
+      "128 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 155,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "SHA-256",
+      "AES",
+      "DES",
+      "RSA"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 21,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "DES",
+      "SHA-256",
+      "AES",
+      "RSA"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 143,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "RSA",
+      "ECB",
+      "AES",
+      "CBC"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 111,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "ESP",
+      "TLS",
+      "SSL",
+      "AH"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 158,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Elliptic curve addition",
+      "Hash collision",
+      "Discrete logarithm",
+      "Integer factorization"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 267,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "ECB",
+      "RSA",
+      "CBC",
+      "AES"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 11,
+    "chapter": "Chapter 1: Overview",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "TLS",
+      "SSH",
+      "IPSec",
+      "PGP"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 49,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "DSA",
+      "Diffie-Hellman",
+      "RC4",
+      "AES"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 273,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "IEEE 802.11i",
+      "TLS 1.2",
+      "IPSec",
+      "IEEE 802.1X"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 8,
+    "chapter": "Chapter 1: Overview",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Hash collision",
+      "Elliptic curve addition",
+      "Discrete logarithm",
+      "Integer factorization"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 115,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "RC4",
+      "Diffie-Hellman",
+      "AES",
+      "DSA"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 136,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "IEEE 802.11i",
+      "TLS 1.2",
+      "IPSec",
+      "IEEE 802.1X"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 225,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "RSA",
+      "DES",
+      "SHA-256",
+      "AES"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 69,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "ECB",
+      "CBC",
+      "AES",
+      "RSA"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 207,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "SSL",
+      "TLS",
+      "AH",
+      "ESP"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 275,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "64, 128, 192 bits",
+      "32, 64, 128 bits",
+      "128, 192, 256 bits",
+      "56, 112, 168 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 91,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Hash collision",
+      "Elliptic curve addition",
+      "Integer factorization",
+      "Discrete logarithm"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 89,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "DES",
+      "AES",
+      "SHA-256",
+      "RSA"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 65,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "RSA",
+      "SHA-256",
+      "DES",
+      "AES"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 42,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "One-Time Pad",
+      "Vigen\u00e8re Cipher",
+      "Rail Fence",
+      "Caesar Cipher"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 18,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "CBC",
+      "ECB",
+      "AES",
+      "RSA"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 17,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "AES",
+      "CBC",
+      "RSA",
+      "ECB"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 166,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "AH",
+      "TLS",
+      "SSL",
+      "ESP"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 150,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "RSA",
+      "SHA-256",
+      "AES",
+      "DES"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 3,
+    "chapter": "Chapter 1: Overview",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Elliptic curve addition",
+      "Discrete logarithm",
+      "Hash collision",
+      "Integer factorization"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 50,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "TLS",
+      "SSL",
+      "ESP",
+      "AH"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 129,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "TLS 1.2",
+      "IPSec",
+      "IEEE 802.1X",
+      "IEEE 802.11i"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 124,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "64, 128, 192 bits",
+      "56, 112, 168 bits",
+      "128, 192, 256 bits",
+      "32, 64, 128 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 145,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "RSA",
+      "DES",
+      "AES",
+      "SHA-256"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 117,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "AES",
+      "RSA",
+      "DES",
+      "SHA-256"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 199,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Confidentiality",
+      "Integrity Checking",
+      "Auditability",
+      "Cryptanalysis"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 257,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "56 bits",
+      "128 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 135,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "IPSec",
+      "IEEE 802.1X",
+      "TLS 1.2",
+      "IEEE 802.11i"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 220,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "SSH",
+      "PGP",
+      "TLS",
+      "IPSec"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 256,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "HMAC is based on?",
+    "options": [
+      "Stream cipher",
+      "Block cipher",
+      "Substitution ciphers",
+      "Hash functions"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 99,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "128, 192, 256 bits",
+      "56, 112, 168 bits",
+      "64, 128, 192 bits",
+      "32, 64, 128 bits"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 121,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "TLS 1.2",
+      "IEEE 802.11i",
+      "IEEE 802.1X",
+      "IPSec"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 216,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "SSH",
+      "PGP",
+      "TLS",
+      "IPSec"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 10,
+    "chapter": "Chapter 1: Overview",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Email",
+      "Networks",
+      "Databases",
+      "Operating systems"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 274,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "Caesar Cipher",
+      "Rail Fence",
+      "One-Time Pad",
+      "Vigen\u00e8re Cipher"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 169,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "PGP",
+      "TLS",
+      "IPSec",
+      "SSH"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 235,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "56, 112, 168 bits",
+      "32, 64, 128 bits",
+      "64, 128, 192 bits",
+      "128, 192, 256 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 290,
+    "chapter": "Chapter 20: IP Security",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "TLS",
+      "SSH",
+      "IPSec",
+      "PGP"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 196,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "PGP",
+      "IPSec",
+      "SSH",
+      "TLS"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 208,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Hash collision",
+      "Elliptic curve addition",
+      "Discrete logarithm",
+      "Integer factorization"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 149,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "Rail Fence",
+      "Vigen\u00e8re Cipher",
+      "Caesar Cipher",
+      "One-Time Pad"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 241,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "32 bits",
+      "56 bits",
+      "128 bits",
+      "64 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 276,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "CBC",
+      "RSA",
+      "AES",
+      "ECB"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 237,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "Diffie-Hellman",
+      "DSA",
+      "RC4",
+      "AES"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 297,
+    "chapter": "Chapter 20: IP Security",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "IPSec",
+      "TLS",
+      "SSH",
+      "PGP"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 75,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Databases",
+      "Email",
+      "Operating systems",
+      "Networks"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 153,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Auditability",
+      "Confidentiality",
+      "Integrity Checking",
+      "Cryptanalysis"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 40,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "CBC",
+      "ECB",
+      "AES",
+      "RSA"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 268,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "ECB",
+      "RSA",
+      "CBC",
+      "AES"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 238,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "128 bits",
+      "32 bits",
+      "64 bits",
+      "56 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 152,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "HMAC is based on?",
+    "options": [
+      "Block cipher",
+      "Stream cipher",
+      "Hash functions",
+      "Substitution ciphers"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 260,
+    "chapter": "Chapter 18: Wireless Network Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "128 bits",
+      "56 bits",
+      "64 bits",
+      "32 bits"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 284,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "AES supports which key lengths?",
+    "options": [
+      "32, 64, 128 bits",
+      "128, 192, 256 bits",
+      "64, 128, 192 bits",
+      "56, 112, 168 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 33,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "DSA",
+      "Diffie-Hellman",
+      "AES",
+      "RC4"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 93,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "SHA-256",
+      "RSA",
+      "DES",
+      "AES"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 228,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "HMAC is based on?",
+    "options": [
+      "Stream cipher",
+      "Substitution ciphers",
+      "Hash functions",
+      "Block cipher"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 59,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "ESP",
+      "TLS",
+      "AH",
+      "SSL"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 27,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Databases",
+      "Networks",
+      "Operating systems",
+      "Email"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 102,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "IEEE 802.1X",
+      "IPSec",
+      "IEEE 802.11i",
+      "TLS 1.2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 13,
+    "chapter": "Chapter 1: Overview",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "RSA",
+      "SHA-256",
+      "AES",
+      "DES"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 280,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "Diffie-Hellman",
+      "DSA",
+      "AES",
+      "RC4"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 198,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Hash collision",
+      "Integer factorization",
+      "Elliptic curve addition",
+      "Discrete logarithm"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 177,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "HMAC is based on?",
+    "options": [
+      "Hash functions",
+      "Substitution ciphers",
+      "Block cipher",
+      "Stream cipher"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 78,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "AES",
+      "RSA",
+      "ECB",
+      "CBC"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 204,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Email",
+      "Operating systems",
+      "Networks",
+      "Databases"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 175,
+    "chapter": "Chapter 12: Message Authentication Codes",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "IPSec",
+      "TLS",
+      "PGP",
+      "SSH"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 116,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "IPSec",
+      "PGP",
+      "TLS",
+      "SSH"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 95,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "TLS 1.2",
+      "IEEE 802.1X",
+      "IEEE 802.11i",
+      "IPSec"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 282,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "TLS 1.2",
+      "IEEE 802.11i",
+      "IPSec",
+      "IEEE 802.1X"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 105,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "Vigen\u00e8re Cipher",
+      "Rail Fence",
+      "Caesar Cipher",
+      "One-Time Pad"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 140,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Discrete logarithm",
+      "Elliptic curve addition",
+      "Hash collision",
+      "Integer factorization"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 41,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "IPSec",
+      "PGP",
+      "TLS",
+      "SSH"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 88,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Auditability",
+      "Confidentiality",
+      "Cryptanalysis",
+      "Integrity Checking"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 35,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Operating systems",
+      "Email",
+      "Databases",
+      "Networks"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 80,
+    "chapter": "Chapter 6: Block Cipher Operation",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "64 bits",
+      "32 bits",
+      "128 bits",
+      "56 bits"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 255,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "56 bits",
+      "64 bits",
+      "128 bits",
+      "32 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 197,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Networks",
+      "Email",
+      "Databases",
+      "Operating systems"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 299,
+    "chapter": "Chapter 20: IP Security",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "TLS",
+      "IPSec",
+      "SSH",
+      "PGP"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "chapter": "Chapter 1: Overview",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "TLS",
+      "ESP",
+      "AH",
+      "SSL"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 20,
+    "chapter": "Chapter 2: Classical Encryption Techniques",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "RSA",
+      "CBC",
+      "AES",
+      "ECB"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 38,
+    "chapter": "Chapter 3: Block Ciphers and the Data Encryption Standard",
+    "question": "HMAC is based on?",
+    "options": [
+      "Block cipher",
+      "Hash functions",
+      "Stream cipher",
+      "Substitution ciphers"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 101,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "64 bits",
+      "32 bits",
+      "56 bits",
+      "128 bits"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 209,
+    "chapter": "Chapter 14: Key Management and Distribution",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "32 bits",
+      "56 bits",
+      "128 bits",
+      "64 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 157,
+    "chapter": "Chapter 11: Cryptographic Hash Functions",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Integrity Checking",
+      "Auditability",
+      "Confidentiality",
+      "Cryptanalysis"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 279,
+    "chapter": "Chapter 19: Electronic Mail Security",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Confidentiality",
+      "Integrity Checking",
+      "Auditability",
+      "Cryptanalysis"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 236,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Networks",
+      "Databases",
+      "Operating systems",
+      "Email"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 190,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Auditability",
+      "Integrity Checking",
+      "Confidentiality",
+      "Cryptanalysis"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 68,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "Which wireless security standard introduced WPA2?",
+    "options": [
+      "IEEE 802.11i",
+      "IPSec",
+      "IEEE 802.1X",
+      "TLS 1.2"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 138,
+    "chapter": "Chapter 10: Other Public-Key Cryptosystems",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "56 bits",
+      "128 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 234,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "RSA security relies on the difficulty of?",
+    "options": [
+      "Discrete logarithm",
+      "Elliptic curve addition",
+      "Integer factorization",
+      "Hash collision"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 96,
+    "chapter": "Chapter 7: Random Number Generation",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "SSL",
+      "AH",
+      "ESP",
+      "TLS"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 58,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "SHA-256",
+      "RSA",
+      "DES",
+      "AES"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 181,
+    "chapter": "Chapter 13: Digital Signatures",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "SHA-256",
+      "RSA",
+      "AES",
+      "DES"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 233,
+    "chapter": "Chapter 16: Network Access Control and Cloud Security",
+    "question": "HMAC is based on?",
+    "options": [
+      "Substitution ciphers",
+      "Stream cipher",
+      "Block cipher",
+      "Hash functions"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 287,
+    "chapter": "Chapter 20: IP Security",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "RC4",
+      "Diffie-Hellman",
+      "AES",
+      "DSA"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 114,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "Diffie-Hellman",
+      "DSA",
+      "RC4",
+      "AES"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 243,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "TLS",
+      "IPSec",
+      "PGP",
+      "SSH"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 46,
+    "chapter": "Chapter 4: Number Theory and Finite Fields",
+    "question": "PGP is primarily used for securing?",
+    "options": [
+      "Databases",
+      "Networks",
+      "Operating systems",
+      "Email"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 211,
+    "chapter": "Chapter 15: User Authentication",
+    "question": "Which digital signature algorithm is endorsed by NIST?",
+    "options": [
+      "DSA",
+      "AES",
+      "Diffie-Hellman",
+      "RC4"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 67,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "Which protocol provides transport layer security?",
+    "options": [
+      "SSH",
+      "PGP",
+      "IPSec",
+      "TLS"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 5,
+    "chapter": "Chapter 1: Overview",
+    "question": "Which is a one-way hash function?",
+    "options": [
+      "SHA-256",
+      "DES",
+      "RSA",
+      "AES"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 134,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "AES",
+      "RSA",
+      "ECB",
+      "CBC"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 252,
+    "chapter": "Chapter 17: Transport-Level Security",
+    "question": "Which IPsec protocol provides confidentiality?",
+    "options": [
+      "ESP",
+      "TLS",
+      "SSL",
+      "AH"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 125,
+    "chapter": "Chapter 9: RSA and ECC",
+    "question": "Which of the following is part of the CIA triad?",
+    "options": [
+      "Cryptanalysis",
+      "Integrity Checking",
+      "Auditability",
+      "Confidentiality"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 2,
+    "chapter": "Chapter 1: Overview",
+    "question": "DES uses a block size of how many bits?",
+    "options": [
+      "128 bits",
+      "64 bits",
+      "32 bits",
+      "56 bits"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 113,
+    "chapter": "Chapter 8: Public-Key Cryptography",
+    "question": "Which mode of operation requires an initialization vector (IV)?",
+    "options": [
+      "CBC",
+      "ECB",
+      "AES",
+      "RSA"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 64,
+    "chapter": "Chapter 5: Advanced Encryption Standard",
+    "question": "Which cipher is an example of a substitution technique?",
+    "options": [
+      "Caesar Cipher",
+      "One-Time Pad",
+      "Rail Fence",
+      "Vigen\u00e8re Cipher"
+    ],
+    "answer": 0
+  }
+
 ]
