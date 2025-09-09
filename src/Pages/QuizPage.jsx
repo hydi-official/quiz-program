@@ -16,25 +16,82 @@ const QuizPage = () => {
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem("theme") === "dark"
   );
+  // Store randomized questions with shuffled options
+  const [randomizedQuestions, setRandomizedQuestions] = useState([]);
+
+  // Function to shuffle array and return both shuffled array and new correct answer index
+  const shuffleOptions = (options, correctAnswerIndex) => {
+    const shuffled = [...options];
+    const correctAnswer = options[correctAnswerIndex];
+    
+    // Fisher-Yates shuffle algorithm
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    
+    // Find the new index of the correct answer
+    const newCorrectIndex = shuffled.findIndex(option => option === correctAnswer);
+    
+    return {
+      shuffledOptions: shuffled,
+      newCorrectIndex: newCorrectIndex
+    };
+  };
+
+  // Initialize randomized questions on component mount
+  useEffect(() => {
+    const randomized = questions.map(question => {
+      // Handle both single answer (number) and multiple answers (array)
+      let newQuestion = { ...question };
+      
+      if (Array.isArray(question.answer)) {
+        // For multiple correct answers, we need to track which options are correct
+        const correctAnswers = question.answer.map(index => question.options[index]);
+        const { shuffledOptions } = shuffleOptions(question.options, 0); // Just shuffle, don't worry about index for multi-answer
+        const newCorrectIndices = correctAnswers.map(correctAnswer => 
+          shuffledOptions.findIndex(option => option === correctAnswer)
+        );
+        
+        newQuestion = {
+          ...question,
+          options: shuffledOptions,
+          answer: newCorrectIndices
+        };
+      } else {
+        // For single correct answer
+        const { shuffledOptions, newCorrectIndex } = shuffleOptions(question.options, question.answer);
+        newQuestion = {
+          ...question,
+          options: shuffledOptions,
+          answer: newCorrectIndex
+        };
+      }
+      
+      return newQuestion;
+    });
+    
+    setRandomizedQuestions(randomized);
+  }, []); // Empty dependency array means this runs once on mount
 
   const handleSelect = (selectedIndex) => {
     setSelected(selectedIndex);
   };
 
   const handleMark = () => {
-    if (selected !== null) {
+    if (selected !== null && randomizedQuestions.length > 0) {
       const updatedAnswers = [...answers];
       const updatedStatus = [...answerStatus];
       updatedAnswers[index] = selected;
       
       let isCorrect = false;
       
-      if (Array.isArray(questions[index].answer)) {
+      if (Array.isArray(randomizedQuestions[index].answer)) {
         isCorrect =
-          selected.length === questions[index].answer.length &&
-          selected.every((ans) => questions[index].answer.includes(ans));
+          selected.length === randomizedQuestions[index].answer.length &&
+          selected.every((ans) => randomizedQuestions[index].answer.includes(ans));
       } else {
-        isCorrect = selected === questions[index].answer;
+        isCorrect = selected === randomizedQuestions[index].answer;
       }
       
       // Update status array
@@ -48,7 +105,7 @@ const QuizPage = () => {
   };
 
   const handleNext = () => {
-    if (index < questions.length - 1) {
+    if (index < randomizedQuestions.length - 1) {
       setIndex(index + 1);
       setSelected(null);
     } else {
@@ -77,8 +134,8 @@ const QuizPage = () => {
   };
 
   const attemptedCount = answers.filter((ans) => ans !== null).length;
-  const progress = ((attemptedCount / questions.length) * 100).toFixed(2);
-  const passProbability = ((score / questions.length) * 100).toFixed(2);
+  const progress = ((attemptedCount / randomizedQuestions.length) * 100).toFixed(2);
+  const passProbability = ((score / randomizedQuestions.length) * 100).toFixed(2);
 
   useEffect(() => {
     if (darkMode) {
@@ -97,6 +154,18 @@ const QuizPage = () => {
   const handleGithubClick = () => {
     window.open("https://github.com/hydi-official/advance-software-engineering.git", "_blank"); // Replace with your GitHub repo link
   };
+
+  // Don't render until randomized questions are ready
+  if (randomizedQuestions.length === 0) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-black">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600 dark:text-gray-300">Loading quiz...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen flex bg-gray-50 dark:bg-black text-gray-900 dark:text-white relative">
@@ -146,7 +215,7 @@ const QuizPage = () => {
         </div>
 
         <div className="grid grid-cols-4 sm:grid-cols-5 gap-2">
-          {questions.map((_, idx) => (
+          {randomizedQuestions.map((_, idx) => (
             <button
               key={idx}
               onClick={() => {
@@ -185,10 +254,10 @@ const QuizPage = () => {
           <>
             <div className="w-full max-w-md sm:max-w-sm mb-4 text-center">
               <p className="text-lg font-semibold">
-                Question {index + 1} of {questions.length}
+                Question {index + 1} of {randomizedQuestions.length}
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Attempted: {attemptedCount} / {questions.length}
+                Attempted: {attemptedCount} / {randomizedQuestions.length}
               </p>
               <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2 mt-2">
                 <div
@@ -208,7 +277,7 @@ const QuizPage = () => {
             </div>
 
             <QuizCard
-              question={questions[index]}
+              question={randomizedQuestions[index]}
               selectedAnswer={selected}
               onSelect={handleSelect}
               markedAnswer={answers[index]}
@@ -231,7 +300,7 @@ const QuizPage = () => {
                 Mark
               </button>
 
-              {index < questions.length - 1 ? (
+              {index < randomizedQuestions.length - 1 ? (
                 <button
                   className="px-4 py-2 bg-blue-600 text-white rounded-md disabled:opacity-50"
                   onClick={handleNext}
@@ -250,7 +319,7 @@ const QuizPage = () => {
             </div>
           </>
         ) : (
-          <Results score={score} mistakes={mistakes} total={questions.length} />
+          <Results score={score} mistakes={mistakes} total={randomizedQuestions.length} />
         )}
 
         <div className="mt-8 text-center">
